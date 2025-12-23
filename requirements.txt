@@ -1,0 +1,25 @@
+# Allow prebuilt CPU wheels for llama-cpp-python
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+--prefer-binary
+
+pandas
+numpy<2
+openpyxl
+fpdf
+requests
+huggingface_hub>=0.23.0,<1.0
+transformers==4.41.0
+accelerate
+safetensors
+gradio==5.49.1
+sentencepiece
+altair
+torch>=2.1
+einops
+xgboost
+scikit-learn
+tokenizers
+sentence-transformers>=2.6.0,<3.0
+bitsandbytes
+llama-cpp-python==0.2.68
+#wow

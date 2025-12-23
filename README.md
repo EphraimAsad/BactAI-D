@@ -23,6 +23,7 @@ This allows the system to grow without rewriting core logic.
 🔹 ML Genus Prediction (XGBoost)
 
 Trained on parsed phenotypic features
+~8300 Test profiles, with over 160,000 total fields to train upon.
 Outputs calibrated genus probabilities
 Integrated with rule-based confidence via hybrid weighting
 

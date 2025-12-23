@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Yersinia",
+  "species": "enterocolitica",
+
+  "overview": {
+    "short": "Yersinia enterocolitica is a Gram-negative, facultatively anaerobic rod that commonly causes enterocolitis and mesenteric lymphadenitis.",
+    "clinical_context": "Associated with gastroenteritis, pseudoappendicitis, and occasional septicemia; often linked to pork products and cold enrichment recovery."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar",
+      "CIN Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Strongly supports Y. enterocolitica versus Y. pestis and many other Enterobacterales."
+    },
+    {
+      "field": "Motility",
+      "value": "Variable",
+      "importance": "high",
+      "notes": "Typically motile at ~25°C and non-motile at 37°C (temperature-dependent motility)."
+    },
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Commonly positive; supports species-level alignment when combined with urease positivity and non-lactose fermentation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Yersinia pseudotuberculosis",
+      "reason": "Shared genus traits and overlapping biochemical profile; both can grow at cold temperatures and are non-lactose fermenters."
+    },
+    {
+      "genus": "Salmonella",
+      "reason": "Non-lactose fermenting Enterobacterales recovered from stool; requires discrimination with urease/motility temperature profile and selective media."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Urease negativity argues against Y. enterocolitica (consider Y. pestis or Y. pseudotuberculosis depending on other markers).",
+    "H2S positivity is inconsistent with Yersinia spp. and suggests Salmonella/Citrobacter.",
+    "Strong lactose fermentation suggests other Enterobacterales (e.g., Enterobacter/Klebsiella/Escherichia)."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing at 25°C and 37°C",
+      "reason": "Demonstrates the characteristic temperature-dependent motility profile."
+    },
+    {
+      "test": "CIN Agar culture",
+      "reason": "Supports selective recovery of enteropathogenic Yersinia from stool."
+    },
+    {
+      "test": "API 20E",
+      "reason": "Useful biochemical strip panel for Enterobacterales differentiation, including urease and carbohydrate reactions."
+    }
+  ]
+}

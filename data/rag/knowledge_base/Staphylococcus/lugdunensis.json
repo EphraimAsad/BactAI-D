@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Staphylococcus",
+  "species": "lugdunensis",
+
+  "overview": {
+    "short": "Staphylococcus lugdunensis is a Gram-positive, coagulase-negative coccus that behaves clinically more like Staphylococcus aureus than other coagulase-negative staphylococci.",
+    "clinical_context": "Associated with severe infections including endocarditis, skin and soft tissue infections, and bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Mannitol Salt Agar"
+    ],
+    "Colony Morphology": [
+      "Round",
+      "Smooth",
+      "Opaque",
+      "White to Cream"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "15//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key biochemical feature distinguishing S. lugdunensis from other coagulase-negative staphylococci."
+    },
+    {
+      "field": "Coagulase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Despite virulence, remains coagulase-negative."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Staphylococcus aureus",
+      "reason": "Similar clinical severity and occasional beta haemolysis."
+    },
+    {
+      "species": "Staphylococcus epidermidis",
+      "reason": "Shared coagulase-negative status."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Tube coagulase positivity suggests S. aureus.",
+    "Complete lack of virulence markers suggests other CoNS.",
+    "Absence of arginine dihydrolase argues against S. lugdunensis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Arginine dihydrolase",
+      "reason": "Primary biochemical discriminator.",
+      "api_kit": "API Staph"
+    },
+    {
+      "test": "PYR test",
+      "reason": "Typically positive in S. lugdunensis."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard confirmation."
+    }
+  ]
+}

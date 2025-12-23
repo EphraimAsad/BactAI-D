@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Staphylococcus",
+  "species": "saprophyticus",
+
+  "overview": {
+    "short": "Staphylococcus saprophyticus is a Gram-positive, coagulase-negative coccus commonly associated with urinary tract infections in young women.",
+    "clinical_context": "A frequent cause of uncomplicated cystitis, particularly in sexually active females."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Mannitol Salt Agar"
+    ],
+    "Colony Morphology": [
+      "Round",
+      "Smooth",
+      "Opaque",
+      "White"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "15//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Strongly associated with urinary tract colonisation."
+    },
+    {
+      "field": "Novobiocin resistance",
+      "value": "Resistant",
+      "importance": "high",
+      "notes": "Classic distinguishing feature from other CoNS."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Staphylococcus epidermidis",
+      "reason": "Both are coagulase-negative; differentiation requires novobiocin testing."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Novobiocin sensitivity argues against S. saprophyticus.",
+    "Isolation outside urinary specimens may suggest contamination.",
+    "Strong haemolysis is inconsistent with this species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Novobiocin susceptibility",
+      "reason": "Definitive biochemical discriminator.",
+      "api_kit": "API Staph"
+    },
+    {
+      "test": "Urease test",
+      "reason": "Supports urinary pathogenic role."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid and accurate species confirmation."
+    }
+  ]
+}

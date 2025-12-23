@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Vibrio",
+  "species": "vulnificus",
+
+  "overview": {
+    "short": "Vibrio vulnificus is a highly virulent, halophilic, Gram-negative curved rod associated with severe wound infections and fulminant septicemia.",
+    "clinical_context": "Typically linked to exposure to warm seawater or ingestion of raw seafood; causes rapidly progressive infections, especially in patients with liver disease or immunocompromise."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "TCBS Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Mucoid"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Encapsulated strains are strongly associated with invasive disease and septicemia."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Halophilicity distinguishes V. vulnificus from non-halophilic Vibrios such as V. cholerae."
+    },
+    {
+      "field": "Sucrose Fermentation",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Variable sucrose fermentation can complicate TCBS interpretation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Vibrio parahaemolyticus",
+      "reason": "Both are halophilic and oxidase-positive; capsule presence and clinical severity help differentiate."
+    },
+    {
+      "species": "Vibrio alginolyticus",
+      "reason": "Shared salt tolerance; alginolyticus is typically less invasive and often sucrose-positive."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of salt tolerance argues against V. vulnificus.",
+    "Absence of capsule or mucoid colonies reduces likelihood in invasive disease contexts.",
+    "Oxidase-negative isolate is inconsistent with Vibrio."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "6.5% NaCl growth",
+      "reason": "Confirms halophilic Vibrio phenotype."
+    },
+    {
+      "test": "Capsule demonstration",
+      "reason": "Supports identification and correlates with virulence."
+    },
+    {
+      "test": "Virulence gene detection",
+      "reason": "Supports confirmation in severe or outbreak-associated cases.",
+      "api_kit": "PCR panel targeting vvhA or vcg virulence genes"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid and reliable species-level identification."
+    }
+  ]
+}

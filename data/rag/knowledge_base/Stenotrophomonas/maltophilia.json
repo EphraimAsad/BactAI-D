@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Stenotrophomonas",
+  "species": "maltophilia",
+
+  "overview": {
+    "short": "Stenotrophomonas maltophilia is a Gram-negative, aerobic, non-fermentative rod and an important opportunistic pathogen with intrinsic multidrug resistance.",
+    "clinical_context": "Commonly associated with hospital-acquired respiratory infections, bacteremia, and device-associated infections, especially in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "10//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Oxidase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Key discriminator from oxidase-positive non-fermenters such as Pseudomonas."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports Stenotrophomonas over several lookalike non-fermenters."
+    },
+    {
+      "field": "Lipase Test",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Often positive and supportive when combined with DNase and oxidase results."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Both are non-fermenters that grow on MacConkey Agar; oxidase differentiates."
+    },
+    {
+      "genus": "Burkholderia",
+      "reason": "Overlapping environmental origin and non-fermentative phenotype; requires confirmatory ID."
+    },
+    {
+      "species": "Stenotrophomonas rhizophila",
+      "reason": "Very similar biochemical profile; species separation usually requires MALDI-TOF or molecular methods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase positivity argues against S. maltophilia.",
+    "Clear glucose fermentation suggests Enterobacterales rather than S. maltophilia.",
+    "Unusual strong pigment production suggests Pseudomonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Critical exclusion of Pseudomonas and other oxidase-positive non-fermenters."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical method for accurate identification in routine labs."
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Useful for definitive confirmation or complex cases."
+    },
+    {
+      "test": "Antimicrobial susceptibility testing",
+      "reason": "Clinically essential due to intrinsic multidrug resistance and variable susceptibility profiles."
+    }
+  ]
+}

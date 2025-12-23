@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Stenotrophomonas",
+
+  "overview": {
+    "short": "Stenotrophomonas species are Gram-negative, aerobic, non-fermentative rods commonly found in soil, water, and hospital environments.",
+    "clinical_context": "Best known for Stenotrophomonas maltophilia, an opportunistic pathogen associated with respiratory infections, bacteremia, and intrinsic multidrug resistance."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "5//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Oxidase": "Oxidase negativity is a key discriminator from Pseudomonas.",
+    "DNase": "DNase positivity supports Stenotrophomonas over other non-fermenters.",
+    "Glucose Fermentation": "Asaccharolytic; does not ferment carbohydrates."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Negative",
+      "distinguishes_from": ["Pseudomonas"],
+      "notes": "Helps separate from oxidase-positive non-fermenters."
+    },
+    {
+      "field": "DNase",
+      "expected": "Positive",
+      "distinguishes_from": ["Burkholderia", "Achromobacter"],
+      "notes": "Useful biochemical discriminator."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Confirms non-fermentative metabolism."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Burkholderia",
+      "reason": "Similar non-fermentative Gram-negative rods with environmental origin."
+    },
+    {
+      "genus": "Pseudomonas",
+      "reason": "Overlapping growth on MacConkey Agar and non-fermentative profile."
+    }
+ 
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase positivity argues against Stenotrophomonas.",
+    "Strong pigment production suggests Pseudomonas.",
+    "Glucose fermentation suggests Enterobacterales."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "DNase test",
+      "reason": "Supports genus-level identification."
+    },
+    {
+      "test": "Oxidase test",
+      "reason": "Critical exclusion of Pseudomonas."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification of Stenotrophomonas species."
+    }
+  ],
+
+  "supported_species": [
+    "maltophilia",
+    "rhizophila",
+    "acidaminiphila"
+  ]
+}

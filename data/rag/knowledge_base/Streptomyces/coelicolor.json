@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Streptomyces",
+  "species": "coelicolor",
+
+  "overview": {
+    "short": "Streptomyces coelicolor is a Gram-positive, aerobic, filamentous bacterium widely studied as a model organism for secondary metabolite production.",
+    "clinical_context": "Primarily environmental and rarely associated with human disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Sabouraud Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Powdery",
+      "Wrinkled"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Aerial Mycelium",
+    "Pigment": "Blue",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Blue",
+      "importance": "medium",
+      "notes": "Blue-pigmented secondary metabolites are characteristic in laboratory strains."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Streptomyces griseus",
+      "reason": "Similar filamentous morphology and non-fermentative biochemical profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of aerial mycelium suggests another actinomycete.",
+    "Acid-fast staining suggests Nocardia.",
+    "Rapid smooth colony growth is inconsistent with Streptomyces."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid genus-level confirmation."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive species-level identification."
+    }
+  ]
+}

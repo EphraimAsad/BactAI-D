@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Thermoactinomyces",
+
+  "overview": {
+    "short": "Thermoactinomyces are thermophilic, Gram-positive, aerobic bacteria with filamentous/coryneform habit that appear as rods under simplified schemas; colonies are typically dry and powdery, and many species form heat-resistant spores.",
+    "clinical_context": "Occasionally recovered from environmental exposures (compost, hay, dust). Classical association with hypersensitivity pneumonitis in agricultural settings; human invasive disease is rare."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Dry",
+      "Powdery",
+      "Chalky White"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "45//60",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Genus shows filamentous/coryneform habit; mapped to 'Rods' per your allowed Shape categories.",
+    "Growth Temperature": "Thermophilic growth is characteristic; many isolates grow robustly at ≥50 °C.",
+    "Spore Formation": "Heat-resistant spores are typical and aid survival in compost/hay."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Growth Temperature",
+      "expected": "45//60",
+      "distinguishes_from": ["Corynebacterium", "Streptomyces"],
+      "notes": "Thermophilic growth at ≥50 °C supports Thermoactinomyces over many mesophilic actinomycetes."
+    },
+    {
+      "field": "Spore Formation",
+      "expected": "Positive",
+      "distinguishes_from": ["Streptomyces"],
+      "notes": "Heat-resistant spore formation (not aerial conidia) helps separate from classic Streptomyces."
+    },
+    {
+      "field": "Catalase",
+      "expected": "Positive",
+      "distinguishes_from": ["Trueperella"],
+      "notes": "Catalase positivity with thermophilic, dry chalky colonies favors Thermoactinomyces."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Saccharopolyspora",
+      "reason": "Both linked to farm environments and hypersensitivity pneumonitis; colony textures can appear similar."
+    },
+    {
+      "genus": "Bacillus",
+      "reason": "Thermotolerant, spore-forming Gram-positive organisms may be misread as Bacillus if filamentous habit is overlooked."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "No growth at ≥50 °C argues against Thermoactinomyces.",
+    "Strongly mucoid or wet colonies are atypical; reconsider identification.",
+    "Oxidase positivity would be unusual and should trigger re-evaluation."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Incubation at 50–55 °C",
+      "reason": "Confirms thermophilic growth profile characteristic of the genus."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Practical species-level confirmation for environmental actinomycetes.",
+      "api_kit": "Bruker MALDI Biotyper (Environmental/Actinomycete library recommended)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Definitive identification when MALDI confidence is low or taxonomic boundaries are in flux."
+    }
+  ],
+
+  "supported_species": [
+    "sacchari",
+    "vulgaris"
+  ]
+}

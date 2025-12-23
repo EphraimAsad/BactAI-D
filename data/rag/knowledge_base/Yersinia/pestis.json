@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Yersinia",
+  "species": "pestis",
+
+  "overview": {
+    "short": "Yersinia pestis is a highly virulent, Gram-negative rod and the causative agent of plague.",
+    "clinical_context": "Responsible for bubonic, septicemic, and pneumonic plague; a high-consequence zoonotic pathogen."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Grey",
+      "Irregular",
+      "Fried-egg appearance"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-motility differentiates Y. pestis from other Yersinia species."
+    },
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "F1 capsular antigen is a major virulence factor."
+    },
+    {
+      "field": "Urease",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Urease negativity distinguishes Y. pestis from Y. enterocolitica."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Yersinia pseudotuberculosis",
+      "reason": "Genetically related species with overlapping biochemical traits."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motility detected at any temperature.",
+    "Urease positivity suggests another Yersinia species.",
+    "Lactose fermentation is inconsistent with Y. pestis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "F1 antigen detection",
+      "reason": "Specific confirmation of Y. pestis virulence factor."
+    },
+    {
+      "test": "PCR for pla or caf1 genes",
+      "reason": "Molecular confirmation of Y. pestis."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid identification in reference laboratories."
+    }
+  ]
+}

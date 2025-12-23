@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Spiroplasma",
+
+  "overview": {
+    "short": "Spiroplasma species are helical, wall-less bacteria (Mollicutes) that lack peptidoglycan, do not Gram stain reliably, and are primarily associated with insects and plants.",
+    "clinical_context": "Not a typical human clinical genus; most relevance is veterinary/entomology and plant pathology (e.g., citrus diseases)."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Specialized Mollicutes Media"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Gram Stain": "Wall-less Mollicutes do not Gram stain reliably; report as Variable/atypical if described.",
+    "Media Grown On": "Growth typically requires specialized Mollicutes media with sterols; routine Blood/MacConkey growth is not expected.",
+    "Oxidase": "Often not meaningful for Mollicutes in routine workflows; keep explicit-only handling."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Gram Stain",
+      "expected": "Variable",
+      "distinguishes_from": ["Campylobacter", "Helicobacter", "Spirillum", "Vibrio"],
+      "notes": "Spiral morphology with unreliable Gram stain and wall-less biology argues against typical Gram-negative spiral rods."
+    },
+    {
+      "field": "Media Grown On",
+      "expected": "Specialized Mollicutes Media",
+      "distinguishes_from": ["Campylobacter", "Helicobacter", "Spirillum"],
+      "notes": "Requirement for specialized sterol-containing media supports Mollicutes."
+    },
+    {
+      "field": "Spore Formation",
+      "expected": "Negative",
+      "distinguishes_from": ["Clostridium", "Bacillus"],
+      "notes": "Included for schema completeness; not a primary differentiator here."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Mycoplasma",
+      "reason": "Also Mollicutes and wall-less; overlaps in media requirements and atypical Gram stain behaviour."
+    },
+    {
+      "genus": "Helicobacter",
+      "reason": "Both may be described as spiral; Helicobacter is typically urease-positive and microaerophilic."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Robust Gram-negative staining with growth on routine media suggests a different spiral/curved-rod genus.",
+    "Urease-positive microaerophilic spiral isolates suggest Helicobacter.",
+    "Strong oxidase-positive, nitrate-reducing aerobic profiles argue against Spiroplasma."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Dienes stain / phase-contrast microscopy",
+      "reason": "Supports visualization of helical, wall-less cells and characteristic motility."
+    },
+    {
+      "test": "Molecular identification (16S rRNA / genus-specific PCR)",
+      "reason": "Preferred confirmation due to atypical staining and limited biochemical resolution."
+    },
+    {
+      "test": "Culture on Mollicutes-selective media",
+      "reason": "Confirms sterol-dependent growth typical of Mollicutes."
+    }
+  ],
+
+  "supported_species": [
+    "citri",
+    "melliferum"
+  ]
+}

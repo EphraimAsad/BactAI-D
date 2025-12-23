@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Spirillum",
+  "species": "volutans",
+
+  "overview": {
+    "short": "Spirillum volutans is a large, Gram-negative, aerobic spiral bacterium found in freshwater environments and notable for strong polar flagellar motility.",
+    "clinical_context": "Not a typical human pathogen; primarily environmental and rarely encountered in clinical diagnostics."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Nutrient Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Translucent",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Classically strongly motile via polar flagella; supports Spirillum-level identification when spiral morphology is observed."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-fermentative profile helps exclude oxidase-positive curved/spiral fermenters."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Campylobacter",
+      "reason": "Both may appear curved/spiral and oxidase positive; Campylobacter is usually microaerophilic and may show different growth temperature characteristics."
+    },
+    {
+      "genus": "Helicobacter",
+      "reason": "Spiral morphology overlap; Helicobacter typically prefers microaerophilic conditions and has different biochemical markers (often urease positive depending on species)."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth only under microaerophilic conditions suggests Campylobacter/Helicobacter rather than Spirillum volutans.",
+    "Any positive carbohydrate fermentation profile argues against S. volutans.",
+    "Clinical attribution should be cautious unless supported by strong exposure history and confirmatory identification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility wet mount / microscopy",
+      "reason": "Best practical confirmation of spiral morphology and strong polar motility."
+    },
+    {
+      "test": "API 20 NE",
+      "reason": "Helps describe non-fermenter profile for documentation and comparison.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Recommended for rare organisms where biochemical identification may be unreliable."
+    }
+  ]
+}

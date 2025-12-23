@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Vibrio",
+  "species": "cholerae",
+
+  "overview": {
+    "short": "Vibrio cholerae is a Gram-negative, motile curved rod that can cause cholera and gastroenteritis; it is notable for being less salt-dependent than many marine Vibrios.",
+    "clinical_context": "Classically associated with profuse watery diarrhea (cholera) and can also cause sporadic gastroenteritis; exposure is typically via contaminated water or food."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "TCBS Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Unlike many halophilic Vibrios, V. cholerae does not require high salt and typically does not tolerate 6.5% NaCl."
+    },
+    {
+      "field": "Sucrose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Typically yields yellow colonies on TCBS Agar due to sucrose fermentation."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation from some other Vibrio species in biochemical panels."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Vibrio alginolyticus",
+      "reason": "Both may be sucrose-positive on TCBS; salt tolerance helps separate them."
+    },
+    {
+      "species": "Vibrio vulnificus",
+      "reason": "Overlap in oxidase positivity and general Vibrio phenotype; clinical context differs."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong growth at 6.5% NaCl argues against V. cholerae and supports halophilic Vibrios.",
+    "Oxidase negativity is inconsistent with Vibrio.",
+    "Failure to ferment sucrose on TCBS should prompt consideration of non-sucrose fermenting Vibrios."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "6.5% NaCl growth",
+      "reason": "Key discriminator vs halophilic Vibrios."
+    },
+    {
+      "test": "Serogrouping / toxin gene detection",
+      "reason": "Determines toxigenic potential and outbreak relevance (e.g., O1/O139).",
+      "api_kit": "PCR panel (cholera toxin / ctx genes) or latex agglutination serogrouping kit"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Fast species-level confirmation."
+    }
+  ]
+}

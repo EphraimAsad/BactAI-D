@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Trueperella",
+
+  "overview": {
+    "short": "Trueperella are Gram-positive, non-spore-forming, non-motile pleomorphic rods (often coryneform) that are facultative anaerobes and can be associated with pyogenic infections in animals and occasionally humans.",
+    "clinical_context": "Most clinically relevant isolates are opportunistic and may be recovered from wound infections, abscesses, and mixed polymicrobial infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Trueperella are classically pleomorphic/coryneform rods; your schema collapses this to Rods.",
+    "Haemolysis": "Haemolysis is species-dependent and may be variable at genus level.",
+    "Catalase": "Often catalase-negative, helping separate from many coryneform genera that are catalase-positive."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Many Corynebacterium are catalase-positive, whereas Trueperella is typically catalase-negative."
+    },
+    {
+      "field": "Gram Stain",
+      "expected": "Positive",
+      "distinguishes_from": ["Gardnerella"],
+      "notes": "Helps separate from small Gram-variable/Gram-negative appearing organisms that may overlap clinically."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Facultative Anaerobe",
+      "distinguishes_from": ["Cutibacterium"],
+      "notes": "Cutibacterium is typically anaerobic; Trueperella commonly grows under both aerobic and anaerobic conditions."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Corynebacterium",
+      "reason": "Both can appear as pleomorphic Gram-positive rods; biochemical overlap requires confirmatory identification."
+    },
+    {
+      "genus": "Arcanobacterium",
+      "reason": "Historical overlap and clinical context can confuse; some labs may still use older naming conventions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong catalase positivity suggests Corynebacterium rather than Trueperella.",
+    "Strict anaerobic-only growth suggests Cutibacterium or other anaerobes.",
+    "Classic Gram-positive cocci morphology suggests Streptococcus/Staphylococcus rather than Trueperella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Catalase test",
+      "reason": "Quick screen to separate from catalase-positive coryneform organisms."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical confirmatory method for genus/species resolution in routine labs.",
+      "api_kit": "Bruker MALDI Biotyper (Clinical / Aerobe-Anaerobe Library)"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive identification when MALDI confidence is low or for unusual isolates."
+    }
+  ],
+
+  "supported_species": [
+    "pyogenes"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Veillonella",
+  "species": "parvula",
+
+  "overview": {
+    "short": "Veillonella parvula is a Gram-negative, strictly anaerobic coccus commonly found in the oral cavity and gastrointestinal tract.",
+    "clinical_context": "Most frequently isolated as part of mixed anaerobic infections, including oral, dental, bloodstream, and endocarditis cases."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Anaerobic Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Variable nitrate reduction may assist species differentiation within Veillonella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Veillonella dispar",
+      "reason": "Very similar biochemical profile; differentiation often requires molecular methods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Any carbohydrate fermentation is inconsistent.",
+    "Aerobic growth excludes Veillonella parvula.",
+    "Oxidase positivity suggests Neisseria."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Strict anaerobic growth confirmation",
+      "reason": "Confirms obligate anaerobic phenotype."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for species-level identification.",
+      "api_kit": "Bruker MALDI Biotyper Anaerobe Library"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive differentiation from closely related Veillonella species."
+    }
+  ]
+}

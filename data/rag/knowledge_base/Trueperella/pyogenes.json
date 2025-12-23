@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Trueperella",
+  "species": "pyogenes",
+
+  "overview": {
+    "short": "Trueperella pyogenes is a Gram-positive, pleomorphic non-spore-forming, non-motile rod associated with pyogenic infections, most commonly in animals but occasionally in human opportunistic infections.",
+    "clinical_context": "Often recovered from abscesses, wound infections, soft tissue infections, and polymicrobial sites; zoonotic exposure can be relevant."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis Type",
+      "value": "Beta",
+      "importance": "high",
+      "notes": "Beta haemolysis on blood agar supports T. pyogenes in the appropriate clinical context."
+    },
+    {
+      "field": "Catalase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Supports differentiation from many catalase-positive coryneform organisms."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "value": "Facultative Anaerobe",
+      "importance": "medium",
+      "notes": "Growth under both aerobic and anaerobic conditions helps separate from strict anaerobes."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Corynebacterium",
+      "reason": "Pleomorphic Gram-positive rods with overlapping colony appearance; needs confirmatory ID."
+    },
+    {
+      "genus": "Arcanobacterium",
+      "reason": "Clinical context and haemolysis can overlap; taxonomy history can cause confusion."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity suggests Corynebacterium rather than Trueperella.",
+    "No haemolysis or gamma haemolysis may argue against pyogenes (consider other Trueperella/related genera).",
+    "Strict anaerobic-only growth suggests a different organism."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Haemolysis confirmation on Blood Agar",
+      "reason": "Ensures beta haemolysis is reproducible and correctly read."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best routine method for species confirmation.",
+      "api_kit": "Bruker MALDI Biotyper (Clinical / Aerobe-Anaerobe Library)"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive resolution when MALDI is ambiguous or for epidemiologic confirmation."
+    }
+  ]
+}

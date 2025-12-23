@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Streptomyces",
+
+  "overview": {
+    "short": "Streptomyces species are Gram-positive, aerobic, filamentous bacteria known for their soil habitat and prolific secondary metabolite production.",
+    "clinical_context": "Primarily environmental organisms; rarely implicated in human infection but may cause actinomycetoma or opportunistic disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Sabouraud Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Chalky",
+      "Powdery"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Aerial Mycelium",
+    "Pigment": "Variable",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Filamentous branching morphology is characteristic but normalised as rods for parser compatibility.",
+    "Spore Formation": "Produces chains of conidia on aerial hyphae.",
+    "Colony Morphology": "Dry, chalky appearance is a key macroscopic clue."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Aerobe",
+      "distinguishes_from": ["Actinomyces"],
+      "notes": "Strict aerobic growth differentiates Streptomyces from anaerobic actinomycetes."
+    },
+    {
+      "field": "Spore Formation",
+      "expected": "Positive",
+      "distinguishes_from": ["Nocardia"],
+      "notes": "Spore chains and aerial mycelium are typical of Streptomyces."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Nocardia",
+      "reason": "Both are aerobic, filamentous Gram-positive organisms."
+    },
+    {
+      "genus": "Actinomyces",
+      "reason": "Filamentous morphology may overlap in direct microscopy."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Anaerobic growth suggests Actinomyces rather than Streptomyces.",
+    "Acid-fast positivity suggests Nocardia.",
+    "Rapid growth with smooth colonies argues against Streptomyces."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Acid-fast stain (modified)",
+      "reason": "Helps differentiate from partially acid-fast Nocardia."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus-level identification from culture."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Gold standard for species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "griseus",
+    "coelicolor",
+    "somaliensis"
+  ]
+}

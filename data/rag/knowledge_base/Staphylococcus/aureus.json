@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Staphylococcus",
+  "species": "aureus",
+
+  "overview": {
+    "short": "Staphylococcus aureus is a Gram-positive, coagulase-positive coccus forming clusters, and a major human pathogen.",
+    "clinical_context": "Causes skin and soft tissue infections, pneumonia, bacteremia, endocarditis, osteomyelitis, and toxin-mediated disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "Mannitol Salt Agar"
+    ],
+    "Colony Morphology": [
+      "Round",
+      "Smooth",
+      "Opaque",
+      "Golden-yellow"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "15//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Positive",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Golden-yellow",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Coagulase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Primary defining feature of S. aureus."
+    },
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Fermentation on Mannitol Salt Agar supports identification."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Helpful supportive marker."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Staphylococcus lugdunensis",
+      "reason": "May exhibit beta haemolysis and increased virulence compared to other coagulase-negative staphylococci."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Coagulase negativity argues against S. aureus.",
+    "Non-haemolytic isolates require confirmation.",
+    "Failure to ferment mannitol suggests alternative species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Tube coagulase test",
+      "reason": "Gold standard confirmation of S. aureus.",
+      "api_kit": "API Staph"
+    },
+    {
+      "test": "DNase test",
+      "reason": "Supportive identification."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species identification."
+    }
+  ]
+}

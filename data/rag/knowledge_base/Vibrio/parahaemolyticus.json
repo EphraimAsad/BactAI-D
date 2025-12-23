@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Vibrio",
+  "species": "parahaemolyticus",
+
+  "overview": {
+    "short": "Vibrio parahaemolyticus is a halophilic, Gram-negative motile rod commonly associated with seafood-borne gastroenteritis and occasional wound infections.",
+    "clinical_context": "Most often linked to ingestion of raw or undercooked seafood; can also infect wounds exposed to seawater."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "TCBS Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Halophilicity is a defining trait; supports V. parahaemolyticus over V. cholerae."
+    },
+    {
+      "field": "Sucrose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Typically produces green colonies on TCBS Agar (non-sucrose fermenter)."
+    },
+    {
+      "field": "Haemolysis Type",
+      "value": "Beta",
+      "importance": "medium",
+      "notes": "Beta haemolysis may be observed; clinical isolates may show characteristic haemolysis patterns in specific setups."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Vibrio vulnificus",
+      "reason": "Both are halophilic and oxidase-positive; clinical severity and biochemical traits help differentiate."
+    },
+    {
+      "species": "Vibrio alginolyticus",
+      "reason": "Both are halophilic; TCBS sucrose reaction (green vs yellow) helps separate."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Sucrose-positive (yellow) TCBS phenotype suggests other Vibrios (e.g., V. alginolyticus or V. cholerae).",
+    "Failure to grow in high salt argues against V. parahaemolyticus.",
+    "Oxidase-negative isolate excludes Vibrio."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "TCBS Agar colony colour",
+      "reason": "Non-sucrose fermentation typically yields green colonies."
+    },
+    {
+      "test": "Hemolysin gene detection",
+      "reason": "Supports pathogenic strain assessment (seafood-associated gastroenteritis).",
+      "api_kit": "PCR panel targeting tdh / trh (hemolysin genes)"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level confirmation."
+    }
+  ]
+}

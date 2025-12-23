@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Lactobacillus",
+  "species": "casei",
+
+  "overview": {
+    "short": "Lactobacillus casei is a Gram-positive, non-spore-forming rod commonly found in the gastrointestinal tract and fermented foods.",
+    "clinical_context": "Usually a commensal organism; rarely implicated in opportunistic infections such as endocarditis or bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MRS Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerotolerant Anaerobe",
+    "Growth Temperature": "15//40",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key discriminator separating L. casei from L. acidophilus."
+    },
+    {
+      "field": "Esculin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification within the L. casei group."
+    },
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Helps differentiate from more fastidious Lactobacillus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Lactobacillus plantarum",
+      "reason": "Overlapping carbohydrate fermentation patterns."
+    },
+    {
+      "species": "Lactobacillus acidophilus",
+      "reason": "Shared lactose fermentation and morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Arginine dihydrolase negativity suggests L. acidophilus.",
+    "Strict thermophily (>45°C) argues against L. casei.",
+    "Gas production suggests heterofermentative lactic acid bacteria."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Extended carbohydrate fermentation profile",
+      "reason": "Differentiates closely related Lactobacillus species.",
+      "api_kit": "API 50 CHL"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "High-confidence identification in clinical laboratories.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

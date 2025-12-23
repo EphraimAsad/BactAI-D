@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Morganella",
+
+  "overview": {
+    "short": "Morganella species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, commonly associated with opportunistic infections.",
+    "clinical_context": "Frequently isolated from urinary tract infections, wound infections, and septicemia, particularly in hospitalized or immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Indole": "Indole positivity is a defining feature of Morganella.",
+    "Urease": "Strong urease activity contributes to urinary tract pathogenicity.",
+    "Lactose Fermentation": "Consistently lactose non-fermenting on MacConkey Agar."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Indole",
+      "expected": "Positive",
+      "distinguishes_from": ["Proteus"],
+      "notes": "Morganella is indole-positive while some Proteus species are indole-negative."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "expected": "Positive",
+      "distinguishes_from": ["Providencia"],
+      "notes": "Ornithine positivity separates Morganella from Providencia."
+    },
+    {
+      "field": "Urease",
+      "expected": "Positive",
+      "distinguishes_from": ["Escherichia"],
+      "notes": "Urease activity helps exclude E. coli."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Proteus",
+      "reason": "Shared urease positivity and swarming-related motility associations."
+    },
+    {
+      "genus": "Providencia",
+      "reason": "Overlapping biochemical patterns within the Proteeae tribe."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Swarming motility suggests Proteus rather than Morganella.",
+    "Citrate positivity argues against Morganella.",
+    "Lactose fermentation suggests another Enterobacterales genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Confirms indole-positive profile typical of Morganella.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Differentiates Morganella from Providencia.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for reliable species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "morganii",
+    "siboni"
+  ]
+}

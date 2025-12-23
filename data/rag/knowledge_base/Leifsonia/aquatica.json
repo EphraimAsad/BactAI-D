@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Leifsonia",
+  "species": "aquatica",
+
+  "overview": {
+    "short": "Leifsonia aquatica is a Gram-positive, aerobic, non-spore-forming rod primarily isolated from aquatic environments.",
+    "clinical_context": "Occasionally recovered as a contaminant or rare opportunistic isolate, particularly from water systems or indwelling devices."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Yellow",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//30",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Motility is a distinguishing feature within the genus Leifsonia."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "10//30",
+      "importance": "medium",
+      "notes": "Optimal growth at lower environmental temperatures supports L. aquatica."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Leifsonia naganoensis",
+      "reason": "Closely related species with overlapping biochemical profiles."
+    },
+    {
+      "genus": "Microbacterium",
+      "reason": "Shared environmental origin and yellow-pigmented colonies."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motile isolates suggest alternative Leifsonia species.",
+    "Growth above 35°C argues against L. aquatica.",
+    "Carbohydrate fermentation suggests another actinobacterial genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Primary method for accurate species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive confirmation due to limited biochemical discrimination.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

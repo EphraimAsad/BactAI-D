@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Kocuria",
+  "species": "varians",
+
+  "overview": {
+    "short": "Kocuria varians is a Gram-positive, catalase-positive, non-motile coccus within the Micrococcaceae, typically producing cream to pale yellow colonies and growing aerobically.",
+    "clinical_context": "Usually a skin commensal and opportunist; may appear in blood cultures, wound specimens, or catheter-associated infections. Often confused with Micrococcus or coagulase-negative Staphylococcus."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Round",
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Unknown",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Unknown",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Often cream to pale yellow; pigmentation is less distinctive than K. rosea and should not be used alone."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Variable",
+      "importance": "low",
+      "notes": "Some isolates tolerate higher salt, but this is not consistently species-defining."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Staphylococcus",
+      "reason": "Catalase-positive Gram-positive cocci with similar colony morphology, especially when pigmentation is minimal."
+    },
+    {
+      "genus": "Micrococcus",
+      "reason": "Shared tetrad formation and aerobic catalase-positive profile; requires definitive ID."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Coagulase positivity suggests S. aureus rather than Kocuria.",
+    "Strong beta haemolysis argues against K. varians.",
+    "Sterile-site isolates should be confirmed by MALDI-TOF or sequencing due to high mis-ID risk."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Coagulase test",
+      "reason": "Separates Kocuria/CoNS from S. aureus when clusters are observed.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best routine method for confident species-level identification within Micrococcaceae.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Confirmatory option if clinically significant isolate or MALDI-TOF is uncertain.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Mycobacterium",
+
+  "overview": {
+    "short": "Mycobacterium species are slow-growing, aerobic, acid-fast rods characterized by lipid-rich cell walls containing mycolic acids.",
+    "clinical_context": "Includes major human pathogens such as Mycobacterium tuberculosis and Mycobacterium leprae, as well as non-tuberculous mycobacteria causing opportunistic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Lowenstein-Jensen Agar",
+      "Middlebrook Agar"
+    ],
+    "Colony Morphology": [
+      "Rough",
+      "Dry",
+      "Buff"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//42",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Gram Stain": "Mycobacteria stain poorly with Gram stain and are better visualized using acid-fast staining.",
+    "Growth Temperature": "Optimal temperature varies by species; many pathogenic species grow best near 37°C.",
+    "Colony Morphology": "Colonies are often rough, dry, and non-pigmented or buff-colored."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Acid-fast staining",
+      "expected": "Positive",
+      "distinguishes_from": ["Nocardia", "Corynebacterium"],
+      "notes": "Acid-fastness due to mycolic acids is the defining feature of the genus."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Mycobacteria are non-fermentative."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Nocardia",
+      "reason": "Both are acid-fast, aerobic rods but Nocardia is partially acid-fast and often branching."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Rapid growth suggests a non-mycobacterial organism.",
+    "Strong carbohydrate fermentation is inconsistent with Mycobacterium.",
+    "Motility excludes Mycobacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Ziehl-Neelsen acid-fast stain",
+      "reason": "Primary screening method for Mycobacterium.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Growth on Lowenstein-Jensen Agar",
+      "reason": "Supports genus-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Required for accurate species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "avium",
+    "leprae",
+    "tuberculosis"
+  ]
+}

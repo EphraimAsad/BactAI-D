@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Neisseria",
+  "species": "meningitidis",
+
+  "overview": {
+    "short": "Neisseria meningitidis is a Gram-negative, encapsulated diplococcus and a major cause of bacterial meningitis and septicemia.",
+    "clinical_context": "Associated with invasive disease including meningococcal meningitis and meningococcemia, often in outbreaks."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Chocolate Agar",
+      "Thayer-Martin Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Capsule is essential for virulence and distinguishes N. meningitidis from N. gonorrhoeae."
+    },
+    {
+      "field": "Maltose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Maltose fermentation differentiates N. meningitidis from N. gonorrhoeae."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Neisseria gonorrhoeae",
+      "reason": "Shared morphology and oxidase positivity but differing sugar utilization and capsule status."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of capsule suggests a non-invasive Neisseria species.",
+    "Maltose negativity argues against N. meningitidis.",
+    "Growth on MacConkey Agar excludes Neisseria."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Carbohydrate utilization",
+      "reason": "Primary method for species differentiation.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "Capsule typing",
+      "reason": "Essential for epidemiology and vaccine relevance.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "PCR for meningococcal genes",
+      "reason": "Confirmatory identification in invasive disease.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

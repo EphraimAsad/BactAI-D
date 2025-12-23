@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Kingella",
+  "species": "kingae",
+
+  "overview": {
+    "short": "Kingella kingae is a Gram-negative, facultatively anaerobic short rod and the most clinically significant species of the genus.",
+    "clinical_context": "Primarily associated with osteoarticular infections, bacteremia, and endocarditis, especially in young children."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Pitting"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Pitting",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Beta-haemolysis is characteristic and helps separate K. kingae from K. denitrificans."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Lack of nitrate reduction differentiates from K. denitrificans."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Kingella denitrificans",
+      "reason": "Shared genus morphology; differs in nitrate reduction and haemolysis."
+    },
+    {
+      "genus": "Eikenella",
+      "reason": "Agar pitting and HACEK grouping; Eikenella is oxidase-negative."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of haemolysis suggests another Kingella species.",
+    "Nitrate reduction positivity argues against K. kingae.",
+    "Cocci morphology excludes Kingella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction",
+      "reason": "Primary discriminator from K. denitrificans.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "Beta-haemolysis observation",
+      "reason": "Characteristic for K. kingae on blood agar.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

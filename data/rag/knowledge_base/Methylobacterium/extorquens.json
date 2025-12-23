@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Methylobacterium",
+  "species": "extorquens",
+
+  "overview": {
+    "short": "Methylobacterium extorquens is a pink-pigmented, Gram-negative aerobic rod capable of growth on methanol and other single-carbon compounds.",
+    "clinical_context": "Primarily environmental; occasionally isolated as an opportunistic organism from blood or indwelling medical devices."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Nutrient Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Pink",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/NC",
+    "Colony Pattern": "Smooth",
+    "Pigment": "Pink",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Consistently positive and useful in separating from other pink-pigmented non-fermenters."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps distinguish from M. radiotolerans."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Methylobacterium radiotolerans",
+      "reason": "Both are pink-pigmented methylotrophs with overlapping biochemical profiles."
+    },
+    {
+      "genus": "Roseomonas",
+      "reason": "Similar pigmentation but Roseomonas is often coccoid and urease-negative."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of pink pigmentation suggests another non-fermenter.",
+    "Nitrate reduction positivity favors M. radiotolerans.",
+    "Oxidase negativity is inconsistent with Methylobacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Urease test",
+      "reason": "Confirms species-level consistency.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "Growth on methanol-containing medium",
+      "reason": "Confirms methylotrophic metabolism.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

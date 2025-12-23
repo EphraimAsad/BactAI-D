@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Legionella",
+  "species": "pneumophila",
+
+  "overview": {
+    "short": "Legionella pneumophila is the primary cause of Legionnaires’ disease, a severe form of atypical pneumonia.",
+    "clinical_context": "Associated with contaminated water systems such as cooling towers, showers, and hospital plumbing."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "BCYE Agar"
+    ],
+    "Colony Morphology": [
+      "Grey-White",
+      "Ground-glass"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "25//45",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Helps differentiate L. pneumophila from some non-pneumophila species."
+    },
+    {
+      "field": "Lipase Test",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Characteristic enzymatic activity."
+    },
+    {
+      "field": "Urinary antigen positivity",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Highly specific for L. pneumophila serogroup 1."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Legionella bozemanae",
+      "reason": "Shared growth requirements and morphology."
+    },
+    {
+      "species": "Legionella miceadei",
+      "reason": "Similar non-fermentative biochemical profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Failure to grow on BCYE agar suggests alternative organisms.",
+    "Gelatin negativity may indicate non-pneumophila species.",
+    "Negative urinary antigen does not exclude non–serogroup 1 strains."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Legionella urinary antigen",
+      "reason": "Rapid detection of L. pneumophila serogroup 1.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Direct fluorescent antibody staining",
+      "reason": "Species-level confirmation from culture.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification once cultured.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

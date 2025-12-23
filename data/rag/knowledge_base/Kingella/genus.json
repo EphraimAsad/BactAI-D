@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Kingella",
+
+  "overview": {
+    "short": "Kingella species are Gram-negative, facultatively anaerobic, short rod-shaped bacteria belonging to the HACEK group.",
+    "clinical_context": "Most commonly associated with endocarditis, osteoarticular infections, and bacteremia, particularly in children."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Pitting"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Pitting",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Colony Morphology": "Colonies often pit the surface of agar, especially blood agar.",
+    "Oxidase": "Consistently positive, useful for separating from other Gram-negative short rods.",
+    "Haemolysis": "May show beta-haemolysis, particularly with Kingella kingae."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Eikenella"],
+      "notes": "Helps differentiate Kingella from oxidase-negative HACEK members."
+    },
+    {
+      "field": "Colony Pattern",
+      "expected": "Pitting",
+      "distinguishes_from": ["Neisseria"],
+      "notes": "Agar pitting is characteristic of Kingella species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Eikenella",
+      "reason": "Shared HACEK classification and agar pitting; differs by oxidase and biochemical profile."
+    },
+    {
+      "genus": "Neisseria",
+      "reason": "Similar Gram-negative morphology; Kingella forms rods rather than cocci."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity argues against Kingella.",
+    "Cocci morphology suggests Neisseria rather than Kingella.",
+    "Strict anaerobic growth excludes Kingella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Confirms oxidase positivity typical of Kingella.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Biochemical identification panel",
+      "reason": "Supports differentiation within HACEK organisms.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "kingae",
+    "denitrificans"
+  ]
+}

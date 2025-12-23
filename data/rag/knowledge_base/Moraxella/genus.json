@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Moraxella",
+
+  "overview": {
+    "short": "Moraxella species are Gram-negative, oxidase-positive, aerobic to facultatively anaerobic short rods/coccobacilli that commonly colonize the human respiratory tract.",
+    "clinical_context": "Most clinically relevant in respiratory infections (otitis media, sinusitis, bronchitis, COPD exacerbations), with M. catarrhalis being the most important pathogen."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey-White",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "NC/NC",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Often described clinically as diplococci or coccobacilli; parser-normalized here as Short Rods.",
+    "Glucose Fermentation": "Moraxella are generally asaccharolytic (non-fermenters).",
+    "Media Grown On": "Growth is typical on blood and chocolate agar; MacConkey growth is variable and species-dependent."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter"],
+      "notes": "Oxidase positivity supports Moraxella over Acinetobacter (typically oxidase negative)."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Neisseria"],
+      "notes": "Moraxella are generally asaccharolytic; Neisseria often oxidize carbohydrates depending on species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Neisseria",
+      "reason": "Similar Gram-negative diplococcal appearance in smears and oxidase positivity."
+    },
+    {
+      "genus": "Acinetobacter",
+      "reason": "Both can appear as Gram-negative coccobacilli; oxidase result is a key separator."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative profile argues against Moraxella (consider Acinetobacter).",
+    "Clear carbohydrate fermentation/acid production argues against Moraxella (asaccharolytic genus).",
+    "Strong growth as pink colonies on MacConkey suggests Enterobacterales rather than Moraxella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Butyrate esterase (Catarrhalis disk)",
+      "reason": "Rapidly supports Moraxella catarrhalis identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "DNase test",
+      "reason": "Helpful in distinguishing M. catarrhalis from some related organisms.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus/species confirmation, especially for non-catarrhalis Moraxella.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "catarrhalis",
+    "lacunata",
+    "osloensis"
+  ]
+}

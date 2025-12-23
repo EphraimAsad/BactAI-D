@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Kocuria",
+  "species": "kristinae",
+
+  "overview": {
+    "short": "Kocuria kristinae is a Gram-positive, catalase-positive, non-motile coccus that may appear in tetrads, pairs, or clusters and can be misidentified as coagulase-negative Staphylococcus.",
+    "clinical_context": "Typically opportunistic; reported in catheter-associated bacteremia, skin/soft tissue infections, and immunocompromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Round",
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Unknown",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Unknown",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "K. kristinae may produce non-distinct to faintly pigmented colonies; pigment is not a hard discriminator."
+    },
+    {
+      "field": "Urease",
+      "value": "Negative",
+      "importance": "low",
+      "notes": "Helpful in some workflows, but not species-defining alone."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Staphylococcus",
+      "reason": "Overlapping morphology (clusters) and catalase positivity; CoNS are common lookalikes."
+    },
+    {
+      "genus": "Micrococcus",
+      "reason": "Same family and similar tetrad formation; requires definitive ID."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Coagulase positivity suggests Staphylococcus aureus, not Kocuria.",
+    "Strong, consistent beta haemolysis argues against K. kristinae.",
+    "Clinically significant sterile-site isolate should be confirmed by MALDI-TOF or sequencing."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Coagulase test",
+      "reason": "Excludes S. aureus in cluster-forming Gram-positive cocci.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best routine method for Kocuria species identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Confirmatory method when species-level certainty is needed.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

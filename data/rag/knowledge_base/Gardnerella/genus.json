@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Gardnerella",
+
+  "overview": {
+    "short": "Gardnerella species are Gram-variable, facultatively anaerobic short rods associated with the vaginal microbiota.",
+    "clinical_context": "Most commonly linked to bacterial vaginosis, often as part of a polymicrobial biofilm."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "Human Blood Bilayer Tween Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Gram Stain": "Appears Gram-variable due to thin cell wall and staining inconsistency.",
+    "Haemolysis": "Beta haemolysis is best observed on human blood-containing media.",
+    "Shape": "Often described as pleomorphic short rods or coccobacilli."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Esculin Hydrolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Mobiluncus"],
+      "notes": "Esculin positivity helps separate Gardnerella from curved anaerobic rods."
+    },
+    {
+      "field": "Haemolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Lactobacillus"],
+      "notes": "Beta haemolysis supports Gardnerella in vaginal isolates."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Lactobacillus",
+      "reason": "Shared vaginal habitat but Lactobacillus is Gram-positive and non-haemolytic."
+    },
+    {
+      "genus": "Mobiluncus",
+      "reason": "Associated with bacterial vaginosis but differs in motility and morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong Gram-positive cocci suggest Streptococcus or Enterococcus.",
+    "Motility or curved rods suggest Mobiluncus.",
+    "Strict anaerobic growth is inconsistent with Gardnerella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Esculin hydrolysis",
+      "reason": "Supports genus-level identification in vaginal isolates.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "Haemolysis on human blood agar",
+      "reason": "Enhances detection of characteristic beta haemolysis.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred confirmation due to phenotypic overlap.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "vaginalis"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Leuconostoc",
+
+  "overview": {
+    "short": "Leuconostoc species are Gram-positive lactic acid bacteria, typically appearing as cocci or short coccobacilli, that are catalase-negative, non-motile, and heterofermentative (often producing gas from glucose).",
+    "clinical_context": "Most commonly associated with food and environmental sources; can cause opportunistic infections in immunocompromised patients and is notable for intrinsic vancomycin resistance."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "MRS Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Shape": "Often reported as cocci in pairs/short chains; may appear coccobacillary depending on growth conditions and smear quality.",
+    "Gas Production": "Heterofermentative metabolism commonly produces CO2 from glucose fermentation.",
+    "Catalase": "Typically negative; weak pseudocatalase reactions can occur in some lactic acid bacteria depending on medium and heme availability."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Staphylococcus", "Micrococcus", "Kocuria"],
+      "notes": "Catalase negativity supports lactic acid bacteria rather than staphylococci/micrococci."
+    },
+    {
+      "field": "Gas Production",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterococcus", "Streptococcus (many)"],
+      "notes": "Gas from glucose supports heterofermentative LAB such as Leuconostoc."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterococcus"],
+      "notes": "Enterococci commonly tolerate higher NaCl; Leuconostoc typically does not."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Streptococcus",
+      "reason": "Catalase-negative Gram-positive cocci can resemble viridans streptococci on primary culture."
+    },
+    {
+      "genus": "Enterococcus",
+      "reason": "Catalase-negative Gram-positive cocci overlap clinically; enterococci often show stronger bile-esculin positivity and higher salt tolerance."
+    },
+    {
+      "genus": "Lactobacillus",
+      "reason": "Both are lactic acid bacteria; morphology differs but can be ambiguous if described broadly."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong growth in >=6% NaCl suggests Enterococcus rather than Leuconostoc.",
+    "Consistent beta haemolysis is atypical and suggests alternative genera.",
+    "Oxidase or catalase positivity argues against Leuconostoc."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Vancomycin susceptibility (screen)",
+      "reason": "Leuconostoc is characteristically intrinsically resistant, which can support genus-level suspicion in clinical contexts.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus/species identification among lactic acid bacteria with overlapping biochemical patterns.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Carbohydrate fermentation profile (LAB panel)",
+      "reason": "Supports species-level separation within Leuconostoc when required.",
+      "api_kit": "API 50 CHL"
+    }
+  ],
+
+  "supported_species": [
+    "citreum",
+    "lactis",
+    "mesenteroides"
+  ]
+}

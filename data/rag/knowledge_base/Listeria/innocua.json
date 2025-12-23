@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Listeria",
+  "species": "innocua",
+
+  "overview": {
+    "short": "Listeria innocua is a non-pathogenic Listeria species commonly found in food and environmental samples.",
+    "clinical_context": "Generally regarded as non-pathogenic, though rare opportunistic infections have been reported."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Columbia Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Tumbling"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Key feature distinguishing L. innocua from pathogenic Listeria species."
+    },
+    {
+      "field": "Rhamnose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Separates L. innocua from L. monocytogenes."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Listeria monocytogenes",
+      "reason": "Very similar morphology and biochemical profile except haemolysis."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Presence of beta-haemolysis suggests L. monocytogenes.",
+    "Isolation from invasive clinical infection warrants further investigation.",
+    "Positive CAMP test argues against L. innocua."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "CAMP test",
+      "reason": "Confirms non-haemolytic Listeria species.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate differentiation from pathogenic Listeria species.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

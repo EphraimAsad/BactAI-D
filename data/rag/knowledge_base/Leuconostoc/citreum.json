@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Leuconostoc",
+  "species": "citreum",
+
+  "overview": {
+    "short": "Leuconostoc citreum is a heterofermentative lactic acid bacterium commonly isolated from fermented foods, appearing as Gram-positive cocci or short coccobacilli.",
+    "clinical_context": "Rarely associated with human infection; most often encountered in food microbiology and fermentation-related contexts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MRS Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//30",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Lactose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps differentiate L. citreum from dairy-associated species such as L. lactis."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "10//30",
+      "importance": "medium",
+      "notes": "Optimal growth at lower temperatures supports identification in food-associated isolates."
+    },
+    {
+      "field": "VP",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "VP positivity is consistent with heterofermentative metabolism."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Leuconostoc mesenteroides",
+      "reason": "Overlapping heterofermentative LAB profile with similar colony morphology."
+    },
+    {
+      "genus": "Lactobacillus",
+      "reason": "Both are lactic acid bacteria; morphology and gas production help separation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong lactose fermentation suggests L. lactis rather than L. citreum.",
+    "Absence of gas production argues against heterofermentative Leuconostoc species.",
+    "Growth at higher temperatures (>37°C) is atypical."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Carbohydrate fermentation profile",
+      "reason": "Differentiates L. citreum from other Leuconostoc species.",
+      "api_kit": "API 50 CHL"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level identification among lactic acid bacteria.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

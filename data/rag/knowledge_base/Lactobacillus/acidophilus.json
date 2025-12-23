@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Lactobacillus",
+  "species": "acidophilus",
+
+  "overview": {
+    "short": "Lactobacillus acidophilus is a Gram-positive, non-spore-forming rod commonly found in the gastrointestinal and vaginal microbiota.",
+    "clinical_context": "Typically commensal; rarely associated with opportunistic infections in immunocompromised individuals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MRS Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerotolerant Anaerobe",
+    "Growth Temperature": "30//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Lactose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports differentiation from some other Lactobacillus species."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "Up to 45°C",
+      "importance": "medium",
+      "notes": "Thermotolerance helps distinguish from more mesophilic species."
+    },
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from L. plantarum which may be positive."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Lactobacillus casei",
+      "reason": "Overlapping sugar fermentation and morphology."
+    },
+    {
+      "genus": "Leuconostoc",
+      "reason": "Shared lactic acid production and catalase negativity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Mannitol fermentation suggests species other than L. acidophilus.",
+    "Catalase positivity argues against Lactobacillus.",
+    "Gas production suggests heterofermentative lactic acid bacteria."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Extended carbohydrate fermentation profile",
+      "reason": "Species-level differentiation relies on sugar utilization patterns.",
+      "api_kit": "API 50 CHL"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable confirmation amid taxonomic complexity.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

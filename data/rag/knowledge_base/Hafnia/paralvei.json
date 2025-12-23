@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Hafnia",
+  "species": "paralvei",
+
+  "overview": {
+    "short": "Hafnia paralvei is a Gram-negative, facultatively anaerobic rod closely related to H. alvei and differentiated primarily by biochemical characteristics.",
+    "clinical_context": "Recovered from gastrointestinal and environmental sources; its role in human disease is similar to H. alvei but less frequently reported."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Citrate",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Primary biochemical feature separating H. paralvei from H. alvei."
+    },
+    {
+      "field": "VP",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "VP positivity supports H. paralvei identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Hafnia alvei",
+      "reason": "Nearly identical morphology and overlapping sugar fermentation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "MR positivity suggests H. alvei.",
+    "Citrate negativity argues against H. paralvei.",
+    "Lactose fermentation suggests another Enterobacterales genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Citrate utilization",
+      "reason": "Primary discriminator between Hafnia species.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "VP test",
+      "reason": "Supports differentiation within the Hafnia genus.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Confirms species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

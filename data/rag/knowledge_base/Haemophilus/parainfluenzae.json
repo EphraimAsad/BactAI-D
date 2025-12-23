@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Haemophilus",
+  "species": "parainfluenzae",
+
+  "overview": {
+    "short": "Haemophilus parainfluenzae is a Gram-negative short rod commonly found as a commensal of the human upper respiratory tract.",
+    "clinical_context": "Usually a colonizer but can cause opportunistic infections including endocarditis, respiratory infections, and bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Chocolate Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Unknown",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Unknown",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Unknown",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Media Grown On",
+      "value": "Blood Agar",
+      "importance": "high",
+      "notes": "Requires V factor (NAD) but not X factor; grows on Blood Agar via satellitism or independently."
+    },
+    {
+      "field": "Capsule",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Non-encapsulated, unlike some H. influenzae strains."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Haemophilus influenzae",
+      "reason": "Similar respiratory niche and morphology; differs in X factor requirement."
+    },
+    {
+      "genus": "Aggregatibacter",
+      "reason": "Shared Pasteurellaceae traits and overlapping biochemical results."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Requirement for both X and V factors suggests H. influenzae rather than H. parainfluenzae.",
+    "Encapsulation argues against H. parainfluenzae.",
+    "Strong growth on MacConkey Agar is inconsistent with Haemophilus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "X and V factor requirement testing",
+      "reason": "Primary phenotypic discriminator within Haemophilus.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

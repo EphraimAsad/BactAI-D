@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Neisseria",
+  "species": "gonorrhoeae",
+
+  "overview": {
+    "short": "Neisseria gonorrhoeae is a Gram-negative, non-encapsulated diplococcus responsible for the sexually transmitted infection gonorrhea.",
+    "clinical_context": "Primarily causes urethritis, cervicitis, pelvic inflammatory disease, and disseminated gonococcal infection."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Chocolate Agar",
+      "Thayer-Martin Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Absence of capsule distinguishes N. gonorrhoeae from N. meningitidis."
+    },
+    {
+      "field": "Maltose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Failure to ferment maltose differentiates it from N. meningitidis."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Neisseria meningitidis",
+      "reason": "Similar morphology and oxidase positivity but differs in capsule and maltose utilization."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Maltose fermentation suggests N. meningitidis or N. lactamica.",
+    "Capsule positivity argues against N. gonorrhoeae.",
+    "Isolation from non-genital sites requires confirmation."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Carbohydrate utilization",
+      "reason": "Definitive differentiation within Neisseria.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "NAAT",
+      "reason": "Gold standard for diagnosis from clinical specimens.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Antimicrobial susceptibility testing",
+      "reason": "Required due to widespread resistance.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

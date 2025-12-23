@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Neisseria",
+  "species": "lactamica",
+
+  "overview": {
+    "short": "Neisseria lactamica is a Gram-negative diplococcus commonly found as a commensal of the human nasopharynx, especially in children.",
+    "clinical_context": "Generally non-pathogenic and considered protective against colonization by pathogenic Neisseria species."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "ONPG",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "ONPG positivity is a defining feature of N. lactamica."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Unique among common Neisseria species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Neisseria meningitidis",
+      "reason": "Shared maltose fermentation but differs by ONPG and lactose positivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Capsule positivity suggests N. meningitidis.",
+    "Lactose negativity argues against N. lactamica.",
+    "Clinical disease presentation is unusual for this species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "ONPG test",
+      "reason": "Key differentiator for N. lactamica.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "Carbohydrate utilization",
+      "reason": "Confirms species identity.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid confirmation in clinical laboratories.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

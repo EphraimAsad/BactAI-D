@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Helicobacter",
+
+  "overview": {
+    "short": "Helicobacter species are Gram-negative, curved/spiral bacteria that are microaerophilic and commonly inhabit mucosal surfaces, especially the gastrointestinal tract.",
+    "clinical_context": "Clinically most significant for gastritis and peptic ulcer disease (H. pylori), but other species can be associated with enteritis or bacteremia in select settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "30//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Unknown",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Helicobacter are typically microaerophilic (reduced O2 with added CO2).",
+    "Urease": "Urease varies by species; strong positivity is a hallmark for H. pylori.",
+    "Sugar Fermentation": "Generally asaccharolytic; carbohydrate fermentation is not expected."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Microaerophilic",
+      "distinguishes_from": ["Campylobacter (context-dependent)"],
+      "notes": "Overlaps with Campylobacter; interpretation should incorporate urease and clinical context."
+    },
+    {
+      "field": "Urease",
+      "expected": "Variable",
+      "distinguishes_from": ["Campylobacter"],
+      "notes": "Urease positivity strongly supports Helicobacter over Campylobacter."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Campylobacter",
+      "reason": "Both can appear as curved/spiral Gram-negative organisms and prefer microaerophilic conditions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity argues against Helicobacter.",
+    "Strong carbohydrate fermentation profile is inconsistent with Helicobacter.",
+    "Strict aerobiosis (full O2) is inconsistent with Helicobacter growth."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Urease (rapid urease test / urease activity)",
+      "reason": "Strong discriminator for H. pylori and helpful genus-level confirmation.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Microaerophilic culture conditions (reduced O2 + CO2)",
+      "reason": "Confirms growth requirements consistent with Helicobacter.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Species-level ID when culture is available.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "pylori",
+    "cinaedi",
+    "heilmannii"
+  ]
+}

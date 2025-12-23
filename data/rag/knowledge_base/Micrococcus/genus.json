@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Micrococcus",
+
+  "overview": {
+    "short": "Micrococcus species are Gram-positive cocci commonly found on human skin and in the environment.",
+    "clinical_context": "Usually regarded as contaminants but may cause opportunistic infections in immunocompromised patients or those with indwelling devices."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Convex",
+      "Pigmented"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "10//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "NC/NC",
+    "Colony Pattern": "Discrete",
+    "Pigment": "Yellow",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Catalase": "Strongly positive, helping differentiate from Streptococcus.",
+    "Oxidase": "Usually positive, unlike Staphylococcus.",
+    "NaCl Tolerance": "Growth in high salt differentiates from many other Gram-positive cocci."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Staphylococcus"],
+      "notes": "Oxidase positivity helps separate Micrococcus from Staphylococcus."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Yellow",
+      "distinguishes_from": ["Kocuria"],
+      "notes": "Bright yellow pigment is characteristic."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Staphylococcus",
+      "reason": "Similar Gram-positive cocci morphology and catalase positivity."
+    },
+    {
+      "genus": "Kocuria",
+      "reason": "Closely related genus with overlapping biochemical traits."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity suggests Staphylococcus.",
+    "Haemolysis suggests another genus.",
+    "Fermentative metabolism is inconsistent with Micrococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Differentiates from Staphylococcus.",
+      "api_kit": "API Staph"
+    },
+    {
+      "test": "Modified oxidase (Microdase)",
+      "reason": "Rapid confirmation of Micrococcus.",
+      "api_kit": "Microdase Disk"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive genus-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "luteus",
+    "antarcticus",
+    "lylae"
+  ]
+}

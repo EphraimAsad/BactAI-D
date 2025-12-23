@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Leuconostoc",
+  "species": "lactis",
+
+  "overview": {
+    "short": "Leuconostoc lactis is a heterofermentative lactic acid bacterium, typically a catalase-negative, non-motile Gram-positive coccus/coccobacillus associated with dairy and fermented foods.",
+    "clinical_context": "Primarily food-associated but can rarely be implicated in opportunistic infections, particularly in immunocompromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "MRS Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Lactose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports dairy-associated Leuconostoc such as L. lactis when combined with LAB morphology and catalase negativity."
+    },
+    {
+      "field": "Gas Production",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Consistent with heterofermentative lactic acid bacteria."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from Enterococcus in mixed-differential workflows."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Leuconostoc mesenteroides",
+      "reason": "Overlapping heterofermentative LAB profile; differentiation often requires extended carbohydrate panels or MALDI-TOF."
+    },
+    {
+      "genus": "Enterococcus",
+      "reason": "Catalase-negative Gram-positive cocci in clinical samples; enterococci often show stronger salt tolerance and bile-esculin positivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "No gas production with otherwise similar phenotype may suggest Streptococcus or Enterococcus rather than Leuconostoc.",
+    "Strong NaCl tolerance suggests Enterococcus.",
+    "A strongly beta-haemolytic pattern suggests alternative genera."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Carbohydrate fermentation profile (LAB panel)",
+      "reason": "Useful for distinguishing L. lactis from closely related Leuconostoc species.",
+      "api_kit": "API 50 CHL"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid, reliable species-level identification among lactic acid bacteria.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Vancomycin susceptibility (screen)",
+      "reason": "Intrinsic resistance supports Leuconostoc genus suspicion in clinical contexts.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

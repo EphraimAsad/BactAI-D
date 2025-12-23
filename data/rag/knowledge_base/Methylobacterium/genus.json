@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Methylobacterium",
+
+  "overview": {
+    "short": "Methylobacterium species are Gram-negative, aerobic, pink-pigmented rods capable of utilizing methanol as a sole carbon source.",
+    "clinical_context": "Primarily environmental organisms; occasionally isolated from hospital water systems and immunocompromised patients, often as opportunistic contaminants."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Nutrient Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Pink",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/NC",
+    "Colony Pattern": "Smooth",
+    "Pigment": "Pink",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Pigment": "Colonies produce a characteristic pink coloration due to carotenoid pigments.",
+    "Glucose Fermentation": "Non-fermentative metabolism; growth on methanol distinguishes the genus.",
+    "Urease": "Typically positive across the genus."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Pigment",
+      "expected": "Pink",
+      "distinguishes_from": ["Roseomonas", "Acinetobacter"],
+      "notes": "Pink pigment and methanol utilization distinguish Methylobacterium."
+    },
+    {
+      "field": "Urease",
+      "expected": "Positive",
+      "distinguishes_from": ["Comamonas"],
+      "notes": "Urease activity is common among Methylobacterium but not other non-fermenters."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Stenotrophomonas"],
+      "notes": "Oxidase positivity helps narrow within pink-pigmented non-fermenters."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Roseomonas",
+      "reason": "Both are pink-pigmented, oxidase-positive rods; Roseomonas often shows coccoid shape and poor growth on minimal media."
+    },
+    {
+      "genus": "Acinetobacter",
+      "reason": "Some Acinetobacter species may appear slightly pigmented, but are oxidase-negative."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of pink pigmentation suggests a different non-fermenter.",
+    "Oxidase-negative isolate is inconsistent with Methylobacterium.",
+    "Fermentative glucose reaction excludes this genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth on methanol-containing medium",
+      "reason": "Confirms methylotrophic metabolism characteristic of Methylobacterium.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "Oxidase test",
+      "reason": "Supports placement among oxidase-positive aerobic rods.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Confirms species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "extorquens",
+    "radiotolerans"
+  ]
+}

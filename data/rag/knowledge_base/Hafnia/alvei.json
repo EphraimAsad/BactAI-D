@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Hafnia",
+  "species": "alvei",
+
+  "overview": {
+    "short": "Hafnia alvei is a Gram-negative, facultatively anaerobic rod commonly found as part of the intestinal microbiota and occasionally associated with opportunistic infections.",
+    "clinical_context": "Most often isolated as a commensal or contaminant, but has been implicated in gastroenteritis, urinary tract infections, and respiratory infections in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Methyl Red",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "MR positivity helps distinguish H. alvei from H. paralvei."
+    },
+    {
+      "field": "Citrate",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Citrate negativity supports H. alvei over H. paralvei."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Hafnia paralvei",
+      "reason": "Closely related species with overlapping biochemical profiles."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Both can be non-lactose fermenting Enterobacterales with similar sugar reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Citrate positivity suggests Hafnia paralvei.",
+    "Strong VP positivity argues against H. alvei.",
+    "H2S production is inconsistent with Hafnia species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Citrate utilization",
+      "reason": "Key discriminator between H. alvei and H. paralvei.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Methyl Red / VP",
+      "reason": "Helps confirm fermentative pathway differences.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Provides reliable species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

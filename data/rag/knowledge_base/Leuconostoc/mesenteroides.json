@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Leuconostoc",
+  "species": "mesenteroides",
+
+  "overview": {
+    "short": "Leuconostoc mesenteroides is a heterofermentative lactic acid bacterium producing gas from glucose, commonly found in plant material and fermented foods.",
+    "clinical_context": "Occasionally implicated in opportunistic infections, particularly in immunocompromised patients, but primarily encountered in food microbiology."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "MRS Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "More consistently positive in L. mesenteroides compared with some other Leuconostoc species."
+    },
+    {
+      "field": "Gas Production",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Strong indicator of heterofermentative metabolism."
+    },
+    {
+      "field": "VP",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation from homofermentative LAB."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Leuconostoc citreum",
+      "reason": "Similar heterofermentative sugar profile; mannitol fermentation helps separation."
+    },
+    {
+      "genus": "Enterococcus",
+      "reason": "Catalase-negative Gram-positive cocci in clinical samples."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of gas production argues against L. mesenteroides.",
+    "Strong NaCl tolerance suggests Enterococcus rather than Leuconostoc.",
+    "Consistent beta haemolysis is atypical."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Carbohydrate fermentation profile",
+      "reason": "Distinguishes L. mesenteroides from other Leuconostoc species.",
+      "api_kit": "API 50 CHL"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification among lactic acid bacteria.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

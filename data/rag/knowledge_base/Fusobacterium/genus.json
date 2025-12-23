@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Fusobacterium",
+
+  "overview": {
+    "short": "Fusobacterium species are Gram-negative, obligately anaerobic rods commonly found in the oral cavity and gastrointestinal tract.",
+    "clinical_context": "Associated with periodontal disease, head and neck infections, intra-abdominal infections, and bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Anaerobic Blood Agar",
+      "Brucella Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Grey",
+      "Irregular",
+      "Breadcrumb-like"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Irregular",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Strict anaerobic growth is a defining genus feature.",
+    "Shape": "Cells are often spindle-shaped or fusiform.",
+    "Indole": "Reaction varies by species and is useful at species level."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Obligate Anaerobe",
+      "distinguishes_from": ["Bacteroides", "Prevotella"],
+      "notes": "Fusobacterium are more aerotolerant-sensitive than many other anaerobes."
+    },
+    {
+      "field": "Shape",
+      "expected": "Rods",
+      "distinguishes_from": ["Veillonella"],
+      "notes": "Fusiform rods help differentiate from coccoid anaerobes."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Prevotella",
+      "reason": "Shared anaerobic habitat and oral origin."
+    },
+    {
+      "genus": "Bacteroides",
+      "reason": "Overlapping anaerobic growth and biochemical inactivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth in aerobic conditions.",
+    "Strong saccharolytic profile.",
+    "Oxidase or catalase positivity."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Useful for species-level separation.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "Anaerobic identification panel",
+      "reason": "Supports biochemical confirmation under anaerobic conditions.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable and rapid anaerobe identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "nucleatum",
+    "necrophorum",
+    "mortiferum"
+  ]
+}

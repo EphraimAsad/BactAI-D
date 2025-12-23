@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Klebsiella",
+  "species": "pneumoniae",
+
+  "overview": {
+    "short": "Klebsiella pneumoniae is a Gram-negative, encapsulated, non-motile rod and the most clinically significant Klebsiella species.",
+    "clinical_context": "Common cause of pneumonia, urinary tract infections, sepsis, and liver abscesses, particularly in healthcare settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Mucoid",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Positive",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Distinguishes K. pneumoniae from K. oxytoca."
+    },
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Prominent capsule contributes to virulence and mucoid appearance."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Klebsiella oxytoca",
+      "reason": "Similar biochemical profile; differentiated by indole positivity."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Overlap in VP positivity and sugar fermentation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests K. oxytoca or K. variicola.",
+    "Motility positivity argues against Klebsiella.",
+    "Weak capsule suggests non-Klebsiella Enterobacterales."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary species discriminator.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "String test",
+      "reason": "Identifies hypermucoviscous strains.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Confirms species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

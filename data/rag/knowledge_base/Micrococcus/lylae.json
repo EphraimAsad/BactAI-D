@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Micrococcus",
+  "species": "lylae",
+
+  "overview": {
+    "short": "Micrococcus lylae is a Gram-positive, non-motile coccus commonly isolated from human skin.",
+    "clinical_context": "Occasionally associated with opportunistic infections, including bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Convex",
+      "Cream to Pale Yellow"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "15//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "NC/NC",
+    "Colony Pattern": "Discrete",
+    "Pigment": "Pale Yellow",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Urease positivity helps differentiate M. lylae from M. luteus."
+    },
+    {
+      "field": "Pigment",
+      "value": "Pale Yellow",
+      "importance": "medium",
+      "notes": "Less intense pigmentation compared to M. luteus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Micrococcus luteus",
+      "reason": "Overlapping morphology and biochemical reactions."
+    },
+    {
+      "genus": "Kocuria",
+      "reason": "Similar coccal morphology and skin association."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Bright yellow pigmentation favors M. luteus.",
+    "Oxidase negativity suggests Staphylococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Urease test",
+      "reason": "Useful discriminator within Micrococcus species.",
+      "api_kit": "API Staph"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

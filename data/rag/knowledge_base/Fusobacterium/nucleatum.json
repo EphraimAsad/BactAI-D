@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Fusobacterium",
+  "species": "nucleatum",
+
+  "overview": {
+    "short": "Fusobacterium nucleatum is a Gram-negative, obligately anaerobic fusiform rod commonly found in the oral cavity.",
+    "clinical_context": "Strongly associated with periodontal disease, head and neck infections, aspiration pneumonia, and bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Grey",
+      "Breadcrumb-like",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Irregular",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key discriminator from other Fusobacterium species."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification when combined with indole positivity."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Fusobacterium necrophorum",
+      "reason": "Both are indole-positive anaerobic rods with oral associations."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity.",
+    "Aerobic growth.",
+    "Strong carbohydrate fermentation profile."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary species-level discriminator.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable confirmation for anaerobic species.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Used when biochemical results are ambiguous.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

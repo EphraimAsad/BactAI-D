@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Fusobacterium",
+  "species": "necrophorum",
+
+  "overview": {
+    "short": "Fusobacterium necrophorum is a Gram-negative, obligately anaerobic rod strongly associated with invasive head and neck infections.",
+    "clinical_context": "Classically linked to Lemierre’s syndrome (post-pharyngitis septic thrombophlebitis) and can cause abscesses and bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Grey",
+      "Irregular",
+      "Butyrous"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Irregular",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "More consistently nitrate-positive than some other Fusobacterium species."
+    },
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports necrophorum/nucleatum grouping versus indole-negative fusobacteria."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports an invasive fusobacterial profile when combined with clinical context."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Fusobacterium nucleatum",
+      "reason": "Both are indole-positive anaerobic rods and may overlap on basic biochemical panels."
+    },
+    {
+      "genus": "Bacteroides",
+      "reason": "Shared anaerobic growth with limited carbohydrate differentiation in routine workflows."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests another Fusobacterium species.",
+    "Aerobic growth is inconsistent with Fusobacterium necrophorum.",
+    "Strong saccharolytic fermentation pattern argues against necrophorum."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Confirms indole status and supports species-level assignment.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "Nitrate reduction",
+      "reason": "Helps separate necrophorum from other fusobacteria when positive.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical confirmation for anaerobic species when available.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

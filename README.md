@@ -61,18 +61,25 @@ Combines:
 
 Phenotype Text
       ↓
+      
 Rule Parser
       ↓
+
 Extended Parser (Schema-Aware)
       ↓
+
 Tri-Fusion Merge
       ↓
+
 ML Genus Prediction
       ↓
+
 Unified Confidence Scoring
       ↓
+
 Top-5 Decision Table
       ↓
+
 RAG Explanation (Genus + Species)
 
 
@@ -87,7 +94,7 @@ RAG Explanation (Genus + Species)
 
 🖥️ Demo (Hugging Face Spaces)
 
-A live interactive demo is available on Hugging Face Spaces: 
+A live interactive demo is available on Hugging Face Spaces: https://huggingface.co/spaces/EphAsad/BactAID-Demo
 
 - LLM parsing disabled by default (safe deployment)
 - Full debug outputs available

@@ -122,6 +122,13 @@ It is intended for research, education, and decision support only.
 - Expanded species-level reasoning
 - Confidence calibration analysis
 
+## Design Decisions
+
+- Confidence thresholds are applied after unified scoring
+- Only top-ranked predictions may be considered actionable
+- Lower-ranked candidates are explicitly marked as low discrimination
+- Explainability is treated as a first-class requirement
+
 
 👤 Author
 

@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Cryptococcus",
+
+  "overview": {
+    "short": "Cryptococcus species are encapsulated, yeast-form fungi primarily affecting immunocompromised hosts.",
+    "clinical_context": "Most commonly associated with pulmonary infections and meningoencephalitis, especially in HIV/AIDS and other immunosuppressed patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Sabouraud Dextrose Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Mucoid",
+      "Cream",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Positive",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Capsule": "Prominent polysaccharide capsule is a defining feature and key virulence factor.",
+    "Urease": "Urease positivity is consistent across clinically relevant Cryptococcus species.",
+    "Inositol Fermentation": "Positive reaction is characteristic and aids differentiation from other yeasts."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Capsule",
+      "expected": "Positive",
+      "distinguishes_from": ["Candida"],
+      "notes": "Encapsulation separates Cryptococcus from most Candida species."
+    },
+    {
+      "field": "Urease",
+      "expected": "Positive",
+      "distinguishes_from": ["Candida"],
+      "notes": "Urease activity is a key screening test for Cryptococcus."
+    },
+    {
+      "field": "Inositol Fermentation",
+      "expected": "Positive",
+      "distinguishes_from": ["Candida"],
+      "notes": "Inositol utilization supports Cryptococcus identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Candida",
+      "reason": "Both are yeast-form fungi, but Candida lacks a capsule and is urease negative."
+    },
+    {
+      "genus": "Rhodotorula",
+      "reason": "Some species share urease positivity but differ in pigmentation and capsule presence."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of capsule argues against Cryptococcus.",
+    "Urease negativity suggests alternative yeast genera.",
+    "Strong carbohydrate fermentation profile is inconsistent with Cryptococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "India ink preparation",
+      "reason": "Demonstrates the characteristic polysaccharide capsule.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Urease test",
+      "reason": "Rapid screening test for Cryptococcus.",
+      "api_kit": "Christensen Urea Agar"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "neoformans",
+    "gattii",
+    "laurentii"
+  ]
+}

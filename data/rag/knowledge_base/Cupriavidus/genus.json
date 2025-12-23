@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Cupriavidus",
+
+  "overview": {
+    "short": "Cupriavidus species are Gram-negative, aerobic, non-fermentative rods within the Betaproteobacteria, notable for environmental resilience and metal resistance.",
+    "clinical_context": "Occasionally isolated from opportunistic infections, particularly in immunocompromised patients or from contaminated medical devices and water sources."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Oxidase": "Typically oxidase-positive, helping distinguish from many Enterobacterales.",
+    "Arginine dihydrolase": "Commonly positive and useful in non-fermenter differentiation.",
+    "Glucose Fermentation": "Non-fermentative metabolism is a key defining trait."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter"],
+      "notes": "Oxidase positivity separates Cupriavidus from oxidase-negative non-fermenters."
+    },
+    {
+      "field": "Arginine dihydrolase",
+      "expected": "Positive",
+      "distinguishes_from": ["Burkholderia"],
+      "notes": "Supports Cupriavidus identification among Betaproteobacteria."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Non-fermentative metabolism excludes Enterobacterales."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Burkholderia",
+      "reason": "Overlapping non-fermentative profiles and environmental association."
+    },
+    {
+      "genus": "Ralstonia",
+      "reason": "Phylogenetic relatedness and similar biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity suggests Acinetobacter or other non-fermenters.",
+    "Strong glucose fermentation argues against Cupriavidus.",
+    "Growth failure under aerobic conditions is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Initial confirmation of non-fermentative oxidase-positive profile.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "Arginine dihydrolase",
+      "reason": "Helpful discriminator among non-fermenters.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus- and species-level identification for environmental non-fermenters.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "gilardii",
+    "metallidurans",
+    "pauculus"
+  ]
+}

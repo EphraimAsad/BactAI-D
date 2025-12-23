@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Clostridioides",
+  "species": "difficile",
+
+  "overview": {
+    "short": "Clostridioides difficile is a Gram-positive, anaerobic, spore-forming rod and a leading cause of antibiotic-associated diarrhoea and pseudomembranous colitis.",
+    "clinical_context": "Classically associated with recent antibiotic exposure, healthcare settings, and detection of toxin production."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "CCFA Agar"
+    ],
+    "Colony Morphology": [
+      "Irregular",
+      "Flat",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "25//42",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Variable"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Motility supports C. difficile in context, but is not exclusive among anaerobic rods."
+    },
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Indole negativity helps distinguish from certain other clostridial anaerobes."
+    },
+    {
+      "field": "Media Grown On",
+      "value": "CCFA Agar",
+      "importance": "high",
+      "notes": "Growth on selective media supports isolation/confirmation in appropriate clinical context."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Clostridioides mangenotii",
+      "reason": "Same genus and broad anaerobic spore-forming profile; requires higher-resolution confirmation."
+    },
+    {
+      "genus": "Clostridium",
+      "reason": "Many species are anaerobic spore-forming rods with overlapping biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of anaerobic growth suggests an aerobe/facultative organism rather than Clostridioides.",
+    "Non-spore-forming phenotype argues strongly against C. difficile.",
+    "If clinical context is not gastrointestinal/antibiotic-associated, consider alternative anaerobes."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Toxin A/B detection (EIA) or GDH + toxin algorithm",
+      "reason": "Toxin detection is central to clinically relevant identification of toxigenic C. difficile.",
+      "api_kit_example": "C. difficile GDH + toxin A/B rapid immunoassay kits (varies by lab supplier)."
+    },
+    {
+      "test": "NAAT (PCR) for toxin genes (e.g., tcdB)",
+      "reason": "High sensitivity confirmation for toxigenic strains when algorithm indicates.",
+      "api_kit_example": "C. difficile toxin gene NAAT/PCR assay kits (platform-dependent)."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable organism identification; toxin status still requires toxin/NAAT testing."
+    }
+  ]
+}

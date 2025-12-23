@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Cutibacterium",
+
+  "overview": {
+    "short": "Cutibacterium species are Gram-positive, anaerobic to aerotolerant short rods that are part of normal human skin flora.",
+    "clinical_context": "Most commonly associated with acne, implant-associated infections, and opportunistic deep-seated infections following disruption of skin barriers."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "White",
+      "Cream",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Primarily anaerobic but some species are aerotolerant.",
+    "Lipase Test": "Characteristic feature contributing to skin lipid metabolism.",
+    "Indole": "Species-dependent and useful at species level."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Lipase Test",
+      "expected": "Positive",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Lipase positivity supports Cutibacterium over other Gram-positive skin flora."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "expected": "Positive",
+      "distinguishes_from": ["Actinomyces"],
+      "notes": "Helps differentiate from other anaerobic Gram-positive rods."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Corynebacterium",
+      "reason": "Both are Gram-positive skin commensals with overlapping morphology."
+    },
+    {
+      "genus": "Actinomyces",
+      "reason": "Shared anaerobic growth and Gram-positive rod morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong aerobic growth without anaerobic preference suggests Corynebacterium.",
+    "Motility or spore formation argues against Cutibacterium.",
+    "Oxidase positivity is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Critical for species-level differentiation.",
+      "api_kit": "API Rapid ID 32A"
+    },
+    {
+      "test": "Lipase activity",
+      "reason": "Supports genus-level confirmation.",
+      "api_kit": "API Rapid ID 32A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Highly reliable for Cutibacterium species identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "acnes",
+    "avidum",
+    "granulosum"
+  ]
+}

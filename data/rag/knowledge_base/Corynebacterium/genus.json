@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Corynebacterium",
+
+  "overview": {
+    "short": "Corynebacterium species are Gram-positive, non-spore-forming rods characterized by pleomorphic morphology and club-shaped cells.",
+    "clinical_context": "Includes both commensal skin flora and clinically significant pathogens, most notably Corynebacterium diphtheriae."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar",
+      "Tellurite Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Grey",
+      "White",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Shape": "Often described as pleomorphic or club-shaped; may appear as short rods with palisading arrangements.",
+    "Haemolysis": "Highly species-dependent; toxigenic species may show weak haemolysis.",
+    "Urease": "Useful for separating non-diphtheriae Corynebacterium species."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Positive",
+      "distinguishes_from": ["Actinomyces", "Arcanobacterium"],
+      "notes": "Catalase positivity supports Corynebacterium over related Gram-positive rods."
+    },
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Listeria"],
+      "notes": "Non-motility helps exclude Listeria species."
+    },
+    {
+      "field": "Tellurite Growth",
+      "expected": "Positive",
+      "distinguishes_from": ["Cutibacterium"],
+      "notes": "Tellurite reduction is characteristic of Corynebacterium diphtheriae."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Listeria",
+      "reason": "Similar Gram-positive rod morphology in clinical specimens."
+    },
+    {
+      "genus": "Arcanobacterium",
+      "reason": "Overlapping morphology and haemolytic behavior."
+    },
+    {
+      "genus": "Cutibacterium",
+      "reason": "Skin flora overlap in non-sterile samples."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motility or tumbling motility suggests Listeria.",
+    "Strict anaerobic growth suggests Cutibacterium.",
+    "Oxidase positivity argues against Corynebacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Catalase test",
+      "reason": "Confirms genus-level placement among Gram-positive rods.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "Urease test",
+      "reason": "Useful for species-level differentiation.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "Tox gene detection",
+      "reason": "Required when Corynebacterium diphtheriae is suspected.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable identification of non-diphtheriae Corynebacterium.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "diphtheriae",
+    "jeikeium",
+    "striatum"
+  ]
+}

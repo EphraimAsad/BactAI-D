@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Clostridioides",
+
+  "overview": {
+    "short": "Clostridioides species are Gram-positive, anaerobic, spore-forming rods primarily associated with gastrointestinal environments.",
+    "clinical_context": "Most clinically significant for Clostridioides difficile, a major cause of antibiotic-associated colitis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "CCFA Agar"
+    ],
+    "Colony Morphology": [
+      "Irregular",
+      "Flat",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "25//42",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Variable"
+  },
+
+  "field_notes": {
+    "Spore Formation": "A defining characteristic distinguishing Clostridioides from many other anaerobes.",
+    "Oxygen Requirement": "Strict anaerobiosis is essential for growth.",
+    "Catalase": "Generally negative despite aerotolerance of spores."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Spore Formation",
+      "expected": "Positive",
+      "distinguishes_from": ["Bacteroides", "Fusobacterium"],
+      "notes": "Spore production separates Clostridioides from non-spore-forming anaerobes."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Anaerobic",
+      "distinguishes_from": ["Bacillus"],
+      "notes": "Strict anaerobiosis differentiates from aerobic or facultative spore-formers."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Clostridium",
+      "reason": "Historical classification overlap and shared spore-forming anaerobic morphology."
+    },
+    {
+      "genus": "Peptoclostridium",
+      "reason": "Similar anaerobic metabolism and overlapping biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Aerobic growth suggests Bacillus or Paenibacillus.",
+    "Non-spore-forming isolate suggests Bacteroides or other anaerobes.",
+    "Strong indole positivity may indicate another clostridial genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic culture confirmation",
+      "reason": "Ensures strict anaerobic growth requirement."
+    },
+    {
+      "test": "Toxin detection assay",
+      "reason": "Critical for identifying toxigenic Clostridioides difficile."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus- and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "difficile",
+    "mangenotii"
+  ]
+}

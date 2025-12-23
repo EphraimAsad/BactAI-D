@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Comamonas",
+  "species": "kerstersii",
+
+  "overview": {
+    "short": "Comamonas kerstersii is a Gram-negative, aerobic, non-fermentative rod increasingly recognized as a human pathogen.",
+    "clinical_context": "Most commonly associated with intra-abdominal infections, appendicitis, and bacteremia, often in previously healthy individuals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Citrate",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps distinguish C. kerstersii from C. testosteroni."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Most clinical isolates are nitrate-negative."
+    },
+    {
+      "field": "Clinical Context",
+      "value": "Intra-abdominal infection",
+      "importance": "medium",
+      "notes": "Frequently linked to appendicitis-related infections."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Comamonas testosteroni",
+      "reason": "Closely related species with overlapping biochemical profiles."
+    },
+    {
+      "genus": "Alcaligenes",
+      "reason": "Similar oxidase-positive, non-fermentative phenotype."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Citrate positivity suggests Comamonas testosteroni.",
+    "Nitrate reduction argues against C. kerstersii.",
+    "Environmental-only isolation without clinical correlation may suggest contamination."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Citrate utilization",
+      "reason": "Key discriminator between Comamonas species.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable identification at species level.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Useful for confirmation in rare or invasive infections.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

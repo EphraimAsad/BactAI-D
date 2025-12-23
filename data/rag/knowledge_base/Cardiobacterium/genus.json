@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Cardiobacterium",
+
+  "overview": {
+    "short": "Cardiobacterium species are Gram-negative, facultatively anaerobic rods belonging to the HACEK group of organisms.",
+    "clinical_context": "Primarily associated with subacute infective endocarditis, often in patients with underlying valvular disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxidase": "Consistently positive, supporting differentiation from many Enterobacterales.",
+    "Indole": "Positive reaction is characteristic of the genus.",
+    "Growth": "Slow-growing organism; colonies may take several days to appear."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Oxidase positivity helps separate Cardiobacterium from Enterobacterales."
+    },
+    {
+      "field": "Indole",
+      "expected": "Positive",
+      "distinguishes_from": ["Aggregatibacter"],
+      "notes": "Indole positivity supports Cardiobacterium within the HACEK group."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Aggregatibacter",
+      "reason": "Both are HACEK organisms with similar clinical presentations."
+    },
+    {
+      "genus": "Kingella",
+      "reason": "Shared fastidious growth and Gram-negative rod morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative isolate.",
+    "Rapid growth on routine media.",
+    "Absence of indole production."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Confirms oxidase positivity typical of Cardiobacterium.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "Indole test",
+      "reason": "Supports genus-level identification.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification of fastidious HACEK organisms."
+    }
+  ],
+
+  "supported_species": [
+    "hominis",
+    "valvarum"
+  ]
+}

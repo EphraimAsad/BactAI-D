@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cryptococcus",
+  "species": "gattii",
+
+  "overview": {
+    "short": "Cryptococcus gattii is an encapsulated yeast capable of causing pulmonary and CNS disease, including in immunocompetent hosts.",
+    "clinical_context": "Associated with pulmonary masses (cryptococcomas) and meningoencephalitis; classically linked to environmental exposure."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Sabouraud Dextrose Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Mucoid",
+      "Cream",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Positive",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Encapsulation is expected and clinically important."
+    },
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports Cryptococcus identification."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "25//37",
+      "importance": "medium",
+      "notes": "Growth at 37°C supports pathogenic Cryptococcus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cryptococcus neoformans",
+      "reason": "Very similar phenotype; routine biochemical fields often overlap."
+    },
+    {
+      "genus": "Rhodotorula",
+      "reason": "Some species are urease-positive yeasts; pigmentation differences help but may be subtle."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Capsule not demonstrated argues against Cryptococcus gattii.",
+    "Urease negativity suggests a different yeast genus.",
+    "A strong carbohydrate fermentation profile is inconsistent with Cryptococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "India ink preparation",
+      "reason": "Demonstrates characteristic capsule.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Practical route to species-level ID vs C. neoformans complex.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Useful for complex-level discrimination where phenotype overlaps.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

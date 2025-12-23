@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Clostridium",
+
+  "overview": {
+    "short": "Clostridium species are Gram-positive, anaerobic, spore-forming rods widely distributed in soil, water, and the gastrointestinal tracts of humans and animals.",
+    "clinical_context": "Includes major toxin-producing pathogens responsible for foodborne illness, gas gangrene, tetanus, and botulism."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Variable",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Egg Yolk Agar"
+    ],
+    "Colony Morphology": [
+      "Irregular",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "20//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Variable"
+  },
+
+  "field_notes": {
+    "Spore Formation": "A defining feature of the genus, aiding survival in harsh environments.",
+    "Oxygen Requirement": "Obligate anaerobes; exposure to oxygen inhibits vegetative growth.",
+    "Haemolysis": "Highly species-dependent, ranging from non-haemolytic to strongly beta-haemolytic."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Spore Formation",
+      "expected": "Positive",
+      "distinguishes_from": ["Bacteroides", "Fusobacterium"],
+      "notes": "Spore formation differentiates Clostridium from non-spore-forming anaerobes."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Anaerobic",
+      "distinguishes_from": ["Bacillus"],
+      "notes": "Strict anaerobiosis distinguishes Clostridium from aerobic or facultative spore-formers."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Clostridioides",
+      "reason": "Historical grouping and shared anaerobic spore-forming morphology."
+    },
+    {
+      "genus": "Paenibacillus",
+      "reason": "Spore-forming rods that may overlap morphologically if oxygen tolerance is misinterpreted."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Sustained aerobic growth suggests Bacillus or Paenibacillus rather than Clostridium.",
+    "Non-spore-forming phenotype argues against Clostridium.",
+    "Strong oxidase or catalase positivity suggests misidentification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic culture confirmation",
+      "reason": "Ensures obligate anaerobic growth requirement is met."
+    },
+    {
+      "test": "Toxin detection assays",
+      "reason": "Critical for identifying clinically significant toxin-producing species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus- and species-level identification across clostridia."
+    }
+  ],
+
+  "supported_species": [
+    "botulinum",
+    "sporogenes",
+    "perfringens",
+    "tetani"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Edwardsiella",
+  "species": "hoshinae",
+
+  "overview": {
+    "short": "Edwardsiella hoshinae is a Gram-negative, facultatively anaerobic rod rarely isolated from human clinical specimens.",
+    "clinical_context": "Occasionally associated with gastrointestinal or environmental isolates; pathogenicity in humans is limited."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Distinguishes E. hoshinae from indole-positive Edwardsiella tarda."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Useful in separating species within the genus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Edwardsiella tarda",
+      "reason": "Shared H2S production and Enterobacterales profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests Edwardsiella tarda.",
+    "Absence of H2S argues against Edwardsiella species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary species-level discriminator.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Helpful within Edwardsiella species.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable confirmation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

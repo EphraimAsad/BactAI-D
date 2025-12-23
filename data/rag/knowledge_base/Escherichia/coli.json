@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Escherichia",
+  "species": "coli",
+
+  "overview": {
+    "short": "Escherichia coli is a Gram-negative, facultatively anaerobic rod that is a dominant member of the human gut microbiota and a leading cause of extraintestinal infections.",
+    "clinical_context": "Responsible for urinary tract infections, sepsis, neonatal meningitis, and multiple diarrheagenic syndromes."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Classic feature of E. coli, though rare indole-negative strains exist."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Rapid lactose fermentation on MacConkey Agar is characteristic."
+    },
+    {
+      "field": "Citrate",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Separates E. coli from Enterobacter and Citrobacter."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Shigella",
+      "reason": "Genetically nested within E. coli; biochemical differentiation may be subtle."
+    },
+    {
+      "species": "Escherichia albertii",
+      "reason": "Biochemically similar but typically indole negative and less motile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests non-coli Escherichia species.",
+    "Citrate positivity argues against E. coli.",
+    "Non-lactose fermenting isolates require confirmation."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator at species level.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Sorbitol fermentation",
+      "reason": "Useful for identifying O157:H7 variants.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for routine species identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

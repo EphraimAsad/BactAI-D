@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cellulomonas",
+  "species": "flavigena",
+
+  "overview": {
+    "short": "Cellulomonas flavigena is a Gram-positive, aerobic rod characterized by yellow pigmentation and cellulose-degrading capability.",
+    "clinical_context": "Primarily environmental; rarely implicated in opportunistic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Yellow",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-motility distinguishes C. flavigena from C. fimi."
+    },
+    {
+      "field": "DNase",
+      "value": "Variable",
+      "importance": "low",
+      "notes": "Occasional DNase activity reported."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cellulomonas fimi",
+      "reason": "Similar colony pigmentation and carbohydrate fermentation patterns."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Overlapping Gram-positive rod morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motility detected.",
+    "Strong DNase positivity present.",
+    "Growth under anaerobic conditions observed."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing",
+      "reason": "Primary discriminator between Cellulomonas species.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "DNase test",
+      "reason": "May assist in supporting identification.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard confirmation for environmental isolates."
+    }
+  ]
+}

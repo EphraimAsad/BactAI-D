@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Candida",
+
+  "overview": {
+    "short": "Candida species are yeast-like fungi commonly found as commensals on human mucosal surfaces but capable of causing opportunistic infections.",
+    "clinical_context": "Associated with superficial mucocutaneous infections and invasive candidiasis, particularly in immunocompromised or hospitalized patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Sabouraud Dextrose Agar",
+      "Chromogenic Candida Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Cream",
+      "Smooth",
+      "Butyrous"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "25//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Gram Stain": "Yeast cells often stain Gram-positive but may appear variable.",
+    "Shape": "Oval budding yeast; some species form pseudohyphae or true hyphae.",
+    "Sugar Fermentation": "Patterns are species-dependent and critical for differentiation."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Germ Tube Test",
+      "expected": "Positive",
+      "distinguishes_from": ["Candida glabrata", "Candida tropicalis"],
+      "notes": "Rapid screening test for Candida albicans."
+    },
+    {
+      "field": "Chromogenic Agar",
+      "expected": "Species-specific colony colour",
+      "distinguishes_from": ["Non-Candida yeasts"],
+      "notes": "Useful for presumptive species identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Cryptococcus",
+      "reason": "Both are yeasts, but Cryptococcus is urease-positive and encapsulated."
+    },
+    {
+      "genus": "Saccharomyces",
+      "reason": "May appear similar on routine culture without speciation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Urease positivity suggests Cryptococcus.",
+    "Encapsulated yeast with narrow budding argues against Candida.",
+    "Poor growth on Sabouraud Agar is atypical."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Germ tube test",
+      "reason": "Rapid differentiation of Candida albicans.",
+      "api_kit": "API Candida"
+    },
+    {
+      "test": "Chromogenic Candida Agar",
+      "reason": "Presumptive species identification by colony colour."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for Candida species identification."
+    }
+  ],
+
+  "supported_species": [
+    "albicans",
+    "glabrata",
+    "tropicalis"
+  ]
+}

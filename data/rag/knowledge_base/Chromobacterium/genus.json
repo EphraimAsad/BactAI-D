@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Chromobacterium",
+
+  "overview": {
+    "short": "Chromobacterium species are Gram-negative, facultatively anaerobic rods commonly found in soil and aquatic environments, notable for pigment production.",
+    "clinical_context": "Rare but potentially severe opportunistic infections including septicemia, particularly in tropical regions."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Purple",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Purple",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Pigment": "Violacein pigment is a hallmark feature but may be absent in some species.",
+    "Oxidase": "Oxidase positivity supports differentiation from Enterobacterales."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Pigment",
+      "expected": "Purple",
+      "distinguishes_from": ["Aeromonas", "Vibrio"],
+      "notes": "Violacein production is strongly suggestive of Chromobacterium."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Oxidase positivity helps exclude Enterobacterales."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Aeromonas",
+      "reason": "Shared aquatic habitat and oxidase positivity."
+    },
+    {
+      "genus": "Vibrio",
+      "reason": "Motile, oxidase-positive Gram-negative rods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of pigment in a suspected Chromobacterium isolate.",
+    "Oxidase-negative result obtained.",
+    "Growth only under strict anaerobic conditions."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Confirms oxidase-positive non-Enterobacterales.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "Pigment assessment",
+      "reason": "Violacein supports Chromobacterium identification."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive confirmation for rare but clinically significant isolates."
+    }
+  ],
+
+  "supported_species": [
+    "violaceum",
+    "haemolyticum",
+    "aquaticum"
+  ]
+}

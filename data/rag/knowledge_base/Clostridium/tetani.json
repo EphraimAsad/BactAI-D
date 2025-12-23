@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Clostridium",
+  "species": "tetani",
+
+  "overview": {
+    "short": "Clostridium tetani is a Gram-positive, obligate anaerobic, spore-forming rod best known as the causative agent of tetanus.",
+    "clinical_context": "Typically associated with wound contamination; disease is toxin-mediated rather than due to invasive infection."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Thin",
+      "Spreading"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Spore Formation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Produces terminal spores giving a characteristic drumstick appearance."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Asaccharolytic profile helps separate C. tetani from many other clostridia."
+    },
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Motility supports differentiation from non-motile clostridia."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Clostridium sporogenes",
+      "reason": "Both are motile, spore-forming anaerobes with overlapping biochemical inactivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Evidence of active sugar fermentation argues against C. tetani.",
+    "Strong haemolysis suggests another Clostridium species.",
+    "Absence of spores is inconsistent with C. tetani."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Toxin gene detection (tetanospasmin)",
+      "reason": "Definitive identification due to minimal biochemical activity.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Candida",
+  "species": "glabrata",
+
+  "overview": {
+    "short": "Candida glabrata is a small, non-dimorphic yeast with limited carbohydrate utilisation.",
+    "clinical_context": "An important cause of bloodstream and urinary tract infections, often associated with antifungal resistance."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Sabouraud Dextrose Agar",
+      "Chromogenic Candida Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Cream",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "25//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Germ Tube Test",
+      "value": "Negative",
+      "importance": "critical",
+      "notes": "Excludes Candida albicans."
+    },
+    {
+      "field": "Trehalose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "One of few sugars fermented by C. glabrata."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Candida krusei",
+      "reason": "Both are germ-tube negative with limited fermentation profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Broad sugar fermentation profile argues against C. glabrata.",
+    "Hyphae or pseudohyphae formation suggests another Candida species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Carbohydrate assimilation testing",
+      "reason": "Confirms restricted metabolic profile.",
+      "api_kit": "API Candida"
+    },
+    {
+      "test": "Antifungal susceptibility testing",
+      "reason": "High likelihood of azole resistance."
+    }
+  ]
+}

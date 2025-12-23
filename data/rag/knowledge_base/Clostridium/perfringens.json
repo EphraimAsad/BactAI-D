@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Clostridium",
+  "species": "perfringens",
+
+  "overview": {
+    "short": "Clostridium perfringens is a Gram-positive, anaerobic, spore-forming rod characterised by rapid growth and strong toxin production.",
+    "clinical_context": "Associated with gas gangrene, food poisoning, necrotising enteritis, and wound infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "Egg Yolk Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Flat",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "20//50",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Double zone haemolysis",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-motility is a key feature distinguishing C. perfringens from most other clostridia."
+    },
+    {
+      "field": "Haemolysis Type",
+      "value": "Beta",
+      "importance": "high",
+      "notes": "Characteristic double-zone beta haemolysis on blood agar."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Unusual among clostridia and supportive when present."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Clostridium septicum",
+      "reason": "Shared haemolysis and toxin-mediated disease presentations."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motility suggests another Clostridium species.",
+    "Lack of haemolysis is inconsistent with C. perfringens.",
+    "Absence of gas production argues against identification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nagler reaction (lecithinase)",
+      "reason": "Classic confirmation of alpha-toxin production.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "Toxin typing",
+      "reason": "Determines clinical relevance and disease association.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level confirmation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

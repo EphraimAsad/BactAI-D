@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Exiguobacterium",
+  "species": "acetylicum",
+
+  "overview": {
+    "short": "Exiguobacterium acetylicum is a Gram-positive, facultatively anaerobic short rod originally isolated from industrial and environmental sources.",
+    "clinical_context": "Rarely associated with human infection; most often encountered as an environmental or laboratory contaminant."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Variable",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Cream"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Variable"
+  },
+
+  "species_markers": [
+    {
+      "field": "Methyl Red",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation from other Exiguobacterium species."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from nitrate-reducing species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Exiguobacterium antarcticum",
+      "reason": "Shared morphology and overlapping fermentation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong oxidase positivity suggests an alternative genus.",
+    "Spore formation excludes Exiguobacterium.",
+    "Strict psychrophilic growth favours E. antarcticum."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Extended carbohydrate fermentation",
+      "reason": "Supports species-level separation.",
+      "api_kit": "API 50 CH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable confirmation due to biochemical overlap.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

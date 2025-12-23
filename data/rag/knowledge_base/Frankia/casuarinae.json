@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Frankia",
+  "species": "casuarinae",
+
+  "overview": {
+    "short": "Frankia casuarinae is a nitrogen-fixing actinobacterium that forms symbiotic relationships with Casuarina and related actinorhizal plants.",
+    "clinical_context": "Not associated with human disease; detection in clinical material is considered incidental or environmental."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Unknown",
+    "Spore Formation": "Variable",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Specialised Actinomycete Media"
+    ],
+    "Colony Morphology": [
+      "Filamentous",
+      "Dry",
+      "Chalky"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//30",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Filamentous",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Host Association",
+      "value": "Casuarina species",
+      "importance": "high",
+      "notes": "Distinct host range compared to other Frankia species."
+    },
+    {
+      "field": "Nitrogen Fixation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Forms nitrogen-fixing nodules in actinorhizal plants."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Frankia alni",
+      "reason": "Similar morphology and physiology but different host plant specificity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of association with Casuarina or related plant species.",
+    "Growth on standard clinical media.",
+    "Interpretation as a human pathogen without supporting evidence."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Necessary for accurate species-level discrimination.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Ecological assessment",
+      "reason": "Environmental and plant host context is essential for interpretation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Chromobacterium",
+  "species": "haemolyticum",
+
+  "overview": {
+    "short": "Chromobacterium haemolyticum is a Gram-negative, motile rod distinguished by strong haemolytic activity and absence of violacein pigment.",
+    "clinical_context": "Rarely associated with human infection; differentiation from C. violaceum is clinically relevant due to differing virulence."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Haemolytic"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Consistent beta haemolysis differentiates C. haemolyticum from non-haemolytic Chromobacterium species."
+    },
+    {
+      "field": "Pigment",
+      "value": "None",
+      "importance": "high",
+      "notes": "Absence of violacein distinguishes it from C. violaceum."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Chromobacterium violaceum",
+      "reason": "Shared oxidase positivity and motility, but violacein pigment is absent in C. haemolyticum."
+    }
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Blood agar haemolysis assessment",
+      "reason": "Confirms strong beta haemolysis pattern."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level confirmation for rare isolates."
+    }
+  ]
+}

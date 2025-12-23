@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Eubacterium",
+  "species": "ventriosum",
+
+  "overview": {
+    "short": "Eubacterium ventriosum is a Gram-positive, obligately anaerobic rod that forms part of the normal human intestinal microbiota.",
+    "clinical_context": "Primarily a commensal organism; rarely isolated in clinical settings except in polymicrobial anaerobic cultures."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key feature distinguishing E. ventriosum from other Eubacterium species."
+    },
+    {
+      "field": "Gas Production",
+      "value": "Negative",
+      "importance": "low",
+      "notes": "Consistent with non-gas-producing anaerobic fermentation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Eubacterium rectale",
+      "reason": "Similar anaerobic growth and carbohydrate fermentation profiles."
+    },
+    {
+      "species": "Eubacterium limosum",
+      "reason": "Overlapping biochemical reactions in anaerobic panels."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Nitrate reduction negativity suggests Eubacterium rectale.",
+    "Gas production argues against Eubacterium ventriosum.",
+    "Spore formation excludes Eubacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction",
+      "reason": "Primary discriminator within the genus.",
+      "api_kit": "API Rapid ID 32A"
+    },
+    {
+      "test": "Extended anaerobic biochemical profiling",
+      "reason": "Supports differentiation from closely related species.",
+      "api_kit": "API Rapid ID 32A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

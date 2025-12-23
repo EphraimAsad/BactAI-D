@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Capnocytophaga",
+
+  "overview": {
+    "short": "Capnocytophaga species are Gram-negative, capnophilic, fusiform rods commonly found in the oral flora of humans and animals.",
+    "clinical_context": "Associated with periodontal disease, oral infections, and severe systemic infections following dog or cat bites, particularly in immunocompromised or asplenic patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Spreading",
+      "Thin",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Capnophilic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Spreading",
+    "Pigment": "None",
+    "Motility Type": "Gliding"
+  },
+
+  "field_notes": {
+    "Motility": "Exhibits characteristic gliding motility on solid media.",
+    "Oxygen Requirement": "Requires increased CO₂ (capnophilic) for optimal growth.",
+    "Growth Rate": "Slow-growing, often requiring prolonged incubation."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Capnophilic",
+      "distinguishes_from": ["Bacteroides", "Prevotella"],
+      "notes": "CO₂ requirement helps distinguish Capnocytophaga from other oral anaerobes."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Haemophilus"],
+      "notes": "Gliding motility is characteristic."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Negative",
+      "distinguishes_from": ["Neisseria"],
+      "notes": "Helps exclude oxidase-positive oral Gram-negative genera."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Bacteroides",
+      "reason": "Both are Gram-negative oral flora with anaerobic growth tendencies."
+    },
+    {
+      "genus": "Haemophilus",
+      "reason": "Both may require enriched media and CO₂ for growth."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strict anaerobic growth without CO₂ suggests Bacteroides.",
+    "Oxidase positivity suggests Neisseria or Moraxella.",
+    "No spreading or gliding behaviour observed."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "CO₂ incubation",
+      "reason": "Confirms capnophilic growth requirement."
+    },
+    {
+      "test": "Indole testing",
+      "reason": "Useful for species-level differentiation.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive genus and species identification."
+    }
+  ],
+
+  "supported_species": [
+    "canimorsus",
+    "ochracea",
+    "sputigena"
+  ]
+}

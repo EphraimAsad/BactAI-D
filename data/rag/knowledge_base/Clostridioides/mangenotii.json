@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Clostridioides",
+  "species": "mangenotii",
+
+  "overview": {
+    "short": "Clostridioides mangenotii is a Gram-positive, anaerobic, spore-forming rod described in human-associated and environmental contexts.",
+    "clinical_context": "Less commonly encountered than C. difficile; may appear in anaerobic culture workups and requires confirmatory identification."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Irregular",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "25//42",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Variable"
+  },
+
+  "species_markers": [
+    {
+      "field": "Media Grown On",
+      "value": "Blood Agar",
+      "importance": "medium",
+      "notes": "Broad anaerobic growth on non-selective media; selective C. difficile media is less expected in routine ID."
+    },
+    {
+      "field": "Indole",
+      "value": "Variable",
+      "importance": "low",
+      "notes": "Species-level biochemical calls can overlap; rely on confirmatory identification methods."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Clostridioides difficile",
+      "reason": "Shared anaerobic spore-forming rod phenotype; clinical context and toxin testing are key differentiators."
+    },
+    {
+      "genus": "Clostridium",
+      "reason": "Overlapping anaerobic spore-forming physiology across clostridial genera."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "If toxin testing/NAAT is positive, prioritize C. difficile workup rather than rarer Clostridioides species.",
+    "If isolate appears aerotolerant with persistent growth in oxygen, reconsider genus assignment.",
+    "If identification relies purely on broad anaerobic biochemical patterns, confirm via MALDI-TOF or sequencing."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical approach to resolve species identity among anaerobic spore-forming rods."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Useful when MALDI-TOF score is low or database coverage is insufficient.",
+      "api_kit_example": "16S PCR + sequencing workflow kits (platform-dependent)."
+    },
+    {
+      "test": "C. difficile toxin gene NAAT (rule-out context)",
+      "reason": "If clinical suspicion is CDI, use NAAT/toxin testing to avoid missing toxigenic C. difficile.",
+      "api_kit_example": "C. difficile toxin gene NAAT/PCR assay kits (platform-dependent)."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Citrobacter",
+  "species": "freundii",
+
+  "overview": {
+    "short": "Citrobacter freundii is a Gram-negative, facultatively anaerobic rod commonly isolated from the intestinal tract and environment.",
+    "clinical_context": "Associated with opportunistic infections including urinary tract, bloodstream, and intra-abdominal infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "H2S",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Commonly produces H2S, helping differentiate from other Citrobacter species."
+    },
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Indole negativity helps separate from C. koseri."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Salmonella",
+      "reason": "Shared H2S production and Enterobacterales profile."
+    }
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "H2S production",
+      "reason": "Supports differentiation from non-H2S-producing Enterobacterales."
+    },
+    {
+      "test": "API 20E",
+      "reason": "Standard biochemical identification for Enterobacterales."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification."
+    }
+  ]
+}

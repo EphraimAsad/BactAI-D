@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Enterococcus",
+
+  "overview": {
+    "short": "Enterococcus species are Gram-positive, facultatively anaerobic cocci that are part of normal gastrointestinal flora but frequently cause opportunistic infections.",
+    "clinical_context": "Common causes of urinary tract infections, bacteremia, endocarditis, and intra-abdominal infections, particularly in healthcare settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Bile Esculin Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "NaCl Tolerant (>=6%)": "A defining feature of Enterococcus and a key genus-level discriminator.",
+    "Esculin Hydrolysis": "Bile esculin positivity is characteristic and diagnostically important.",
+    "Catalase": "Typically negative; weak pseudocatalase reactions may occur."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "expected": "Positive",
+      "distinguishes_from": ["Streptococcus"],
+      "notes": "Growth in high salt differentiates Enterococcus from most streptococci."
+    },
+    {
+      "field": "Esculin Hydrolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Streptococcus"],
+      "notes": "Bile esculin positivity supports Enterococcus identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Streptococcus",
+      "reason": "Shared Gram-positive coccal morphology and overlapping hemolysis patterns."
+    },
+    {
+      "genus": "Aerococcus",
+      "reason": "Coccal morphology and variable hemolysis may overlap in routine culture."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "NaCl intolerance argues against Enterococcus.",
+    "Strong catalase positivity suggests Staphylococcus.",
+    "Bile esculin negativity is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "PYR test",
+      "reason": "Rapid confirmation of Enterococcus genus.",
+      "api_kit": "API Strep"
+    },
+    {
+      "test": "Bile esculin test",
+      "reason": "Supports genus-level identification.",
+      "api_kit": "API Strep"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "faecalis",
+    "faecium",
+    "gallinarum"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Enterococcus",
+  "species": "faecium",
+
+  "overview": {
+    "short": "Enterococcus faecium is a Gram-positive, facultatively anaerobic coccus notable for antimicrobial resistance and healthcare-associated infections.",
+    "clinical_context": "Frequently associated with bacteremia, urinary tract infections, and hospital-acquired infections, particularly vancomycin-resistant strains (VRE)."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Bile Esculin Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Primary discriminator separating E. faecium from E. faecalis."
+    },
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "E. faecium typically does not ferment mannitol."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Enterococcus faecalis",
+      "reason": "Shared genus traits and overlapping sugar fermentation profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Arginine dihydrolase positivity suggests E. faecalis.",
+    "Strong mannitol fermentation is inconsistent.",
+    "Unexpected antimicrobial susceptibility patterns."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Arginine dihydrolase",
+      "reason": "Key biochemical discriminator from E. faecalis.",
+      "api_kit": "API Strep"
+    },
+    {
+      "test": "Vancomycin susceptibility testing",
+      "reason": "Critical due to frequent resistance in E. faecium.",
+      "api_kit": "VITEK 2 GP"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cedecea",
+  "species": "lapagei",
+
+  "overview": {
+    "short": "Cedecea lapagei is a rare, Gram-negative, facultatively anaerobic rod within the Enterobacterales.",
+    "clinical_context": "Reported in opportunistic infections including wound infections and bacteremia, predominantly in compromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Primary feature distinguishing C. lapagei from C. davisae."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cedecea davisae",
+      "reason": "Overlapping biochemical profiles except for ornithine decarboxylase."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Similar fermentation and citrate-positive profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Ornithine decarboxylase is positive.",
+    "Indole is positive.",
+    "Strong lactose fermentation observed."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Key species-level discriminator.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for definitive identification of rare species."
+    }
+  ]
+}

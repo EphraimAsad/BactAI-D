@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Clostridium",
+  "species": "sporogenes",
+
+  "overview": {
+    "short": "Clostridium sporogenes is a Gram-positive, anaerobic, spore-forming rod commonly found in soil and the gastrointestinal tract.",
+    "clinical_context": "Usually non-pathogenic but occasionally isolated from wounds and abscesses; often used as a surrogate organism in anaerobic studies."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Egg Yolk Agar"
+    ],
+    "Colony Morphology": [
+      "Irregular",
+      "Spreading"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "25//40",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Helps distinguish C. sporogenes from C. tetani."
+    },
+    {
+      "field": "Lipase Test",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation from non-lipase-producing clostridia."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Consistent enzymatic activity aids species identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Clostridium botulinum",
+      "reason": "Close genetic relationship and overlapping biochemical features."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity may suggest another Clostridium species.",
+    "Lack of proteolytic activity is inconsistent with C. sporogenes.",
+    "Non-spore-forming phenotype argues against identification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Lipase activity on Egg Yolk Agar",
+      "reason": "Useful for differentiating proteolytic clostridia.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

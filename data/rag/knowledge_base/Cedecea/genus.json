@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Cedecea",
+
+  "overview": {
+    "short": "Cedecea species are rare, Gram-negative, facultatively anaerobic rods within the Enterobacterales, infrequently isolated from clinical specimens.",
+    "clinical_context": "Occasionally associated with opportunistic infections such as bacteremia, wound infections, and respiratory infections, particularly in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Lactose Fermentation": "Typically non-lactose fermenting on MacConkey Agar.",
+    "Motility": "Motile by peritrichous flagella, helping distinguish from Klebsiella.",
+    "ONPG": "Positive despite lactose non-fermentation, indicating beta-galactosidase activity."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "ONPG",
+      "expected": "Positive",
+      "distinguishes_from": ["Salmonella", "Shigella"],
+      "notes": "ONPG positivity helps separate Cedecea from non-ONPG Enterobacterales."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter"],
+      "notes": "Ornithine positivity is useful in narrowing uncommon Enterobacterales."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Klebsiella"],
+      "notes": "Non-lactose fermentation supports Cedecea over common lactose fermenters."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Shared citrate positivity and VP positivity can overlap biochemically."
+    },
+    {
+      "genus": "Serratia",
+      "reason": "ONPG positivity and motility may overlap in atypical isolates."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong lactose fermentation on MacConkey Agar.",
+    "Indole positivity (not typical for Cedecea).",
+    "H2S production present."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "ONPG test",
+      "reason": "Supports identification among rare Enterobacterales.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Helpful discriminator for Cedecea species.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended due to rarity and biochemical overlap with other Enterobacterales."
+    }
+  ],
+
+  "supported_species": [
+    "davisae",
+    "lapagei"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Comamonas",
+
+  "overview": {
+    "short": "Comamonas species are Gram-negative, aerobic, non-fermentative rods commonly found in soil and water, occasionally implicated in opportunistic human infections.",
+    "clinical_context": "Rarely isolated in clinical microbiology but reported in bloodstream, intra-abdominal, and wound infections, often in immunocompromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "15//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Oxidase": "Oxidase positivity supports differentiation from Enterobacterales.",
+    "Glucose Fermentation": "Non-fermentative metabolism is genus-defining.",
+    "Motility": "Motile by polar flagella."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Separates Comamonas from oxidase-negative Gram-negative rods."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Aeromonas", "Vibrio"],
+      "notes": "Non-fermentative profile excludes common oxidase-positive fermenters."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Aerobic",
+      "distinguishes_from": ["Bacteroides", "Clostridium"],
+      "notes": "Strict aerobic growth pattern."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Alcaligenes",
+      "reason": "Shared oxidase positivity and non-fermentative metabolism."
+    },
+    {
+      "genus": "Achromobacter",
+      "reason": "Environmental origin and overlapping biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Glucose fermentation suggests Aeromonas or Vibrio.",
+    "Oxidase negativity is inconsistent with Comamonas.",
+    "Anaerobic growth argues against identification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidative-fermentative (OF) glucose test",
+      "reason": "Confirms non-fermentative metabolism.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate genus-level and species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Useful for rare or clinically significant isolates.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "kerstersii",
+    "testosteroni"
+  ]
+}

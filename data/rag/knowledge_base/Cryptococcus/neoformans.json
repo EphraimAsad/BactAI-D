@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cryptococcus",
+  "species": "neoformans",
+
+  "overview": {
+    "short": "Cryptococcus neoformans is an encapsulated yeast most strongly associated with opportunistic infection and cryptococcal meningoencephalitis.",
+    "clinical_context": "Classically affects immunocompromised hosts (especially HIV/AIDS), causing pulmonary disease and CNS infection."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Sabouraud Dextrose Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Mucoid",
+      "Cream",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Positive",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "25//37",
+      "importance": "high",
+      "notes": "Consistent growth at 37°C supports pathogenic Cryptococcus species; helps separate from more environmental yeasts."
+    },
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Strong encapsulation is a key feature in clinical isolates."
+    },
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Urease positivity is expected and supports Cryptococcus identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cryptococcus gattii",
+      "reason": "Closely related; both are encapsulated urease-positive yeasts with overlapping phenotypes."
+    },
+    {
+      "genus": "Candida",
+      "reason": "Yeast morphology can confuse early screening, but Candida is typically capsule-negative and urease-negative."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Capsule not demonstrated argues against Cryptococcus neoformans.",
+    "Urease negativity suggests a different yeast genus.",
+    "A strong sugar fermentation profile is inconsistent with Cryptococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "India ink preparation",
+      "reason": "Demonstrates characteristic capsule.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Cryptococcal antigen (CrAg) test",
+      "reason": "Highly useful in clinical context, especially suspected CNS infection.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level ID between neoformans vs gattii complex.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Escherichia",
+  "species": "albertii",
+
+  "overview": {
+    "short": "Escherichia albertii is a Gram-negative, facultatively anaerobic rod associated primarily with enteric disease.",
+    "clinical_context": "Most commonly linked to diarrhoeal illness; frequently misidentified as Escherichia coli or Shigella."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-motility is a key feature distinguishing E. albertii from E. coli."
+    },
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Consistently indole negative, unlike most E. coli strains."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Typically non-lactose fermenting on MacConkey Agar."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Escherichia coli",
+      "reason": "Genetic similarity and overlapping biochemical reactions."
+    },
+    {
+      "genus": "Shigella",
+      "reason": "Non-motility and lactose negativity mimic Shigella profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests E. coli.",
+    "Strong lactose fermentation argues against E. albertii.",
+    "Motility suggests an alternative Escherichia species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing",
+      "reason": "Primary discriminator from E. coli.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Indole test",
+      "reason": "Helps confirm exclusion of E. coli.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Definitive identification due to close genetic relationships.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

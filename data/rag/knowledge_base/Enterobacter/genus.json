@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Enterobacter",
+
+  "overview": {
+    "short": "Enterobacter species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, commonly isolated from clinical and environmental sources.",
+    "clinical_context": "Often recovered from opportunistic infections including urinary tract, respiratory, and bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Lactose Fermentation": "Often delayed or variable on MacConkey Agar.",
+    "Motility": "Most species are motile, but non-motile strains occur.",
+    "Indole": "Indole reactions vary by species and are not genus-defining."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "VP",
+      "expected": "Positive",
+      "distinguishes_from": ["Escherichia", "Shigella"],
+      "notes": "VP positivity helps separate Enterobacter from MR-positive Enterobacterales."
+    },
+    {
+      "field": "Citrate",
+      "expected": "Positive",
+      "distinguishes_from": ["Escherichia"],
+      "notes": "Citrate utilization supports Enterobacter over E. coli."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Klebsiella"],
+      "notes": "Motility differentiates Enterobacter from typically non-motile Klebsiella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Klebsiella",
+      "reason": "Shared lactose fermentation and mucoid colony appearance can cause confusion."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Overlapping biochemical reactions including citrate positivity and sugar fermentation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motile isolate with strong capsule suggests Klebsiella.",
+    "Indole-positive with MR-positive profile suggests Escherichia or Citrobacter.",
+    "H2S production argues against Enterobacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Useful for narrowing species-level identification."
+    },
+    {
+      "test": "Motility testing",
+      "reason": "Helps distinguish from Klebsiella."
+    },
+    {
+      "test": "Molecular identification or MALDI-TOF",
+      "reason": "Recommended due to biochemical overlap within Enterobacterales."
+    }
+  ],
+
+  "supported_species": [
+    "cloacae",
+    "asburiae",
+    "hormaechei",
+    "kobei",
+    "ludwigii"
+  ]
+}

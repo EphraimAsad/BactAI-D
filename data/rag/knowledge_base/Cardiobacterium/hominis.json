@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cardiobacterium",
+  "species": "hominis",
+
+  "overview": {
+    "short": "Cardiobacterium hominis is a fastidious Gram-negative, facultatively anaerobic rod in the HACEK group, classically linked to subacute infective endocarditis.",
+    "clinical_context": "Often isolated from blood cultures in endocarditis; growth may be slow and require enriched media (e.g., chocolate agar) and prolonged incubation."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Indole positivity is a key supportive trait for Cardiobacterium hominis within HACEK."
+    },
+    {
+      "field": "Oxidase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Oxidase positivity supports Cardiobacterium over many oxidase-negative Gram-negative rods."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helpful supporting feature when distinguishing from lookalike fastidious organisms with nitrate positivity."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cardiobacterium valvarum",
+      "reason": "Closely related species; phenotypic differentiation may be limited without MALDI-TOF or molecular testing."
+    },
+    {
+      "genus": "Aggregatibacter",
+      "reason": "Shared HACEK grouping, slow growth, and similar clinical syndrome (endocarditis)."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negative result (argues against classic C. hominis profile).",
+    "Robust growth on routine media without enrichment or prolonged incubation.",
+    "Oxidase negative isolate."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Confirms indole positivity and supports Cardiobacterium hominis.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "Oxidase test",
+      "reason": "Supports Cardiobacterium and narrows away from oxidase-negative Gram-negative rods.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical method for distinguishing Cardiobacterium species in routine labs."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Recommended if MALDI-TOF is inconclusive or species-level certainty is required (e.g., endocarditis workup)."
+    }
+  ]
+}

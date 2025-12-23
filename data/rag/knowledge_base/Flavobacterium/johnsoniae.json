@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Flavobacterium",
+  "species": "johnsoniae",
+
+  "overview": {
+    "short": "Flavobacterium johnsoniae is a Gram-negative, aerobic, yellow-pigmented rod best known as an environmental organism with strong gliding motility.",
+    "clinical_context": "Primarily environmental (soil/water/biofilms); clinical isolation is uncommon and typically opportunistic or contaminant-level unless repeatedly recovered with supportive evidence."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Low-Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Yellow-Pigmented",
+      "Spreading",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//30",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Spreading",
+    "Pigment": "Yellow",
+    "Motility Type": "Gliding"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility Type",
+      "value": "Gliding",
+      "importance": "high",
+      "notes": "Strong gliding motility is a hallmark and often correlates with spreading colonies."
+    },
+    {
+      "field": "Pigment",
+      "value": "Yellow",
+      "importance": "medium",
+      "notes": "Yellow pigmentation is supportive when paired with oxidase positivity and non-fermentative profile."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Consistent non-fermentative metabolism supports Flavobacterium spp. and helps exclude Enterobacterales."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Flavobacterium columnare",
+      "reason": "Shared yellow pigment and gliding/spreading colony morphology in aquatic contexts."
+    },
+    {
+      "genus": "Chryseobacterium",
+      "reason": "Similar yellow colonies and overlapping biochemical traits can cause confusion without confirmatory ID."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Robust growth at 37°C suggests an alternative genus/species.",
+    "Clear carbohydrate fermentation is inconsistent with this species.",
+    "Oxidase negativity argues against Flavobacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Supports oxidase-positive, non-fermentative profile.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "Gelatin hydrolysis",
+      "reason": "Often positive and supportive for Flavobacterium spp.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical route to confirm environmental Flavobacterium species.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

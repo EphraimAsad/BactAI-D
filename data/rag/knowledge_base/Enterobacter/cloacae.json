@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Enterobacter",
+  "species": "cloacae",
+
+  "overview": {
+    "short": "Enterobacter cloacae is a Gram-negative, facultatively anaerobic rod commonly associated with opportunistic and nosocomial infections.",
+    "clinical_context": "Frequently isolated from urinary tract, respiratory, and bloodstream infections, particularly in hospital settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps distinguish E. cloacae from indole-positive Enterobacter species."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Useful discriminator within the Enterobacter cloacae complex."
+    },
+    {
+      "field": "Rhamnose Fermentation",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Supports identification when combined with other biochemical results."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Enterobacter hormaechei",
+      "reason": "Closely related species within the E. cloacae complex with overlapping biochemical profiles."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Shared citrate positivity and sugar fermentation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests another Enterobacter species.",
+    "Strong lactose fermentation may indicate Klebsiella or Escherichia.",
+    "H2S production is inconsistent with E. cloacae."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Key discriminator within the Enterobacter cloacae complex."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable differentiation within the Enterobacter cloacae complex."
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Recommended due to close genetic similarity between species."
+    }
+  ]
+}

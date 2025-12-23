@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Cronobacter",
+  "overview": {
+    "short": "Cronobacter species are Gram-negative, facultatively anaerobic Enterobacterales that are opportunistic pathogens, best known for association with powdered infant formula contamination and invasive neonatal infections.",
+    "clinical_context": "Can cause neonatal meningitis, sepsis, and necrotizing enterocolitis; also opportunistic infections in immunocompromised adults."
+  },
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "6//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Variable",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+  "field_notes": {
+    "Lactose Fermentation": "Often variable or delayed; some strains appear weakly lactose-positive on MacConkey Agar.",
+    "Motility": "Typically motile with peritrichous flagella, but some isolates may appear weakly motile depending on conditions.",
+    "Growth Temperature": "Many isolates grow at lower temperatures than typical Enterobacterales; growth at ~6–10°C is reported for some strains and may support food-associated persistence."
+  },
+  "key_differentiators": [
+    {
+      "field": "ONPG",
+      "expected": "Positive",
+      "distinguishes_from": [
+        "Salmonella",
+        "Shigella"
+      ],
+      "notes": "ONPG positivity supports a lactose-delayed/β-galactosidase-positive Enterobacterales rather than classic ONPG-negative genera."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Negative",
+      "distinguishes_from": [
+        "Aeromonas",
+        "Vibrio"
+      ],
+      "notes": "Oxidase negativity supports Enterobacterales and helps exclude oxidase-positive Gram-negative rods."
+    },
+    {
+      "field": "Citrate",
+      "expected": "Positive",
+      "distinguishes_from": [
+        "Escherichia"
+      ],
+      "notes": "Citrate positivity supports Cronobacter/Enterobacter-like profiles rather than typical E. coli."
+    }
+  ],
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Strong overlap in citrate/VP positivity and broad sugar fermentation patterns within Enterobacterales."
+    },
+    {
+      "genus": "Klebsiella",
+      "reason": "Some isolates can appear lactose-positive and mucoid, overlapping with Klebsiella phenotypes."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Citrate positivity and variable sugar reactions can overlap; species-level resolution often requires panels or MALDI-TOF."
+    }
+  ],
+  "when_to_question_identification": [
+    "Oxidase positivity argues against Cronobacter (suggests Aeromonas/Vibrio/Pseudomonas-type organisms).",
+    "H2S production argues against Cronobacter and suggests Salmonella/Citrobacter freundii complex possibilities.",
+    "Non-motile isolate with strong capsule and consistent lactose positivity may suggest Klebsiella."
+  ],
+  "recommended_next_tests": [
+    {
+      "test": "API 20E",
+      "reason": "Useful Enterobacterales biochemical panel to support genus/species identification.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid and reliable identification within Enterobacterales when biochemical overlap is high.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Chromogenic Cronobacter medium (if available)",
+      "reason": "Selective/differential support for Cronobacter from food/infant formula contexts.",
+      "api_kit": "Not applicable"
+    }
+  ],
+  "supported_species": [
+    "sakazakii",
+    "malonaticus",
+    "turicensis"
+  ]
+}

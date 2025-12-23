@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Erysipelothrix",
+  "species": "tonsillarum",
+
+  "overview": {
+    "short": "Erysipelothrix tonsillarum is a Gram-positive, non-spore-forming, non-motile short rod most commonly associated with animals and environmental exposure rather than classic erysipeloid.",
+    "clinical_context": "More often isolated from animals (e.g., tonsils/oropharynx) and may appear in mixed cultures; human disease is less commonly described than E. rhusiopathiae."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Translucent",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//42",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "H2S",
+      "value": "Variable",
+      "importance": "high",
+      "notes": "Compared with E. rhusiopathiae, H2S may be less consistently observed; treat as supportive rather than definitive."
+    },
+    {
+      "field": "Clinical Context",
+      "value": "Animal-associated / commensal-leaning",
+      "importance": "medium",
+      "notes": "Frequently associated with animal reservoirs; human clinical relevance may require correlation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Erysipelothrix rhusiopathiae",
+      "reason": "Very close overlap in routine phenotypic testing; separation often requires MALDI-TOF or molecular identification."
+    },
+    {
+      "genus": "Listeria",
+      "reason": "Short rod appearance; motility and catalase help separate."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Clear and reproducible H2S positivity plus classic erysipeloid context favors E. rhusiopathiae.",
+    "Motility suggests non-Erysipelothrix short rods.",
+    "Catalase positivity argues against Erysipelothrix."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most practical method to separate E. tonsillarum from E. rhusiopathiae in routine workflows.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "H2S detection on TSI or iron-containing media",
+      "reason": "Use as a supportive feature; interpret cautiously due to variability.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "Molecular identification (e.g., sequencing)",
+      "reason": "Useful where MALDI libraries are limited or when clinical stakes are high.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

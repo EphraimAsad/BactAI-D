@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cupriavidus",
+  "species": "metallidurans",
+
+  "overview": {
+    "short": "Cupriavidus metallidurans is an environmental, metal-resistant, Gram-negative aerobic rod.",
+    "clinical_context": "Rarely isolated from humans; more commonly recovered from soil, water, and metal-contaminated environments."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Citrate",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Commonly positive in environmental Cupriavidus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Ralstonia",
+      "reason": "Environmental niche overlap and similar biochemical profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Clinical significance without environmental exposure is unusual.",
+    "Oxidase negativity is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Confirms environmental Cupriavidus species.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

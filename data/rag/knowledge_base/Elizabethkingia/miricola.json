@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Elizabethkingia",
+  "species": "miricola",
+
+  "overview": {
+    "short": "Elizabethkingia miricola is a Gram-negative, aerobic, non-fermenting rod originally isolated from environmental sources and later recognised as a rare opportunistic human pathogen.",
+    "clinical_context": "Reported in sporadic infections, often in immunocompromised hosts; clinical relevance is less well defined than other Elizabethkingia species."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-mucoid"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Variable",
+      "importance": "low",
+      "notes": "Indole reaction is less consistent and not reliable for species separation."
+    },
+    {
+      "field": "Clinical Frequency",
+      "value": "Rare",
+      "importance": "medium",
+      "notes": "Less commonly isolated from human clinical samples compared to other Elizabethkingia species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Elizabethkingia anophelis",
+      "reason": "Overlapping biochemical profiles and environmental origin."
+    },
+    {
+      "species": "Elizabethkingia meningoseptica",
+      "reason": "Shared genus-level characteristics; differentiation usually requires MALDI-TOF or sequencing."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Species designation without advanced identification methods.",
+    "Strong epidemiological link to neonatal outbreaks (suggests other species).",
+    "Indole-negative result does not exclude E. miricola."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Primary method for confident species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Recommended for confirmation due to rarity and database variability.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Frankia",
+  "species": "alni",
+
+  "overview": {
+    "short": "Frankia alni is a nitrogen-fixing actinobacterium that forms symbiotic root nodules with alder (Alnus) species.",
+    "clinical_context": "Not considered a human pathogen; isolation from clinical samples is exceedingly rare and typically represents environmental contamination."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Unknown",
+    "Spore Formation": "Variable",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Specialised Actinomycete Media"
+    ],
+    "Colony Morphology": [
+      "Filamentous",
+      "Dry",
+      "Chalky"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//30",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Filamentous",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Host Association",
+      "value": "Alnus species",
+      "importance": "high",
+      "notes": "Highly specific symbiosis with alder trees."
+    },
+    {
+      "field": "Nitrogen Fixation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Forms root nodules and fixes atmospheric nitrogen."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Frankia casuarinae",
+      "reason": "Similar morphology and physiology but different host specificity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolation from human clinical specimens without environmental exposure.",
+    "Rapid growth on routine laboratory media.",
+    "Absence of plant-associated context."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Required for definitive species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Host plant correlation",
+      "reason": "Association with alder species strongly supports F. alni.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

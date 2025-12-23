@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Citrobacter",
+  "species": "braakii",
+
+  "overview": {
+    "short": "Citrobacter braakii is a Gram-negative, facultatively anaerobic rod recovered from environmental and clinical sources.",
+    "clinical_context": "Occasionally implicated in opportunistic infections, but less frequently than other Citrobacter species."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Positive",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Rhamnose Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Helps differentiate C. braakii from other Citrobacter species."
+    }
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Carbohydrate fermentation profile",
+      "reason": "Supports separation from closely related Citrobacter species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Confirms species-level identification."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Enterococcus",
+  "species": "faecalis",
+
+  "overview": {
+    "short": "Enterococcus faecalis is a Gram-positive, facultatively anaerobic coccus and the most commonly isolated Enterococcus species in human infections.",
+    "clinical_context": "Frequently associated with urinary tract infections, endocarditis, wound infections, and intra-abdominal infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Bile Esculin Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Helps distinguish E. faecalis from E. faecium."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "More commonly positive in E. faecalis than other Enterococcus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Enterococcus faecium",
+      "reason": "Closely related species with overlapping biochemical profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Arginine dihydrolase negativity suggests E. faecium.",
+    "Atypical sugar fermentation patterns warrant confirmation.",
+    "Identification based solely on hemolysis pattern."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Arginine dihydrolase",
+      "reason": "Key discriminator from E. faecium.",
+      "api_kit": "API Strep"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

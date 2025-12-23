@@ -1,0 +1,939 @@
+{
+  "global": {
+    "rules": 0.82638338049572,
+    "extended": 0.17361661950428
+  },
+  "fields": {
+    "Gram Stain": {
+      "rules": 0.9588795955683186,
+      "extended": 0.04112040443168139,
+      "support": 16706
+    },
+    "Shape": {
+      "rules": 0.9810259897690448,
+      "extended": 0.018974010230955286,
+      "support": 16720
+    },
+    "Catalase": {
+      "rules": 0.9989997841479468,
+      "extended": 0.0010002158520531787,
+      "support": 16460
+    },
+    "Coagulase": {
+      "rules": 0.9989490630402631,
+      "extended": 0.0010509369597369478,
+      "support": 10162
+    },
+    "Haemolysis Type": {
+      "rules": 0.35580597402036007,
+      "extended": 0.6441940259796399,
+      "support": 11680
+    },
+    "Haemolysis": {
+      "rules": 0.9989431393173333,
+      "extended": 0.0010568606826667317,
+      "support": 12122
+    },
+    "Oxidase": {
+      "rules": 0.998997865061407,
+      "extended": 0.0010021349385930661,
+      "support": 15690
+    },
+    "Indole": {
+      "rules": 0.9989912407857943,
+      "extended": 0.0010087592142057431,
+      "support": 15312
+    },
+    "Urease": {
+      "rules": 0.9989916297067528,
+      "extended": 0.0010083702932471984,
+      "support": 15484
+    },
+    "DNase": {
+      "rules": 0.9989833715417327,
+      "extended": 0.001016628458267334,
+      "support": 12952
+    },
+    "VP": {
+      "rules": 0.9989765156932637,
+      "extended": 0.0010234843067362667,
+      "support": 12912
+    },
+    "Methyl Red": {
+      "rules": 0.9989778470419827,
+      "extended": 0.0010221529580173073,
+      "support": 12804
+    },
+    "Citrate": {
+      "rules": 0.9989835479706239,
+      "extended": 0.0010164520293760358,
+      "support": 13554
+    },
+    "Glucose Fermentation": {
+      "rules": 0.9989662704673481,
+      "extended": 0.0010337295326518716,
+      "support": 16514
+    },
+    "Mannitol Fermentation": {
+      "rules": 0.9989808531470646,
+      "extended": 0.0010191468529353216,
+      "support": 13558
+    },
+    "Sucrose Fermentation": {
+      "rules": 0.9989813962572519,
+      "extended": 0.0010186037427480836,
+      "support": 14710
+    },
+    "Lactose Fermentation": {
+      "rules": 0.9989755086534899,
+      "extended": 0.0010244913465100188,
+      "support": 15356
+    },
+    "NaCl Tolerant (>=6%)": {
+      "rules": 0.26757766601408084,
+      "extended": 0.7324223339859193,
+      "support": 12930
+    },
+    "Motility": {
+      "rules": 0.998978646508095,
+      "extended": 0.0010213534919050267,
+      "support": 16012
+    },
+    "H2S": {
+      "rules": 0.9989848394829691,
+      "extended": 0.0010151605170309176,
+      "support": 13192
+    },
+    "Nitrate Reduction": {
+      "rules": 0.9989960139257823,
+      "extended": 0.0010039860742176588,
+      "support": 14334
+    },
+    "Oxygen Requirement": {
+      "rules": 0.9989326962346367,
+      "extended": 0.0010673037653633332,
+      "support": 15220
+    },
+    "Growth Temperature": {
+      "rules": 0.9989659935849654,
+      "extended": 0.0010340064150345764,
+      "support": 16468
+    },
+    "Xylose Fermentation": {
+      "rules": 0.9989852387154026,
+      "extended": 0.0010147612845974028,
+      "support": 12498
+    },
+    "Arabinose Fermentation": {
+      "rules": 0.9989857236785101,
+      "extended": 0.0010142763214899158,
+      "support": 12488
+    },
+    "Raffinose Fermentation": {
+      "rules": 0.998981767379567,
+      "extended": 0.001018232620432993,
+      "support": 12040
+    },
+    "ONPG": {
+      "rules": 0.9989943709415854,
+      "extended": 0.001005629058414632,
+      "support": 12812
+    },
+    "Lysine Decarboxylase": {
+      "rules": 0.9989690762167609,
+      "extended": 0.0010309237832390897,
+      "support": 12440
+    },
+    "Spore Formation": {
+      "rules": 0.9989042323269626,
+      "extended": 0.001095767673037456,
+      "support": 13382
+    },
+    "Media Grown On": {
+      "rules": 0.9982504784957817,
+      "extended": 0.0017495215042182398,
+      "support": 12936
+    },
+    "Maltose Fermentation": {
+      "rules": 0.9989807855009915,
+      "extended": 0.001019214499008548,
+      "support": 13206
+    },
+    "Rhamnose Fermentation": {
+      "rules": 0.9989813929420852,
+      "extended": 0.0010186070579148118,
+      "support": 11820
+    },
+    "Esculin Hydrolysis": {
+      "rules": 0.9990003853177506,
+      "extended": 0.000999614682249537,
+      "support": 13026
+    },
+    "Gelatin Hydrolysis": {
+      "rules": 0.9989888738781215,
+      "extended": 0.0010111261218785099,
+      "support": 13146
+    },
+    "Colony Morphology": {
+      "rules": 0.9980326256250512,
+      "extended": 0.001967374374948766,
+      "support": 13578
+    },
+    "Sorbitol Fermentation": {
+      "rules": 0.9989833904961529,
+      "extended": 0.0010166095038470482,
+      "support": 12102
+    },
+    "Capsule": {
+      "rules": 0.7397640625876407,
+      "extended": 0.26023593741235923,
+      "support": 12288
+    },
+    "CAMP": {
+      "rules": 0.001008980929261446,
+      "extended": 0.9989910190707385,
+      "support": 102
+    },
+    "Hippurate Hydrolysis": {
+      "rules": 0.0010355119693001157,
+      "extended": 0.9989644880306999,
+      "support": 88
+    },
+    "PYR": {
+      "rules": 0.0009990009990009992,
+      "extended": 0.9990009990009991,
+      "support": 130
+    },
+    "Optochin": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 14
+    },
+    "Bile Solubility": {
+      "rules": 0.005964214711729623,
+      "extended": 0.9940357852882704,
+      "support": 22
+    },
+    "Novobiocin": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 12
+    },
+    "Bile Resistance": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 8
+    },
+    "Lipase": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Lecithinase": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 22
+    },
+    "Odour": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 34
+    },
+    "Growth Factors": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Fructose Fermentation": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 66
+    },
+    "Glucose Oxidation": {
+      "rules": 0.007608336089976845,
+      "extended": 0.9923916639100232,
+      "support": 172
+    },
+    "Glycerol Fermentation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Fermentation Products": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Cellobiose Fermentation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Arginine dihydrolase": {
+      "rules": 0.9989677449792784,
+      "extended": 0.0010322550207215477,
+      "support": 12194
+    },
+    "Temperature Dependence": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Sulfur Utilization": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Acid Fast": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 104
+    },
+    "NaCl Tolerant (>=10%)": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "pH Range": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Fermentation Product": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Ornithine Decarboxylase": {
+      "rules": 0.001131511504553855,
+      "extended": 0.9988684884954462,
+      "support": 12338
+    },
+    "Lipase Test": {
+      "rules": 0.9989785713893423,
+      "extended": 0.0010214286106576408,
+      "support": 10834
+    },
+    "Casein Hydrolysis": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Tyrosine Hydrolysis": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Mannose Fermentation": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 10
+    },
+    "Gas Production": {
+      "rules": 0.0010090967813440853,
+      "extended": 0.9989909032186559,
+      "support": 6152
+    },
+    "Optochin Sensitivity": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 18
+    },
+    "Inulin Fermentation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Other Products": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Antibiotic Resistance": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 34
+    },
+    "Metabolic Product": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Bacitracin": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Bacitracin Sensitivity": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Pigment Production": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 318
+    },
+    "Indoxyl Acetate": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 16
+    },
+    "Growth Requirements": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 22
+    },
+    "Aerolysin Production": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Bile Esculin": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 84
+    },
+    "Arrangement": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 20
+    },
+    "Toxin A": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Toxin B": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Carbohydrate Utilisation": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 38
+    },
+    "Novobiocin Sensitivity": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 50
+    },
+    "Vancomycin Resistance": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 84
+    },
+    "Nitrogen Fixation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Pseudohyphae": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Germ Tube": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 62
+    },
+    "Budding": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Hyphae": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Ethanol Production": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Intracellular Lifestyle": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 8
+    },
+    "Fermentation Substrate": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Morphology Detail": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Toxin Production": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 26
+    },
+    "Organic Acids Production": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 132
+    },
+    "Butyrate Esterase": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Dextran Production": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Denitrification": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 10
+    },
+    "Acid Tolerance": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 22
+    },
+    "Special Metabolism": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 12
+    },
+    "Galactose Fermentation": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 8
+    },
+    "Desiccation Tolerance": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 56
+    },
+    "UV Resistance": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Nalidixic Acid Resistance": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Bile Tolerance": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 12
+    },
+    "Protease Production": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Aerotolerance": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 8
+    },
+    "Phenylalanine Deaminase": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 8
+    },
+    "Motility at 25C": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Motility at 37C": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Bipolar Staining": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "X Factor Requirement": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "V Factor Requirement": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Satellite Phenomenon": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Cysteine Requirement": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Iron Requirement": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Niacin": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Carbohydrate Fermentation": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 30
+    },
+    "Growth Rate": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 16
+    },
+    "Cell Wall Lipids": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Chlamydospore Formation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Metachromatic Granules": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Starch Hydrolysis": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Sugar Fermentation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Special Features": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Lactate Fermentation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Pyruvate Metabolism": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Lactate Utilisation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Culture Requirement": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 10
+    },
+    "Detection Method": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Budding Type": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Inositol Assimilation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Organism Type": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Stain Preference": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Flagella Type": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Intracellular": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Developmental Cycle": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Metabolism": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Substrate Utilisation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Environmental Survival": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Thermophilic": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Cephalothin Sensitivity": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Metabolic Products": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 20
+    },
+    "UV Tolerance": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Heat Resistance": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "pH Tolerance": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 8
+    },
+    "Vitamin B12 Production": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Enzyme Production": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Attachment Mechanism": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Secondary Metabolites": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 12
+    },
+    "Ammonia Production": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Bioluminescence": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Metabolism Type": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 22
+    },
+    "Chromium Reduction": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Metabolic Capability": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Melibiose Fermentation": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Radiation Resistance": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Growth Requirement": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 32
+    },
+    "MacConkey Growth": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 16
+    },
+    "Phenylalanine Deamination": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Nitrite Reduction": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "Electron Acceptors": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 14
+    },
+    "Lactate Utilization": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 16
+    },
+    "Glycyrrhizin Hydrolysis": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Pyrazinamidase": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Aromatic Compound Degradation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Xylose Oxidation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 4
+    },
+    "Blood Agar Growth": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Beta-lactamase": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Mannitol Oxidation": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Colony Odour": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 8
+    },
+    "Trehalose Fermentation": {
+      "rules": 0.998983786614666,
+      "extended": 0.0010162133853339826,
+      "support": 12398
+    },
+    "Parasporal Crystal": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Lancefield Group": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 6
+    },
+    "NaCl Requirement": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Fermentation Type": {
+      "rules": 0.728468366347004,
+      "extended": 0.271531633652996,
+      "support": 2
+    },
+    "Ribose Fermentation": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 8
+    },
+    "Inositol Fermentation": {
+      "rules": 0.9989827604573697,
+      "extended": 0.001017239542630384,
+      "support": 11652
+    },
+    "Chlamydospore Production": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 42
+    },
+    "Phenol Oxidase": {
+      "rules": 0.5,
+      "extended": 0.5,
+      "support": 14
+    },
+    "Colony Pattern": {
+      "rules": 0.0010040820979615819,
+      "extended": 0.9989959179020385,
+      "support": 5752
+    },
+    "Pigment": {
+      "rules": 0.001169640111986127,
+      "extended": 0.9988303598880138,
+      "support": 5752
+    },
+    "Odor": {
+      "rules": 0.0010253572706957455,
+      "extended": 0.9989746427293043,
+      "support": 5752
+    },
+    "Motility Type": {
+      "rules": 0.0010063961675869934,
+      "extended": 0.998993603832413,
+      "support": 5752
+    },
+    "TSI Pattern": {
+      "rules": 0.0010053174337217611,
+      "extended": 0.9989946825662782,
+      "support": 5752
+    }
+  },
+  "meta": {
+    "total_samples": 8360,
+    "missing_penalty": 0.5,
+    "smoothing": 0.001,
+    "include_llm": false
+  }
+}

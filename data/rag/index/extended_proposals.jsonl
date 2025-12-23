@@ -1,0 +1,138 @@
+{"timestamp": "2025-11-16T03:03:53.571998Z", "field_name": "DNase", "freq": 5, "values_seen": {"Positive": 4, "Negative": 1}}
+{"timestamp": "2025-11-16T03:03:53.573593Z", "field_name": "Lipase", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-16T03:03:53.573653Z", "field_name": "Fermentation Products", "freq": 1, "values_seen": {"Acetic; Butyric": 1}}
+{"timestamp": "2025-11-16T03:03:53.573685Z", "field_name": "Arginine", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-16T03:03:53.573713Z", "field_name": "NaCl Tolerant (>=15%)", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-16T03:03:53.573739Z", "field_name": "Temperature Dependence", "freq": 1, "values_seen": {"Room Temperature Pigment": 1}}
+{"timestamp": "2025-11-16T03:03:53.573765Z", "field_name": "NaCl Tolerant (>=10%)", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-16T03:03:53.573791Z", "field_name": "Fermentation Product", "freq": 1, "values_seen": {"Lactic Acid": 1}}
+{"timestamp": "2025-11-16T03:03:53.573816Z", "field_name": "Arginine Hydrolysis", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-16T03:03:53.573841Z", "field_name": "CAMP Test", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-16T03:03:53.573865Z", "field_name": "Optochin Sensitivity", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-16T03:03:53.573889Z", "field_name": "Other Products", "freq": 1, "values_seen": {"Propionic Acid": 1}}
+{"timestamp": "2025-11-16T03:03:53.573913Z", "field_name": "Metabolic Product", "freq": 1, "values_seen": {"Dextran": 1}}
+{"timestamp": "2025-11-24T20:31:45.153091Z", "field_name": "DNase", "freq": 142, "values_seen": {"Positive": 52, "Negative": 81, "Variable": 9}}
+{"timestamp": "2025-11-24T20:31:45.162359Z", "field_name": "Lipase", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.162468Z", "field_name": "Fermentation Products", "freq": 1, "values_seen": {"Acetic; Butyric": 1}}
+{"timestamp": "2025-11-24T20:31:45.162504Z", "field_name": "Arginine", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.162536Z", "field_name": "NaCl Tolerant (>=15%)", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.162565Z", "field_name": "Temperature Dependence", "freq": 1, "values_seen": {"Room Temperature Pigment": 1}}
+{"timestamp": "2025-11-24T20:31:45.162609Z", "field_name": "NaCl Tolerant (>=10%)", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.162649Z", "field_name": "Fermentation Product", "freq": 1, "values_seen": {"Lactic Acid": 1}}
+{"timestamp": "2025-11-24T20:31:45.162728Z", "field_name": "Arginine Hydrolysis", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.162778Z", "field_name": "Optochin Sensitivity", "freq": 9, "values_seen": {"Positive": 3, "Negative": 5, "Variable": 1}}
+{"timestamp": "2025-11-24T20:31:45.162809Z", "field_name": "Other Products", "freq": 1, "values_seen": {"Propionic Acid": 1}}
+{"timestamp": "2025-11-24T20:31:45.162838Z", "field_name": "Metabolic Product", "freq": 1, "values_seen": {"Dextran": 1}}
+{"timestamp": "2025-11-24T20:31:45.162867Z", "field_name": "Bacitracin Sensitivity", "freq": 3, "values_seen": {"Positive": 2, "Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.162921Z", "field_name": "Pigment Production", "freq": 160, "values_seen": {"Pyocyanin;Pyoverdine": 1, "Yellow": 75, "Red": 12, "Fluorescent": 2, "Variable": 4, "Brown": 9, "Greenish-yellow": 1, "Yellow;Tan": 2, "Pink": 6, "Black": 5, "Pink;Red": 5, "Fluorescent Green": 1, "Yellow;Yellow-Orange": 1, "Yellow-Green": 5, "Blue-Green": 2, "Negative": 10, "Non-pigmented": 1, "Photochromogenic Yellow": 1, "Orange": 2, "Brown on Bird Seed Agar": 1, "Violet": 1, "Fluorescent Yellow-Green": 1, "Greenish": 1, "Cream": 1, "Yellowish": 1, "Yellow;Orange": 1, "Dark Red": 1, "Pink-Red": 1, "Yellow-Brown": 1, "Pale Pink": 1, "Yellow-White": 2, "Yellow;Cream": 1, "Pale Yellow": 1}}
+{"timestamp": "2025-11-24T20:31:45.163012Z", "field_name": "Indoxyl Acetate", "freq": 8, "values_seen": {"Positive": 4, "Negative": 4}}
+{"timestamp": "2025-11-24T20:31:45.163073Z", "field_name": "Growth Requirements", "freq": 11, "values_seen": {"X Factor;V Factor": 2, "L-cysteine;Iron": 2, "V Factor": 1, "L-cysteine": 1, "Hemin": 1, "X Factor": 1, "Haemin;Vitamin K": 1, "Complex Nutrients": 1, "Hemin;Vitamin K": 1}}
+{"timestamp": "2025-11-24T20:31:45.163126Z", "field_name": "Aerolysin Production", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.163175Z", "field_name": "Bile Esculin", "freq": 42, "values_seen": {"Positive": 42}}
+{"timestamp": "2025-11-24T20:31:45.163209Z", "field_name": "Arrangement", "freq": 11, "values_seen": {"Cocci": 5, "Tetrads": 2, "Chains": 1, "Diplococci": 3}}
+{"timestamp": "2025-11-24T20:31:45.163239Z", "field_name": "Toxin A", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.163265Z", "field_name": "Toxin B", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.163296Z", "field_name": "Carbohydrate Utilisation", "freq": 19, "values_seen": {"Negative": 18, "Oxidative": 1}}
+{"timestamp": "2025-11-24T20:31:45.163327Z", "field_name": "Novobiocin Sensitivity", "freq": 25, "values_seen": {"Negative": 8, "Positive": 17}}
+{"timestamp": "2025-11-24T20:31:45.163355Z", "field_name": "Acid-fast Stain", "freq": 3, "values_seen": {"Positive": 3}}
+{"timestamp": "2025-11-24T20:31:45.163387Z", "field_name": "Nitrogen Fixation", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.163414Z", "field_name": "Pseudohyphae", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.163443Z", "field_name": "Germ Tube", "freq": 31, "values_seen": {"Positive": 8, "Negative": 23}}
+{"timestamp": "2025-11-24T20:31:45.163469Z", "field_name": "Budding", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.163494Z", "field_name": "Hyphae", "freq": 2, "values_seen": {"Negative": 1, "Septate": 1}}
+{"timestamp": "2025-11-24T20:31:45.163520Z", "field_name": "Ethanol Production", "freq": 3, "values_seen": {"Positive": 3}}
+{"timestamp": "2025-11-24T20:31:45.163545Z", "field_name": "Intracellular Lifestyle", "freq": 4, "values_seen": {"Obligate Intracellular": 3, "Facultative Intracellular": 1}}
+{"timestamp": "2025-11-24T20:31:45.163570Z", "field_name": "Fermentation Substrate", "freq": 1, "values_seen": {"Amino Acids": 1}}
+{"timestamp": "2025-11-24T20:31:45.163595Z", "field_name": "Morphology Detail", "freq": 3, "values_seen": {"Branching": 2, "Tapered Ends": 1}}
+{"timestamp": "2025-11-24T20:31:45.163624Z", "field_name": "Toxin Production", "freq": 13, "values_seen": {"Shiga-like Toxin": 1, "Shiga Toxin": 3, "Tetanospasmin": 1, "Pertussis Toxin": 1, "Cytolysin": 1, "Negative": 1, "Lethal;Hemorrhagic": 1, "Toxin A;Toxin B": 1, "Alpha Toxin": 1, "Botulinum Neurotoxin G": 1, "Toxin A; Toxin B": 1}}
+{"timestamp": "2025-11-24T20:31:45.163660Z", "field_name": "Organic Acids Production", "freq": 67, "values_seen": {"Acetate;Succinate": 2, "Butyrate": 14, "Butyrate;Acetate": 8, "Acetate;Butyrate": 16, "Short-chain Fatty Acids": 1, "Succinate;Acetate": 1, "Propionate": 6, "Lactate": 2, "Acetate": 5, "Valerate;Butyrate": 1, "Acetate;Butyrate;Lactate": 1, "Propionate;Acetate": 5, "Acetate;Lactate": 2, "Acetate;Ethanol": 1, "Acetate;Formate": 1, "Butyrate;Isopropanol": 1}}
+{"timestamp": "2025-11-24T20:31:45.163694Z", "field_name": "Butyrate Esterase", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.163722Z", "field_name": "Dextran Production", "freq": 3, "values_seen": {"Positive": 3}}
+{"timestamp": "2025-11-24T20:31:45.163766Z", "field_name": "Denitrification", "freq": 5, "values_seen": {"Positive": 5}}
+{"timestamp": "2025-11-24T20:31:45.163819Z", "field_name": "Special Metabolism", "freq": 6, "values_seen": {"Arsenite Oxidation": 1, "Reuterin Production": 1, "1,3-Propanediol Production": 1, "Vitamin B12 Production": 1, "Hydrogen Peroxide Production": 1, "p-Cresol Production": 1}}
+{"timestamp": "2025-11-24T20:31:45.163853Z", "field_name": "Galactose Fermentation", "freq": 4, "values_seen": {"Positive": 4}}
+{"timestamp": "2025-11-24T20:31:45.163890Z", "field_name": "UV Resistance", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.163918Z", "field_name": "Nalidixic Acid Resistance", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.163963Z", "field_name": "Protease Production", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.163992Z", "field_name": "Aerotolerance", "freq": 4, "values_seen": {"Positive": 4}}
+{"timestamp": "2025-11-24T20:31:45.164021Z", "field_name": "Swarming Motility", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.164060Z", "field_name": "Phenylalanine Deaminase", "freq": 4, "values_seen": {"Positive": 4}}
+{"timestamp": "2025-11-24T20:31:45.164104Z", "field_name": "Motility at 25C", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.164134Z", "field_name": "Motility at 37C", "freq": 2, "values_seen": {"Negative": 2}}
+{"timestamp": "2025-11-24T20:31:45.164161Z", "field_name": "Bipolar Staining", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.164186Z", "field_name": "X Factor Requirement", "freq": 2, "values_seen": {"Positive": 1, "Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.164221Z", "field_name": "V Factor Requirement", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.164266Z", "field_name": "Satellite Phenomenon", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.164303Z", "field_name": "Cysteine Requirement", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.164331Z", "field_name": "Iron Requirement", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.164357Z", "field_name": "Niacin", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.164382Z", "field_name": "Catalase at 68C", "freq": 1, "values_seen": {"Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.164424Z", "field_name": "Growth Rate", "freq": 9, "values_seen": {"Slow": 9}}
+{"timestamp": "2025-11-24T20:31:45.164459Z", "field_name": "Cell Wall Lipids", "freq": 1, "values_seen": {"High Mycolic Acids": 1}}
+{"timestamp": "2025-11-24T20:31:45.164487Z", "field_name": "Chlamydospore Formation", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.164517Z", "field_name": "Metachromatic Granules", "freq": 1, "values_seen": {"Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.164544Z", "field_name": "Starch Hydrolysis", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.164574Z", "field_name": "Sugar Fermentation", "freq": 1, "values_seen": {"Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.164600Z", "field_name": "Special Features", "freq": 1, "values_seen": {"Sulfur Granules": 1}}
+{"timestamp": "2025-11-24T20:31:45.164626Z", "field_name": "Lactate Fermentation", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.164653Z", "field_name": "Pyruvate Metabolism", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.164679Z", "field_name": "Lactate Utilisation", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.164708Z", "field_name": "Culture Requirement", "freq": 9, "values_seen": {"Not Grown on Routine Media": 1, "BSK Medium": 1, "Not Cultivable on Routine Media": 1, "Cell Culture;Embryonated Eggs": 1, "Cell Culture": 1, "Iron/Sulfur Mineral Media": 1, "Inorganic Ammonium Media": 1, "Inorganic Nitrite Media": 1, "Methanol-containing Media": 1}}
+{"timestamp": "2025-11-24T20:31:45.164750Z", "field_name": "Detection Method", "freq": 2, "values_seen": {"Dark-field Microscopy": 1, "PCR;Immunostain": 1}}
+{"timestamp": "2025-11-24T20:31:45.164793Z", "field_name": "Budding Type", "freq": 1, "values_seen": {"Narrow-based": 1}}
+{"timestamp": "2025-11-24T20:31:45.164835Z", "field_name": "Inositol Assimilation", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.164880Z", "field_name": "Kingdom", "freq": 1, "values_seen": {"Fungi": 1}}
+{"timestamp": "2025-11-24T20:31:45.164926Z", "field_name": "Branching Angle", "freq": 1, "values_seen": {"45": 1}}
+{"timestamp": "2025-11-24T20:31:45.164959Z", "field_name": "Conidial Head", "freq": 1, "values_seen": {"Columnar": 1}}
+{"timestamp": "2025-11-24T20:31:45.164986Z", "field_name": "Organism Type", "freq": 2, "values_seen": {"Spirochete": 2}}
+{"timestamp": "2025-11-24T20:31:45.165012Z", "field_name": "Stain Preference", "freq": 2, "values_seen": {"Silver;Dark-field": 1, "Dark-field;Silver": 1}}
+{"timestamp": "2025-11-24T20:31:45.165038Z", "field_name": "Flagella Type", "freq": 2, "values_seen": {"Axial Filaments": 1, "Polar": 1}}
+{"timestamp": "2025-11-24T20:31:45.165066Z", "field_name": "Intracellular", "freq": 2, "values_seen": {"Obligate": 2}}
+{"timestamp": "2025-11-24T20:31:45.165094Z", "field_name": "Developmental Cycle", "freq": 1, "values_seen": {"Elementary Body;Reticulate Body": 1}}
+{"timestamp": "2025-11-24T20:31:45.165143Z", "field_name": "Metabolism", "freq": 5, "values_seen": {"Chemolithoautotroph": 3, "Methylotroph": 1, "Proteolytic": 1}}
+{"timestamp": "2025-11-24T20:31:45.165186Z", "field_name": "Substrate Utilisation", "freq": 4, "values_seen": {"Ferrous Iron;Reduced Sulfur": 1, "Ammonia": 1, "Nitrite": 1, "Methanol;C1 Compounds": 1}}
+{"timestamp": "2025-11-24T20:31:45.165217Z", "field_name": "pH Preference", "freq": 1, "values_seen": {"Acidophilic": 1}}
+{"timestamp": "2025-11-24T20:31:45.165242Z", "field_name": "Optimal pH", "freq": 1, "values_seen": {"2–3": 1}}
+{"timestamp": "2025-11-24T20:31:45.165270Z", "field_name": "Product", "freq": 2, "values_seen": {"Nitrite": 1, "Nitrate": 1}}
+{"timestamp": "2025-11-24T20:31:45.165296Z", "field_name": "Radiation Resistance", "freq": 2, "values_seen": {"High": 2}}
+{"timestamp": "2025-11-24T20:31:45.165324Z", "field_name": "Environmental Survival", "freq": 1, "values_seen": {"High": 1}}
+{"timestamp": "2025-11-24T20:31:45.165364Z", "field_name": "Thermophilic", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.165408Z", "field_name": "Cephalothin Sensitivity", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.165443Z", "field_name": "Metabolic Products", "freq": 10, "values_seen": {"Butyrate;Acetone;Butanol": 1, "Lactic Acid;Hydrogen Peroxide": 1, "Secondary Bile Acids": 1, "Lactic Acid;Ethanol": 3, "Lactic Acid": 3, "Kefiran": 1}}
+{"timestamp": "2025-11-24T20:31:45.165474Z", "field_name": "UV Tolerance", "freq": 1, "values_seen": {"High": 1}}
+{"timestamp": "2025-11-24T20:31:45.165502Z", "field_name": "Heat Resistance", "freq": 2, "values_seen": {"High": 2}}
+{"timestamp": "2025-11-24T20:31:45.165528Z", "field_name": "pH Tolerance", "freq": 4, "values_seen": {"Alkaliphile": 3, "Acidophilic": 1}}
+{"timestamp": "2025-11-24T20:31:45.165554Z", "field_name": "Vitamin B12 Production", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.165582Z", "field_name": "Enzyme Production", "freq": 1, "values_seen": {"Amylase": 1}}
+{"timestamp": "2025-11-24T20:31:45.165607Z", "field_name": "Attachment Mechanism", "freq": 1, "values_seen": {"AE Lesions": 1}}
+{"timestamp": "2025-11-24T20:31:45.165637Z", "field_name": "Secondary Metabolites", "freq": 6, "values_seen": {"Siderophores": 1, "Lipopeptides": 2, "Surfactants": 1, "Antimicrobial Peptides": 2}}
+{"timestamp": "2025-11-24T20:31:45.165664Z", "field_name": "Ammonia Production", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.165689Z", "field_name": "Bioluminescence", "freq": 2, "values_seen": {"Variable": 1, "Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.165938Z", "field_name": "Metabolism Type", "freq": 11, "values_seen": {"Homofermentative": 2, "Asaccharolytic": 9}}
+{"timestamp": "2025-11-24T20:31:45.165997Z", "field_name": "Chromium Reduction", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.166027Z", "field_name": "Metabolic Capability", "freq": 2, "values_seen": {"Hydrocarbon Degradation": 1, "Agar Degradation": 1}}
+{"timestamp": "2025-11-24T20:31:45.166079Z", "field_name": "Melibiose Fermentation", "freq": 3, "values_seen": {"Positive": 3}}
+{"timestamp": "2025-11-24T20:31:45.166112Z", "field_name": "Growth Requirement", "freq": 16, "values_seen": {"Cysteine;Iron": 8, "X Factor": 2, "V Factor": 5, "X Factor;V Factor": 1}}
+{"timestamp": "2025-11-24T20:31:45.166145Z", "field_name": "MacConkey Growth", "freq": 8, "values_seen": {"Negative": 8}}
+{"timestamp": "2025-11-24T20:31:45.166173Z", "field_name": "Phenylalanine Deamination", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.166198Z", "field_name": "Nitrite Reduction", "freq": 3, "values_seen": {"Positive": 3}}
+{"timestamp": "2025-11-24T20:31:45.166241Z", "field_name": "Electron Acceptors", "freq": 7, "values_seen": {"Iron;Manganese": 1, "TMAO": 1, "Iron;TMAO": 1, "Iron": 1, "TMAO;Iron": 2, "Iron;Manganese;TMAO": 1}}
+{"timestamp": "2025-11-24T20:31:45.166278Z", "field_name": "Glycyrrhizin Hydrolysis", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.166305Z", "field_name": "Pyrazinamidase", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.166332Z", "field_name": "Aromatic Compound Degradation", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.166359Z", "field_name": "Xylose Oxidation", "freq": 2, "values_seen": {"Positive": 2}}
+{"timestamp": "2025-11-24T20:31:45.166383Z", "field_name": "Blood Agar Growth", "freq": 1, "values_seen": {"Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.166408Z", "field_name": "Beta-lactamase", "freq": 1, "values_seen": {"Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.166433Z", "field_name": "Mannitol Oxidation", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.166478Z", "field_name": "Colony Odour", "freq": 4, "values_seen": {"Horse Stable": 1, "Citrus": 1, "Grape-like": 1, "Horse-stable": 1}}
+{"timestamp": "2025-11-24T20:31:45.166512Z", "field_name": "Parasporal Crystal", "freq": 1, "values_seen": {"Present": 1}}
+{"timestamp": "2025-11-24T20:31:45.166542Z", "field_name": "Lancefield Group", "freq": 3, "values_seen": {"D": 1, "C or G": 1, "E": 1}}
+{"timestamp": "2025-11-24T20:31:45.166568Z", "field_name": "NaCl Requirement", "freq": 1, "values_seen": {"Positive": 1}}
+{"timestamp": "2025-11-24T20:31:45.166593Z", "field_name": "Fermentation Type", "freq": 1, "values_seen": {"Heterofermentative": 1}}
+{"timestamp": "2025-11-24T20:31:45.166620Z", "field_name": "Ribose Fermentation", "freq": 4, "values_seen": {"Positive": 4}}
+{"timestamp": "2025-11-24T20:31:45.166654Z", "field_name": "Chlamydospore Production", "freq": 21, "values_seen": {"Positive": 6, "Negative": 15}}
+{"timestamp": "2025-11-24T20:31:45.166686Z", "field_name": "Phenol Oxidase", "freq": 7, "values_seen": {"Positive": 7}}
+{"timestamp": "2025-11-24T20:31:45.166714Z", "field_name": "Acid-Fast", "freq": 20, "values_seen": {"Positive": 20}}
+{"timestamp": "2025-11-24T20:31:45.166740Z", "field_name": "Raffinase Fermentation", "freq": 1, "values_seen": {"Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.166765Z", "field_name": "Inositot Fermentation", "freq": 1, "values_seen": {"Negative": 1}}
+{"timestamp": "2025-11-24T20:31:45.166790Z", "field_name": "Inditol", "freq": 1, "values_seen": {"Negative": 1}}

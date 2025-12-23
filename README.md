@@ -22,7 +22,7 @@ Hybrid AI System for Microbiology Phenotype Identification
 
 🔹 ML Genus Prediction (XGBoost)
 - Trained on parsed phenotypic features
-- ~8300 Test profiles, with over 300,000 total fields to train upon.
+- Trained on ~8300 curated test profiles (>300,000 structured fields).
 - Outputs calibrated genus probabilities
 - Integrated with rule-based confidence via hybrid weighting
 
@@ -56,7 +56,7 @@ Combines:
   - RAG is explanatory — never authoritative.
 
 
-🔹 Human-Safe Decision Table
+🔹 Decision-Safe Decision Table
 - Top-5 output includes:
   - Probability % (normalized within top-5)
   - Human-friendly odds (“1 in X”)
@@ -115,19 +115,20 @@ This project is not a medical diagnostic device.
 It is intended for research, education, and decision support only.
 
 
-🚀 Future Directions (Planned)
-- Genus-specific confirmatory test recommendations
-- Progressive diagnostic workflows
-- Multi-genus explanatory comparison
-- Expanded species-level reasoning
-- Confidence calibration analysis
-
 ## Design Decisions
 
 - Confidence thresholds are applied after unified scoring
 - Only top-ranked predictions may be considered actionable
 - Lower-ranked candidates are explicitly marked as low discrimination
 - Explainability is treated as a first-class requirement
+
+
+🚀 Future Directions (Planned)
+- Genus-specific confirmatory test recommendations
+- Progressive diagnostic workflows
+- Multi-genus explanatory comparison
+- Expanded species-level reasoning
+- Confidence calibration analysis
 
 
 👤 Author

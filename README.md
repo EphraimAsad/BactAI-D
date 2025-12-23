@@ -1,3 +1,5 @@
+🧫 BactAI-D — Hybrid Microbiology Identification System
+
 BactAI-D is an applied AI system for phenotype-based bacterial genus and species identification, designed to balance deterministic microbiology rules, machine learning, and LLM-based explanation in a single, safety-aware pipeline.
 
 Unlike end-to-end black-box models, BactAI-D uses a hybrid inference architecture:

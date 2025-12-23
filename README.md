@@ -1,10 +1,10 @@
-🧫 BactAI-D
+## 🧫 BactAI-D
 Hybrid AI System for Microbiology Phenotype Identification
 
 - BactAI-D is an end-to-end, production-oriented AI system for identifying bacterial genera and species from free-text microbiology phenotype descriptions.
 - It combines rule-based parsing, schema-driven learning, machine learning, and retrieval-augmented generation (RAG) into a unified, confidence-aware identification pipeline designed for real laboratory data.
 
-✨ Key Capabilities
+## ✨ Key Capabilities
 
 🔹 Hybrid Parsing Architecture
 - Rule Parser — deterministic extraction of core microbiology fields
@@ -64,6 +64,16 @@ Combines:
   - Designed to support interpretation, not automation.
 
 
+🧪 Training & Extensibility
+- BactAI-D includes tooling to:
+  - Evaluate parser accuracy
+  - Train on curated gold test datasets
+  - Learn new schema fields
+  - Retrain ML models
+  - Rebuild the RAG index
+- This enables continuous improvement without architectural changes.
+
+
 ## 🧠 System Architecture (High Level)
 
 Phenotype Text
@@ -90,29 +100,12 @@ Top-5 Decision Table
 RAG Explanation (Genus + Species)
 
 
-
-🧪 Training & Extensibility
-- BactAI-D includes tooling to:
-  - Evaluate parser accuracy
-  - Train on curated gold test datasets
-  - Learn new schema fields
-  - Retrain ML models
-  - Rebuild the RAG index
-- This enables continuous improvement without architectural changes.
-
-
-🖥️ Demo (Hugging Face Spaces)
+## 🖥️ Demo (Hugging Face Spaces)
 A live interactive demo is available on Hugging Face Spaces: https://huggingface.co/spaces/EphAsad/BactAID-Demo
 
 - LLM parsing disabled by default (safe deployment)
 - Full debug outputs available
 - Recruiter-friendly UI with explainability
-
-
-⚠️ Disclaimer
-
-This project is not a medical diagnostic device.
-It is intended for research, education, and decision support only.
 
 
 ## Design Decisions
@@ -129,6 +122,11 @@ It is intended for research, education, and decision support only.
 - Multi-genus explanatory comparison
 - Expanded species-level reasoning
 - Confidence calibration analysis
+
+⚠️ Disclaimer
+
+This project is not a medical diagnostic device.
+It is intended for research, education, and decision support only.
 
 
 👤 Author

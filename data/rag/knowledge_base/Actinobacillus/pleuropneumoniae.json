@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Actinobacillus",
+  "species": "pleuropneumoniae",
+
+  "overview": {
+    "short": "Actinobacillus pleuropneumoniae is a Gram-negative coccobacillus causing severe respiratory disease in swine.",
+    "clinical_context": "A major cause of porcine pleuropneumonia; not considered a human pathogen."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Oxidase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Helps distinguish from other Actinobacillus species."
+    },
+    {
+      "field": "Host specificity",
+      "value": "Swine",
+      "importance": "high",
+      "notes": "Strongly associated with porcine hosts."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Actinobacillus suis",
+      "reason": "Shared haemolysis and overlapping veterinary context."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolation from human samples suggests misidentification.",
+    "Non-haemolytic isolates are inconsistent with A. pleuropneumoniae."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Veterinary PCR panels",
+      "reason": "Gold standard for definitive identification."
+    }
+  ]
+}

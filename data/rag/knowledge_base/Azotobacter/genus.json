@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Azotobacter",
+
+  "overview": {
+    "short": "Azotobacter species are Gram-negative, obligately aerobic, free-living nitrogen-fixing rods commonly found in soil and water.",
+    "clinical_context": "Rarely associated with human disease; most isolates are environmental or laboratory contaminants."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Mucoid",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Azotobacter species are strictly aerobic despite nitrogen fixation.",
+    "Capsule": "Prominent polysaccharide capsule contributes to mucoid colonies.",
+    "Glucose Fermentation": "Azotobacter are non-fermenters; energy is derived via oxidative metabolism."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Aerobic",
+      "distinguishes_from": ["Enterobacter", "Klebsiella"],
+      "notes": "Strict aerobic growth helps exclude Enterobacterales."
+    },
+    {
+      "field": "Capsule",
+      "expected": "Positive",
+      "distinguishes_from": ["Pseudomonas"],
+      "notes": "Heavy capsule and mucoid colonies are characteristic."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Non-fermentative metabolism separates Azotobacter from many Gram-negative rods."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Both are aerobic Gram-negative rods and oxidase positive."
+    },
+    {
+      "genus": "Burkholderia",
+      "reason": "Environmental origin and non-fermentative metabolism may overlap."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth under anaerobic conditions argues against Azotobacter.",
+    "Strong glucose fermentation suggests Enterobacterales.",
+    "Lack of capsule suggests another aerobic Gram-negative rod."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidative/Fermentative glucose test",
+      "reason": "Confirms oxidative (non-fermentative) metabolism."
+    },
+    {
+      "test": "Nitrogen fixation testing",
+      "reason": "Demonstrates characteristic nitrogen-fixing capability."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable for environmental species identification."
+    }
+  ],
+
+  "supported_species": [
+    "chroococcum",
+    "vinelandii"
+  ]
+}

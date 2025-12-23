@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bordetella",
+  "species": "pertussis",
+
+  "overview": {
+    "short": "Bordetella pertussis is a fastidious, non-motile Gram-negative coccobacillus and the primary cause of whooping cough.",
+    "clinical_context": "Strictly human respiratory pathogen causing acute and prolonged cough illness, particularly severe in infants."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Bordet-Gengou Agar",
+      "Regan-Lowe Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Pearl-like"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Distinguishes B. pertussis from motile Bordetella species."
+    },
+    {
+      "field": "Urease",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Separates B. pertussis from B. parapertussis."
+    },
+    {
+      "field": "Growth Requirement",
+      "value": "Fastidious",
+      "importance": "medium",
+      "notes": "Requires enriched media such as Bordet-Gengou or Regan-Lowe agar."
+    }
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "PCR (IS481)",
+      "reason": "Gold-standard confirmation for Bordetella pertussis."
+    },
+    {
+      "test": "Culture on Regan-Lowe Agar",
+      "reason": "Selective isolation in early infection."
+    }
+  ]
+}

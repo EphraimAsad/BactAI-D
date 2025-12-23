@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bacillus",
+  "species": "mycoides",
+
+  "overview": {
+    "short": "Bacillus mycoides is a Gram-positive, aerobic, spore-forming rod characterized by distinctive rhizoid colony morphology.",
+    "clinical_context": "Primarily environmental; rarely implicated in human disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Rhizoid",
+      "Spreading",
+      "Filamentous"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//40",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Variable",
+    "Colony Pattern": "Rhizoid",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Colony Morphology",
+      "value": "Rhizoid",
+      "importance": "critical",
+      "notes": "Highly characteristic spreading rhizoid colonies."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Bacillus cereus",
+      "reason": "Shared genetic background but distinct colony morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of rhizoid growth argues against B. mycoides.",
+    "Strong haemolysis suggests B. cereus group."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Colony morphology assessment",
+      "reason": "Primary discriminator for B. mycoides."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Confirms species within Bacillus group."
+    }
+  ]
+}

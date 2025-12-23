@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bartonella",
+  "species": "henselae",
+
+  "overview": {
+    "short": "Bartonella henselae is a fastidious, Gram-negative bacillus and the primary cause of cat scratch disease.",
+    "clinical_context": "Associated with cat exposure and causes lymphadenitis, bacillary angiomatosis, and culture-negative endocarditis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Chocolate Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Rough"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Association",
+      "value": "Cat exposure",
+      "importance": "high",
+      "notes": "Strong epidemiological link to cats and cat scratches."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Bartonella quintana",
+      "reason": "Similar fastidious growth and biochemical inactivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of cat exposure history.",
+    "Rapid growth on routine laboratory media.",
+    "Positive oxidase or catalase reactions."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Serology",
+      "reason": "Primary diagnostic method for cat scratch disease."
+    },
+    {
+      "test": "PCR",
+      "reason": "Sensitive detection from lymph node or blood samples."
+    }
+  ]
+}

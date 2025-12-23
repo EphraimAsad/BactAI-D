@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Acinetobacter",
+  "species": "pittii",
+
+  "overview": {
+    "short": "Acinetobacter pittii is a Gram-negative, aerobic, non-fermentative coccobacillus belonging to the Acinetobacter baumannii complex.",
+    "clinical_context": "Associated with opportunistic infections including bloodstream, respiratory, and wound infections, generally less virulent than A. baumannii."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Coccobacilli",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Opaque",
+      "Grey-White"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "40//40",
+      "importance": "high",
+      "notes": "Typically does not grow at the higher temperatures tolerated by A. baumannii."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Reduced salt tolerance compared to A. baumannii."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Acinetobacter baumannii",
+      "reason": "Part of the A. baumannii complex with overlapping biochemical characteristics."
+    },
+    {
+      "species": "Acinetobacter calcoaceticus",
+      "reason": "Genetically related environmental species within the complex."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth at ≥44°C suggests A. baumannii.",
+    "Strong salt tolerance supports A. baumannii over A. pittii."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Primary method for differentiating species within the A. baumannii complex."
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Definitive resolution when clinical significance is high."
+    }
+  ]
+}

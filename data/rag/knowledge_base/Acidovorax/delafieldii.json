@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Acidovorax",
+  "species": "delafieldii",
+
+  "overview": {
+    "short": "Acidovorax delafieldii is an aerobic, oxidase-positive, non-fermentative Gram-negative rod commonly recovered from soil and water.",
+    "clinical_context": "Occasional opportunistic isolation in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Citrate",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Distinguishes A. delafieldii from other Acidovorax species."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification when combined with citrate positivity."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Acidovorax avenae",
+      "reason": "Shared environmental origin and biochemical overlap."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity suggests alternative genera.",
+    "Fermentative metabolism excludes Acidovorax."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Citrate utilization",
+      "reason": "Key species discriminator."
+    },
+    {
+      "test": "Nitrate reduction",
+      "reason": "Supports identification."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred confirmatory method."
+    }
+  ]
+}

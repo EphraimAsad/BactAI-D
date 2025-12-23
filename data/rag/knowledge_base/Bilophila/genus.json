@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Bilophila",
+
+  "overview": {
+    "short": "Bilophila species are Gram-negative, obligately anaerobic rods that are bile-resistant and part of the human gastrointestinal microbiota.",
+    "clinical_context": "Most commonly associated with intra-abdominal infections, appendicitis, and abscess formation."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Anaerobic Blood Agar",
+      "Bile Esculin Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Bile Tolerance": "Growth in bile-containing media is characteristic.",
+    "H2S": "Hydrogen sulfide production is a key metabolic feature.",
+    "Metabolism": "Asaccharolytic; does not ferment carbohydrates."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "H2S",
+      "expected": "Positive",
+      "distinguishes_from": ["Bacteroides", "Prevotella"],
+      "notes": "H2S production helps separate Bilophila from many anaerobic Gram-negative rods."
+    },
+    {
+      "field": "Bile Resistance",
+      "expected": "Positive",
+      "distinguishes_from": ["Fusobacterium"],
+      "notes": "Growth in bile-containing media is distinctive."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Bacteroides",
+      "reason": "Shared anaerobic habitat and Gram-negative morphology."
+    },
+    {
+      "genus": "Desulfovibrio",
+      "reason": "Both may produce hydrogen sulfide."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Carbohydrate fermentation observed.",
+    "Aerobic or facultative growth detected.",
+    "Oxidase positivity."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic culture with bile-containing media",
+      "reason": "Supports bile tolerance and anaerobic growth."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable identification of anaerobic Gram-negative rods.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive identification for rare or ambiguous isolates."
+    }
+  ],
+
+  "supported_species": [
+    "wadsworthia"
+  ]
+}

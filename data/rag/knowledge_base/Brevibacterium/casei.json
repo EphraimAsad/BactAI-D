@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Brevibacterium",
+  "species": "casei",
+
+  "overview": {
+    "short": "Brevibacterium casei is a Gram-positive, aerobic, non-motile coryneform bacterium commonly found on human skin.",
+    "clinical_context": "Primarily a skin commensal but may be isolated from opportunistic infections, particularly in immunocompromised patients or device-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Rough",
+      "Cream to light orange"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Light orange",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Light orange",
+      "importance": "medium",
+      "notes": "Pigmentation is present but typically less intense than B. linens."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification within Brevibacterium."
+    },
+    {
+      "field": "Clinical Context",
+      "value": "Skin flora",
+      "importance": "high",
+      "notes": "Common isolation from skin supports B. casei over environmental species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Brevibacterium linens",
+      "reason": "Shared pigmentation and biochemical overlap."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Similar coryneform morphology and catalase positivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong orange pigmentation suggests B. linens.",
+    "Strict anaerobic growth argues against Brevibacterium.",
+    "Catalase-negative result suggests Actinomyces."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API Coryne",
+      "reason": "Useful for differentiation among coryneform bacteria."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for definitive species identification."
+    }
+  ]
+}

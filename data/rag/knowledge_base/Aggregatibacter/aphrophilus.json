@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Aggregatibacter",
+  "species": "aphrophilus",
+
+  "overview": {
+    "short": "Aggregatibacter aphrophilus is a Gram-negative, fastidious coccobacillus commonly isolated from the oral cavity and associated with endocarditis.",
+    "clinical_context": "A member of the HACEK group, frequently implicated in culture-negative endocarditis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Catalase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Differentiates A. aphrophilus from A. actinomycetemcomitans."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Aggregatibacter actinomycetemcomitans",
+      "reason": "Shared habitat and similar growth characteristics."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity suggests A. actinomycetemcomitans.",
+    "Star-shaped colonies suggest A. actinomycetemcomitans.",
+    "Growth on MacConkey Agar argues against Aggregatibacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Catalase test",
+      "reason": "Key discriminator within Aggregatibacter species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate identification of HACEK organisms."
+    }
+  ]
+}

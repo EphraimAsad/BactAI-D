@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Achromobacter",
+
+  "overview": {
+    "short": "Achromobacter species are Gram-negative, non-fermenting rods commonly found in aqueous environments and occasionally isolated from clinical specimens.",
+    "clinical_context": "Most frequently associated with respiratory infections, particularly in patients with cystic fibrosis, as well as opportunistic bloodstream and device-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-lactose fermenting"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Glucose Fermentation": "Achromobacter species are non-fermenters and do not acidify carbohydrates.",
+    "Arginine dihydrolase": "Typically positive and a useful discriminator among non-fermenting Gram-negative rods.",
+    "Oxidase": "Oxidase positivity helps distinguish Achromobacter from Stenotrophomonas."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Stenotrophomonas"],
+      "notes": "Oxidase positivity separates Achromobacter from oxidase-negative non-fermenters."
+    },
+    {
+      "field": "Arginine dihydrolase",
+      "expected": "Positive",
+      "distinguishes_from": ["Pseudomonas"],
+      "notes": "Arginine positivity helps differentiate from many Pseudomonas species."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Burkholderia"],
+      "notes": "Non-fermentative metabolism excludes Enterobacterales."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Shared oxidase positivity and non-fermentative metabolism."
+    },
+    {
+      "genus": "Burkholderia",
+      "reason": "Overlap in non-fermenting biochemical profiles and environmental origin."
+    },
+    {
+      "genus": "Stenotrophomonas",
+      "reason": "Similar colony morphology on non-selective media."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative isolate suggests Stenotrophomonas.",
+    "Strong pigment production suggests Pseudomonas.",
+    "Fermentative carbohydrate reactions argue against Achromobacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Arginine dihydrolase",
+      "reason": "Key biochemical marker for Achromobacter identification."
+    },
+    {
+      "test": "Oxidative-fermentative (OF) glucose test",
+      "reason": "Confirms non-fermentative metabolism."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended due to overlap with other non-fermenting Gram-negative rods."
+    }
+  ],
+
+  "supported_species": [
+    "xylosoxidans",
+    "ruhlandii",
+    "insolitus"
+  ]
+}

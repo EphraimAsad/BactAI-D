@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Aeromonas",
+
+  "overview": {
+    "short": "Aeromonas species are Gram-negative, facultatively anaerobic rods commonly found in aquatic environments and associated with gastrointestinal and wound infections.",
+    "clinical_context": "Frequently implicated in gastroenteritis, wound infections following water exposure, and opportunistic bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Grey",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Oxidase": "Oxidase positivity is a key distinguishing feature from Enterobacterales.",
+    "Motility": "Typically motile by polar flagella.",
+    "Lactose Fermentation": "Generally non-lactose fermenting on MacConkey Agar."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Escherichia", "Citrobacter"],
+      "notes": "Separates Aeromonas from most Enterobacterales."
+    },
+    {
+      "field": "DNase",
+      "expected": "Positive",
+      "distinguishes_from": ["Vibrio"],
+      "notes": "DNase positivity supports Aeromonas over Vibrio."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "expected": "Negative",
+      "distinguishes_from": ["Vibrio"],
+      "notes": "Lack of salt tolerance differentiates Aeromonas from halophilic vibrios."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Vibrio",
+      "reason": "Shared oxidase positivity and aquatic association."
+    },
+    {
+      "genus": "Plesiomonas",
+      "reason": "Overlapping biochemical reactions and motility."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Shared glucose fermentation and colony appearance on non-selective media."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth in high salt suggests Vibrio.",
+    "Oxidase negativity argues against Aeromonas.",
+    "Strong lactose fermentation suggests Enterobacterales."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Critical for initial differentiation from Enterobacterales."
+    },
+    {
+      "test": "Salt tolerance testing",
+      "reason": "Helps distinguish from Vibrio species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for accurate species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "hydrophila",
+    "caviae",
+    "veronii",
+    "sobria"
+  ]
+}

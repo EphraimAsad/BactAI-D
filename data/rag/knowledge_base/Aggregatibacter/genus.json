@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Aggregatibacter",
+
+  "overview": {
+    "short": "Aggregatibacter species are fastidious, Gram-negative coccobacilli within the Pasteurellaceae family, commonly associated with oral flora and endocarditis.",
+    "clinical_context": "Members of the HACEK group; most frequently implicated in infective endocarditis and periodontal disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Often described as coccobacilli microscopically; normalized here as Short Rods.",
+    "Growth Requirements": "Many species are fastidious and may require enriched media such as chocolate agar.",
+    "Catalase": "Catalase reactions vary by species."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Haemophilus"],
+      "notes": "Aggregatibacter species are non-motile, helping distinguish them from some Haemophilus species."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Negative",
+      "distinguishes_from": ["Neisseria", "Moraxella"],
+      "notes": "Oxidase negativity helps rule out oxidase-positive Gram-negative cocci."
+    },
+    {
+      "field": "Growth Characteristics",
+      "expected": "Fastidious",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Poor growth on MacConkey Agar helps separate Aggregatibacter from enteric Gram-negative rods."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Haemophilus",
+      "reason": "Shared family (Pasteurellaceae) and similar fastidious growth requirements."
+    },
+    {
+      "genus": "Cardiobacterium",
+      "reason": "Both are HACEK organisms associated with endocarditis."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Robust growth on MacConkey Agar argues against Aggregatibacter.",
+    "Oxidase positivity suggests Neisseria or Moraxella.",
+    "Strong lactose fermentation is inconsistent with Aggregatibacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth factor requirement testing",
+      "reason": "Helps distinguish Aggregatibacter from Haemophilus species."
+    },
+    {
+      "test": "Extended incubation",
+      "reason": "HACEK organisms often grow slowly and may require prolonged incubation."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended due to fastidious growth and biochemical overlap."
+    }
+  ],
+
+  "supported_species": [
+    "actinomycetemcomitans",
+    "aphrophilus",
+    "segregatus"
+  ]
+}

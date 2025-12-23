@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Abiotrophia",
+  "species": "defectiva",
+
+  "overview": {
+    "short": "Abiotrophia defectiva is a fastidious Gram-positive coccus and a member of the nutritionally variant streptococci, requiring enriched media or growth factors for reliable cultivation.",
+    "clinical_context": "Strongly associated with infective endocarditis and other invasive bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Very Small",
+      "Grey",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Media Grown On",
+      "value": "Fastidious growth",
+      "importance": "high",
+      "notes": "Poor or absent growth on routine Blood Agar without pyridoxal or satellite growth is characteristic."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps distinguish from Enterococcus species."
+    },
+    {
+      "field": "Catalase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Supports differentiation from staphylococci."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Granulicatella",
+      "reason": "Closely related nutritionally variant streptococci with overlapping phenotypic profiles."
+    },
+    {
+      "genus": "Streptococcus",
+      "reason": "Similar Gram-positive cocci morphology and catalase-negative reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Failure to grow without enriched media or pyridoxal supplementation.",
+    "Blood culture isolate with streptococcus-like morphology but inconsistent biochemical results.",
+    "Suspected endocarditis isolate not fitting standard Streptococcus species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Pyridoxal supplementation or satellite growth testing",
+      "reason": "Confirms nutritionally variant streptococcal growth requirement."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable method for definitive species-level identification."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Recommended when phenotypic methods are inconclusive."
+    }
+  ]
+}

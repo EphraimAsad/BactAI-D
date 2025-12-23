@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Aggregatibacter",
+  "species": "actinomycetemcomitans",
+
+  "overview": {
+    "short": "Aggregatibacter actinomycetemcomitans is a fastidious Gram-negative coccobacillus associated with periodontal disease and infective endocarditis.",
+    "clinical_context": "Strongly linked to aggressive periodontitis and is a recognized HACEK organism causing endocarditis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Rough",
+      "Star-shaped center"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Colony Morphology",
+      "value": "Star-shaped center",
+      "importance": "high",
+      "notes": "Characteristic star-shaped colonies are strongly suggestive of A. actinomycetemcomitans."
+    },
+    {
+      "field": "Catalase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Helps distinguish from other Aggregatibacter species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Aggregatibacter aphrophilus",
+      "reason": "Similar fastidious growth and biochemical profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of star-shaped colony morphology.",
+    "Oxidase positivity suggests another genus.",
+    "Robust growth on MacConkey Agar is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Extended incubation",
+      "reason": "Characteristic colony morphology may take several days to develop."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable identification among HACEK organisms."
+    }
+  ]
+}

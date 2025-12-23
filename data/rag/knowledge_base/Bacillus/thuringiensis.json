@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bacillus",
+  "species": "thuringiensis",
+
+  "overview": {
+    "short": "Bacillus thuringiensis is a motile, Gram-positive spore-forming rod known for producing parasporal crystal toxins.",
+    "clinical_context": "Primarily agricultural and environmental; rare human infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Irregular",
+      "Haemolytic"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Variable",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Variable",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Parasporal crystals",
+      "value": "Present",
+      "importance": "critical",
+      "notes": "Defining feature distinguishing B. thuringiensis from B. cereus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Bacillus cereus",
+      "reason": "Nearly identical biochemically; requires crystal detection or molecular testing."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of crystal inclusions suggests B. cereus.",
+    "Non-haemolytic phenotype suggests B. anthracis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Phase-contrast microscopy",
+      "reason": "Detects parasporal crystal inclusions."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Differentiates species within the Bacillus cereus group."
+    }
+  ]
+}

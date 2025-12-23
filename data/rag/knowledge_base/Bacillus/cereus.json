@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bacillus",
+  "species": "cereus",
+
+  "overview": {
+    "short": "Bacillus cereus is a motile, beta-haemolytic, Gram-positive spore-forming rod associated with foodborne illness and opportunistic infections.",
+    "clinical_context": "Common cause of toxin-mediated gastroenteritis and occasional invasive disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Flat",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Variable",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Variable",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis",
+      "value": "Beta",
+      "importance": "high",
+      "notes": "Strong beta-haemolysis distinguishes B. cereus from B. anthracis."
+    },
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Motility is absent in B. anthracis."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification within the B. cereus group."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Bacillus thuringiensis",
+      "reason": "Genetically very similar; requires specialized testing."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-haemolytic isolate suggests B. anthracis.",
+    "Non-motile isolate argues against B. cereus.",
+    "Capsule presence suggests B. anthracis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing",
+      "reason": "Key discriminator from B. anthracis."
+    },
+    {
+      "test": "API 50 CHB",
+      "reason": "Carbohydrate utilization profile supports Bacillus species differentiation.",
+      "api_kit": "API 50 CHB"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable identification within the Bacillus cereus group."
+    }
+  ]
+}

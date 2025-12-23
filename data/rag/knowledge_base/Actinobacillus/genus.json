@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Actinobacillus",
+
+  "overview": {
+    "short": "Actinobacillus species are small, Gram-negative, facultatively anaerobic coccobacilli belonging to the Pasteurellaceae family, commonly associated with mucosal surfaces.",
+    "clinical_context": "Primarily associated with respiratory tract infections, oral infections, and invasive disease in both humans and animals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Often described as coccobacilli or short rods; may appear pleomorphic.",
+    "Growth Requirements": "Many species require enriched media and may grow poorly on MacConkey Agar.",
+    "Oxidase": "Reaction varies by species and is not genus-defining."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Growth on MacConkey Agar",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Poor or absent growth on MacConkey Agar helps separate Actinobacillus from Enterobacterales."
+    },
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Achromobacter", "Pseudomonas"],
+      "notes": "Non-motility helps differentiate from motile non-fermenters."
+    },
+    {
+      "field": "ONPG",
+      "expected": "Negative",
+      "distinguishes_from": ["Haemophilus"],
+      "notes": "Helps separate Actinobacillus from some closely related Pasteurellaceae."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Haemophilus",
+      "reason": "Shared family Pasteurellaceae, similar morphology, and overlapping growth requirements."
+    },
+    {
+      "genus": "Aggregatibacter",
+      "reason": "Similar clinical niche and biochemical overlap, particularly in oral infections."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong oxidase positivity and motility suggest Achromobacter or other non-fermenters.",
+    "Robust growth on MacConkey Agar argues against Actinobacillus.",
+    "Indole-positive isolates require careful species-level confirmation."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth factor requirement testing (X and V factors)",
+      "reason": "Helps differentiate Actinobacillus from Haemophilus species."
+    },
+    {
+      "test": "Oxidase and indole testing",
+      "reason": "Useful for species-level discrimination within Pasteurellaceae."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus and species-level identification due to phenotypic overlap."
+    }
+  ],
+
+  "supported_species": [
+    "actinomycetemcomitans",
+    "lignieresii",
+    "ureae"
+  ]
+}

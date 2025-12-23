@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Alcaligenes",
+
+  "overview": {
+    "short": "Alcaligenes species are Gram-negative, aerobic, non-fermentative rods commonly found in environmental sources and occasionally associated with opportunistic infections.",
+    "clinical_context": "Rarely pathogenic but may be isolated from respiratory specimens, blood, or hospital environments."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey-White"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Oxidase": "Strong oxidase positivity is characteristic.",
+    "Glucose Fermentation": "Alcaligenes species are non-fermentative."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Separates Alcaligenes from oxidase-negative Enterobacterales."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Aeromonas"],
+      "notes": "Non-fermentative metabolism is genus-defining."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Achromobacter",
+      "reason": "Both are oxidase-positive, non-fermentative Gram-negative rods."
+    },
+    {
+      "genus": "Pseudomonas",
+      "reason": "Shared aerobic growth and non-fermentative metabolism."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity suggests another genus.",
+    "Glucose fermentation argues against Alcaligenes.",
+    "Pigment production suggests Pseudomonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Key screening test for non-fermentative Gram-negative rods."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended due to limited biochemical resolution."
+    }
+  ],
+
+  "supported_species": [
+    "faecalis",
+    "denitrificans"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Achromobacter",
+  "species": "denitrificans",
+
+  "overview": {
+    "short": "Achromobacter denitrificans is a Gram-negative, aerobic, non-fermenting rod characterized by strong nitrate reduction and denitrification capability.",
+    "clinical_context": "Rarely associated with human infection and more commonly encountered in environmental samples."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Denitrification capability is characteristic of A. denitrificans."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Achromobacter xylosoxidans",
+      "reason": "Shared oxidase positivity and non-fermentative metabolism."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of nitrate reduction argues against A. denitrificans.",
+    "Clinical isolation should prompt confirmation due to rarity."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction and denitrification testing",
+      "reason": "Defining feature of this species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Required for reliable species-level identification."
+    }
+  ]
+}

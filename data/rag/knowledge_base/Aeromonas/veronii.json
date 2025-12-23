@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Aeromonas",
+  "species": "veronii",
+
+  "overview": {
+    "short": "Aeromonas veronii is a Gram-negative, oxidase-positive, facultatively anaerobic rod associated with gastrointestinal illness and opportunistic infections.",
+    "clinical_context": "Often isolated from diarrheal disease and can cause wound or bloodstream infections, especially in immunocompromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Grey",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Indole positivity strongly supports A. veronii over A. caviae (often indole negative)."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from A. caviae, which is more often ornithine positive."
+    },
+    {
+      "field": "Haemolysis",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Haemolysis may occur but is less consistently defining than in A. hydrophila."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Aeromonas hydrophila",
+      "reason": "Overlap in oxidase-positive fermentation and gelatinase patterns; haemolysis and marker patterns help resolve."
+    },
+    {
+      "species": "Aeromonas caviae",
+      "reason": "Both associated with gastroenteritis; indole and ornithine are useful differentiators."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests A. caviae or another Aeromonas species.",
+    "Strong consistent beta haemolysis suggests A. hydrophila.",
+    "NaCl tolerance at >=6% suggests Vibrio rather than Aeromonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator for A. veronii support."
+    },
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Supports separation from A. caviae."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for definitive Aeromonas species identification."
+    }
+  ]
+}

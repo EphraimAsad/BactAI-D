@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Aerococcus",
+  "species": "sanguinicola",
+
+  "overview": {
+    "short": "Aerococcus sanguinicola is a Gram-positive, catalase-negative coccus associated with bloodstream and urinary tract infections.",
+    "clinical_context": "Often isolated from bacteremia or invasive infections in elderly or hospitalized patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Alpha",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Alpha-haemolytic"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Source",
+      "value": "Bloodstream",
+      "importance": "high",
+      "notes": "More frequently isolated from blood cultures than other Aerococcus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Aerococcus urinae",
+      "reason": "Overlapping biochemical profile and haemolysis pattern."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "UTI-only presentation suggests Aerococcus urinae.",
+    "Beta-haemolysis suggests Streptococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Essential for distinguishing Aerococcus species."
+    }
+  ]
+}

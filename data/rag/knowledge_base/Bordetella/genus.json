@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Bordetella",
+
+  "overview": {
+    "short": "Bordetella species are small, Gram-negative, aerobic coccobacilli associated primarily with respiratory tract infections.",
+    "clinical_context": "Includes significant human and veterinary pathogens, notably Bordetella pertussis causing whooping cough."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Variable",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Bordet-Gengou Agar",
+      "Regan-Lowe Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Variable"
+  },
+
+  "field_notes": {
+    "Metabolism": "Asaccharolytic; does not ferment carbohydrates.",
+    "Growth": "Fastidious; requires enriched selective media.",
+    "Motility": "Species-dependent."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Haemophilus"],
+      "notes": "Oxidase positivity supports Bordetella over Haemophilus."
+    },
+    {
+      "field": "Motility",
+      "expected": "Variable",
+      "distinguishes_from": ["Brucella"],
+      "notes": "Motility helps separate Bordetella species from Brucella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Haemophilus",
+      "reason": "Similar respiratory niche and small Gram-negative morphology."
+    },
+    {
+      "genus": "Brucella",
+      "reason": "Shared Gram-negative coccobacillary appearance."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Facultative or anaerobic growth observed.",
+    "Carbohydrate fermentation detected.",
+    "Oxidase-negative isolate."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Rapid screening for Bordetella.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "PCR for Bordetella spp.",
+      "reason": "Gold standard for pertussis complex identification."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Species-level identification when reference spectra are available."
+    }
+  ],
+
+  "supported_species": [
+    "pertussis",
+    "parapertussis",
+    "bronchiseptica"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bergeyella",
+  "species": "zoohelcum",
+
+  "overview": {
+    "short": "Bergeyella zoohelcum is a fastidious Gram-negative short rod associated almost exclusively with dog and cat bite wounds.",
+    "clinical_context": "Most commonly isolated from soft tissue infections following animal bites; rare cases of bacteremia and endocarditis reported."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "One of the most consistent biochemical features of B. zoohelcum."
+    },
+    {
+      "field": "Clinical Association",
+      "value": "Animal bite wounds",
+      "importance": "high",
+      "notes": "Strong epidemiological link to dog and cat bites."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Capnocytophaga",
+      "reason": "Both are fastidious Gram-negative rods from animal bite wounds."
+    },
+    {
+      "genus": "Pasteurella",
+      "reason": "Similar clinical source and growth on blood agar."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of animal exposure history.",
+    "Oxidase or indole negativity.",
+    "Rapid growth on routine media."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Confirmation for rare or ambiguous isolates."
+    }
+  ]
+}

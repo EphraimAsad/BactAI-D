@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Aerococcus",
+  "species": "urinae",
+
+  "overview": {
+    "short": "Aerococcus urinae is a Gram-positive, catalase-negative coccus commonly isolated from urinary tract infections.",
+    "clinical_context": "Frequently associated with UTIs, bacteremia, and infective endocarditis in elderly patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Alpha",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Alpha-haemolytic"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Source",
+      "value": "Urinary tract",
+      "importance": "high",
+      "notes": "Strong association with urinary isolates."
+    },
+    {
+      "field": "Haemolysis Type",
+      "value": "Alpha",
+      "importance": "medium",
+      "notes": "Typically alpha-haemolytic on blood agar."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Aerococcus sanguinicola",
+      "reason": "Similar biochemical profile and haemolysis pattern."
+    },
+    {
+      "genus": "Enterococcus",
+      "reason": "Shared UTI association and Gram-positive cocci morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth in 6.5% NaCl suggests Enterococcus.",
+    "Catalase positivity suggests Staphylococcus.",
+    "Beta-haemolysis suggests Streptococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for distinguishing Aerococcus species."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Useful when MALDI-TOF is inconclusive."
+    }
+  ]
+}

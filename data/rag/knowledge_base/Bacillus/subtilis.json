@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bacillus",
+  "species": "subtilis",
+
+  "overview": {
+    "short": "Bacillus subtilis is a motile, aerobic, Gram-positive spore-forming rod commonly found in soil.",
+    "clinical_context": "Usually a contaminant; rare opportunistic infections reported."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Irregular",
+      "Rough"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Variable",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Variable",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports B. subtilis over other Bacillus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Bacillus licheniformis",
+      "reason": "Overlapping biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong beta-haemolysis suggests B. cereus.",
+    "Capsule production suggests B. anthracis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API 50 CHB",
+      "reason": "Supports species-level carbohydrate differentiation.",
+      "api_kit": "API 50 CHB"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable Bacillus species identification."
+    }
+  ]
+}

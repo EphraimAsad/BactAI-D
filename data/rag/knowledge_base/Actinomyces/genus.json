@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Actinomyces",
+
+  "overview": {
+    "short": "Actinomyces species are Gram-positive, non-spore-forming, pleomorphic rods that commonly inhabit the human oral cavity, gastrointestinal tract, and female genital tract.",
+    "clinical_context": "Associated with chronic, suppurative infections (actinomycosis), often involving abscess formation and sinus tracts, typically in cervicofacial, thoracic, or abdominopelvic sites."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "White",
+      "Grey",
+      "Rough",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Many Actinomyces are best recovered under anaerobic or microaerophilic conditions, but may tolerate oxygen depending on species and culture conditions.",
+    "Colony Morphology": "Colonies are often irregular and may appear rough or granular; prolonged incubation can accentuate characteristic appearances.",
+    "Catalase": "Typically catalase negative, helping distinguish from aerobic actinomycetes."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Gram Stain",
+      "expected": "Positive",
+      "distinguishes_from": ["Actinobacillus", "Aggregatibacter"],
+      "notes": "Gram-positive morphology separates Actinomyces from Gram-negative oral flora."
+    },
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Bacillus", "Listeria"],
+      "notes": "Non-motility supports Actinomyces over motile Gram-positive rods."
+    },
+    {
+      "field": "Spore Formation",
+      "expected": "Negative",
+      "distinguishes_from": ["Bacillus", "Clostridium"],
+      "notes": "Non-spore forming supports Actinomyces in chronic abscess settings."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Nocardia",
+      "reason": "Both can present as branching Gram-positive rods and cause chronic infections."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Overlapping Gram-positive rod morphology may confuse if branching is not described."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong aerobic growth with catalase positivity suggests Nocardia or other aerobic actinomycetes.",
+    "Spore formation suggests Bacillus or Clostridium rather than Actinomyces.",
+    "Oxidase positivity argues against Actinomyces."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic incubation",
+      "reason": "Improves recovery and supports identification consistent with Actinomyces."
+    },
+    {
+      "test": "Acid fast",
+      "reason": "Helps distinguish Actinomyces (typically non–acid fast) from Nocardia (often partially acid fast)."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred for reliable genus/species identification due to phenotypic overlap."
+    }
+  ],
+
+  "supported_species": [
+    "israelii",
+    "naeslundii",
+    "viscosus",
+    "odontolyticus",
+    "meyeri"
+  ]
+}

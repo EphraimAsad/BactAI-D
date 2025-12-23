@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Aeromonas",
+  "species": "hydrophila",
+
+  "overview": {
+    "short": "Aeromonas hydrophila is a Gram-negative, oxidase-positive, facultatively anaerobic rod frequently associated with wound infections and gastroenteritis, and can cause invasive disease.",
+    "clinical_context": "Often linked to water-exposure wound infections, diarrheal disease, and opportunistic septicemia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Grey",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis Type",
+      "value": "Beta",
+      "importance": "high",
+      "notes": "Beta haemolysis is more supportive of A. hydrophila compared with A. caviae (often non-haemolytic)."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Gelatinase positivity is commonly used in Aeromonas differentiation and supports A. hydrophila."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from A. caviae, which is more often ornithine positive."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Aeromonas veronii",
+      "reason": "Overlap in oxidase-positive fermentation pattern; indole and haemolysis patterns are helpful."
+    },
+    {
+      "species": "Aeromonas caviae",
+      "reason": "Both can present in gastroenteritis; ornithine and haemolysis help distinguish."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Consistent non-haemolysis suggests A. caviae or another Aeromonas species.",
+    "Strong indole positivity suggests A. veronii or related taxa.",
+    "NaCl tolerance at >=6% suggests Vibrio rather than Aeromonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Haemolysis on Blood Agar",
+      "reason": "Supports species-level discrimination inside Aeromonas."
+    },
+    {
+      "test": "Gelatin hydrolysis",
+      "reason": "Commonly positive and useful for A. hydrophila support."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for accurate differentiation among Aeromonas species."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Borrelia",
+
+  "overview": {
+    "short": "Borrelia species are Gram-negative–like, microaerophilic spirochetes transmitted primarily by arthropod vectors.",
+    "clinical_context": "Includes agents of Lyme disease and relapsing fever, characterised by systemic dissemination and immune evasion."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Barbour-Stoenner-Kelly Agar"
+    ],
+    "Colony Morphology": [
+      "Not visible on routine media"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "30//34",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Axial Filaments"
+  },
+
+  "field_notes": {
+    "Gram Stain": "Poorly visualised with Gram stain; silver stains or dark-field microscopy are preferred.",
+    "Media Grown On": "Requires specialised enriched media; not recoverable on routine laboratory agar.",
+    "Motility": "Characteristic corkscrew motility due to periplasmic flagella."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Shape",
+      "expected": "Spiral",
+      "distinguishes_from": ["Treponema", "Leptospira"],
+      "notes": "Spirochetal morphology with loose coils differentiates Borrelia from other spirochetes."
+    },
+    {
+      "field": "Growth Requirement",
+      "expected": "Fastidious",
+      "distinguishes_from": ["Campylobacter", "Helicobacter"],
+      "notes": "Borrelia cannot be cultured on routine bacteriological media."
+    },
+    {
+      "field": "Motility Type",
+      "expected": "Axial Filaments",
+      "distinguishes_from": ["Spiral Gram-negative rods"],
+      "notes": "Endoflagella-driven motility is characteristic of spirochetes."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Treponema",
+      "reason": "Shared spirochete morphology and poor Gram stain visibility."
+    },
+    {
+      "genus": "Leptospira",
+      "reason": "Overlapping spiral morphology but differing clinical syndromes and motility patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolate grows readily on routine agar.",
+    "Strong carbohydrate fermentation reactions are reported.",
+    "Lack of spirochete morphology on dark-field or silver stain."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "PCR (Borrelia-specific targets)",
+      "reason": "Primary diagnostic method due to fastidious growth."
+    },
+    {
+      "test": "Serology (ELISA followed by immunoblot)",
+      "reason": "Standard approach for Lyme disease diagnosis."
+    },
+    {
+      "test": "Dark-field microscopy",
+      "reason": "Direct visualisation of spirochetes in clinical specimens."
+    }
+  ],
+
+  "supported_species": [
+    "burgdorferi",
+    "afzelii",
+    "recurrentis"
+  ]
+}

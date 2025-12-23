@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Bacteroides",
+
+  "overview": {
+    "short": "Bacteroides species are Gram-negative, obligately anaerobic rods that form a major component of normal human gut flora.",
+    "clinical_context": "Commonly associated with intra-abdominal infections, abscesses, bacteraemia, and anaerobic polymicrobial infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Anaerobic Blood Agar",
+      "Bacteroides Bile Esculin Agar"
+    ],
+    "Colony Morphology": [
+      "Grey",
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "20//45",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Growth only under anaerobic conditions is genus-defining.",
+    "Esculin Hydrolysis": "Most clinically relevant species hydrolyse esculin."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Obligate Anaerobe",
+      "distinguishes_from": ["Prevotella", "Fusobacterium"],
+      "notes": "Strict anaerobiosis is essential for identification."
+    },
+    {
+      "field": "Esculin Hydrolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Porphyromonas"],
+      "notes": "Bile esculin positivity supports Bacteroides."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Prevotella",
+      "reason": "Shared anaerobic growth and Gram-negative rods."
+    },
+    {
+      "genus": "Porphyromonas",
+      "reason": "Overlapping anaerobic morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Aerobic growth excludes Bacteroides.",
+    "Black-pigmented colonies suggest Porphyromonas or Prevotella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Bile esculin test",
+      "reason": "Supports identification of bile-resistant Bacteroides."
+    },
+    {
+      "test": "API 20A",
+      "reason": "Anaerobe biochemical identification.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "fragilis",
+    "vulgatus",
+    "thetaiotaomicron"
+  ]
+}

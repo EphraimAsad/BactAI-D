@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Campylobacter",
+  "species": "coli",
+
+  "overview": {
+    "short": "Campylobacter coli is a thermophilic, Gram-negative spiral bacterium causing gastroenteritis, particularly in agricultural settings.",
+    "clinical_context": "Often associated with pork and poultry exposure."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Campylobacter Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "37//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Hippurate Hydrolysis",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Primary discriminator from Campylobacter jejuni."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Campylobacter jejuni",
+      "reason": "Identical morphology and growth characteristics."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Hippurate positivity suggests Campylobacter jejuni.",
+    "Failure to grow at 42 °C suggests a non-thermophilic species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Hippurate hydrolysis",
+      "reason": "Differentiates C. coli from C. jejuni.",
+      "api_kit": "API Campy"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species confirmation."
+    }
+  ]
+}

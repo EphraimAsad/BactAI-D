@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Brevibacterium",
+
+  "overview": {
+    "short": "Brevibacterium species are Gram-positive, non-spore-forming, aerobic coryneform rods commonly associated with human skin and dairy environments.",
+    "clinical_context": "Usually considered skin commensals but can cause opportunistic infections, particularly in immunocompromised hosts or prosthetic-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Rough",
+      "Cream to orange-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Orange",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Pigment": "Orange to reddish pigmentation is common and intensifies with incubation.",
+    "NaCl Tolerance": "Growth in high salt supports differentiation from many other coryneform bacteria.",
+    "Gelatin Hydrolysis": "Frequently positive and useful for differentiation."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Positive",
+      "distinguishes_from": ["Actinomyces"],
+      "notes": "Catalase positivity separates Brevibacterium from many anaerobic Gram-positive rods."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "expected": "Positive",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "High salt tolerance supports Brevibacterium identification."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Orange",
+      "distinguishes_from": ["Dermabacter"],
+      "notes": "Distinctive pigmentation aids presumptive identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Corynebacterium",
+      "reason": "Shared coryneform morphology and catalase positivity."
+    },
+    {
+      "genus": "Dermabacter",
+      "reason": "Overlapping skin-associated habitat and Gram-positive rods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase-negative isolate suggests Actinomyces.",
+    "Strict anaerobic growth argues against Brevibacterium.",
+    "Absence of pigmentation should prompt reconsideration."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Gelatin hydrolysis",
+      "reason": "Useful screening test for Brevibacterium."
+    },
+    {
+      "test": "Salt tolerance testing",
+      "reason": "Supports differentiation from similar coryneform bacteria."
+    },
+    {
+      "test": "API Coryne",
+      "reason": "Commercial identification system suitable for coryneform organisms."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for accurate species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "casei",
+    "linens"
+  ]
+}

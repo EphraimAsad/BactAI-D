@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Borrelia",
+  "species": "recurrentis",
+
+  "overview": {
+    "short": "Borrelia recurrentis is a spirochete responsible for louse-borne relapsing fever.",
+    "clinical_context": "Characterised by recurrent episodes of fever due to antigenic variation."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Barbour-Stoenner-Kelly Agar"
+    ],
+    "Colony Morphology": [
+      "Not visible on routine media"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "30//34",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Axial Filaments"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Pattern",
+      "value": "Relapsing fever",
+      "importance": "high",
+      "notes": "Recurring febrile episodes due to antigenic variation."
+    },
+    {
+      "field": "Vector",
+      "value": "Body louse",
+      "importance": "high",
+      "notes": "Distinct from tick-borne Borrelia species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Borrelia (tick-borne species)",
+      "reason": "Shared spirochete morphology but differing clinical patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Tick exposure without relapsing fever pattern suggests Lyme Borrelia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Peripheral blood smear during fever",
+      "reason": "High spirochetemia allows direct visualisation."
+    },
+    {
+      "test": "PCR",
+      "reason": "Confirms species-level identification."
+    }
+  ]
+}

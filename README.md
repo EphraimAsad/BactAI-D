@@ -64,7 +64,7 @@ Combines:
   - Designed to support interpretation, not automation.
 
 
-🧠 System Architecture (High Level)
+## 🧠 System Architecture (High Level)
 
 Phenotype Text
       ↓

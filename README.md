@@ -1,3 +1,13 @@
+title: BactKing
+emoji: 💻
+colorFrom: green
+colorTo: red
+sdk: gradio
+sdk_version: 6.2.0
+app_file: app.py
+pinned: false
+short_description: Hybrid microbiology identification with ML, rules, and RAG
+
 🧫 BactAI-D — Hybrid Microbiology Identification System
 
 BactAI-D is an applied AI system for phenotype-based bacterial genus and species identification, designed to balance deterministic microbiology rules, machine learning, and LLM-based explanation in a single, safety-aware pipeline.
@@ -18,3 +28,4 @@ The system is built to expose uncertainty, not hide it — using confidence band
 
 Intended use: educational, exploratory, and decision-support contexts in microbiology and applied AI research.
 Not intended for clinical diagnosis or unsupervised laboratory decisions.
+

@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Parvimonas",
+
+  "overview": {
+    "short": "Parvimonas species are Gram-positive anaerobic cocci commonly found as part of the normal oral and gastrointestinal microbiota.",
+    "clinical_context": "Associated with polymicrobial infections including periodontal disease, deep tissue abscesses, osteomyelitis, and bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Brucella Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Strict anaerobic growth is a defining feature of the genus.",
+    "Shape": "Appears as small cocci, often in pairs, short chains, or clusters.",
+    "Biochemical Activity": "Biochemically inert compared with many anaerobic rods."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Shape",
+      "expected": "Cocci",
+      "distinguishes_from": ["Prevotella", "Fusobacterium"],
+      "notes": "Coccal morphology separates Parvimonas from most anaerobic rods."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Obligate Anaerobe",
+      "distinguishes_from": ["Aerococcus", "Gemella"],
+      "notes": "Aerotolerant cocci are excluded by strict anaerobiosis."
+    },
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Staphylococcus"],
+      "notes": "Catalase negativity supports anaerobic cocci identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Finegoldia",
+      "reason": "Similar anaerobic Gram-positive cocci with overlapping biochemical profiles."
+    },
+    {
+      "genus": "Peptostreptococcus",
+      "reason": "Historical classification overlap and similar morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth in aerobic conditions argues against Parvimonas.",
+    "Catalase positivity suggests another Gram-positive coccus.",
+    "Large colony size or rapid growth is atypical."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic identification panel",
+      "reason": "Helps differentiate anaerobic cocci.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate identification of anaerobic cocci.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Gold standard for anaerobic Gram-positive cocci.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "micra"
+  ]
+}

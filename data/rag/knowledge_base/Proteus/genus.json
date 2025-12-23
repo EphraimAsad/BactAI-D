@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Proteus",
+
+  "overview": {
+    "short": "Proteus species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, notable for strong swarming motility and urease production.",
+    "clinical_context": "Commonly associated with urinary tract infections, wound infections, and bacteremia, particularly in catheterised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Swarming",
+      "Concentric Rings"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Swarming",
+    "Pigment": "None",
+    "Motility Type": "Swarming"
+  },
+
+  "field_notes": {
+    "Motility": "Swarming motility is a defining feature of Proteus species.",
+    "Urease": "Rapid urease production is characteristic and clinically significant.",
+    "Lactose Fermentation": "Proteus species are non-lactose fermenters."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Urease",
+      "expected": "Positive",
+      "distinguishes_from": ["Salmonella", "Shigella"],
+      "notes": "Strong urease activity is a hallmark of Proteus."
+    },
+    {
+      "field": "Colony Pattern",
+      "expected": "Swarming",
+      "distinguishes_from": ["Morganella", "Providencia"],
+      "notes": "Swarming growth on Blood Agar is highly characteristic."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Morganella",
+      "reason": "Shared biochemical reactions and motility, but Morganella does not swarm."
+    },
+    {
+      "genus": "Providencia",
+      "reason": "Biochemical overlap without swarming motility."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of swarming motility suggests Morganella or Providencia.",
+    "Lactose fermentation argues against Proteus.",
+    "Oxidase positivity excludes Proteus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Key discriminator between Proteus species."
+    },
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Helps differentiate P. mirabilis from other species."
+    },
+    {
+      "test": "API 20E",
+      "reason": "Standard biochemical panel for Enterobacterales."
+    }
+  ],
+
+  "supported_species": [
+    "mirabilis",
+    "penneri",
+    "vulgaris"
+  ]
+}

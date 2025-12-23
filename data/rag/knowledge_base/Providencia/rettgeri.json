@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Providencia",
+  "species": "rettgeri",
+
+  "overview": {
+    "short": "Providencia rettgeri is a Gram-negative, facultatively anaerobic rod within the Enterobacterales, often implicated in urinary tract infections and opportunistic infections.",
+    "clinical_context": "Commonly isolated from UTIs in catheterised patients and can be associated with healthcare-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-lactose fermenting"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key discriminator versus P. alcalifaciens which is typically indole-negative."
+    },
+    {
+      "field": "Urease",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "May be weak or variable; interpret alongside indole and broader Enterobacterales profile."
+    },
+    {
+      "field": "Clinical context",
+      "value": "UTI / healthcare-associated",
+      "importance": "medium",
+      "notes": "Frequently linked to catheter-associated UTIs and nosocomial settings."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Providencia stuartii",
+      "reason": "Both can be indole-positive with overlapping Enterobacterales biochemical profiles."
+    },
+    {
+      "genus": "Morganella",
+      "reason": "Similar indole-positive phenotype and Enterobacterales profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests P. alcalifaciens.",
+    "Strong urease positivity plus swarming suggests Proteus.",
+    "Citrate positivity argues against Providencia and suggests Enterobacter/Citrobacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Confirms indole status to separate Providencia species."
+    },
+    {
+      "test": "Urease test",
+      "reason": "Assists in ruling out Proteus / Morganella-like profiles."
+    },
+    {
+      "test": "API 20E",
+      "reason": "Useful for Enterobacterales panel-based confirmation."
+    }
+  ]
+}

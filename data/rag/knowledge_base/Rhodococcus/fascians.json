@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Rhodococcus",
+  "species": "fascians",
+
+  "overview": {
+    "short": "Rhodococcus fascians is an aerobic, Gram-positive actinomycete primarily known as a plant-associated organism.",
+    "clinical_context": "Human infection is exceedingly rare; isolation is usually environmental or incidental."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Pink",
+      "Dry"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "18//30",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Pink",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "18//30",
+      "importance": "high",
+      "notes": "Lower optimal growth temperature compared to clinically relevant Rhodococcus species."
+    },
+    {
+      "field": "Capsule",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Absence of capsule differentiates from Rhodococcus equi."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Rhodococcus erythropolis",
+      "reason": "Similar pigmentation and environmental origin."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolation from sterile clinical sites without environmental context.",
+    "Capsule presence suggests Rhodococcus equi.",
+    "Growth at 37°C with pulmonary involvement suggests R. equi."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Differentiates Rhodococcus species accurately.",
+      "api_kit": "Bruker MALDI Biotyper (Actinomycetes library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Confirmation in non-environmental isolates."
+    }
+  ]
+}

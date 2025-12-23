@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Saccharomyces",
+  "species": "cerevisiae",
+
+  "overview": {
+    "short": "Saccharomyces cerevisiae is a budding yeast widely used in baking and brewing and occasionally isolated as an opportunistic pathogen in clinical settings.",
+    "clinical_context": "May be recovered from bloodstream or sterile sites in immunocompromised patients, central line–associated infections, or following probiotic/yeast exposure; also found as coloniser/contaminant."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Variable",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Sabouraud Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Cream",
+      "Smooth",
+      "Butyrous"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps separate Saccharomyces from urease-positive yeasts such as Cryptococcus."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Consistent fermenter; CO2 production may be noted explicitly."
+    },
+    {
+      "field": "Gas Production",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Fermentation-associated CO2 production can support Saccharomyces-like fermentative yeast."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Saccharomyces paradoxus",
+      "reason": "Highly similar phenotypically; routine biochemical tests often cannot reliably distinguish at species level."
+    },
+    {
+      "species": "Saccharomyces boulardii",
+      "reason": "Often treated as a strain/variant within the S. cerevisiae group; many ID systems report as S. cerevisiae."
+    },
+    {
+      "genus": "Candida",
+      "reason": "Overlapping yeast colony morphology; Candida more often forms pseudohyphae and has different assimilation profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "If urease is positive or capsule is present, reconsider Cryptococcus rather than Saccharomyces.",
+    "If prominent pseudohyphae are described, consider Candida-like yeasts rather than Saccharomyces.",
+    "If species assignment is based only on colony morphology without MALDI-TOF or sequencing, treat species-level call as low certainty."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred routine method for yeast genus/species identification; improves confidence vs morphology alone.",
+      "api_kit": "Bruker MALDI Biotyper (Yeast library)"
+    },
+    {
+      "test": "ITS sequencing (fungal barcode)",
+      "reason": "Definitive species-level identification within Saccharomyces when clinically significant."
+    },
+    {
+      "test": "Urease test",
+      "reason": "Supports exclusion of Cryptococcus (typically urease positive) when yeast is recovered from sterile sites."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Rhodococcus",
+
+  "overview": {
+    "short": "Rhodococcus species are aerobic, Gram-positive, non-spore-forming bacteria with variable morphology, belonging to the actinomycetes.",
+    "clinical_context": "Primarily opportunistic pathogens, most notably causing pulmonary and disseminated infections in immunocompromised individuals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Mucoid",
+      "Salmon-Pink"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Salmon-Pink",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Gram Stain": "May appear weakly or variably acid-fast due to mycolic acids.",
+    "Pigment": "Salmon-pink pigmentation becomes more apparent with prolonged incubation.",
+    "Shape": "Pleomorphic forms may be observed, especially in older cultures."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Positive",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Strong catalase activity supports Rhodococcus over some coryneform bacteria."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Salmon-Pink",
+      "distinguishes_from": ["Nocardia"],
+      "notes": "Characteristic pigmentation helps differentiate from chalky white Nocardia colonies."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Nocardia",
+      "reason": "Both are aerobic actinomycetes with overlapping morphology and weak acid-fastness."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Shared Gram-positive, non-spore-forming rod morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong acid-fastness suggests Mycobacterium or Nocardia.",
+    "Rapid sugar fermentation argues against Rhodococcus.",
+    "Strict anaerobic growth excludes Rhodococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Modified acid-fast stain",
+      "reason": "Assesses weak acid-fast properties typical of Rhodococcus."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Provides reliable genus-level identification.",
+      "api_kit": "Bruker MALDI Biotyper (Actinomycetes library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Recommended for definitive species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "equi",
+    "erythropolis",
+    "fascians"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Porphyromonas",
+  "species": "asaccharolytica",
+
+  "overview": {
+    "short": "Porphyromonas asaccharolytica is a Gram-negative, obligately anaerobic short rod notable for its strictly asaccharolytic metabolism.",
+    "clinical_context": "Associated with oral infections, periodontal disease, and occasionally extraoral anaerobic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Brucella Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Convex",
+      "Black Pigmented"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Black",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Glucose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Strict asaccharolytic metabolism is a defining feature."
+    },
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports differentiation from other anaerobic Gram-negative rods."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Prevotella",
+      "reason": "Shared oral habitat and anaerobic growth."
+    },
+    {
+      "genus": "Fusobacterium",
+      "reason": "Similar anaerobic Gram-negative morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Any carbohydrate fermentation argues against P. asaccharolytica.",
+    "Aerobic growth suggests misidentification.",
+    "Lack of black pigmentation may indicate another anaerobe."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic identification panel",
+      "reason": "Confirms asaccharolytic profile."
+    },
+    {
+      "test": "Indole test",
+      "reason": "Key supportive biochemical marker."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for definitive species identification."
+    }
+  ]
+}

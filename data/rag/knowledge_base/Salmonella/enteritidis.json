@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Salmonella",
+  "species": "enteritidis",
+
+  "overview": {
+    "short": "Salmonella Enteritidis is a non-typhoidal Salmonella serovar commonly associated with foodborne gastroenteritis, especially linked to eggs and poultry.",
+    "clinical_context": "Typically causes self-limiting diarrhea but may lead to invasive disease in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist",
+      "Non-lactose fermenting colonies on MacConkey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Positive",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Ornithine positivity is common in S. Enteritidis and helps separate from some other non-typhoidal serovars."
+    },
+    {
+      "field": "H2S",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Typically produces H2S on selective media."
+    },
+    {
+      "field": "Serovar assignment",
+      "value": "O:9, H:g,m",
+      "importance": "high",
+      "notes": "Definitive identification requires serotyping."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Salmonella Typhimurium",
+      "reason": "Overlapping biochemical profile; differentiation requires serotyping."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Non-lactose fermenting, H2S-positive isolates may appear similar on selective media."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "H2S-negative isolate is atypical for S. Enteritidis.",
+    "Non-motility suggests Shigella rather than Salmonella.",
+    "Urease positivity suggests Proteus-group organisms."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Salmonella serotyping (O and H antigens)",
+      "reason": "Required for confirmation of Enteritidis.",
+      "api_kit": "SSI Diagnostica Salmonella antisera"
+    },
+    {
+      "test": "PCR for invA",
+      "reason": "Confirms Salmonella genus prior to serovar assignment."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Salmonella",
+  "species": "paratyphi",
+
+  "overview": {
+    "short": "Salmonella Paratyphi comprises serovars causing paratyphoid fever, a systemic illness similar to typhoid fever but often milder.",
+    "clinical_context": "Associated with prolonged fever and bacteremia; transmission is fecal–oral, predominantly human-to-human."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist",
+      "Non-lactose fermenting colonies on MacConkey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Positive",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Absence of Vi capsule helps distinguish Paratyphi from Typhi."
+    },
+    {
+      "field": "Gas Production",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Gas production is more typical than in S. Typhi."
+    },
+    {
+      "field": "Serovar assignment",
+      "value": "Paratyphi A, B, or C",
+      "importance": "high",
+      "notes": "Definitive identification requires serotyping."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Salmonella Typhi",
+      "reason": "Overlapping systemic presentation; differentiated by capsule and serology."
+    },
+    {
+      "species": "Salmonella Enteritidis",
+      "reason": "Biochemical overlap; epidemiology and serotyping are key."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Vi capsule positivity suggests S. Typhi rather than Paratyphi.",
+    "No gas production suggests Typhi rather than Paratyphi.",
+    "Animal reservoir exposure favors non-typhoidal Salmonella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Salmonella serotyping",
+      "reason": "Required to determine Paratyphi serovar.",
+      "api_kit": "SSI Diagnostica Salmonella antisera"
+    },
+    {
+      "test": "PCR targeting invA",
+      "reason": "Confirms Salmonella genus prior to serovar differentiation."
+    }
+  ]
+}

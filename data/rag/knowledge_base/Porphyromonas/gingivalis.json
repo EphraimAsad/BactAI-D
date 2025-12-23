@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Porphyromonas",
+  "species": "gingivalis",
+
+  "overview": {
+    "short": "Porphyromonas gingivalis is a Gram-negative, obligately anaerobic short rod considered a key periodontal pathogen.",
+    "clinical_context": "Strongly associated with chronic periodontitis, peri-implantitis, and has been implicated in systemic inflammatory conditions."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "Brucella Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Convex",
+      "Black Pigmented"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Black",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Beta-haemolysis helps distinguish P. gingivalis from other Porphyromonas species."
+    },
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Capsule contributes to virulence and immune evasion."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Porphyromonas endodontalis",
+      "reason": "Shared anaerobic growth and pigmentation."
+    },
+    {
+      "genus": "Prevotella",
+      "reason": "Anaerobic oral isolates with overlapping morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-haemolytic isolates may indicate another Porphyromonas species.",
+    "Isolation outside periodontal sites should prompt confirmation.",
+    "Any carbohydrate fermentation excludes P. gingivalis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic culture with haemolysis assessment",
+      "reason": "Supports phenotypic identification."
+    },
+    {
+      "test": "Indole test",
+      "reason": "Consistently positive in P. gingivalis."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for species-level confirmation."
+    }
+  ]
+}

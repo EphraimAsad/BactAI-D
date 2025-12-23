@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Pluralibacter",
+  "species": "gergoviae",
+
+  "overview": {
+    "short": "Pluralibacter gergoviae is a Gram-negative, facultatively anaerobic rod historically associated with Enterobacter and known for its environmental persistence.",
+    "clinical_context": "Occasionally isolated from opportunistic infections and notable for contamination of cosmetic and pharmaceutical products."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Positive",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Positive",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Positive",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps distinguish P. gergoviae from indole-positive Enterobacterales."
+    },
+    {
+      "field": "Citrate",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Citrate negativity differentiates from many Enterobacter species."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Usually lactose-fermenting on MacConkey Agar."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Historical classification and overlapping biochemical reactions."
+    },
+    {
+      "genus": "Klebsiella",
+      "reason": "Shared lactose fermentation and colony morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests an alternative Enterobacterales species.",
+    "Strong capsule with non-motility suggests Klebsiella.",
+    "Citrate positivity is inconsistent with P. gergoviae."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Citrate utilization",
+      "reason": "Critical discriminator from Enterobacter species."
+    },
+    {
+      "test": "Indole test",
+      "reason": "Confirms species-level placement."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for definitive identification."
+    }
+  ]
+}

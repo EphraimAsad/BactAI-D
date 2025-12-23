@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Rothia",
+  "species": "mucilaginosa",
+
+  "overview": {
+    "short": "Rothia mucilaginosa is a Gram-positive, catalase-positive coccus notable for its mucoid colony morphology.",
+    "clinical_context": "Primarily associated with bloodstream infections, pneumonia, and invasive disease in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "White",
+      "Grey",
+      "Mucoid",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Mucoid",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Colony Morphology",
+      "value": "Mucoid",
+      "importance": "high",
+      "notes": "Mucoid growth is the defining feature of R. mucilaginosa."
+    },
+    {
+      "field": "Esculin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Helps separate from R. dentocariosa."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Rothia dentocariosa",
+      "reason": "Shared catalase positivity and coccoid morphology."
+    },
+    {
+      "genus": "Staphylococcus",
+      "reason": "Mucoid colonies may resemble encapsulated staphylococci."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Dry or chalky colonies suggest R. dentocariosa.",
+    "Strong haemolysis suggests an alternative genus.",
+    "Oxidase positivity is inconsistent with Rothia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable differentiation from R. dentocariosa.",
+      "api_kit": "Bruker MALDI Biotyper (Gram-positive cocci library)"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Useful in severe or unusual infections."
+    }
+  ]
+}

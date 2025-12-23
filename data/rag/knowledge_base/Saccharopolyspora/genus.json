@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Saccharopolyspora",
+
+  "overview": {
+    "short": "Saccharopolyspora species are aerobic, Gram-positive, filamentous actinomycetes commonly found in soil and organic material.",
+    "clinical_context": "Rare human pathogens; most clinical relevance relates to hypersensitivity pneumonitis or opportunistic infections, particularly in immunocompromised individuals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Variable",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Actinomycete Isolation Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Chalky",
+      "Wrinkled",
+      "White to Cream"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "25//55",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Filamentous",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Shape": "Filamentous branching rods typical of actinomycetes; may fragment into rod-like elements.",
+    "Growth Temperature": "Many species tolerate elevated temperatures compared to other actinomycetes."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Aerobic",
+      "distinguishes_from": ["Clostridium", "Eubacterium"],
+      "notes": "Strictly aerobic metabolism separates Saccharopolyspora from anaerobic Gram-positive rods."
+    },
+    {
+      "field": "Colony Morphology",
+      "expected": "Dry; Chalky",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Chalky, filamentous colonies support actinomycete identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Nocardia",
+      "reason": "Shared filamentous morphology and aerobic growth."
+    },
+    {
+      "genus": "Streptomyces",
+      "reason": "Environmental actinomycetes with overlapping colony appearance."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Rapid-growing, smooth colonies argue against Saccharopolyspora.",
+    "Acid-fast positivity suggests Nocardia rather than Saccharopolyspora.",
+    "Strict anaerobic growth is inconsistent with this genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Modified acid-fast stain",
+      "reason": "Helps differentiate from partially acid-fast actinomycetes such as Nocardia."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Provides reliable genus-level identification for actinomycetes when database coverage is adequate.",
+      "api_kit": "Bruker MALDI Biotyper (Actinomycete library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Gold standard for definitive identification of rare actinomycetes."
+    }
+  ],
+
+  "supported_species": [
+    "erythraea",
+    "rectivirgula"
+  ]
+}

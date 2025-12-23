@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Serratia",
+
+  "overview": {
+    "short": "Serratia species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, known for environmental persistence and opportunistic infections.",
+    "clinical_context": "Commonly associated with nosocomial infections including urinary tract infections, pneumonia, wound infections, and bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Moist",
+      "Grey or Red-pigmented"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "5//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Pigment": "Some species produce a characteristic red pigment (prodigiosin), especially at lower temperatures.",
+    "DNase": "Strong DNase positivity is a hallmark of Serratia.",
+    "Lysine Decarboxylase": "Negative result helps differentiate from many Enterobacter species."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "DNase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Citrobacter"],
+      "notes": "DNase positivity is a strong genus-level discriminator."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Variable",
+      "distinguishes_from": ["Enterobacter", "Klebsiella"],
+      "notes": "Red pigment production is characteristic of some Serratia species."
+    },
+    {
+      "field": "Lysine Decarboxylase",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Klebsiella"],
+      "notes": "Lysine negativity supports Serratia identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Shared VP positivity and citrate utilization."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Overlapping sugar fermentation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "DNase negativity argues against Serratia.",
+    "Strong lactose fermentation suggests Enterobacter or Klebsiella.",
+    "Non-motile isolate is inconsistent with Serratia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "DNase test",
+      "reason": "Primary screening test for Serratia."
+    },
+    {
+      "test": "Pigment observation at 25–30°C",
+      "reason": "Enhances detection of prodigiosin production."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "marcescens",
+    "liquefaciens",
+    "rubidaea"
+  ]
+}

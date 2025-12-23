@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Salmonella",
+  "species": "typhi",
+
+  "overview": {
+    "short": "Salmonella Typhi is a human-adapted Salmonella serovar responsible for typhoid fever, a systemic febrile illness.",
+    "clinical_context": "Associated with prolonged fever, bacteremia, and gastrointestinal involvement; transmission is fecal–oral, often via contaminated water or food."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist",
+      "Non-lactose fermenting colonies on MacConkey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Vi capsular antigen is characteristic of S. Typhi and contributes to virulence."
+    },
+    {
+      "field": "Gas Production",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Lack of gas production helps distinguish Typhi from many non-typhoidal Salmonella."
+    },
+    {
+      "field": "Serovar assignment",
+      "value": "O:9, Vi, H:d",
+      "importance": "high",
+      "notes": "Definitive identification requires serotyping or molecular confirmation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Salmonella Paratyphi",
+      "reason": "Similar systemic disease and overlapping biochemical profile."
+    },
+    {
+      "species": "Salmonella Enteritidis",
+      "reason": "Shared genus-level traits; Typhi distinguished by capsule and epidemiology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Gas production argues against S. Typhi.",
+    "Strong H2S production is atypical.",
+    "Animal-associated exposure suggests non-typhoidal Salmonella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Vi antigen detection",
+      "reason": "Supports identification of S. Typhi.",
+      "api_kit": "SSI Diagnostica Salmonella antisera (Vi)"
+    },
+    {
+      "test": "Salmonella serotyping",
+      "reason": "Required for definitive serovar identification.",
+      "api_kit": "SSI Diagnostica Salmonella antisera"
+    },
+    {
+      "test": "PCR targeting tyv or viaB genes",
+      "reason": "Confirms Typhi-specific virulence markers."
+    }
+  ]
+}

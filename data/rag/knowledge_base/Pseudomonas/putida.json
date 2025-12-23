@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Pseudomonas",
+  "species": "putida",
+
+  "overview": {
+    "short": "Pseudomonas putida is a Gram-negative, aerobic, non-fermenting rod commonly found in soil and water and occasionally implicated in opportunistic infections.",
+    "clinical_context": "Associated with opportunistic infections and device-related infections, particularly in healthcare settings, though less virulent than P. aeruginosa."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Round",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Obligate Aerobe",
+    "Growth Temperature": "4//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "None",
+      "importance": "high",
+      "notes": "Typically does not produce pyocyanin; fluorescence may be absent or weak depending on strain."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "No growth at 42°C",
+      "importance": "high",
+      "notes": "Helps separate from P. aeruginosa which commonly grows at 42°C."
+    },
+    {
+      "field": "Colony Morphology",
+      "value": "Smooth; Round; Moist",
+      "importance": "medium",
+      "notes": "Often smoother and less spreading/metallic than P. aeruginosa."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Pseudomonas fluorescens",
+      "reason": "Similar non-fermenter profile; differentiation may rely on pigment/fluorescence and confirmatory identification."
+    },
+    {
+      "genus": "Burkholderia",
+      "reason": "Both can be oxidase-positive non-fermenters; definitive identification often requires MALDI-TOF or molecular methods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth at 42°C suggests P. aeruginosa rather than P. putida.",
+    "Blue-green pigment (pyocyanin) argues strongly against P. putida.",
+    "Oxidase negativity suggests a different non-fermenter genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth at 42°C",
+      "reason": "Classic discriminator against P. aeruginosa."
+    },
+    {
+      "test": "API 20NE",
+      "reason": "Recommended biochemical panel for non-fermenting Gram-negative rods."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable confirmation at species level."
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Recommended if precise species differentiation is needed within closely related Pseudomonas groups."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Paenibacillus",
+  "species": "alvei",
+
+  "overview": {
+    "short": "Paenibacillus alvei is a Gram-variable, motile, spore-forming rod commonly isolated from environmental sources and occasionally from clinical specimens.",
+    "clinical_context": "Reported in opportunistic infections including wounds and bloodstream infections, particularly in immunocompromised individuals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Irregular",
+      "Flat"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Gelatinase activity is commonly observed and supports species identification."
+    },
+    {
+      "field": "Oxidase",
+      "value": "Variable",
+      "importance": "low",
+      "notes": "Oxidase variability limits its discriminatory value."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Paenibacillus polymyxa",
+      "reason": "Overlapping biochemical profiles and environmental origin."
+    },
+    {
+      "genus": "Bacillus",
+      "reason": "Shared spore formation and colony morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motile isolates suggest alternative species.",
+    "Absence of spore formation excludes P. alvei.",
+    "Strongly Gram-negative staining argues against this species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API 50 CHB",
+      "reason": "Useful for carbohydrate utilisation profiling among Bacillus-like organisms.",
+      "api_kit": "API 50 CHB"
+    },
+    {
+      "test": "Spore stain",
+      "reason": "Confirms endospore presence.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for reliable species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Salmonella",
+  "species": "bongori",
+
+  "overview": {
+    "short": "Salmonella bongori is a Gram-negative, facultatively anaerobic rod primarily associated with cold-blooded animals and the environment.",
+    "clinical_context": "Rarely isolated from humans; when detected, usually linked to zoonotic or environmental exposure rather than classic enteric disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist",
+      "Non-lactose fermenting colonies on MacConkey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Positive",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Positive",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Lysine Decarboxylase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Lysine negativity differentiates S. bongori from most S. enterica serovars."
+    },
+    {
+      "field": "H2S",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Absence of H2S production helps distinguish from many enterica subspecies."
+    },
+    {
+      "field": "Host association",
+      "value": "Cold-blooded animals",
+      "importance": "high",
+      "notes": "Epidemiology strongly favors non-human reservoirs."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Salmonella enterica",
+      "reason": "Shared genus-level biochemical profile; bongori differs genetically and epidemiologically."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Overlapping sugar fermentation and lysine-negative profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong H2S production suggests S. enterica rather than S. bongori.",
+    "Human enteric outbreak context favors S. enterica serovars.",
+    "Lysine positivity is inconsistent with S. bongori."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Salmonella serotyping",
+      "reason": "Confirms non-enterica Salmonella classification.",
+      "api_kit": "SSI Diagnostica Salmonella antisera"
+    },
+    {
+      "test": "Whole-genome sequencing or PCR speciation",
+      "reason": "Definitively separates S. bongori from S. enterica."
+    }
+  ]
+}

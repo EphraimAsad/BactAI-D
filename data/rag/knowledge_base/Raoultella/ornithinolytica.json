@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Raoultella",
+  "species": "ornithinolytica",
+
+  "overview": {
+    "short": "Raoultella ornithinolytica is a Gram-negative, non-motile, encapsulated rod formerly classified within Klebsiella.",
+    "clinical_context": "Associated with urinary tract infections, biliary infections, and occasional bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Mucoid",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Mucoid",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key feature distinguishing R. ornithinolytica from R. planticola."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports genus assignment and separates from Klebsiella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Raoultella planticola",
+      "reason": "Shares capsule, lactose fermentation, and VP positivity."
+    },
+    {
+      "genus": "Klebsiella",
+      "reason": "Mucoid colonies and similar Enterobacterales biochemistry."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests R. planticola.",
+    "Motility suggests Enterobacter rather than Raoultella.",
+    "Ornithine negativity suggests Klebsiella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator from R. planticola."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification.",
+      "api_kit": "Bruker MALDI Biotyper (Enterobacterales library)"
+    }
+  ]
+}

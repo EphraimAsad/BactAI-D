@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Paenibacillus",
+
+  "overview": {
+    "short": "Paenibacillus species are Gram-positive or Gram-variable, aerobic or facultatively anaerobic, spore-forming rods commonly found in soil, water, and plant-associated environments.",
+    "clinical_context": "Most species are environmental, but some are opportunistic pathogens in humans and animals, particularly in wound, bloodstream, or device-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Irregular",
+      "Flat"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "15//40",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Gram Stain": "Cells may appear Gram-variable, especially in older cultures.",
+    "Spore Formation": "Endospores are often oval and subterminal.",
+    "Motility": "Most species are motile with peritrichous flagella."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Spore Formation",
+      "expected": "Positive",
+      "distinguishes_from": ["Brevibacillus", "Microbacterium"],
+      "notes": "Spore formation is a defining feature separating Paenibacillus from many environmental Gram-positive rods."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Bacillus anthracis"],
+      "notes": "Motility helps separate Paenibacillus from non-motile Bacillus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Bacillus",
+      "reason": "Shared spore formation and rod morphology."
+    },
+    {
+      "genus": "Brevibacillus",
+      "reason": "Overlapping environmental niche and biochemical variability."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-spore-forming isolates argue against Paenibacillus.",
+    "Strict anaerobic growth suggests alternative genera.",
+    "Consistent Gram-negative staining excludes this genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Spore stain",
+      "reason": "Confirms endospore formation.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Motility testing",
+      "reason": "Supports genus placement.",
+      "api_kit": "API 50 CHB"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended due to phenotypic overlap with Bacillus-like organisms.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "alvei",
+    "larvae",
+    "polymyxa"
+  ]
+}

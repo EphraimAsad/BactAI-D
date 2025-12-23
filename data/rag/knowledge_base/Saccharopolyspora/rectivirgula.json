@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Saccharopolyspora",
+  "species": "rectivirgula",
+
+  "overview": {
+    "short": "Saccharopolyspora rectivirgula is a thermotolerant, aerobic actinomycete associated with organic dust exposure.",
+    "clinical_context": "Well known as the causative agent of farmer’s lung disease (hypersensitivity pneumonitis)."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Variable",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Actinomycete Isolation Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Chalky",
+      "Wrinkled",
+      "White"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "30//55",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Filamentous",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "Thermotolerant",
+      "importance": "high",
+      "notes": "Growth at elevated temperatures supports identification."
+    },
+    {
+      "field": "Clinical Context",
+      "value": "Hypersensitivity pneumonitis",
+      "importance": "high",
+      "notes": "Strong association with farmer’s lung disease."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Thermoactinomyces",
+      "reason": "Shared thermophilic growth and agricultural exposure."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of thermotolerance suggests another actinomycete.",
+    "Acid-fast positivity suggests Nocardia.",
+    "Rapid smooth colony growth argues against S. rectivirgula."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Supports identification when actinomycete spectra are available.",
+      "api_kit": "Bruker MALDI Biotyper (Actinomycete library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Gold standard for confirmation in clinical and environmental isolates."
+    }
+  ]
+}

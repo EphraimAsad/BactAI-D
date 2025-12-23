@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Shewanella",
+  "species": "putrefaciens",
+
+  "overview": {
+    "short": "Shewanella putrefaciens is a Gram-negative, oxidase-positive, motile rod found in aquatic environments and occasionally associated with human infection.",
+    "clinical_context": "Associated with rare opportunistic infections including wound infections, otitis, and bacteremia, often following water exposure."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Distinguishes S. putrefaciens from beta-haemolytic S. algae."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Lower salt tolerance compared to S. algae."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Shewanella algae",
+      "reason": "Similar biochemical profile; S. algae is haemolytic and salt tolerant."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Beta-haemolysis suggests S. algae.",
+    "Strong salt tolerance suggests S. algae.",
+    "Absence of H2S production argues against Shewanella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Observation of haemolysis on blood agar",
+      "reason": "Primary discriminator from S. algae."
+    },
+    {
+      "test": "Salt tolerance testing",
+      "reason": "Differentiates marine-adapted species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Confident species-level identification."
+    }
+  ]
+}

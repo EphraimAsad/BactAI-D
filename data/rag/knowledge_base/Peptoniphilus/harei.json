@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Peptoniphilus",
+  "species": "harei",
+
+  "overview": {
+    "short": "Peptoniphilus harei is a Gram-positive, obligately anaerobic coccus commonly isolated from polymicrobial infections.",
+    "clinical_context": "Frequently recovered from skin and soft tissue infections, abscesses, diabetic foot infections, and bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Indole reactions vary and must be interpreted with caution."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Limited carbohydrate utilization supports Peptoniphilus identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Peptoniphilus asaccharolyticus",
+      "reason": "Overlapping anaerobic cocci morphology and biochemical inactivity."
+    },
+    {
+      "genus": "Finegoldia",
+      "reason": "Shared anaerobic cocci phenotype and clinical niche."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong carbohydrate fermentation argues against P. harei.",
+    "Aerobic growth excludes Peptoniphilus.",
+    "Catalase positivity suggests staphylococci."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Helps separate Peptoniphilus species.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable method for species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

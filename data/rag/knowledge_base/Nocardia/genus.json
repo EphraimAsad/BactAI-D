@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Nocardia",
+
+  "overview": {
+    "short": "Nocardia species are aerobic, Gram-positive, branching filamentous bacteria that are partially acid-fast and found widely in soil and water.",
+    "clinical_context": "Cause opportunistic infections including pulmonary disease, brain abscesses, and cutaneous nocardiosis, particularly in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Sabouraud Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Chalky",
+      "Irregular",
+      "White"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Although morphologically branching and filamentous, Nocardia is normalized to 'Rods' for schema consistency.",
+    "Acid-fastness": "Partially acid-fast on modified Ziehl–Neelsen stain; not captured as a core field.",
+    "Growth": "Slow-growing; colonies may take several days to appear."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Aerobe",
+      "distinguishes_from": ["Actinomyces"],
+      "notes": "Aerobic growth distinguishes Nocardia from anaerobic Actinomyces."
+    },
+    {
+      "field": "Catalase",
+      "expected": "Positive",
+      "distinguishes_from": ["Actinomyces"],
+      "notes": "Catalase positivity supports Nocardia identification."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Non-fermentative metabolism helps narrow identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Actinomyces",
+      "reason": "Similar branching morphology but Actinomyces is anaerobic and non–acid-fast."
+    },
+    {
+      "genus": "Mycobacterium",
+      "reason": "Partial acid-fastness may cause confusion without full biochemical context."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Gram-positive rods but lack branching filamentous structure."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Anaerobic growth argues against Nocardia.",
+    "Rapid growth with smooth colonies suggests Corynebacterium.",
+    "Strong acid-fast staining suggests Mycobacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Modified acid-fast stain",
+      "reason": "Confirms partial acid-fastness characteristic of Nocardia.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus-level identification and species differentiation.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification (16S rRNA)",
+      "reason": "Definitive species-level confirmation due to phenotypic overlap.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "asteroides",
+    "brasiliensis",
+    "farcinica"
+  ]
+}

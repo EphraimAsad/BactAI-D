@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Saccharomyces",
+  "species": "paradoxus",
+
+  "overview": {
+    "short": "Saccharomyces paradoxus is a wild Saccharomyces species closely related to S. cerevisiae, most commonly encountered in environmental niches rather than routine clinical settings.",
+    "clinical_context": "Clinical isolation is uncommon; if detected, confirmation is recommended due to overlap with S. cerevisiae and laboratory identification constraints."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Variable",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Sabouraud Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Cream",
+      "Smooth",
+      "Butyrous"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "20//37",
+      "importance": "low",
+      "notes": "Not a strong discriminator from S. cerevisiae; retained for consistency with schema."
+    },
+    {
+      "field": "Urease",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Supports Saccharomyces over Cryptococcus-like yeasts."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Saccharomyces cerevisiae",
+      "reason": "Very close phylogenetic and phenotypic similarity; routine biochemical testing is often insufficient for differentiation."
+    },
+    {
+      "genus": "Candida",
+      "reason": "Overlapping colony morphology and yeast appearance in culture."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "If identification is based only on morphology without MALDI-TOF or sequencing, species-level certainty is low.",
+    "If urease is positive or capsule is present, reconsider Cryptococcus.",
+    "If pseudohyphae are prominent, consider Candida-like yeasts."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for species-level yeast identification in routine labs.",
+      "api_kit": "Bruker MALDI Biotyper (Yeast library)"
+    },
+    {
+      "test": "ITS sequencing (fungal barcode)",
+      "reason": "Definitive differentiation among Saccharomyces species."
+    }
+  ]
+}

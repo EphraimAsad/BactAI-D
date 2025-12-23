@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Nocardia",
+  "species": "asteroides",
+
+  "overview": {
+    "short": "Nocardia asteroides is the most common clinically significant Nocardia species, primarily associated with pulmonary and disseminated infections.",
+    "clinical_context": "Frequently causes lung infections with potential CNS dissemination, especially in immunocompromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Sabouraud Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Chalky",
+      "White",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation from some other Nocardia species."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Commonly positive in N. asteroides complex."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Nocardia farcinica",
+      "reason": "Closely related species with overlapping phenotypes; often requires molecular differentiation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Rapid colony growth suggests non-Nocardia organisms.",
+    "Strict anaerobic growth rules out Nocardia.",
+    "Strong acid-fast staining suggests Mycobacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction",
+      "reason": "Supports identification within the N. asteroides complex.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for accurate species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Gold standard for differentiating closely related Nocardia species.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

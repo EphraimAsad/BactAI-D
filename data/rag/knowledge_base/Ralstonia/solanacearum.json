@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Ralstonia",
+  "species": "solanacearum",
+
+  "overview": {
+    "short": "Ralstonia solanacearum is a Gram-negative, aerobic, non-fermentative rod primarily known as a plant pathogen.",
+    "clinical_context": "Rarely isolated from humans; most commonly encountered in environmental, agricultural, or plant-associated samples."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Mucoid",
+      "Cream to White"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Mucoid",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Colony Morphology",
+      "value": "Mucoid",
+      "importance": "high",
+      "notes": "Mucoid appearance due to extracellular polysaccharide production."
+    },
+    {
+      "field": "Clinical Context",
+      "value": "Plant-associated",
+      "importance": "high",
+      "notes": "Primarily a plant pathogen; human isolation is unusual."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Burkholderia",
+      "reason": "Environmental recovery and overlapping oxidase-positive phenotype."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolation from sterile human sites is unusual and should be confirmed.",
+    "Strong glucose fermentation suggests Enterobacterales.",
+    "Non-mucoid colonies argue against R. solanacearum."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Exopolysaccharide production assessment",
+      "reason": "Supports identification of plant-pathogenic Ralstonia species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Differentiates environmental Ralstonia species.",
+      "api_kit": "Bruker MALDI Biotyper (Environmental / Plant-associated library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Recommended due to uncommon clinical isolation."
+    }
+  ]
+}

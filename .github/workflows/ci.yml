@@ -75,20 +75,43 @@ jobs:
           print("Required tracked assets are present.")
           PY
 
-      - name: Validate database shape
+      - name: Validate LFS-managed runtime assets
         run: |
           python - <<'PY'
-          from openpyxl import load_workbook
+          from pathlib import Path
 
-          wb = load_workbook("data/bacteria_db.xlsx", read_only=True)
-          ws = wb[wb.sheetnames[0]]
-          header = next(ws.iter_rows(values_only=True))
+          # CI checks out without Git LFS objects, so these files may be valid
+          # LFS pointer stubs instead of full runtime assets.
+          lfs_files = [
+              ("data/bacteria_db.xlsx", b"PK"),
+              ("data/rag/index/kb_index.json", b"{"),
+              ("models/genus_xgb.json", b"{"),
+          ]
 
-          if "Genus" not in header:
-              raise SystemExit("Database header is missing the 'Genus' column.")
+          def read_prefix(path: Path, size: int = 256) -> bytes:
+              with path.open("rb") as handle:
+                  return handle.read(size)
 
-          print(f"Database sheet: {wb.sheetnames[0]}")
-          print(f"Database columns: {len(header)}")
+          def is_lfs_pointer(prefix: bytes) -> bool:
+              return prefix.startswith(b"version https://git-lfs.github.com/spec/v1")
+
+          for raw_path, expected_prefix in lfs_files:
+              path = Path(raw_path)
+              prefix = read_prefix(path)
+
+              if is_lfs_pointer(prefix):
+                  text = prefix.decode("utf-8", errors="replace")
+                  if "oid sha256:" not in text or "size " not in text:
+                      raise SystemExit(f"Malformed Git LFS pointer: {raw_path}")
+                  print(f"{raw_path}: valid Git LFS pointer")
+                  continue
+
+              if not prefix.startswith(expected_prefix):
+                  raise SystemExit(
+                      f"{raw_path}: expected Git LFS pointer or real asset prefix {expected_prefix!r}"
+                  )
+
+              print(f"{raw_path}: real asset present")
           PY
 
   secret-scan:

@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Shewanella",
+
+  "overview": {
+    "short": "Shewanella species are Gram-negative, facultatively anaerobic rods commonly found in aquatic and marine environments, notable for their respiratory versatility.",
+    "clinical_context": "Occasionally implicated in opportunistic human infections such as soft tissue, wound, ear, and bloodstream infections, often associated with marine exposure."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Oxidase": "Oxidase positivity helps separate Shewanella from most Enterobacterales.",
+    "H2S": "H2S production is a key hallmark of Shewanella among non-fermenters."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Rules out common oxidase-negative Gram-negative rods."
+    },
+    {
+      "field": "H2S",
+      "expected": "Positive",
+      "distinguishes_from": ["Pseudomonas"],
+      "notes": "H2S production is unusual among oxidase-positive non-fermenters."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Shared oxidase positivity and non-fermentative metabolism."
+    },
+    {
+      "genus": "Vibrio",
+      "reason": "Marine association and Gram-negative rods; Vibrio are fermentative and curved."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity argues against Shewanella.",
+    "Strong glucose fermentation suggests Vibrio or Enterobacterales.",
+    "No H2S production raises doubt for Shewanella spp."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Initial differentiation from Enterobacterales.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "H2S detection (TSI or SIM)",
+      "reason": "Characteristic feature supporting Shewanella."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate genus and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "algae",
+    "baltica",
+    "putrefaciens"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Shigella",
+  "species": "flexneri",
+
+  "overview": {
+    "short": "Shigella flexneri is a non-motile, Gram-negative rod and a common cause of bacillary dysentery, especially in low- and middle-income regions.",
+    "clinical_context": "Typically causes inflammatory diarrhoea with fever, abdominal cramps, and possible blood/mucus in stool."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Helps separate S. flexneri from S. dysenteriae (typically mannitol negative)."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Often negative; variability can occur and is not fully species-defining alone."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Shigella boydii",
+      "reason": "Overlapping biochemical profile including mannitol positivity and non-lactose fermentation."
+    },
+    {
+      "species": "Shigella sonnei",
+      "reason": "May be confused early in culture workups; ONPG positivity and delayed lactose help support S. sonnei instead."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Mannitol negativity suggests S. dysenteriae.",
+    "ONPG positivity or delayed lactose fermentation suggests S. sonnei.",
+    "Motility excludes Shigella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Serotyping",
+      "reason": "Definitive differentiation of Shigella species and serogroups.",
+      "api_kit": "Shigella flexneri antisera (Denka Seiken)"
+    },
+    {
+      "test": "Molecular confirmation (PCR)",
+      "reason": "Useful when serology is inconclusive or for rapid confirmation."
+    }
+  ]
+}

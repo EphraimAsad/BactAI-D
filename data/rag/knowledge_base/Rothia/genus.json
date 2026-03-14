@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Rothia",
+
+  "overview": {
+    "short": "Rothia species are Gram-positive cocci that are part of the normal oral and upper respiratory tract flora.",
+    "clinical_context": "Typically opportunistic pathogens, most often associated with oral infections, endocarditis, and infections in immunocompromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "White",
+      "Grey",
+      "Dry",
+      "Chalky"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Colony Morphology": "Colonies may appear dry, chalky, or crumbly, particularly with prolonged incubation.",
+    "Catalase": "Catalase positivity helps separate Rothia from many Streptococcus species.",
+    "Shape": "Although pleomorphic arrangements may be described microscopically, Rothia is categorised as cocci in this schema."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Positive",
+      "distinguishes_from": ["Streptococcus", "Enterococcus"],
+      "notes": "Catalase positivity helps differentiate Rothia from catalase-negative Gram-positive cocci."
+    },
+    {
+      "field": "Colony Morphology",
+      "expected": "Dry or chalky",
+      "distinguishes_from": ["Staphylococcus"],
+      "notes": "Dry, crumbly colonies are more typical of Rothia than Staphylococcus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Staphylococcus",
+      "reason": "Shared catalase positivity and Gram-positive cocci morphology."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Chalky colonies and oral flora association may cause confusion."
+    },
+    {
+      "genus": "Actinomyces",
+      "reason": "Overlap in oral habitat and colony texture in older cultures."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong beta haemolysis suggests an alternative genus.",
+    "Motility or spore formation argues against Rothia.",
+    "Oxidase positivity is inconsistent with Rothia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable routine method for identifying Rothia to species level.",
+      "api_kit": "Bruker MALDI Biotyper (Gram-positive cocci library)"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Useful for confirmation in rare or atypical clinical isolates."
+    }
+  ],
+
+  "supported_species": [
+    "dentocariosa",
+    "mucilaginosa"
+  ]
+}

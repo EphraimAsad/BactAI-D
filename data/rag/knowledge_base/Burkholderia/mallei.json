@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Burkholderia",
+  "species": "mallei",
+
+  "overview": {
+    "short": "Burkholderia mallei is a Gram-negative, non-motile rod and the causative agent of glanders.",
+    "clinical_context": "Primarily infects equids but can cause severe zoonotic infection in humans; classified as a high-risk laboratory pathogen."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-motility distinguishes B. mallei from most other Burkholderia species."
+    },
+    {
+      "field": "Growth Requirement",
+      "value": "Host-adapted",
+      "importance": "high",
+      "notes": "Obligate pathogen with limited environmental survival."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Burkholderia pseudomallei",
+      "reason": "Genetically related but differs in motility and environmental persistence."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motility suggests B. pseudomallei or B. cepacia.",
+    "Environmental source isolation argues against B. mallei."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing",
+      "reason": "Critical discriminator within Burkholderia.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "PCR confirmation at reference laboratory",
+      "reason": "Required due to biosafety risk."
+    }
+  ]
+}

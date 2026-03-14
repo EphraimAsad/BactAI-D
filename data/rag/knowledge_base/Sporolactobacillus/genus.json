@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Sporolactobacillus",
+
+  "overview": {
+    "short": "Sporolactobacillus species are Gram-positive, spore-forming, lactic acid–producing rods commonly isolated from soil and plant-associated environments.",
+    "clinical_context": "Not considered clinically significant; relevance is environmental and industrial microbiology."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Circular",
+      "Opaque",
+      "Cream"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//40",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Spore Formation": "Differentiates Sporolactobacillus from Lactobacillus.",
+    "Catalase": "Typically negative despite spore formation.",
+    "Glucose Fermentation": "Primary metabolic feature with lactic acid production."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Spore Formation",
+      "expected": "Positive",
+      "distinguishes_from": ["Lactobacillus"],
+      "notes": "Spore formation is a defining characteristic of Sporolactobacillus."
+    },
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Bacillus"],
+      "notes": "Catalase negativity helps separate from aerobic spore-formers."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Lactobacillus",
+      "reason": "Shared lactic acid fermentation and Gram-positive rod morphology."
+    },
+    {
+      "genus": "Bacillus",
+      "reason": "Spore formation may lead to confusion if catalase is not assessed."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity suggests Bacillus rather than Sporolactobacillus.",
+    "Strict anaerobic growth is inconsistent with this genus.",
+    "Absence of spore formation argues against Sporolactobacillus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Spore stain",
+      "reason": "Confirms spore-forming capability."
+    },
+    {
+      "test": "Catalase test",
+      "reason": "Key discriminator from Bacillus."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive identification for environmental isolates."
+    }
+  ],
+
+  "supported_species": [
+    "inulinus",
+    "laevolacticus"
+  ]
+}

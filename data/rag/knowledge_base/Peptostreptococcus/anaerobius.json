@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Peptostreptococcus",
+  "species": "anaerobius",
+
+  "overview": {
+    "short": "Peptostreptococcus anaerobius is a Gram-positive, obligately anaerobic coccus frequently isolated from polymicrobial abscesses and soft tissue infections.",
+    "clinical_context": "Commonly associated with oral, head and neck, intra-abdominal, pelvic, and diabetic foot infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Indole positivity is a key discriminator for P. anaerobius among anaerobic cocci."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Consistent glucose fermentation compared with some related anaerobic cocci."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Peptoniphilus",
+      "reason": "Overlapping anaerobic cocci morphology and biochemical inactivity."
+    },
+    {
+      "genus": "Anaerococcus",
+      "reason": "Similar anaerobic growth and colony appearance in polymicrobial infections."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests another Peptostreptococcus species or related genus.",
+    "Aerotolerant growth argues against P. anaerobius.",
+    "Strong carbohydrate fermentation across multiple sugars is atypical."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary biochemical discriminator for P. anaerobius.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable confirmation in anaerobic cocci with overlapping biochemistry.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Shewanella",
+  "species": "baltica",
+
+  "overview": {
+    "short": "Shewanella baltica is a Gram-negative, oxidase-positive, non-fermentative rod primarily associated with cold marine environments.",
+    "clinical_context": "Rarely associated with human infection; most isolates are environmental or food-related, particularly from fish and seafood."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "0//30",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "0//30",
+      "importance": "high",
+      "notes": "Psychrotolerant growth strongly supports S. baltica over other Shewanella species."
+    },
+    {
+      "field": "Haemolysis",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps differentiate from haemolytic S. algae."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Shewanella putrefaciens",
+      "reason": "Shared non-haemolytic profile and overlapping biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth above 35°C argues against S. baltica.",
+    "Strong salt tolerance suggests S. algae.",
+    "Haemolysis suggests another Shewanella species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Temperature growth profiling",
+      "reason": "Key discriminator for psychrotolerant species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level differentiation within Shewanella."
+    }
+  ]
+}

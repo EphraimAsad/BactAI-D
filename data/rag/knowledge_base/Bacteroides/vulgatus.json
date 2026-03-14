@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bacteroides",
+  "species": "vulgatus",
+
+  "overview": {
+    "short": "Bacteroides vulgatus is an obligately anaerobic, non-motile Gram-negative rod commonly found in the human intestinal tract.",
+    "clinical_context": "Occasionally isolated from intra-abdominal and soft tissue infections but less virulent than B. fragilis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Anaerobic Blood Agar",
+      "Bacteroides Bile Esculin Agar"
+    ],
+    "Colony Morphology": [
+      "Grey",
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "20//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Lack of capsule differentiates B. vulgatus from B. fragilis."
+    },
+    {
+      "field": "ONPG",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from carbohydrate-active species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Bacteroides fragilis",
+      "reason": "Shared bile resistance and anaerobic growth."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Capsule positivity suggests B. fragilis.",
+    "Indole positivity suggests B. thetaiotaomicron.",
+    "Strong carbohydrate activity is atypical."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API 20A",
+      "reason": "Useful anaerobe biochemical panel.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification."
+    }
+  ]
+}

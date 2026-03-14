@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Peptoniphilus",
+  "species": "asaccharolyticus",
+
+  "overview": {
+    "short": "Peptoniphilus asaccharolyticus is a Gram-positive, obligately anaerobic coccus characterized by minimal or absent carbohydrate fermentation.",
+    "clinical_context": "Commonly isolated from abscesses, deep tissue infections, bone and joint infections, and bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Indole positivity is a key marker for P. asaccharolyticus."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Asaccharolytic profile is defining for this species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Peptoniphilus harei",
+      "reason": "Similar morphology but typically less biochemically inactive."
+    },
+    {
+      "genus": "Parvimonas",
+      "reason": "Both are anaerobic cocci with limited carbohydrate utilization."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Any sugar fermentation argues against P. asaccharolyticus.",
+    "Indole negativity weakens species-level support.",
+    "Aerobic growth excludes Peptoniphilus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Critical discriminator for P. asaccharolyticus.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for accurate species identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

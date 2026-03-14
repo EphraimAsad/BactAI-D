@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Psychrobacter",
+
+  "overview": {
+    "short": "Psychrobacter species are Gram-negative, strictly aerobic, non-fermenting short rods or coccobacilli, adapted to cold environments.",
+    "clinical_context": "Occasionally isolated from human clinical specimens including blood, cerebrospinal fluid, and wounds, particularly in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Round",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Aerobe",
+    "Growth Temperature": "0//30",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Often described as coccobacilli; mapped to Short Rods in this schema.",
+    "Growth Temperature": "Psychrotolerant; many species grow at refrigeration temperatures.",
+    "Oxidase": "Consistently positive, supporting separation from many Enterobacterales."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Growth Temperature",
+      "expected": "0//30",
+      "distinguishes_from": ["Acinetobacter", "Moraxella"],
+      "notes": "Ability to grow at low temperatures is characteristic of Psychrobacter."
+    },
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Pseudomonas"],
+      "notes": "Non-motility helps exclude many other oxidase-positive Gram-negative rods."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Klebsiella"],
+      "notes": "Strictly non-fermentative metabolism."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Acinetobacter",
+      "reason": "Both are Gram-negative, oxidase-variable short rods; Psychrobacter is oxidase-positive and psychrotolerant."
+    },
+    {
+      "genus": "Moraxella",
+      "reason": "Similar oxidase-positive, non-motile profile; growth temperature and MALDI-TOF aid differentiation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity argues against Psychrobacter.",
+    "Strong carbohydrate fermentation is inconsistent with the genus.",
+    "Motility suggests a different non-fermenting genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth at 4°C",
+      "reason": "Supports psychrotolerant phenotype characteristic of Psychrobacter."
+    },
+    {
+      "test": "API 20NE",
+      "reason": "Useful biochemical panel for non-fermenting Gram-negative rods."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable method for genus and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "immobilis",
+    "phenylpyruvicus"
+  ]
+}

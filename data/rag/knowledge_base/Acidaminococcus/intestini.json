@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Acidaminococcus",
+  "species": "intestini",
+
+  "overview": {
+    "short": "Acidaminococcus intestini is a Gram-negative, obligately anaerobic coccus primarily associated with the human intestinal microbiota.",
+    "clinical_context": "Rarely isolated in clinical specimens and most often identified during microbiome or research studies."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Isolation Frequency",
+      "value": "Rare",
+      "importance": "medium",
+      "notes": "Less frequently encountered in diagnostic microbiology compared to A. fermentans."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Veillonella",
+      "reason": "Similar anaerobic Gram-negative cocci morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolation from normally sterile sites is unusual.",
+    "Carbohydrate fermentation suggests misidentification.",
+    "Growth in aerobic conditions excludes this species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Primary method for distinguishing rare anaerobic cocci."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Recommended for confirmation due to rarity."
+    }
+  ]
+}

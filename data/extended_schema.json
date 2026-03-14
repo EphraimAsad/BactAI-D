@@ -1,0 +1,201 @@
+{
+  "CAMP": {
+    "value_type": "enum_PNV",
+    "aliases": ["camp test", "camp reaction"]
+  },
+
+  "PYR": {
+    "value_type": "enum_PNV",
+    "aliases": ["pyr test", "pyr activity"]
+  },
+
+  "Bile Solubility": {
+    "value_type": "enum_PNV",
+    "aliases": ["bile soluble"]
+  },
+
+  "Hippurate Hydrolysis": {
+    "value_type": "enum_PNV",
+    "aliases": ["hippurate", "hippurate test"]
+  },
+
+  "Gas Production": {
+    "value_type": "enum_PNV",
+    "aliases": [
+      "gas production",
+      "gas-producing",
+      "gas producing",
+      "gas producer",
+      "produces gas",
+      "with gas",
+      "gas is produced"
+    ]
+  },
+
+  "Glucose Oxidation": {
+    "value_type": "enum_PNV",
+    "aliases": [
+      "oxidises glucose",
+      "oxidizes glucose",
+      "oxidation of glucose",
+      "glucose oxidation",
+      "glucose oxidiser",
+      "glucose oxidizer"
+    ]
+  },
+
+  "Antibiotic Resistance": {
+    "value_type": "enum_PNV",
+    "aliases": [
+      "resistant to",
+      "antibiotic resistance",
+      "antibiotic-resistant"
+    ]
+  },
+
+  "Pigment": {
+    "value_type": "enum_custom",
+    "allowed": [
+      "Blue-Green",
+      "Green",
+      "Yellow",
+      "Red",
+      "Brown",
+      "Pink",
+      "Orange",
+      "Black",
+      "Violet"
+    ],
+    "aliases": [
+      "blue-green pigment",
+      "green pigment",
+      "yellow pigment",
+      "red pigment",
+      "brown pigment",
+      "pink pigment",
+      "orange pigment",
+      "black pigment",
+      "violet pigment",
+      "pyocyanin",
+      "pyoverdine",
+      "pigment production"
+    ]
+  },
+
+  "Odor": {
+    "value_type": "enum_custom",
+    "allowed": [
+      "Grape",
+      "Fruity",
+      "Musty",
+      "Pungent",
+      "Putrid",
+      "Buttery",
+      "Earthy",
+      "Mousy",
+      "Fishy",
+      "Almond",
+      "Cheese"
+    ],
+    "aliases": [
+      "grape-like odor",
+      "fruity odor",
+      "musty odor",
+      "pungent odor",
+      "putrid odor",
+      "buttery odor",
+      "earthy odor",
+      "mousy odor",
+      "fishy odor",
+      "almond odor",
+      "cheese odor",
+      "distinct odor",
+      "characteristic smell"
+    ]
+  },
+
+  "Colony Pattern": {
+    "value_type": "enum_custom",
+    "allowed": [
+      "CIN Bullseye",
+      "XLD Black Center",
+      "Mucoid",
+      "Swarming",
+      "Metallic",
+      "Smooth",
+      "Rough",
+      "Chalky",
+      "Filamentous",
+      "Irregular",
+      "Corroding",
+      "Sticky",
+      "Molar-tooth"
+    ],
+    "aliases": [
+      "cin bullseye colonies",
+      "bullseye colonies",
+      "xld black-centered colonies",
+      "black-centered colonies",
+      "mucoid colonies",
+      "swarming colonies",
+      "metallic sheen colonies",
+      "smooth colonies",
+      "rough colonies",
+      "chalky colonies",
+      "filamentous colonies",
+      "irregular colonies",
+      "corroding colonies",
+      "sticky colonies",
+      "molar-tooth colonies"
+    ]
+  },
+
+  "Motility Type": {
+    "value_type": "enum_custom",
+    "allowed": [
+      "Tumbling",
+      "Darting",
+      "Swarming",
+      "Umbrella",
+      "Gliding",
+      "Axial",
+      "Peritrichous",
+      "Polar",
+      "Monotrichous",
+      "Lophotrichous"
+    ],
+    "aliases": [
+      "tumbling motility",
+      "darting motility",
+      "swarming motility",
+      "umbrella motility",
+      "gliding motility",
+      "axial filament",
+      "peritrichous flagella",
+      "polar flagella",
+      "monotrichous flagella",
+      "lophotrichous flagella"
+    ]
+  },
+
+  "TSI Pattern": {
+    "value_type": "enum_custom",
+    "allowed": [
+      "A/A",
+      "K/A",
+      "K/K",
+      "A/A + Gas",
+      "K/A + H2S"
+    ],
+    "aliases": [
+      "tsi",
+      "tsi reaction",
+      "triple sugar iron",
+      "a slash a",
+      "k slash a",
+      "k slash k",
+      "h2s production on tsi",
+      "gas production on tsi"
+    ]
+  }
+}

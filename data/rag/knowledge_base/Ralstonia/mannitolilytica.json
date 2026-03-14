@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Ralstonia",
+  "species": "mannitolilytica",
+
+  "overview": {
+    "short": "Ralstonia mannitolilytica is a Gram-negative, aerobic, non-fermentative rod distinguished by its ability to oxidize mannitol.",
+    "clinical_context": "An opportunistic pathogen linked to contaminated medical fluids and devices, particularly affecting immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Primary biochemical feature distinguishing R. mannitolilytica from R. pickettii."
+    },
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps differentiate from arginine-positive R. pickettii."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Ralstonia pickettii",
+      "reason": "Close genetic relationship and overlapping biochemical profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Arginine dihydrolase positivity suggests R. pickettii.",
+    "Absence of mannitol oxidation argues against R. mannitolilytica.",
+    "Glucose fermentation suggests Enterobacterales."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Mannitol oxidation test",
+      "reason": "Primary discriminator within the genus."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification.",
+      "api_kit": "Bruker MALDI Biotyper (Clinical Gram-negative library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Definitive identification in complex non-fermenter groups."
+    }
+  ]
+}

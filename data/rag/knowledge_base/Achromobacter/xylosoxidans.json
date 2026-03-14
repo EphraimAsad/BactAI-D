@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Achromobacter",
+  "species": "xylosoxidans",
+
+  "overview": {
+    "short": "Achromobacter xylosoxidans is a Gram-negative, aerobic, non-fermenting rod and the most commonly isolated species of the genus in clinical microbiology.",
+    "clinical_context": "Frequently associated with respiratory infections in cystic fibrosis patients, as well as bloodstream and device-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-lactose fermenting"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key defining feature of A. xylosoxidans among non-fermenting Gram-negative rods."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation from closely related Achromobacter species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Shared oxidase positivity and non-fermentative metabolism."
+    },
+    {
+      "genus": "Burkholderia",
+      "reason": "Overlap in biochemical profile and environmental association."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative result argues against Achromobacter.",
+    "Carbohydrate fermentation suggests Enterobacterales.",
+    "Pigment production suggests Pseudomonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Arginine dihydrolase",
+      "reason": "Confirms Achromobacter lineage."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for non-fermenter species differentiation."
+    }
+  ]
+}

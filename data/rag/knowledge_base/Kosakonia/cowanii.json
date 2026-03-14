@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Kosakonia",
+  "species": "cowanii",
+
+  "overview": {
+    "short": "Kosakonia cowanii is a Gram-negative, facultatively anaerobic rod in the Enterobacterales, primarily environmental/plant-associated but occasionally reported from clinical specimens.",
+    "clinical_context": "Uncommon opportunist; when recovered clinically, interpret in context of specimen source and contamination risk."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Genus assignment confidence",
+      "value": "High when VP positive + oxidase negative + motile Enterobacterales profile",
+      "importance": "high",
+      "notes": "Biochemical overlap is common; species-level certainty often requires MALDI-TOF or sequencing."
+    },
+    {
+      "field": "Indole",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Indole variability means this field should not be used alone for species calling."
+    },
+    {
+      "field": "Citrate",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Citrate can vary; interpret alongside VP/MR pattern and broader sugar profile."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Very similar Enterobacterales biochemical patterns (VP positive, oxidase negative, motile)."
+    },
+    {
+      "genus": "Cronobacter",
+      "reason": "Enterobacterales overlap; confirm via MALDI-TOF/ID panels."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motile isolate argues against K. cowanii.",
+    "Strong MR-positive / VP-negative pattern suggests Escherichia-like organisms rather than Kosakonia.",
+    "If isolate is from a sterile site, confirm with MALDI-TOF or sequencing due to rarity and contamination risk."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API 20E identification panel",
+      "reason": "Provides a structured Enterobacterales biochemical pattern to support genus-level placement.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Often required for confident separation from Enterobacter and related genera.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Whole-genome sequencing",
+      "reason": "Best for definitive species confirmation in reclassified/closely related Enterobacterales.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

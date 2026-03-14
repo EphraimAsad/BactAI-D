@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Rhodococcus",
+  "species": "erythropolis",
+
+  "overview": {
+    "short": "Rhodococcus erythropolis is an aerobic, Gram-positive actinomycete commonly isolated from soil and environmental sources.",
+    "clinical_context": "Rarely implicated in human infection; when isolated clinically, often represents colonisation or contamination."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Salmon-Pink",
+      "Dry"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Salmon-Pink",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation from Rhodococcus equi."
+    },
+    {
+      "field": "Capsule",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Absence of capsule differentiates from pathogenic Rhodococcus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Rhodococcus equi",
+      "reason": "Shared pigmentation and actinomycete morphology."
+    },
+    {
+      "genus": "Nocardia",
+      "reason": "Overlapping aerobic actinomycete characteristics."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Clinical isolation without environmental exposure history.",
+    "Capsule presence suggests Rhodococcus equi.",
+    "Strong acid-fast staining suggests Nocardia or Mycobacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate discrimination from other Rhodococcus species.",
+      "api_kit": "Bruker MALDI Biotyper (Actinomycetes library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Definitive species-level identification."
+    }
+  ]
+}

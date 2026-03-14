@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Sporolactobacillus",
+  "species": "inulinus",
+
+  "overview": {
+    "short": "Sporolactobacillus inulinus is a Gram-positive, spore-forming, lactic acid–producing rod primarily isolated from soil and plant-associated environments.",
+    "clinical_context": "Not associated with human disease; relevance is environmental and industrial microbiology."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Circular",
+      "Opaque",
+      "Cream"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "25//40",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Motility is more consistently observed in S. inulinus than in S. laevolacticus."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation within Sporolactobacillus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Lactobacillus",
+      "reason": "Shared lactic acid fermentation and Gram-positive rod morphology."
+    },
+    {
+      "genus": "Bacillus",
+      "reason": "Spore formation may cause confusion without catalase testing."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity suggests Bacillus rather than Sporolactobacillus.",
+    "Non-spore-forming isolates are inconsistent with this species.",
+    "Strict anaerobic growth argues against S. inulinus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Spore stain",
+      "reason": "Confirms spore-forming capability."
+    },
+    {
+      "test": "Catalase test",
+      "reason": "Differentiates from Bacillus.",
+      "api_kit": "API 50 CH"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive identification for environmental isolates."
+    }
+  ]
+}

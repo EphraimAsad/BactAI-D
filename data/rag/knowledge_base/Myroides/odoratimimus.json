@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Myroides",
+  "species": "odoratimimus",
+
+  "overview": {
+    "short": "Myroides odoratimimus is a Gram-negative, aerobic, non-fermentative rod notable for strong odor production and intrinsic multidrug resistance.",
+    "clinical_context": "Most often isolated from environmental sources but increasingly reported in opportunistic infections such as wounds, urinary tract infections, and bacteremia in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Circular",
+      "Yellow"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Indole positivity helps distinguish M. odoratimimus from M. odoratus."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "DNase activity supports species-level differentiation within Myroides."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Myroides odoratus",
+      "reason": "Closely related species with overlapping non-fermenter biochemical profiles."
+    },
+    {
+      "genus": "Chryseobacterium",
+      "reason": "Yellow-pigmented oxidase-positive non-fermenters can appear similar."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests Myroides odoratus.",
+    "Motility or sugar fermentation suggests an alternative non-fermenter.",
+    "Oxidase negativity argues against Myroides."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator between Myroides species.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable method for species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Antimicrobial susceptibility testing",
+      "reason": "Myroides species often show intrinsic multidrug resistance.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

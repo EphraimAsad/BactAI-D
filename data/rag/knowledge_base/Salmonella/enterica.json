@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Salmonella",
+  "species": "enterica",
+
+  "overview": {
+    "short": "Salmonella enterica is a Gram-negative, facultatively anaerobic rod responsible for most clinically relevant Salmonella infections; serovar identity drives many epidemiologic and clinical differences.",
+    "clinical_context": "Includes non-typhoidal Salmonella causing gastroenteritis and invasive disease, and typhoidal serovars (e.g., Typhi/Paratyphi) causing enteric fever."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist",
+      "Non-lactose fermenting colonies on MacConkey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Lactose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Supports Salmonella over lactose-fermenting Enterobacterales."
+    },
+    {
+      "field": "Urease",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps separate from Proteus/Morganella/Providencia (often urease positive)."
+    },
+    {
+      "field": "Lysine Decarboxylase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Useful discriminator from some Citrobacter and other look-alikes."
+    },
+    {
+      "field": "Serovar assignment",
+      "value": "Requires O/H antigen typing",
+      "importance": "high",
+      "notes": "Biochemistry alone usually cannot reliably assign Enteritidis/Typhimurium/Typhi/Paratyphi."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Citrobacter",
+      "reason": "Non-lactose fermenters with possible H2S production can mimic Salmonella on selective media."
+    },
+    {
+      "genus": "Proteus",
+      "reason": "Non-lactose fermentation and H2S positivity overlap; Proteus is typically urease positive and can swarm."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Urease positivity suggests Proteus-group organisms rather than S. enterica.",
+    "Non-motility suggests Shigella more than Salmonella.",
+    "Oxidase positivity argues against Enterobacterales."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Serotyping (O and H antigens)",
+      "reason": "Primary method to define clinically relevant serovars (Enteritidis, Typhimurium, Typhi, Paratyphi).",
+      "api_kit": "SSI Diagnostica Salmonella O and H antisera"
+    },
+    {
+      "test": "API 20E (Enterobacteriaceae panel)",
+      "reason": "Biochemical confirmation when needed.",
+      "api_kit": "bioMérieux API 20E"
+    },
+    {
+      "test": "PCR for invA",
+      "reason": "Genus confirmation for Salmonella enterica isolates."
+    }
+  ]
+}

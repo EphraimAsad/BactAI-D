@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Moraxella",
+  "species": "lacunata",
+
+  "overview": {
+    "short": "Moraxella lacunata is a Gram-negative, oxidase-positive, aerobic short rod associated with conjunctivitis and keratitis.",
+    "clinical_context": "Primarily an ocular pathogen causing angular conjunctivitis or blepharoconjunctivitis; less commonly isolated from systemic sites."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Opaque",
+      "Creamy",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "NC/NC",
+    "Colony Pattern": "Spreading",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Colony Morphology",
+      "value": "Spreading or pitting on agar",
+      "importance": "high",
+      "notes": "Pitting or erosive growth on agar surface is a characteristic feature of M. lacunata."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Moraxella osloensis",
+      "reason": "Both can be oxidase positive and isolated from the eye."
+    },
+    {
+      "genus": "Neisseria",
+      "reason": "Similar oxidase-positive coccobacillary morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of pitting on agar suggests another Moraxella species.",
+    "Isolation from respiratory sites may suggest M. catarrhalis or M. osloensis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Observation of colony pitting",
+      "reason": "Characteristic for M. lacunata.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Oxidase test",
+      "reason": "Confirms oxidase-positive nature typical of Moraxella.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate genus and species-level confirmation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

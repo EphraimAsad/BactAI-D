@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Weissella",
+
+  "overview": {
+    "short": "Weissella species are Gram-positive, facultatively anaerobic, heterofermentative lactic acid bacteria closely related to Leuconostoc and Lactobacillus.",
+    "clinical_context": "Primarily associated with fermented foods and environmental sources, but occasionally implicated in opportunistic human infections, especially in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MRS Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "15//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Cells may appear as cocci or short rods depending on growth conditions.",
+    "Gas Production": "Heterofermentative metabolism leads to gas production from glucose.",
+    "Catalase": "Catalase-negative, helping differentiate from Micrococcus and related genera."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Micrococcus", "Staphylococcus"],
+      "notes": "Catalase negativity supports lactic acid bacteria identification."
+    },
+    {
+      "field": "Gas Production",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterococcus"],
+      "notes": "Gas production from glucose is typical of heterofermentative LAB."
+    },
+    {
+      "field": "Vancomycin Susceptibility",
+      "expected": "Intrinsic Resistance",
+      "distinguishes_from": ["Leuconostoc"],
+      "notes": "Weissella species often show intrinsic vancomycin resistance."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Leuconostoc",
+      "reason": "Very similar morphology and biochemical profile among heterofermentative LAB."
+    },
+    {
+      "genus": "Lactobacillus",
+      "reason": "Short rod/coccoid morphology can overlap under microscopy."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity suggests Staphylococcus or Micrococcus.",
+    "No gas production from glucose argues against Weissella.",
+    "Strong beta-haemolysis is inconsistent with Weissella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Vancomycin susceptibility",
+      "reason": "Intrinsic resistance supports Weissella or Leuconostoc identification."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable differentiation between Weissella and closely related LAB genera."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive identification when biochemical profiles overlap."
+    }
+  ],
+
+  "supported_species": [
+    "cibaria",
+    "confusa"
+  ]
+}

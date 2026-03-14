@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Eubacterium",
+  "species": "limosum",
+
+  "overview": {
+    "short": "Eubacterium limosum is a Gram-positive, obligately anaerobic rod known for its metabolic versatility.",
+    "clinical_context": "Primarily part of the normal intestinal microbiota; occasionally isolated from anaerobic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "More consistently positive compared to some other Eubacterium species."
+    },
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Supports differentiation from indole-positive anaerobic rods."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Eubacterium rectale",
+      "reason": "Shared gut habitat and overlapping fermentation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests another Eubacterium species.",
+    "Spore formation argues against Eubacterium limosum.",
+    "Aerobic growth is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction",
+      "reason": "Supports species-level differentiation.",
+      "api_kit": "API Rapid ID 32A"
+    },
+    {
+      "test": "Anaerobic biochemical profiling",
+      "reason": "Improves resolution among closely related anaerobes.",
+      "api_kit": "API Rapid ID 32A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

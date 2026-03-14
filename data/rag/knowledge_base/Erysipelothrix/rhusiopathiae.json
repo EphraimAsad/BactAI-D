@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Erysipelothrix",
+  "species": "rhusiopathiae",
+
+  "overview": {
+    "short": "Erysipelothrix rhusiopathiae is a Gram-positive, non-spore-forming, non-motile short rod classically associated with zoonotic exposure and erysipeloid infections.",
+    "clinical_context": "Most commonly causes localized erysipeloid after fish/meat/animal handling; can rarely cause bacteremia and endocarditis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Translucent",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//42",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "H2S",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "A strong discriminator among Gram-positive short rods when present."
+    },
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Supports Erysipelothrix over motile short rods like Listeria."
+    },
+    {
+      "field": "Catalase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Separates from catalase-positive Gram-positive rods in mixed differential."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Listeria",
+      "reason": "Similar morphology and blood agar growth; Listeria is motile and catalase positive."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Gram-positive rod morphology; biochemical overlap may occur in minimal panels."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity argues against E. rhusiopathiae.",
+    "Motility suggests Listeria or other motile short rods.",
+    "Repeated H2S negativity should prompt re-check of media/conditions or alternative genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "H2S detection on TSI or iron-containing media",
+      "reason": "Key supportive marker; verify with appropriate incubation conditions.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "Motility testing",
+      "reason": "Non-motility helps exclude Listeria.",
+      "api_kit": "Manual wet mount"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical confirmation to species level in routine labs.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

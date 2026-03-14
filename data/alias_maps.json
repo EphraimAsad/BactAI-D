@@ -1,0 +1,33 @@
+{
+  "field_aliases": {
+    "Dnase": "DNase",
+    "CAMP Test": "CAMP",
+    "Optochin Sensitivity": "Optochin",
+    "Bile Solubility Test": "Bile Solubility",
+    "Hippurate": "Hippurate Hydrolysis",
+    "PYR Test": "PYR"
+  },
+  "media_aliases": {
+    "mac": "MacConkey Agar",
+    "macconkey": "MacConkey Agar",
+    "msa": "Mannitol Salt Agar",
+    "bap": "Blood Agar",
+    "choc": "Chocolate Agar",
+    "chocolate": "Chocolate Agar",
+    "cled": "CLED Agar"
+  },
+  "value_aliases_pnv": {
+    "+": "Positive",
+    "pos": "Positive",
+    "positive": "Positive",
+    "-": "Negative",
+    "neg": "Negative",
+    "negative": "Negative",
+    "variable": "Variable",
+    "var": "Variable"
+  },
+  "Motility": {
+    "positive": "positive"
+  }
+}
+#current ver

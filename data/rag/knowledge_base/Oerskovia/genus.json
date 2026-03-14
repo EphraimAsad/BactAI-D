@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Oerskovia",
+
+  "overview": {
+    "short": "Oerskovia species are Gram-positive, aerobic, non-spore-forming rods characterized by branching filamentous growth and motility.",
+    "clinical_context": "Primarily environmental organisms, occasionally isolated from opportunistic infections such as bacteremia or wound infections, often in immunocompromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Rough",
+      "Yellow"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Motility": "Motility is a notable feature among Gram-positive rods and helps distinguish Oerskovia from related genera.",
+    "Colony Morphology": "Colonies often appear dry, rough, and yellow-pigmented on non-selective media.",
+    "Glucose Fermentation": "Carbohydrate utilization is variable and species-dependent."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Corynebacterium", "Microbacterium"],
+      "notes": "Motility is unusual among related Gram-positive rods."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Proteolytic activity supports Oerskovia identification."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Yellow",
+      "distinguishes_from": ["Nocardia"],
+      "notes": "Yellow pigmentation helps separate from chalky white actinomycetes."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Cellulomonas",
+      "reason": "Shared environmental niche and Gram-positive rod morphology."
+    },
+    {
+      "genus": "Microbacterium",
+      "reason": "Overlapping colony pigmentation and biochemical reactions."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Similar Gram-positive rod appearance, though typically non-motile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motile isolates suggest Corynebacterium or Microbacterium.",
+    "Strict anaerobic growth excludes Oerskovia.",
+    "Absence of gelatin hydrolysis weakens support for this genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing",
+      "reason": "Key discriminator from related Gram-positive rods.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "Gelatin hydrolysis",
+      "reason": "Supports proteolytic profile typical of Oerskovia.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for definitive genus and species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "turbata",
+    "xanthineolytica"
+  ]
+}

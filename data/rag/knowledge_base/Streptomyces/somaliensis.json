@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Streptomyces",
+  "species": "somaliensis",
+
+  "overview": {
+    "short": "Streptomyces somaliensis is a Gram-positive, aerobic, filamentous bacterium associated with actinomycetoma.",
+    "clinical_context": "One of the clinically relevant Streptomyces species causing chronic subcutaneous infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Sabouraud Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Rough",
+      "Chalky"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Aerial Mycelium",
+    "Pigment": "White",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Context",
+      "value": "Actinomycetoma",
+      "importance": "high",
+      "notes": "Key pathogenic Streptomyces species associated with chronic mycetoma."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Nocardia",
+      "reason": "Both cause mycetoma-like infections and show filamentous morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Partial acid-fast positivity suggests Nocardia.",
+    "Anaerobic growth argues against Streptomyces.",
+    "Smooth colonies without mycelium suggest alternative genera."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Modified acid-fast stain",
+      "reason": "Excludes Nocardia."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Required for definitive species confirmation."
+    }
+  ]
+}

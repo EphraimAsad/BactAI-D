@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Geobacillus",
+  "species": "thermodenitrificans",
+
+  "overview": {
+    "short": "Geobacillus thermodenitrificans is a Gram-positive, thermophilic, spore-forming rod capable of nitrate reduction.",
+    "clinical_context": "Primarily environmental; rarely associated with human infection."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Dry",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "50//75",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Primary discriminator from G. stearothermophilus."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "50//75",
+      "importance": "medium",
+      "notes": "Thermophilic but slightly broader lower range."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Geobacillus stearothermophilus",
+      "reason": "Similar thermophilic and spore-forming characteristics."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Failure to reduce nitrate suggests G. stearothermophilus.",
+    "Growth restricted below 50°C suggests non-Geobacillus species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction",
+      "reason": "Key discriminator for this species.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Growth at ≥50°C",
+      "reason": "Confirms thermophilic profile.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

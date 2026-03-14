@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Burkholderia",
+
+  "overview": {
+    "short": "Burkholderia species are Gram-negative, aerobic, non-fermentative rods commonly found in soil and water, with several species acting as opportunistic or primary pathogens.",
+    "clinical_context": "Clinically significant species cause respiratory, bloodstream, and systemic infections, particularly in immunocompromised patients and those with cystic fibrosis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-lactose fermenting"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "30//42",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Glucose Fermentation": "Burkholderia species are non-fermenters but may oxidize carbohydrates.",
+    "Oxidase": "Reaction is variable across species and not genus-defining.",
+    "Motility": "Most species are motile via polar flagella."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Non-fermentative metabolism separates Burkholderia from fermenters."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Variable",
+      "distinguishes_from": ["Pseudomonas"],
+      "notes": "Oxidase variability helps differentiate Burkholderia from consistently oxidase-positive Pseudomonas."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter"],
+      "notes": "Motility differentiates Burkholderia from non-motile Acinetobacter."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Shared non-fermentative metabolism and aerobic growth."
+    },
+    {
+      "genus": "Ralstonia",
+      "reason": "Environmental overlap and similar biochemical profiles."
+    },
+    {
+      "genus": "Acinetobacter",
+      "reason": "Gram-negative rods recovered from hospital environments."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong lactose fermentation argues against Burkholderia.",
+    "Non-motility suggests Acinetobacter.",
+    "Consistent oxidase positivity with pigment production suggests Pseudomonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidative-fermentative (OF) glucose test",
+      "reason": "Confirms non-fermentative metabolism.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "Motility testing",
+      "reason": "Helps differentiate from Acinetobacter.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable for genus identification with updated reference databases."
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Recommended due to species complexity and clinical importance."
+    }
+  ],
+
+  "supported_species": [
+    "cepacia",
+    "pseudomallei",
+    "mallei"
+  ]
+}

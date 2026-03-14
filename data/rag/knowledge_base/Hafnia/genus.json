@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Hafnia",
+
+  "overview": {
+    "short": "Hafnia species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, most commonly encountered as environmental and intestinal flora but occasionally associated with opportunistic infections.",
+    "clinical_context": "Usually isolated as a commensal or contaminant, but can be recovered from opportunistic infections (e.g., gastroenteritis, urinary tract infections, respiratory specimens) particularly in compromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Lactose Fermentation": "Typically non-lactose fermenting on MacConkey (colourless colonies).",
+    "Ornithine Decarboxylase": "Commonly positive and useful for separating Hafnia from some other Enterobacterales.",
+    "Citrate": "Often variable across strains and not genus-defining alone."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Lactose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Escherichia", "Klebsiella", "Enterobacter"],
+      "notes": "Non-lactose fermentation helps separate Hafnia from common lactose fermenters."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "expected": "Positive",
+      "distinguishes_from": ["Citrobacter (many strains)", "Serratia (often negative)"],
+      "notes": "ODC positivity can support Hafnia in a non-lactose fermenting Enterobacterales context."
+    },
+    {
+      "field": "TSI Pattern",
+      "expected": "K/A",
+      "distinguishes_from": ["Some Enterobacter species (often A/A)"],
+      "notes": "K/A with variable gas is consistent with many Hafnia isolates."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Shared Enterobacterales background and overlapping biochemical reactions; Hafnia tends to be non-lactose fermenting."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Both may be non-lactose fermenters with overlapping citrate/MR/VP variability."
+    },
+    {
+      "genus": "Serratia",
+      "reason": "Similar colony appearance on MacConkey; differentiation relies on biochemical pattern and (if present) pigment/gelatinase profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong lactose fermentation (pink MacConkey colonies) argues against Hafnia and suggests Enterobacter/Klebsiella/Escherichia.",
+    "H2S production argues against Hafnia and suggests Salmonella/Citrobacter/Edwardsiella.",
+    "Oxidase positivity is inconsistent with Enterobacterales and argues against Hafnia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Key supportive discriminator among non-lactose fermenting Enterobacterales.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Citrate utilization",
+      "reason": "Helpful as part of an Enterobacterales biochemical panel to separate close matches.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "API 20E",
+      "reason": "Standardized Enterobacterales identification strip; useful for differentiating Hafnia from similar genera.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus/species-level identification when biochemical overlap is high.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "alvei",
+    "paralvei"
+  ]
+}

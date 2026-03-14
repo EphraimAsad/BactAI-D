@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Haemophilus",
+  "species": "ducreyi",
+
+  "overview": {
+    "short": "Haemophilus ducreyi is a fastidious Gram-negative short rod associated with chancroid, a sexually transmitted genital ulcer disease.",
+    "clinical_context": "Primarily linked to painful genital ulcers and regional lymphadenitis; culture is challenging and NAAT is often preferred where available."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Chocolate Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "33//37",
+    "Catalase": "Negative",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Unknown",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Unknown",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Unknown",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Context",
+      "value": "Genital ulcer disease",
+      "importance": "high",
+      "notes": "Strongest practical discriminator; H. ducreyi is classically associated with chancroid."
+    },
+    {
+      "field": "Catalase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Supports separation from some other Haemophilus species that are more often catalase positive."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps distinguish from certain respiratory Haemophilus species that more commonly reduce nitrate."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Haemophilus",
+      "reason": "Other Haemophilus species can appear similar in basic morphology but differ in clinical context and factor requirements."
+    },
+    {
+      "genus": "Aggregatibacter",
+      "reason": "Pasteurellaceae overlap; fastidious growth on enriched media can resemble Haemophilus."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Respiratory-source isolate argues against H. ducreyi (typically mucosal/ulcer-associated).",
+    "Clear X+V factor profile consistent with H. influenzae/parainfluenzae may indicate a different species.",
+    "Good growth on MacConkey Agar argues against H. ducreyi (fastidious, typically inhibited)."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "X and V factor requirement (hemin and NAD)",
+      "reason": "Helps confirm Haemophilus biology and distinguish related species.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Strong option for confirming species when culture is obtained.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "NAAT / molecular confirmation",
+      "reason": "Often preferred due to culture difficulty in routine labs.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

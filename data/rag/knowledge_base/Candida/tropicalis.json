@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Candida",
+  "species": "tropicalis",
+
+  "overview": {
+    "short": "Candida tropicalis is a yeast capable of forming pseudohyphae and true hyphae.",
+    "clinical_context": "Frequently associated with invasive candidiasis, particularly in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Sabouraud Dextrose Agar",
+      "Chromogenic Candida Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Cream",
+      "Smooth",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "25//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Germ Tube Test",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Differentiates from Candida albicans."
+    },
+    {
+      "field": "Chromogenic Agar",
+      "value": "Metallic blue to purple colonies",
+      "importance": "high",
+      "notes": "Characteristic colony colour on chromogenic media."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Candida albicans",
+      "reason": "Both can form hyphae, but differ in germ tube reaction."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Germ tube positivity suggests Candida albicans.",
+    "Limited sugar fermentation suggests Candida glabrata."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Chromogenic Candida Agar",
+      "reason": "Rapid presumptive differentiation."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Acidaminococcus",
+  "species": "fermentans",
+
+  "overview": {
+    "short": "Acidaminococcus fermentans is a Gram-negative, obligately anaerobic coccus that derives energy primarily from amino acid fermentation.",
+    "clinical_context": "Commonly part of the normal gastrointestinal microbiota and occasionally recovered from polymicrobial anaerobic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Amino Acid Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Primary metabolic pathway distinguishing Acidaminococcus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Veillonella",
+      "reason": "Both are anaerobic Gram-negative cocci isolated from similar sites."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Carbohydrate fermentation suggests Veillonella.",
+    "Aerobic growth is inconsistent with A. fermentans.",
+    "Rod-shaped morphology excludes this species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic growth verification",
+      "reason": "Confirms obligate anaerobic metabolism."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable identification due to limited biochemical activity."
+    }
+  ]
+}

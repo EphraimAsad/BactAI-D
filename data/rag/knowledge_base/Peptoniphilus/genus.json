@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Peptoniphilus",
+
+  "overview": {
+    "short": "Peptoniphilus species are Gram-positive, anaerobic cocci that are part of the normal human skin and mucosal microbiota.",
+    "clinical_context": "Most often isolated from polymicrobial infections including abscesses, soft tissue infections, bone and joint infections, and bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Strict anaerobic growth is a defining feature of the genus.",
+    "Catalase": "Catalase negativity helps separate Peptoniphilus from staphylococci.",
+    "Sugar Fermentation": "Carbohydrate utilization is limited or absent in several species."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Anaerobic",
+      "distinguishes_from": ["Staphylococcus", "Aerococcus"],
+      "notes": "Strict anaerobiosis differentiates Peptoniphilus from many Gram-positive cocci."
+    },
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Staphylococcus"],
+      "notes": "Catalase negativity supports anaerobic cocci identification."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Variable",
+      "distinguishes_from": ["Finegoldia"],
+      "notes": "Some species are weakly fermentative or asaccharolytic."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Finegoldia",
+      "reason": "Both are Gram-positive anaerobic cocci commonly isolated from similar clinical sites."
+    },
+    {
+      "genus": "Anaerococcus",
+      "reason": "Overlapping morphology and anaerobic growth requirements."
+    },
+    {
+      "genus": "Parvimonas",
+      "reason": "Similar anaerobic cocci with limited biochemical differentiation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Aerobic growth argues against Peptoniphilus.",
+    "Catalase positivity suggests staphylococci or aerococci.",
+    "Strong carbohydrate fermentation suggests another anaerobic genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic growth confirmation",
+      "reason": "Required to confirm obligate anaerobe status.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "Indole testing",
+      "reason": "Useful for species-level differentiation.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for definitive genus and species identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "harei",
+    "asaccharolyticus"
+  ]
+}

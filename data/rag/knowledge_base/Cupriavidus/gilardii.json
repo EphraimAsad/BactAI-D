@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cupriavidus",
+  "species": "gilardii",
+
+  "overview": {
+    "short": "Cupriavidus gilardii is a Gram-negative, aerobic, non-fermentative rod increasingly recognised as an opportunistic human pathogen.",
+    "clinical_context": "Associated with bloodstream, respiratory, and device-related infections, particularly in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Citrate",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate C. gilardii from other citrate-positive Cupriavidus species."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Differentiates from denitrifying environmental relatives."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Burkholderia",
+      "reason": "Shared oxidase positivity and non-fermentative metabolism."
+    },
+    {
+      "genus": "Ralstonia",
+      "reason": "Phylogenetic similarity and overlapping biochemical profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity argues against C. gilardii.",
+    "Any glucose fermentation suggests misidentification.",
+    "Anaerobic growth is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Arginine dihydrolase",
+      "reason": "Supports placement among Cupriavidus species.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable discrimination from Burkholderia and Ralstonia.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

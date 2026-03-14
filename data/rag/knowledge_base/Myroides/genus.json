@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Myroides",
+
+  "overview": {
+    "short": "Myroides species are Gram-negative, aerobic, non-fermentative rods (formerly within Flavobacterium) that can act as opportunistic pathogens and are notable for a strong characteristic odor.",
+    "clinical_context": "Typically recovered from environmental sources and occasionally from opportunistic infections (e.g., wound/soft tissue, urinary tract, or bloodstream), especially in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Circular",
+      "Yellow"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxidase": "Typically oxidase positive among non-fermentative Gram-negative rods, helping separate from many Enterobacterales.",
+    "Glucose Fermentation": "Generally non-fermentative; sugar fields are usually negative.",
+    "Pigment": "Many isolates produce yellow pigmentation on non-selective media."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Aerobe",
+      "distinguishes_from": ["Enterobacter", "Escherichia", "Klebsiella"],
+      "notes": "Aerobic non-fermenter profile argues against Enterobacterales."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter", "Stenotrophomonas"],
+      "notes": "Oxidase positivity helps separate from common oxidase-negative non-fermenters."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Many Enterobacterales"],
+      "notes": "Proteolytic activity (gelatinase/lipase) is a useful supportive trait."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Flavobacterium",
+      "reason": "Overlapping ecology and phenotypes; both may be yellow-pigmented, oxidase-positive, non-fermenters."
+    },
+    {
+      "genus": "Chryseobacterium",
+      "reason": "Similar yellow-pigmented, oxidase-positive non-fermentative rods; requires higher-resolution ID."
+    },
+    {
+      "genus": "Sphingobacterium",
+      "reason": "Can overlap in non-fermenter phenotype and colony appearance."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong lactose fermentation or clear A/A TSI pattern suggests Enterobacterales, not Myroides.",
+    "Oxidase negativity suggests Acinetobacter or other oxidase-negative non-fermenters.",
+    "Marked motility suggests Pseudomonas-like organisms rather than Myroides."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical approach to separate Myroides from closely related yellow-pigmented non-fermenters.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Oxidase test",
+      "reason": "Supports non-fermenter group placement and helps narrow common confusions.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Gelatin hydrolysis / proteolysis",
+      "reason": "Supportive trait that may help triage within non-fermentative Gram-negative rods.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "odoratimimus",
+    "odoratus"
+  ]
+}

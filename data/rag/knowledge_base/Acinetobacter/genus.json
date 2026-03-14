@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Acinetobacter",
+
+  "overview": {
+    "short": "Acinetobacter species are Gram-negative, strictly aerobic, non-fermentative coccobacilli widely distributed in the environment.",
+    "clinical_context": "Clinically significant species, particularly Acinetobacter baumannii, are important causes of healthcare-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Coccobacilli",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Opaque",
+      "Grey-White"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//44",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Motility": "Acinetobacter species are characteristically non-motile.",
+    "Oxidase": "Oxidase negativity is a key differentiator from many other non-fermenters.",
+    "Shape": "Often appear as plump coccobacilli on Gram stain."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Negative",
+      "distinguishes_from": ["Pseudomonas", "Burkholderia"],
+      "notes": "Oxidase negativity is critical in separating Acinetobacter from most non-fermenters."
+    },
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Stenotrophomonas", "Alcaligenes"],
+      "notes": "Non-motility supports Acinetobacter."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Non-fermentative metabolism excludes Enterobacterales."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Shared non-fermentative metabolism but differs by oxidase status."
+    },
+    {
+      "genus": "Stenotrophomonas",
+      "reason": "Overlapping non-fermentative profile with variable biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase positivity argues against Acinetobacter.",
+    "Motility suggests an alternative non-fermenter.",
+    "Anaerobic growth is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Primary discriminator among non-fermenters."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus- and species-level identification."
+    },
+    {
+      "test": "Antimicrobial susceptibility testing",
+      "reason": "Clinically important due to frequent multidrug resistance."
+    }
+  ],
+
+  "supported_species": [
+    "baumannii",
+    "calcoaceticus",
+    "lwoffii",
+    "johnsonii",
+    "pittii"
+  ]
+}

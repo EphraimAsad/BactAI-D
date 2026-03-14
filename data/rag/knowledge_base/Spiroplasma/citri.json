@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Spiroplasma",
+  "species": "citri",
+
+  "overview": {
+    "short": "Spiroplasma citri is a wall-less, helical Mollicute primarily associated with plant disease, most notably citrus stubborn disease.",
+    "clinical_context": "Not a human pathogen; relevance is agricultural and plant pathology."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Specialized Mollicutes Media"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "25//32",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Helical Flexion"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "25//32",
+      "importance": "high",
+      "notes": "Optimal growth below typical human body temperature supports plant-associated Mollicute."
+    },
+    {
+      "field": "Media Grown On",
+      "value": "Specialized Mollicutes Media",
+      "importance": "high",
+      "notes": "Sterol-dependent growth is required."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Mycoplasma",
+      "reason": "Both are Mollicutes with wall-less cells and similar culture requirements."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth on routine Blood or MacConkey agar excludes Spiroplasma.",
+    "Urease positivity suggests Helicobacter.",
+    "Strong Gram-negative staining suggests non-Mollicute spiral bacteria."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Gold standard for species-level identification of Mollicutes."
+    },
+    {
+      "test": "Phase-contrast microscopy",
+      "reason": "Demonstrates characteristic helical motility."
+    }
+  ]
+}

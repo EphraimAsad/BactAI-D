@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Streptococcus",
+  "species": "mutans",
+
+  "overview": {
+    "short": "Streptococcus mutans is a Gram-positive, facultatively anaerobic coccus primarily associated with dental caries.",
+    "clinical_context": "A key component of oral biofilms, strongly linked to tooth decay and occasionally implicated in infective endocarditis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Mitis Salivarius Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Rough",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "18//40",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Positive",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Chains",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-haemolytic behaviour distinguishes S. mutans from beta-haemolytic streptococci."
+    },
+    {
+      "field": "Sucrose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Sucrose metabolism contributes to biofilm and dental plaque formation."
+    },
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Helps differentiate S. mutans from other viridans streptococci."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Streptococcus sobrinus",
+      "reason": "Closely related oral streptococcus with similar carbohydrate fermentation patterns."
+    },
+    {
+      "genus": "Enterococcus",
+      "reason": "May appear similar morphologically but differs in salt tolerance and bile esculin reaction."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Beta-haemolysis excludes S. mutans.",
+    "Growth in 6.5% NaCl suggests Enterococcus.",
+    "Strong capsule expression suggests S. pneumoniae."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Carbohydrate fermentation profile",
+      "reason": "Helps distinguish S. mutans from other viridans streptococci.",
+      "api_kit": "API 20 STREP"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification within viridans streptococci."
+    }
+  ]
+}

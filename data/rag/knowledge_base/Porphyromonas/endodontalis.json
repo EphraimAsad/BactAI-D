@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Porphyromonas",
+  "species": "endodontalis",
+
+  "overview": {
+    "short": "Porphyromonas endodontalis is a Gram-negative, obligately anaerobic short rod associated with endodontic and periapical infections.",
+    "clinical_context": "Commonly isolated from infected root canals, periapical abscesses, and chronic dental infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Brucella Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Convex",
+      "Black Pigmented"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Black",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Source",
+      "value": "Endodontic infections",
+      "importance": "high",
+      "notes": "Strong association with infected root canals and periapical disease."
+    },
+    {
+      "field": "Catalase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from some catalase-variable Porphyromonas species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Porphyromonas gingivalis",
+      "reason": "Shared pigmentation and anaerobic growth in oral samples."
+    },
+    {
+      "genus": "Prevotella",
+      "reason": "Similar anaerobic oral flora."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolation outside oral or dental sites should prompt confirmation.",
+    "Any carbohydrate fermentation is inconsistent.",
+    "Aerobic growth excludes Porphyromonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic culture",
+      "reason": "Confirms obligate anaerobiosis."
+    },
+    {
+      "test": "Indole test",
+      "reason": "Supports Porphyromonas identification."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level discrimination in oral anaerobes."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Serratia",
+  "species": "marcescens",
+
+  "overview": {
+    "short": "Serratia marcescens is a Gram-negative, motile rod notable for red pigment production and its role as a common opportunistic pathogen.",
+    "clinical_context": "Frequently associated with hospital-acquired infections including UTIs, pneumonia, catheter-related infections, and bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Moist",
+      "Red-pigmented at lower temperatures"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "5//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Red",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Red",
+      "importance": "high",
+      "notes": "Prodigiosin production is characteristic, especially at lower incubation temperatures."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Strong DNase activity is a hallmark of S. marcescens."
+    },
+    {
+      "field": "Lysine Decarboxylase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps differentiate from Enterobacter species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Serratia liquefaciens",
+      "reason": "Similar biochemical profile but usually lacks strong red pigment."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Overlapping VP-positive and citrate-positive reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of DNase activity argues against S. marcescens.",
+    "Strong lactose fermentation suggests a different Enterobacterales genus.",
+    "Non-motile isolate is inconsistent with S. marcescens."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "DNase test",
+      "reason": "Confirms hallmark enzymatic activity.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Pigment expression at 25–30°C",
+      "reason": "Enhances prodigiosin detection."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification."
+    }
+  ]
+}

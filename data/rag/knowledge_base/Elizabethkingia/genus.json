@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Elizabethkingia",
+
+  "overview": {
+    "short": "Elizabethkingia species are Gram-negative, non-fermenting, aerobic, non-motile rods (often described as slender rods) found in water and hospital environments.",
+    "clinical_context": "Opportunistic pathogens associated with neonatal meningitis (historically E. meningoseptica), and bloodstream/respiratory infections in immunocompromised or critically ill patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-mucoid"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Typically strict aerobic and non-fermenting in routine lab descriptions.",
+    "Oxidase": "Commonly oxidase-positive, supporting placement among non-fermenting Gram-negative rods.",
+    "Indole": "Often indole-positive; this can be a useful clue in combination with oxidase positivity and non-fermenter profile."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter", "Stenotrophomonas"],
+      "notes": "Oxidase positivity helps distinguish from oxidase-negative non-fermenters like Acinetobacter and often Stenotrophomonas."
+    },
+    {
+      "field": "Indole",
+      "expected": "Positive",
+      "distinguishes_from": ["Pseudomonas", "Burkholderia"],
+      "notes": "Indole positivity can help separate Elizabethkingia from many other common oxidase-positive non-fermenters."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Non-fermenter profile excludes Enterobacterales."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Chryseobacterium",
+      "reason": "Related flavobacteria with overlapping biochemical patterns; definitive separation often requires MALDI-TOF or molecular methods."
+    },
+    {
+      "genus": "Sphingobacterium",
+      "reason": "Environmental Gram-negative rods with oxidase positivity and weak/variable biochemical traits."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative result makes Elizabethkingia less likely.",
+    "Clear carbohydrate fermentation pattern (multiple sugars positive) argues against Elizabethkingia.",
+    "Strong growth on MacConkey with typical lactose/non-lactose Enterobacterales pattern suggests misclassification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Helpful clue within non-fermenting Gram-negative rods and supports Elizabethkingia when positive.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "Oxidase test",
+      "reason": "Rapid separation from oxidase-negative non-fermenters.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable for genus/species resolution among closely related flavobacteria.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "anophelis",
+    "meningoseptica",
+    "miricola"
+  ]
+}

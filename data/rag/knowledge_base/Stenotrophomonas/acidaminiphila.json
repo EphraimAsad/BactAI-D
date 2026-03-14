@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Stenotrophomonas",
+  "species": "acidaminiphila",
+
+  "overview": {
+    "short": "Stenotrophomonas acidaminiphila is a Gram-negative, aerobic, non-fermentative rod primarily encountered in environmental sources.",
+    "clinical_context": "Rare in human infection; when isolated clinically it should be confirmed due to overlap with S. maltophilia and other non-fermenters."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "5//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical relevance",
+      "value": "Low",
+      "importance": "high",
+      "notes": "Most often environmental; clinical isolation should prompt confirmatory identification."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "≤37°C",
+      "importance": "medium",
+      "notes": "Often less tolerant of higher temperatures than S. maltophilia."
+    },
+    {
+      "field": "Lipase Test",
+      "value": "Variable",
+      "importance": "low",
+      "notes": "Can vary; not a standalone discriminator."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Stenotrophomonas maltophilia",
+      "reason": "Shared oxidase-negative, DNase-positive non-fermenter profile; requires MALDI-TOF or molecular confirmation."
+    },
+    {
+      "genus": "Burkholderia",
+      "reason": "Overlapping non-fermentative phenotype and environmental association."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolation from sterile sites should be confirmed due to rarity.",
+    "Growth at higher temperatures (>40°C) argues against S. acidaminiphila.",
+    "Oxidase positivity argues against Stenotrophomonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most practical way to differentiate uncommon Stenotrophomonas species."
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Recommended for definitive separation within closely related non-fermenters."
+    }
+  ]
+}

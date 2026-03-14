@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Photorhabdus",
+  "species": "asymbiotica",
+
+  "overview": {
+    "short": "Photorhabdus asymbiotica is a bioluminescent, Gram-negative rod capable of causing invasive human infection.",
+    "clinical_context": "Associated with soft tissue infections, bacteremia, and systemic disease, often following insect exposure or trauma."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Opaque",
+      "Bioluminescent"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "25//37",
+      "importance": "high",
+      "notes": "Ability to grow at 37 °C distinguishes P. asymbiotica from P. luminescens."
+    },
+    {
+      "field": "Clinical Association",
+      "value": "Human infection",
+      "importance": "high",
+      "notes": "Primary Photorhabdus species implicated in human disease."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Photorhabdus luminescens",
+      "reason": "Shared bioluminescence and overlapping biochemical traits."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of growth at 37 °C suggests P. luminescens.",
+    "Absence of bioluminescence suggests misidentification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth temperature testing",
+      "reason": "Key discriminator between Photorhabdus species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for definitive species identification."
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Confirms species in clinically significant isolates."
+    }
+  ]
+}

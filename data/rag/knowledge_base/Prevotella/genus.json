@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Prevotella",
+
+  "overview": {
+    "short": "Prevotella species are Gram-negative, obligately anaerobic short rods commonly found in the oral cavity, gastrointestinal tract, and female genital tract.",
+    "clinical_context": "Frequently associated with oral, respiratory, intra-abdominal, and gynecologic infections, often as part of polymicrobial anaerobic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Brucella Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Pigment": "Some species produce dark brown or black pigment with prolonged incubation.",
+    "Indole": "Highly species-dependent and useful for differentiation.",
+    "Carbohydrate Fermentation": "More saccharolytic than Porphyromonas."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Variable",
+      "distinguishes_from": ["Porphyromonas"],
+      "notes": "Prevotella species are more saccharolytic than Porphyromonas."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Variable",
+      "distinguishes_from": ["Bacteroides"],
+      "notes": "Some Prevotella species develop pigment on prolonged incubation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Porphyromonas",
+      "reason": "Shared anaerobic growth and pigmentation in oral samples."
+    },
+    {
+      "genus": "Bacteroides",
+      "reason": "Overlapping anaerobic rod morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strict asaccharolytic profile suggests Porphyromonas.",
+    "Aerobic growth excludes Prevotella.",
+    "Strong bile resistance suggests Bacteroides."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Useful for species-level differentiation."
+    },
+    {
+      "test": "Carbohydrate fermentation panel",
+      "reason": "Separates saccharolytic Prevotella from Porphyromonas."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable identification of anaerobic Gram-negative rods."
+    }
+  ],
+
+  "supported_species": [
+    "bivia",
+    "intermedia",
+    "melaninogenica"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Photorhabdus",
+  "species": "luminescens",
+
+  "overview": {
+    "short": "Photorhabdus luminescens is a bioluminescent, Gram-negative rod primarily associated with entomopathogenic nematodes and insect hosts.",
+    "clinical_context": "Human infection is extremely rare and typically incidental, with most isolates recovered from environmental or insect-related sources."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Opaque",
+      "Bioluminescent"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//30",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Bioluminescence",
+      "value": "Present",
+      "importance": "high",
+      "notes": "Strong and consistent bioluminescence is characteristic of P. luminescens."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "20//30",
+      "importance": "medium",
+      "notes": "Prefers lower growth temperatures compared to P. asymbiotica."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Photorhabdus asymbiotica",
+      "reason": "Shared bioluminescence and biochemical profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth at 37 °C suggests P. asymbiotica.",
+    "Absence of bioluminescence argues against P. luminescens."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Dark-room colony observation",
+      "reason": "Confirms strong bioluminescence."
+    },
+    {
+      "test": "Growth temperature assessment",
+      "reason": "Differentiates from P. asymbiotica."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification."
+    }
+  ]
+}

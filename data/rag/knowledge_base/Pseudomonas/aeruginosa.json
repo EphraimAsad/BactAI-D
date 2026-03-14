@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Pseudomonas",
+  "species": "aeruginosa",
+
+  "overview": {
+    "short": "Pseudomonas aeruginosa is a Gram-negative, aerobic, non-fermenting rod notable for pigment production and intrinsic antimicrobial resistance.",
+    "clinical_context": "A major opportunistic pathogen causing respiratory, burn, wound, urinary tract, and bloodstream infections, particularly in hospital settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar",
+      "Cetrimide Agar"
+    ],
+    "Colony Morphology": [
+      "Flat",
+      "Spreading",
+      "Metallic sheen"
+    ],
+    "Oxygen Requirement": "Obligate Aerobe",
+    "Growth Temperature": "4//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Pyocyanin; Pyoverdine",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Pyocyanin",
+      "importance": "high",
+      "notes": "Blue-green pigment is highly characteristic of P. aeruginosa."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "42°C growth",
+      "importance": "high",
+      "notes": "Ability to grow at 42°C differentiates P. aeruginosa from many other Pseudomonas species."
+    },
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports differentiation within non-fermenting Gram-negative rods."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Pseudomonas fluorescens",
+      "reason": "Shared oxidase positivity but P. fluorescens typically does not grow at 42°C and lacks pyocyanin."
+    },
+    {
+      "genus": "Burkholderia",
+      "reason": "Similar non-fermenting, oxidase-positive phenotype."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Failure to grow at 42°C suggests a non-aeruginosa Pseudomonas species.",
+    "Absence of pigment production requires further confirmation.",
+    "Oxidase negativity argues against Pseudomonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth at 42°C",
+      "reason": "Classic discriminator for P. aeruginosa."
+    },
+    {
+      "test": "Pigment observation",
+      "reason": "Detection of pyocyanin and fluorescence supports identification."
+    },
+    {
+      "test": "API 20NE",
+      "reason": "Standard biochemical panel for non-fermenting Gram-negative rods."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold-standard confirmation in clinical laboratories."
+    }
+  ]
+}

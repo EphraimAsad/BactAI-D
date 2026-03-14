@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Peptostreptococcus",
+
+  "overview": {
+    "short": "Peptostreptococcus species are Gram-positive, obligately anaerobic cocci associated with human mucosal flora and polymicrobial anaerobic infections.",
+    "clinical_context": "Commonly isolated from abscesses and deep-seated infections (oral, head/neck, intra-abdominal, pelvic, soft tissue) often alongside other anaerobes."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Indole": "Indole reactions vary by species and method; interpret with caution.",
+    "Glucose Fermentation": "Carbohydrate utilization is often limited/variable across anaerobic cocci.",
+    "Haemolysis": "May be absent or variable depending on medium and incubation conditions."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Anaerobic",
+      "distinguishes_from": ["Streptococcus", "Enterococcus", "Staphylococcus"],
+      "notes": "Obligate anaerobic growth separates Peptostreptococcus from common aerobic/facultative Gram-positive cocci."
+    },
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Staphylococcus", "Micrococcus"],
+      "notes": "Catalase negativity supports anaerobic cocci over staphylococci/micrococci."
+    },
+    {
+      "field": "Shape",
+      "expected": "Cocci",
+      "distinguishes_from": ["Clostridium", "Bacteroides"],
+      "notes": "Helps keep separation from anaerobic rods when the Gram stain is clear."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Anaerococcus",
+      "reason": "Overlapping anaerobic cocci phenotype; biochemical panels often insufficient for confident separation."
+    },
+    {
+      "genus": "Peptoniphilus",
+      "reason": "Similar colony morphology and low biochemical activity; species-level calls often require MALDI-TOF."
+    },
+    {
+      "genus": "Finegoldia",
+      "reason": "Clinical overlap and similar anaerobic cocci appearance in polymicrobial infections."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Robust aerobic growth suggests an aerotolerant or facultative genus, not Peptostreptococcus.",
+    "Strong catalase positivity suggests staphylococci or related genera.",
+    "Marked carbohydrate fermentation across many sugars is atypical for this genus-level profile."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Aerotolerance / anaerobic confirmation (growth in air vs anaerobic)",
+      "reason": "Confirms obligate anaerobe status before species-level workup.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Indole test",
+      "reason": "Useful discriminator for some anaerobic cocci species (method-dependent).",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable approach for genus/species-level identification among anaerobic cocci.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "anaerobius",
+    "stomatis"
+  ]
+}

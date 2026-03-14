@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Helicobacter",
+  "species": "heilmannii",
+
+  "overview": {
+    "short": "Helicobacter heilmannii is a Gram-negative, spiral bacterium associated with chronic gastritis and zoonotic transmission.",
+    "clinical_context": "Less common than H. pylori; associated with gastric disease and exposure to animals such as cats, dogs, or pigs."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "33//40",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Unknown",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Often weaker or variable compared to H. pylori."
+    },
+    {
+      "field": "Exposure History",
+      "value": "Animal contact",
+      "importance": "medium",
+      "notes": "Zoonotic exposure is a common epidemiological clue."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Helicobacter pylori",
+      "reason": "Both cause gastric disease; H. heilmannii often has weaker urease activity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong urease positivity favors H. pylori.",
+    "Lack of gastric involvement argues against H. heilmannii.",
+    "Failure to culture may necessitate histology or molecular methods."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Histology with special stains",
+      "reason": "Often detected histologically due to culture difficulty.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "PCR-based identification",
+      "reason": "Accurate differentiation from H. pylori.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "If cultured, enables species confirmation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

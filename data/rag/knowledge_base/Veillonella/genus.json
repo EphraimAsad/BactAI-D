@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Veillonella",
+
+  "overview": {
+    "short": "Veillonella species are Gram-negative anaerobic cocci that inhabit the human oral cavity, gastrointestinal tract, and genitourinary tract.",
+    "clinical_context": "Usually commensal but can be opportunistic pathogens, occasionally isolated from bloodstream, endocarditis, bone, and deep tissue infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Anaerobic Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Glucose Fermentation": "Veillonella species are asaccharolytic and do not ferment carbohydrates.",
+    "Gram Stain": "Despite being Gram-negative, morphology resembles Gram-positive cocci, which may cause misinterpretation.",
+    "Oxygen Requirement": "Strict anaerobes; growth in oxygen argues against Veillonella."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Shape",
+      "expected": "Cocci",
+      "distinguishes_from": ["Prevotella", "Fusobacterium"],
+      "notes": "Only Gram-negative cocci among common anaerobes."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Anaerococcus", "Peptostreptococcus"],
+      "notes": "Asaccharolytic metabolism is characteristic."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Anaerobic",
+      "distinguishes_from": ["Neisseria", "Moraxella"],
+      "notes": "Aerobic growth excludes Veillonella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Anaerococcus",
+      "reason": "Both are anaerobic cocci; Anaerococcus is Gram-positive."
+    },
+    {
+      "genus": "Peptostreptococcus",
+      "reason": "Similar anaerobic coccal morphology but Gram-positive."
+    },
+    {
+      "genus": "Neisseria",
+      "reason": "Both are cocci; Neisseria are aerobic and oxidase-positive."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Any carbohydrate fermentation argues against Veillonella.",
+    "Aerobic or microaerophilic growth is inconsistent.",
+    "Oxidase positivity suggests Neisseria or Moraxella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Strict anaerobic incubation",
+      "reason": "Confirms obligate anaerobic growth requirement."
+    },
+    {
+      "test": "Gram stain confirmation",
+      "reason": "Helps differentiate from Gram-positive anaerobic cocci."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level identification of Veillonella.",
+      "api_kit": "Bruker MALDI Biotyper Anaerobe Library"
+    }
+  ],
+
+  "supported_species": [
+    "parvula",
+    "dispar"
+  ]
+}

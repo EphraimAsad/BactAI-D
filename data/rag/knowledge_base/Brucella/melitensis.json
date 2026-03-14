@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Brucella",
+  "species": "melitensis",
+
+  "overview": {
+    "short": "Brucella melitensis is a Gram-negative, non-motile coccobacillus considered the most virulent Brucella species for humans.",
+    "clinical_context": "Primarily infects goats and sheep, causing caprine brucellosis, and is a leading cause of human brucellosis worldwide."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "H2S",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Absence of H₂S differentiates B. melitensis from B. abortus."
+    },
+    {
+      "field": "CO₂ Requirement",
+      "value": "None",
+      "importance": "medium",
+      "notes": "Does not require added CO₂ for growth, unlike some B. abortus strains."
+    },
+    {
+      "field": "Host Association",
+      "value": "Goats and sheep",
+      "importance": "medium",
+      "notes": "Strong correlation with small ruminants in endemic regions."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Brucella abortus",
+      "reason": "Shared biochemical results aside from H₂S production."
+    },
+    {
+      "genus": "Ochrobactrum",
+      "reason": "Phylogenetic similarity may lead to misidentification."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "H₂S positivity suggests B. abortus.",
+    "Failure to grow aerobically or absence of urease suggests misidentification.",
+    "Rapid growth or fermentation reactions inconsistent with Brucella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "H₂S production",
+      "reason": "Confirms distinction from B. abortus and B. suis."
+    },
+    {
+      "test": "PCR or molecular typing",
+      "reason": "Definitive confirmation due to biosafety concerns."
+    },
+    {
+      "test": "Serological agglutination test",
+      "reason": "Supports diagnosis in clinical or veterinary contexts."
+    }
+  ]
+}

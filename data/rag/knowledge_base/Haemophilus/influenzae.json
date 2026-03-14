@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Haemophilus",
+  "species": "influenzae",
+
+  "overview": {
+    "short": "Haemophilus influenzae is a small, pleomorphic Gram-negative short rod that commonly colonizes the human respiratory tract and can cause invasive disease.",
+    "clinical_context": "Associated with respiratory tract infections, otitis media, sinusitis, and invasive disease such as meningitis and bacteremia (especially encapsulated strains)."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Unknown",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Unknown",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Unknown",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Media Grown On",
+      "value": "Chocolate Agar only",
+      "importance": "high",
+      "notes": "Requires both X (hemin) and V (NAD) factors; no growth on plain Blood Agar."
+    },
+    {
+      "field": "Capsule",
+      "value": "Variable",
+      "importance": "high",
+      "notes": "Encapsulated type b (Hib) strains are associated with invasive disease."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Helps separate from some other Haemophilus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Haemophilus parainfluenzae",
+      "reason": "Similar morphology and respiratory colonization; differs in factor requirements."
+    },
+    {
+      "genus": "Aggregatibacter",
+      "reason": "Pasteurellaceae overlap and similar Gram stain appearance."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth on Blood Agar without satellitism argues against H. influenzae.",
+    "Lack of X factor requirement suggests H. parainfluenzae or another Pasteurellaceae.",
+    "Strong haemolysis is inconsistent with H. influenzae."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "X and V factor requirement testing",
+      "reason": "Definitive phenotypic distinction within Haemophilus.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Capsule typing (Hib testing)",
+      "reason": "Important for clinical risk assessment and epidemiology.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

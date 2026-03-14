@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Kosakonia",
+
+  "overview": {
+    "short": "Kosakonia species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, primarily associated with plants but occasionally isolated from clinical specimens.",
+    "clinical_context": "Rarely reported as opportunistic human pathogens; most commonly encountered in environmental, plant-associated, or microbiome-related contexts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Clinical relevance": "Kosakonia is primarily environmental; human isolates should be interpreted cautiously.",
+    "VP": "VP positivity aligns Kosakonia with Enterobacter-like organisms.",
+    "Motility": "Motility helps distinguish Kosakonia from Klebsiella."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "VP",
+      "expected": "Positive",
+      "distinguishes_from": ["Escherichia"],
+      "notes": "VP positivity supports Kosakonia over MR-positive Enterobacterales."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Klebsiella"],
+      "notes": "Motility differentiates Kosakonia from typically non-motile Klebsiella."
+    },
+    {
+      "field": "Ecology",
+      "expected": "Plant-associated",
+      "distinguishes_from": ["Enterobacter"],
+      "notes": "Strong association with plants and rhizosphere environments."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Shared biochemical profile including VP positivity and sugar fermentation."
+    },
+    {
+      "genus": "Cronobacter",
+      "reason": "Overlap in Enterobacterales biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong clinical pathogenicity without environmental exposure suggests alternative Enterobacterales.",
+    "Non-motile isolate argues against Kosakonia.",
+    "MR-positive profile suggests Escherichia or Citrobacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Useful for species-level discrimination.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable for differentiating Kosakonia from closely related Enterobacterales.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Whole-genome sequencing",
+      "reason": "Gold standard for definitive identification due to recent taxonomic reclassification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "cowanii",
+    "radicincitans"
+  ]
+}

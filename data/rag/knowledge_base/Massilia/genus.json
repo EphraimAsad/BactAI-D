@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Massilia",
+
+  "overview": {
+    "short": "Massilia species are Gram-negative, aerobic, non-fermenting rods belonging to the family Oxalobacteraceae.",
+    "clinical_context": "Primarily environmental organisms, occasionally isolated from human clinical specimens such as blood or ocular samples."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey-White"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/NC",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Oxidase": "Oxidase positivity helps distinguish Massilia from many other non-fermenting Gram-negative rods.",
+    "Glucose Fermentation": "Massilia species are non-fermenters.",
+    "Habitat": "Primarily environmental; clinical relevance is opportunistic."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter", "Stenotrophomonas"],
+      "notes": "Oxidase positivity narrows identification among non-fermenters."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter"],
+      "notes": "Motility helps exclude Acinetobacter species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Burkholderia",
+      "reason": "Shared oxidase positivity and non-fermentative metabolism."
+    },
+    {
+      "genus": "Comamonas",
+      "reason": "Environmental Gram-negative rods with overlapping biochemical profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative isolate argues against Massilia.",
+    "Strong glucose fermentation is inconsistent with this genus.",
+    "Strict anaerobic growth excludes Massilia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Confirms placement among oxidase-positive non-fermenters.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus and species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "oculi",
+    "timonae"
+  ]
+}

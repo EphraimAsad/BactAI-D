@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Arcanobacterium",
+
+  "overview": {
+    "short": "Arcanobacterium species are Gram-positive, facultatively anaerobic or aerobic pleomorphic rods, historically grouped with coryneform bacteria.",
+    "clinical_context": "Associated with pharyngitis, skin and soft tissue infections, and occasionally invasive disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Shape": "Often described as pleomorphic or coryneform rods on microscopy.",
+    "Haemolysis": "Many species show beta haemolysis on blood agar.",
+    "Catalase": "Catalase-negative, helping differentiate from some coryneform genera."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Haemolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Beta haemolysis supports Arcanobacterium over most Corynebacterium species."
+    },
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Catalase negativity helps separate from catalase-positive coryneforms."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Corynebacterium",
+      "reason": "Similar pleomorphic Gram-positive rods and overlapping biochemical profiles."
+    },
+    {
+      "genus": "Trueperella",
+      "reason": "Historical taxonomic overlap and similar haemolytic behavior."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity argues against Arcanobacterium.",
+    "Non-haemolytic isolates may fit Corynebacterium better.",
+    "Strict anaerobic growth is inconsistent with Arcanobacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Reverse CAMP test",
+      "reason": "Useful for presumptive identification of haemolytic species."
+    },
+    {
+      "test": "API Coryne",
+      "api_kit": "API Coryne (bioMérieux)",
+      "reason": "Commonly used for identification of coryneform and related Gram-positive rods."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable for definitive genus-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "haemolyticum"
+  ]
+}

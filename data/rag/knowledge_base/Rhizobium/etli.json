@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Rhizobium",
+  "species": "etli",
+
+  "overview": {
+    "short": "Rhizobium etli is a Gram-negative, aerobic, motile rod primarily known as a plant-associated nitrogen-fixing bacterium.",
+    "clinical_context": "Clinical isolation is uncommon; when recovered, it may represent an environmental isolate, contaminant, or rare opportunistic pathogen depending on specimen context."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Unknown",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Unknown",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Oxidase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports placement among aerobic oxidase-positive rods rather than Enterobacterales."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "value": "Aerobic",
+      "importance": "high",
+      "notes": "Aerobic growth supports Rhizobium over many facultative fermenters."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Non-fermenter profile (when tested) fits environmental aerobic rods; sugar panels may be incompletely reported in routine workflows."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Rhizobium leguminosarum",
+      "reason": "Closely related plant-associated Rhizobium with overlapping biochemical profiles."
+    },
+    {
+      "species": "Rhizobium radiobacter",
+      "reason": "Closely related taxa; reliable separation often needs MALDI-TOF or sequencing."
+    },
+    {
+      "genus": "Cupriavidus",
+      "reason": "Environmental, oxidase-positive aerobic rods can overlap in routine phenotypic patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity suggests an alternative genus (e.g., Enterobacterales).",
+    "Strong lactose fermentation on MacConkey Agar argues against Rhizobium.",
+    "Non-motile isolate argues against typical Rhizobium phenotype."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical option for species-level identification among uncommon aerobic Gram-negative rods.",
+      "api_kit": "Bruker MALDI Biotyper (Gram-negative / environmental library)"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Recommended when precise taxonomic identification is required or MALDI-TOF is inconclusive."
+    }
+  ]
+}

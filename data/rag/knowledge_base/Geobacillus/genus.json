@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Geobacillus",
+
+  "overview": {
+    "short": "Geobacillus species are Gram-positive, thermophilic, spore-forming rods commonly isolated from soil, water, and industrial environments.",
+    "clinical_context": "Rarely pathogenic in humans; most isolates are environmental contaminants or associated with industrial and laboratory settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Dry",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "45//75",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Growth Temperature": "Thermophilic growth above 45°C is a defining genus characteristic.",
+    "Spore Formation": "Heat-resistant spores are commonly produced.",
+    "Clinical Relevance": "Most isolates represent environmental contamination rather than infection."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Growth Temperature",
+      "expected": "45//75",
+      "distinguishes_from": ["Bacillus"],
+      "notes": "High-temperature growth separates Geobacillus from most Bacillus species."
+    },
+    {
+      "field": "Spore Formation",
+      "expected": "Positive",
+      "distinguishes_from": ["Clostridium"],
+      "notes": "Aerobic spore formation distinguishes from anaerobic clostridia."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Bacillus",
+      "reason": "Shared Gram-positive spore-forming rod morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth below 40°C suggests Bacillus rather than Geobacillus.",
+    "Anaerobic growth suggests Clostridium.",
+    "Non-spore-forming isolates are inconsistent with Geobacillus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth at elevated temperatures (≥55°C)",
+      "reason": "Confirms thermophilic nature characteristic of Geobacillus.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Spore staining",
+      "reason": "Confirms endospore formation.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable for genus and species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "stearothermophilus",
+    "thermodenitrificans"
+  ]
+}

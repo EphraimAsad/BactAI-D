@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Legionella",
+
+  "overview": {
+    "short": "Legionella species are Gram-negative, aerobic rods that require specialized media for growth and are commonly associated with water systems.",
+    "clinical_context": "Cause Legionnaires’ disease and Pontiac fever, presenting primarily as atypical pneumonia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "BCYE Agar"
+    ],
+    "Colony Morphology": [
+      "Grey-White",
+      "Ground-glass"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "25//45",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Media Grown On": "Legionella requires cysteine and iron; does not grow on standard blood agar.",
+    "Glucose Fermentation": "Non-fermentative metabolism is a key genus-level feature."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Media Grown On",
+      "expected": "BCYE Agar",
+      "distinguishes_from": ["Pseudomonas", "Acinetobacter"],
+      "notes": "Requirement for BCYE agar is characteristic."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Non-fermentative metabolism helps exclude Enterobacterales."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Both are aerobic Gram-negative rods, but Legionella does not grow on standard media."
+    },
+    {
+      "genus": "Acinetobacter",
+      "reason": "Overlap in non-fermentative metabolism."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth on Blood or MacConkey agar argues against Legionella.",
+    "Strong carbohydrate fermentation is inconsistent with the genus.",
+    "Oxidase negativity suggests alternative organisms."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth on BCYE agar",
+      "reason": "Essential requirement for Legionella identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Legionella urinary antigen",
+      "reason": "Rapid detection of L. pneumophila serogroup 1.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus-level identification when grown on BCYE.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "pneumophila",
+    "bozemanae",
+    "miceadei"
+  ]
+}

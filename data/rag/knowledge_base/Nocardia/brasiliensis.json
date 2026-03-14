@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Nocardia",
+  "species": "brasiliensis",
+
+  "overview": {
+    "short": "Nocardia brasiliensis is a Gram-positive, aerobic, branching filamentous bacterium most commonly associated with cutaneous and subcutaneous infections.",
+    "clinical_context": "Classically causes mycetoma and chronic skin or soft tissue infections, often following traumatic inoculation."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Sabouraud Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Chalky",
+      "Wrinkled",
+      "White"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps distinguish N. brasiliensis from N. asteroides."
+    },
+    {
+      "field": "Lipase Test",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification in cutaneous isolates."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Nocardia asteroides",
+      "reason": "Overlapping morphology and biochemistry; differs mainly in nitrate reduction and clinical presentation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Pulmonary or CNS infection favors N. asteroides over N. brasiliensis.",
+    "Positive nitrate reduction suggests another Nocardia species.",
+    "Rapid growth with smooth colonies suggests non-Nocardia organisms."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction",
+      "reason": "Key discriminator from other Nocardia species.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Definitive confirmation due to phenotypic overlap.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

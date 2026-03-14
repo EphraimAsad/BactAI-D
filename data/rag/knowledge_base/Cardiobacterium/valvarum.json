@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cardiobacterium",
+  "species": "valvarum",
+
+  "overview": {
+    "short": "Cardiobacterium valvarum is a fastidious Gram-negative, facultatively anaerobic rod within the HACEK group, associated with infective endocarditis.",
+    "clinical_context": "Typically recovered from blood cultures in endocarditis; may be under-recognized without MALDI-TOF or molecular identification."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Indole may be less consistently positive than in C. hominis; species-level calls are best confirmed by MALDI-TOF or sequencing."
+    },
+    {
+      "field": "Oxidase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports Cardiobacterium genus placement among fastidious Gram-negative rods."
+    },
+    {
+      "field": "Clinical Context",
+      "value": "Endocarditis association",
+      "importance": "high",
+      "notes": "In an endocarditis context, HACEK-like slow growth with matching biochemistry increases plausibility."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cardiobacterium hominis",
+      "reason": "Overlapping biochemical pattern; indole may be the only weak differentiator and is not fully reliable."
+    },
+    {
+      "genus": "Aggregatibacter",
+      "reason": "Similar endocarditis association and fastidious growth; requires confident genus discrimination."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negative isolate.",
+    "Strong lactose fermentation or broad sugar positivity (not typical).",
+    "Fast growth on non-enriched media without prolonged incubation."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "May help trend toward C. hominis vs C. valvarum, but not definitive.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred approach to separate Cardiobacterium species reliably."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Most definitive route for species-level confirmation when required clinically."
+    }
+  ]
+}

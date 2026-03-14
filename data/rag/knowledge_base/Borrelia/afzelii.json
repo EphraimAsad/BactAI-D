@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Borrelia",
+  "species": "afzelii",
+
+  "overview": {
+    "short": "Borrelia afzelii is a Lyme disease–associated spirochete prevalent in Europe.",
+    "clinical_context": "Frequently associated with chronic cutaneous manifestations such as acrodermatitis chronica atrophicans."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Barbour-Stoenner-Kelly Agar"
+    ],
+    "Colony Morphology": [
+      "Not visible on routine media"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "30//34",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Axial Filaments"
+  },
+
+  "species_markers": [
+    {
+      "field": "Geographic Distribution",
+      "value": "Europe",
+      "importance": "high",
+      "notes": "Predominantly European Lyme disease agent."
+    },
+    {
+      "field": "Clinical Manifestation",
+      "value": "Chronic cutaneous disease",
+      "importance": "medium",
+      "notes": "Skin involvement more common than neurologic disease."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Borrelia burgdorferi",
+      "reason": "Serologic cross-reactivity and overlapping Lyme disease features."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Neurologic-dominant disease may suggest other Borrelia species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "PCR with species-specific primers",
+      "reason": "Differentiates European Lyme Borrelia species."
+    }
+  ]
+}

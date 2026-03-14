@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Finegoldia",
+
+  "overview": {
+    "short": "Finegoldia species are Gram-positive, anaerobic cocci belonging to the normal human microbiota, particularly of skin and mucous membranes.",
+    "clinical_context": "Frequently implicated in polymicrobial anaerobic infections including skin and soft tissue infections, abscesses, and bone or joint infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Oxygen Requirement": "Strict anaerobic growth is a defining feature.",
+    "Shape": "Typically appears as cocci in pairs, clusters, or short chains.",
+    "Haemolysis": "Variable haemolysis may be observed on blood agar."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Obligate Anaerobe",
+      "distinguishes_from": ["Staphylococcus", "Aerococcus"],
+      "notes": "Aerobic growth excludes Finegoldia."
+    },
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Staphylococcus"],
+      "notes": "Catalase negativity helps separate from staphylococci."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Peptostreptococcus",
+      "reason": "Similar anaerobic cocci morphology and clinical context."
+    },
+    {
+      "genus": "Anaerococcus",
+      "reason": "Overlapping biochemical reactions among anaerobic cocci."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Aerobic or microaerophilic growth suggests another genus.",
+    "Catalase positivity argues against Finegoldia.",
+    "Rod-shaped morphology excludes Finegoldia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic culture confirmation",
+      "reason": "Essential to confirm obligate anaerobic growth.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for identification of anaerobic cocci.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "magna"
+  ]
+}

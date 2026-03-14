@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cellulomonas",
+  "species": "fimi",
+
+  "overview": {
+    "short": "Cellulomonas fimi is a Gram-positive, aerobic rod best known for strong cellulose-degrading activity.",
+    "clinical_context": "Primarily environmental; rare opportunistic infections have been reported in immunocompromised hosts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Yellow",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Motility helps differentiate C. fimi from non-motile Cellulomonas species."
+    },
+    {
+      "field": "ONPG",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports carbohydrate metabolism consistent with C. fimi."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Strong gelatin hydrolysis aligns with environmental cellulose-degrading role."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cellulomonas flavigena",
+      "reason": "Shared pigmentation and overlapping carbohydrate utilization."
+    },
+    {
+      "genus": "Microbacterium",
+      "reason": "Similar Gram-positive rods with yellow colonies."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motile isolate observed.",
+    "Oxidase positivity detected.",
+    "Spore formation present."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing",
+      "reason": "Primary discriminator between Cellulomonas species.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "ONPG test",
+      "reason": "Supports carbohydrate profile confirmation.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification for environmental Gram-positive rods."
+    }
+  ]
+}

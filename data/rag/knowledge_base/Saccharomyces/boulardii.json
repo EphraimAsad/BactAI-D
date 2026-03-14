@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Saccharomyces",
+  "species": "boulardii",
+
+  "overview": {
+    "short": "Saccharomyces boulardii is a probiotic-associated Saccharomyces within the S. cerevisiae group, commonly used to prevent or treat diarrhoea and occasionally implicated in opportunistic fungemia.",
+    "clinical_context": "Most often linked to bloodstream infection in critically ill or immunocompromised patients, especially with central venous catheters and probiotic exposure."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Variable",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Sabouraud Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Cream",
+      "Smooth",
+      "Butyrous"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Supports Saccharomyces-like yeast rather than Cryptococcus."
+    },
+    {
+      "field": "Gas Production",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Fermentative CO2 production may be noted explicitly and supports Saccharomyces group."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "value": "Facultative Anaerobe",
+      "importance": "low",
+      "notes": "Consistent with fermentative yeast metabolism; not a strong discriminator vs S. cerevisiae."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Saccharomyces cerevisiae",
+      "reason": "S. boulardii is widely treated as a strain/variant within the S. cerevisiae group; many ID systems report it as S. cerevisiae."
+    },
+    {
+      "species": "Saccharomyces paradoxus",
+      "reason": "Closely related Saccharomyces species; routine phenotypic differentiation is limited."
+    },
+    {
+      "genus": "Candida",
+      "reason": "Similar colony morphology; Candida often shows pseudohyphae and different assimilation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "If no probiotic exposure exists and the isolate is simply reported as 'Saccharomyces', species-level assignment to boulardii should be treated as low certainty without MALDI-TOF/sequence support.",
+    "If urease is positive or capsule is present, reconsider Cryptococcus rather than Saccharomyces.",
+    "If pseudohyphae are prominent, consider Candida-like yeasts rather than Saccharomyces."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Improves confidence for Saccharomyces identification; may still report within S. cerevisiae group depending on database granularity.",
+      "api_kit": "Bruker MALDI Biotyper (Yeast library)"
+    },
+    {
+      "test": "ITS sequencing (fungal barcode)",
+      "reason": "Definitive confirmation if clinically significant (e.g., fungemia) and species resolution is required."
+    },
+    {
+      "test": "Clinical correlation (probiotic exposure review)",
+      "reason": "Probiotic use strongly supports S. boulardii involvement when Saccharomyces is isolated from blood/sterile sites."
+    }
+  ]
+}

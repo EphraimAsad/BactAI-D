@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Campylobacter",
+
+  "overview": {
+    "short": "Campylobacter species are Gram-negative, curved or spiral rods that are microaerophilic and commonly associated with gastrointestinal disease.",
+    "clinical_context": "One of the leading bacterial causes of gastroenteritis worldwide, with occasional invasive disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Campylobacter Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "25//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Shape": "Typically curved, spiral, or 'seagull-wing' morphology on microscopy.",
+    "Growth Temperature": "Thermotolerant species grow optimally at 42 °C.",
+    "Sugar Fermentation": "Campylobacter species are asaccharolytic."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Microaerophilic",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Requires reduced oxygen tension for growth."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacteriaceae"],
+      "notes": "Helps separate from oxidase-negative enteric bacteria."
+    },
+    {
+      "field": "Growth Temperature",
+      "expected": "42//42",
+      "distinguishes_from": ["Helicobacter"],
+      "notes": "Thermophilic growth supports Campylobacter jejuni/coli."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Helicobacter",
+      "reason": "Similar curved morphology and microaerophilic growth requirements."
+    },
+    {
+      "genus": "Vibrio",
+      "reason": "Curved rods but Vibrio are facultative anaerobes and ferment glucose."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth under fully aerobic conditions argues against Campylobacter.",
+    "Glucose fermentation suggests Vibrio or Aeromonas.",
+    "Straight rod morphology weakens Campylobacter identification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Hippurate hydrolysis",
+      "reason": "Key test for species differentiation within Campylobacter.",
+      "api_kit": "API Campy"
+    },
+    {
+      "test": "Growth at 42 °C",
+      "reason": "Supports identification of thermophilic species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "jejuni",
+    "coli",
+    "fetus"
+  ]
+}

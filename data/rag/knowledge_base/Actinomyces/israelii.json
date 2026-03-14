@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Actinomyces",
+  "species": "israelii",
+
+  "overview": {
+    "short": "Actinomyces israelii is a Gram-positive, non-spore-forming, filamentous rod classically associated with actinomycosis.",
+    "clinical_context": "Most common cause of cervicofacial actinomycosis, often presenting with chronic abscesses and draining sinus tracts containing sulfur granules."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "White",
+      "Grey",
+      "Rough",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Consistent gelatin hydrolysis supports A. israelii."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from oral Actinomyces species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Actinomyces naeslundii",
+      "reason": "Shared oral habitat and overlapping anaerobic growth characteristics."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity suggests aerobic actinomycetes.",
+    "Strong aerobic growth argues against A. israelii.",
+    "Acid-fast positivity suggests Nocardia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic culture",
+      "reason": "Required for optimal recovery and confirmation."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level differentiation."
+    }
+  ]
+}

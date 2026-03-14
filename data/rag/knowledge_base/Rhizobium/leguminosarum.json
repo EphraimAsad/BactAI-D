@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Rhizobium",
+  "species": "leguminosarum",
+
+  "overview": {
+    "short": "Rhizobium leguminosarum is a Gram-negative, aerobic, motile rod best known for symbiotic nitrogen fixation in legumes.",
+    "clinical_context": "Rarely isolated in clinical microbiology; when recovered, usually represents environmental contamination or a low-virulence opportunist."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Unknown",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Unknown",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Oxidase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Consistent oxidase positivity supports Rhizobium over Enterobacterales."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "value": "Aerobic",
+      "importance": "high",
+      "notes": "Strict aerobic growth aligns with environmental Rhizobium species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Rhizobium etli",
+      "reason": "Closely related symbiotic species with overlapping biochemical profiles."
+    },
+    {
+      "species": "Rhizobium radiobacter",
+      "reason": "Shared aerobic, oxidase-positive phenotype; reliable separation often requires MALDI-TOF or sequencing."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity suggests an alternative genus.",
+    "Strong carbohydrate fermentation profile suggests Enterobacterales rather than Rhizobium.",
+    "Anaerobic growth argues against Rhizobium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Provides reliable genus/species identification for uncommon aerobic Gram-negative rods.",
+      "api_kit": "Bruker MALDI Biotyper (Gram-negative / environmental library)"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Recommended when MALDI-TOF confidence is low or taxonomic certainty is required."
+    }
+  ]
+}

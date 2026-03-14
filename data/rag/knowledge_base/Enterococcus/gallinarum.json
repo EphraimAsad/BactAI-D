@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Enterococcus",
+  "species": "gallinarum",
+
+  "overview": {
+    "short": "Enterococcus gallinarum is a Gram-positive, facultatively anaerobic coccus characterized by intrinsic low-level vancomycin resistance.",
+    "clinical_context": "Less commonly isolated; associated with bacteremia and endocarditis, particularly in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Bile Esculin Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Motility distinguishes E. gallinarum from most other Enterococcus species."
+    },
+    {
+      "field": "Vancomycin susceptibility",
+      "value": "Intrinsic low-level resistance",
+      "importance": "high",
+      "notes": "VanC-type resistance is characteristic."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Enterococcus faecium",
+      "reason": "Shared NaCl tolerance and bile esculin positivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motile isolate argues against E. gallinarum.",
+    "High-level vancomycin resistance suggests VanA/VanB Enterococcus.",
+    "Arginine dihydrolase positivity suggests E. faecalis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing",
+      "reason": "Primary discriminator within Enterococcus.",
+      "api_kit": "Manual wet mount"
+    },
+    {
+      "test": "Vancomycin MIC determination",
+      "reason": "Detection of intrinsic VanC resistance.",
+      "api_kit": "VITEK 2 GP"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level confirmation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

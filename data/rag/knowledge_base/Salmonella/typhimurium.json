@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Salmonella",
+  "species": "typhimurium",
+
+  "overview": {
+    "short": "Salmonella Typhimurium is a common non-typhoidal Salmonella serovar associated with foodborne illness and zoonotic transmission.",
+    "clinical_context": "Causes gastroenteritis worldwide and may cause invasive disease, particularly in infants and immunocompromised individuals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist",
+      "Non-lactose fermenting colonies on MacConkey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Positive",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Often negative in Typhimurium, helping separate from Enteritidis."
+    },
+    {
+      "field": "Serovar assignment",
+      "value": "O:4, H:i,1,2",
+      "importance": "high",
+      "notes": "Definitive identification relies on serotyping."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Salmonella Enteritidis",
+      "reason": "Biochemically similar; differentiation requires serotyping."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Overlapping sugar and H2S reactions on selective media."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "H2S-negative isolate is atypical.",
+    "Non-motile isolate suggests Shigella rather than Salmonella.",
+    "Urease positivity argues against Salmonella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Salmonella serotyping (O and H antigens)",
+      "reason": "Required to confirm Typhimurium.",
+      "api_kit": "SSI Diagnostica Salmonella antisera"
+    },
+    {
+      "test": "PCR for invA",
+      "reason": "Confirms Salmonella genus prior to serovar-level workup."
+    }
+  ]
+}

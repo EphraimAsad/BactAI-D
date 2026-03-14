@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Borrelia",
+  "species": "burgdorferi",
+
+  "overview": {
+    "short": "Borrelia burgdorferi is a spirochete responsible for Lyme disease, transmitted primarily by Ixodes ticks.",
+    "clinical_context": "Causes erythema migrans, neurologic manifestations, carditis, and arthritis in later stages."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Barbour-Stoenner-Kelly Agar"
+    ],
+    "Colony Morphology": [
+      "Not visible on routine media"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "30//34",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Axial Filaments"
+  },
+
+  "species_markers": [
+    {
+      "field": "Clinical Syndrome",
+      "value": "Lyme disease",
+      "importance": "high",
+      "notes": "Classic erythema migrans and late neurologic or joint disease."
+    },
+    {
+      "field": "Vector",
+      "value": "Ixodes ticks",
+      "importance": "high",
+      "notes": "Hard tick transmission distinguishes from relapsing fever species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Borrelia afzelii",
+      "reason": "Both cause Lyme disease with overlapping serology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Relapsing fever pattern suggests non-burgdorferi Borrelia.",
+    "Louse exposure suggests Borrelia recurrentis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Two-tier serology (ELISA + immunoblot)",
+      "reason": "Standard diagnostic approach for Lyme disease."
+    },
+    {
+      "test": "PCR",
+      "reason": "Useful in early infection or atypical presentations."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Leclercia",
+
+  "overview": {
+    "short": "Leclercia species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, rarely isolated but increasingly recognised in clinical microbiology.",
+    "clinical_context": "Typically recovered from environmental sources and opportunistic infections, often in polymicrobial settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Positive",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Positive",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Positive",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Indole": "Indole positivity helps distinguish Leclercia from many Enterobacter species.",
+    "Citrate": "Typically citrate negative, unlike Enterobacter and Citrobacter.",
+    "Lactose Fermentation": "Often lactose-positive, which may cause confusion with E. coli."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Indole",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Citrobacter"],
+      "notes": "Indole positivity is a key discriminator."
+    },
+    {
+      "field": "Citrate",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Citrobacter"],
+      "notes": "Citrate negativity helps rule out Enterobacter."
+    },
+    {
+      "field": "ONPG",
+      "expected": "Positive",
+      "distinguishes_from": ["Shigella"],
+      "notes": "ONPG positivity supports lactose fermentation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Escherichia",
+      "reason": "Shared lactose fermentation and indole positivity."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Overlapping carbohydrate fermentation profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Citrate positivity argues against Leclercia.",
+    "Indole negativity suggests Enterobacter or Citrobacter.",
+    "Non-motile isolates are inconsistent with Leclercia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator from Enterobacter species.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Citrate utilization",
+      "reason": "Supports exclusion of Enterobacter and Citrobacter.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification of this uncommon genus.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "adecarboxylata"
+  ]
+}

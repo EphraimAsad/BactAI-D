@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Acidovorax",
+  "species": "citrulli",
+
+  "overview": {
+    "short": "Acidovorax citrulli is an aerobic, oxidase-positive, non-fermentative Gram-negative rod best known as a plant pathogen.",
+    "clinical_context": "Human isolation is rare and typically reflects environmental exposure rather than infection."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-pigmented"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "25//37",
+      "importance": "medium",
+      "notes": "Broader growth range compared to A. avenae."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Acidovorax avenae",
+      "reason": "Overlapping biochemical reactions."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Isolation from sterile clinical sites without exposure history.",
+    "Anaerobic growth is incompatible."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth temperature profiling",
+      "reason": "Supports species-level distinction."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred identification method."
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Yersinia",
+
+  "overview": {
+    "short": "Yersinia species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, notable for temperature-dependent virulence and motility.",
+    "clinical_context": "Includes important human pathogens causing gastrointestinal disease, lymphadenitis, septicemia, and zoonotic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar",
+      "CIN Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Motility": "Typically motile at room temperature and non-motile at 37°C.",
+    "Growth Temperature": "Psychrotolerant growth supports Yersinia identification.",
+    "CIN Agar": "Selective medium commonly used for enteropathogenic species."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Growth Temperature",
+      "expected": "4//37",
+      "distinguishes_from": ["Salmonella", "Shigella"],
+      "notes": "Ability to grow at refrigeration temperatures is characteristic."
+    },
+    {
+      "field": "Motility",
+      "expected": "Variable",
+      "distinguishes_from": ["Shigella"],
+      "notes": "Temperature-dependent motility is a defining genus trait."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Salmonella",
+      "reason": "Shared Enterobacterales profile with overlapping biochemical reactions."
+    },
+    {
+      "genus": "Shigella",
+      "reason": "Non-lactose fermentation and similar colony morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong H2S production argues against Yersinia.",
+    "Citrate positivity suggests Citrobacter or Enterobacter.",
+    "Strict non-motility at all temperatures suggests another genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility testing at 25°C and 37°C",
+      "reason": "Demonstrates temperature-dependent motility."
+    },
+    {
+      "test": "CIN Agar culture",
+      "reason": "Selective recovery of enteropathogenic Yersinia species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus- and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "enterocolitica",
+    "pestis",
+    "pseudotuberculosis"
+  ]
+}

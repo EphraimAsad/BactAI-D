@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Rhizobium",
+  "species": "radiobacter",
+
+  "overview": {
+    "short": "Rhizobium radiobacter is a Gram-negative, aerobic, motile rod historically classified as Agrobacterium radiobacter.",
+    "clinical_context": "Occasionally associated with opportunistic infections, particularly catheter-related or device-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Unknown",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Unknown",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Urease positivity helps separate R. radiobacter from some other Rhizobium species."
+    },
+    {
+      "field": "Clinical Context",
+      "value": "Device-associated isolation",
+      "importance": "medium",
+      "notes": "R. radiobacter is more commonly reported in clinical specimens compared to other Rhizobium species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Agrobacterium",
+      "reason": "Former taxonomic classification; older systems may still report Agrobacterium radiobacter."
+    },
+    {
+      "species": "Rhizobium etli",
+      "reason": "Shared aerobic oxidase-positive phenotype with overlapping biochemical reactions."
+    },
+    {
+      "genus": "Cupriavidus",
+      "reason": "Environmental oxidase-positive rods can overlap phenotypically."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity suggests Enterobacterales or other genera.",
+    "Strong carbohydrate fermentation profile suggests misidentification.",
+    "Anaerobic growth argues against Rhizobium radiobacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable routine method to distinguish R. radiobacter from related genera.",
+      "api_kit": "Bruker MALDI Biotyper (Gram-negative / environmental library)"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Useful for resolving historical Agrobacterium/Rhizobium classification issues."
+    }
+  ]
+}

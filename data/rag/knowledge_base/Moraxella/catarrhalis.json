@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Moraxella",
+  "species": "catarrhalis",
+
+  "overview": {
+    "short": "Moraxella catarrhalis is a Gram-negative, oxidase-positive, asaccharolytic short rod/coccobacillus that is a common respiratory pathogen.",
+    "clinical_context": "Frequently causes otitis media and sinusitis in children, and bronchitis/COPD exacerbations and pneumonia in adults."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey-White",
+      "Opaque",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "NC/NC",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "DNase positivity supports M. catarrhalis identification in respiratory isolates."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Commonly nitrate-reducing; useful with oxidase positivity and asaccharolytic profile."
+    },
+    {
+      "field": "Lipase Test",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Often positive; supports species-level separation from some other Moraxella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Neisseria",
+      "reason": "Oxidase-positive Gram-negative organisms with diplococcal/coccobacillary appearance."
+    },
+    {
+      "genus": "Acinetobacter",
+      "reason": "Coccobacillary Gram-negative morphology; oxidase helps differentiate."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative result argues against M. catarrhalis.",
+    "Clear carbohydrate fermentation argues against M. catarrhalis (asaccharolytic).",
+    "Marked haemolysis suggests an alternative respiratory organism."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Butyrate esterase (Catarrhalis disk)",
+      "reason": "Rapid confirmatory test highly supportive of M. catarrhalis.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "API NH",
+      "reason": "Useful biochemical panel for Neisseria/Haemophilus/Moraxella group confirmation.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "High-confidence species confirmation and differentiation from Neisseria-like organisms.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

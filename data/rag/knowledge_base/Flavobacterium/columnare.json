@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Flavobacterium",
+  "species": "columnare",
+
+  "overview": {
+    "short": "Flavobacterium columnare is a Gram-negative, aerobic, yellow-pigmented rod and a major pathogen of freshwater fish.",
+    "clinical_context": "Causes columnaris disease in fish, characterised by gill necrosis, skin lesions, and high mortality in aquaculture."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "Low-Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Yellow-Pigmented",
+      "Spreading",
+      "Irregular"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "18//28",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Spreading",
+    "Pigment": "Yellow",
+    "Motility Type": "Gliding"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "18//28",
+      "importance": "high",
+      "notes": "Optimal growth at lower temperatures typical of freshwater fish pathogens."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Strong gelatinase activity is characteristic of F. columnare."
+    },
+    {
+      "field": "Motility Type",
+      "value": "Gliding",
+      "importance": "medium",
+      "notes": "Gliding motility contributes to spreading colony morphology."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Flavobacterium psychrophilum",
+      "reason": "Shared aquatic habitat and yellow pigmentation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth at 37°C excludes F. columnare.",
+    "Absence of gelatin hydrolysis suggests another species.",
+    "Lack of yellow pigmentation argues against Flavobacterium."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Gelatin hydrolysis",
+      "reason": "Key species-level discriminator.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "Temperature growth profiling",
+      "reason": "Confirms low-temperature preference.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "PCR or MALDI-TOF MS",
+      "reason": "Definitive species identification in aquaculture settings.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Listeria",
+
+  "overview": {
+    "short": "Listeria species are Gram-positive, facultatively anaerobic short rods capable of intracellular survival, commonly found in food, soil, and water.",
+    "clinical_context": "Includes major foodborne pathogens, particularly affecting pregnant individuals, neonates, elderly, and immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Columbia Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Tumbling"
+  },
+
+  "field_notes": {
+    "Motility": "Characteristic tumbling motility at room temperature.",
+    "Growth Temperature": "Ability to grow at refrigeration temperatures is genus-defining.",
+    "Esculin Hydrolysis": "Consistently positive across the genus."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Growth Temperature",
+      "expected": "4//45",
+      "distinguishes_from": ["Corynebacterium", "Erysipelothrix"],
+      "notes": "Cold growth is a hallmark of Listeria."
+    },
+    {
+      "field": "Motility Type",
+      "expected": "Tumbling",
+      "distinguishes_from": ["Streptococcus", "Enterococcus"],
+      "notes": "Distinctive microscopic motility pattern."
+    },
+    {
+      "field": "Esculin Hydrolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Bacillus"],
+      "notes": "Useful in combination with non-spore-forming status."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Corynebacterium",
+      "reason": "Gram-positive rods with overlapping colony morphology."
+    },
+    {
+      "genus": "Enterococcus",
+      "reason": "Esculin positivity and salt tolerance can overlap."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of motility at room temperature.",
+    "Inability to grow at refrigeration temperatures.",
+    "Strong spore formation suggests Bacillus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Motility at room temperature",
+      "reason": "Confirms tumbling motility characteristic of Listeria.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "CAMP test",
+      "reason": "Differentiates pathogenic Listeria species.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus and species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "monocytogenes",
+    "innocua",
+    "ivanovii",
+    "seeligeri",
+    "welshimeri"
+  ]
+}

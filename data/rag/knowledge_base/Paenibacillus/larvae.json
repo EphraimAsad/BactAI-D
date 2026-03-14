@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Paenibacillus",
+  "species": "larvae",
+
+  "overview": {
+    "short": "Paenibacillus larvae is a Gram-positive to Gram-variable, spore-forming rod and the causative agent of American foulbrood in honeybee larvae.",
+    "clinical_context": "Primarily an animal pathogen affecting honeybees; rarely encountered in human clinical microbiology."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "MYPGP Agar"
+    ],
+    "Colony Morphology": [
+      "Irregular",
+      "Dull",
+      "Adherent"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "28//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-motility helps distinguish P. larvae from most other Paenibacillus species."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "DNase positivity is a useful species-level marker."
+    },
+    {
+      "field": "Catalase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Catalase negativity contrasts with many Bacillus-like organisms."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Bacillus",
+      "reason": "Shared spore formation, but Bacillus species are typically catalase-positive."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motile isolates argue against P. larvae.",
+    "Catalase positivity suggests another Paenibacillus species.",
+    "Isolation outside apicultural context should prompt confirmation."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "DNase test",
+      "reason": "Supports species identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "PCR for American foulbrood",
+      "reason": "Definitive identification in apicultural samples.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level confirmation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

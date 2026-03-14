@@ -1,0 +1,67 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     BactAID Installation Instructions                         ║
+║                AI-Powered Bacterial Identification System                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+PREREQUISITES
+═════════════
+
+1. PYTHON 3.10 or later
+   Download from: https://python.org
+   ✓ During installation, CHECK "Add Python to PATH"
+
+2. OLLAMA (for AI-powered explanations)
+   Download from: https://ollama.com
+   After installing, run this command to download the AI model:
+
+       ollama pull llama3.2:3b
+
+   Note: BactAID will work without Ollama, but will use simpler template
+   responses instead of AI-generated explanations.
+
+
+RUNNING BACTAID
+═══════════════
+
+Option 1: Double-click BactAID_Launcher.bat
+   - This will install dependencies automatically on first run
+   - Opens the web interface in your browser
+
+Option 2: Manual start
+   1. Open Command Prompt in this folder
+   2. Run: pip install -r backend\requirements.txt
+   3. Run: python backend\app.py
+   4. Open browser to: http://localhost:8000
+
+
+SHARING WITH OTHERS
+═══════════════════
+
+To share BactAID:
+1. Zip this entire folder
+2. Share the zip file
+3. Recipients need to install Python and Ollama (see Prerequisites above)
+
+
+TROUBLESHOOTING
+═══════════════
+
+• "Python is not recognized"
+  → Reinstall Python with "Add to PATH" checked
+
+• "Ollama not found"
+  → Install from https://ollama.com, then run: ollama pull llama3.2:3b
+
+• "Module not found"
+  → Run: pip install -r backend\requirements.txt
+
+• Browser shows "Not Found"
+  → Make sure you're accessing http://localhost:8000 (not 3000)
+
+
+SUPPORT
+═══════
+
+For issues: https://github.com/EphAsad/BactAID
+
+═══════════════════════════════════════════════════════════════════════════════

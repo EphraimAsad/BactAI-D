@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Enterobacter",
+  "species": "asburiae",
+
+  "overview": {
+    "short": "Enterobacter asburiae is a Gram-negative, facultatively anaerobic rod within the Enterobacter cloacae complex, less commonly isolated than E. cloacae or E. hormaechei.",
+    "clinical_context": "Typically associated with opportunistic infections, including urinary tract, wound, and bloodstream infections, primarily in immunocompromised or hospitalised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Lysine Decarboxylase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps distinguish E. asburiae from lysine-positive Enterobacter species."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Key discriminator separating E. asburiae from E. hormaechei."
+    },
+    {
+      "field": "Rhamnose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Differentiates E. asburiae from rhamnose-positive E. hormaechei."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "More consistently positive in E. asburiae than in some other complex members."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Enterobacter cloacae",
+      "reason": "Shared general biochemical profile and overlapping sugar fermentation patterns."
+    },
+    {
+      "species": "Enterobacter hormaechei",
+      "reason": "Overlapping colony morphology and growth characteristics within the E. cloacae complex."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Ornithine decarboxylase positivity argues against E. asburiae.",
+    "Rhamnose positivity suggests E. hormaechei rather than E. asburiae.",
+    "Lysine decarboxylase positivity is inconsistent with E. asburiae."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Primary discriminator from E. hormaechei."
+    },
+    {
+      "test": "Lysine decarboxylase",
+      "reason": "Helpful in separating E. asburiae from other Enterobacter species."
+    },
+    {
+      "test": "Rhamnose fermentation",
+      "reason": "Supports differentiation within the E. cloacae complex."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred routine method for accurate species-level identification."
+    },
+    {
+      "test": "Whole genome sequencing",
+      "reason": "Definitive resolution when species-level precision is clinically critical."
+    }
+  ]
+}

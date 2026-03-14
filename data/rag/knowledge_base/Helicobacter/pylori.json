@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Helicobacter",
+  "species": "pylori",
+
+  "overview": {
+    "short": "Helicobacter pylori is a Gram-negative, spiral, motile bacterium that colonizes the stomach and is strongly urease-positive.",
+    "clinical_context": "Classically associated with chronic gastritis, peptic ulcer disease, and increased risk of gastric adenocarcinoma and MALT lymphoma."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "33//40",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Unknown",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Strong urease positivity is the classic defining lab feature for H. pylori."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "value": "Microaerophilic",
+      "importance": "high",
+      "notes": "Growth under reduced O2 with CO2 supports H. pylori."
+    },
+    {
+      "field": "Shape",
+      "value": "Spiral",
+      "importance": "medium",
+      "notes": "Spiral morphology supports Helicobacter; not exclusive at genus-level."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Campylobacter",
+      "reason": "Curved/spiral Gram-negative morphology overlap; typically urease-negative."
+    },
+    {
+      "species": "Helicobacter heilmannii",
+      "reason": "Both are gastric Helicobacter species; differentiation often requires histology or molecular methods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Urease negativity argues strongly against H. pylori.",
+    "Strict aerobiosis or anaerobiosis is inconsistent with H. pylori.",
+    "Robust growth at 42°C strongly suggests Campylobacter rather than H. pylori."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Rapid urease test (biopsy-based)",
+      "reason": "Fast and highly supportive for H. pylori in gastric samples.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Stool antigen test or urea breath test",
+      "reason": "Non-culture clinical confirmation methods commonly used for H. pylori.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS (culture isolate)",
+      "reason": "Species-level identification if cultured successfully.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

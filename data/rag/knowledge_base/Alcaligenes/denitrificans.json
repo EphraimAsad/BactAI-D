@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Alcaligenes",
+  "species": "denitrificans",
+
+  "overview": {
+    "short": "Alcaligenes denitrificans is an aerobic, oxidase-positive, non-fermentative Gram-negative rod capable of nitrate reduction.",
+    "clinical_context": "Rarely isolated from clinical specimens but may be encountered in environmental or hospital settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey-White"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Primary distinguishing feature of A. denitrificans."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Alcaligenes faecalis",
+      "reason": "Shared oxidase positivity and non-fermentative profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Negative nitrate reduction suggests A. faecalis.",
+    "Glucose fermentation suggests another genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction",
+      "reason": "Defining test for this species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level confirmation."
+    }
+  ]
+}

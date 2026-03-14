@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Rothia",
+  "species": "dentocariosa",
+
+  "overview": {
+    "short": "Rothia dentocariosa is a Gram-positive, catalase-positive coccus commonly found in the oral cavity.",
+    "clinical_context": "Most often associated with dental caries, endocarditis, and invasive infections in immunocompromised individuals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "White",
+      "Grey",
+      "Dry",
+      "Chalky"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Colony Morphology",
+      "value": "Dry; Chalky",
+      "importance": "high",
+      "notes": "Classic dry, crumbly colonies are characteristic of R. dentocariosa."
+    },
+    {
+      "field": "Esculin Hydrolysis",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps distinguish from R. mucilaginosa."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Rothia mucilaginosa",
+      "reason": "Shared Gram-positive cocci morphology and catalase positivity."
+    },
+    {
+      "genus": "Staphylococcus",
+      "reason": "Catalase positivity and coccoid morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Mucoid colony appearance suggests R. mucilaginosa.",
+    "Beta haemolysis argues against Rothia.",
+    "Oxidase positivity is inconsistent with Rothia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification.",
+      "api_kit": "Bruker MALDI Biotyper (Gram-positive cocci library)"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Useful for confirmation in atypical or invasive infections."
+    }
+  ]
+}

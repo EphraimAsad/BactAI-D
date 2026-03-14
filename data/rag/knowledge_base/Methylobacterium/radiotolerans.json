@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Methylobacterium",
+  "species": "radiotolerans",
+
+  "overview": {
+    "short": "Methylobacterium radiotolerans is a pink-pigmented, Gram-negative aerobic rod notable for resistance to environmental stress and radiation.",
+    "clinical_context": "Occasionally isolated from blood cultures and hospital environments, particularly in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Nutrient Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Pink",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/NC",
+    "Colony Pattern": "Smooth",
+    "Pigment": "Pink",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key discriminator from M. extorquens."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Variable",
+      "importance": "low",
+      "notes": "Can support identification when combined with other markers."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Methylobacterium extorquens",
+      "reason": "Very similar morphology and pigmentation; biochemical testing required."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Nitrate reduction negativity favors M. extorquens.",
+    "Loss of pigmentation suggests misidentification.",
+    "Fermentative metabolism excludes this species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Nitrate reduction test",
+      "reason": "Primary discriminator within the genus.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

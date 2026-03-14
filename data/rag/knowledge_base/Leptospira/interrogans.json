@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Leptospira",
+  "species": "interrogans",
+
+  "overview": {
+    "short": "Leptospira interrogans is the most common pathogenic Leptospira species causing human leptospirosis worldwide.",
+    "clinical_context": "Associated with severe disease including Weil’s disease, renal failure, hepatic dysfunction, and pulmonary hemorrhage."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "EMJH Medium"
+    ],
+    "Colony Morphology": [
+      "Slow Growing",
+      "Subsurface"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "28//30",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Axial Filaments"
+  },
+
+  "species_markers": [
+    {
+      "field": "Environmental Survival",
+      "value": "High",
+      "importance": "high",
+      "notes": "Capable of long-term survival in water and soil."
+    },
+    {
+      "field": "Disease Severity",
+      "value": "High",
+      "importance": "high",
+      "notes": "Associated with severe and potentially fatal leptospirosis."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Leptospira borgpetersenii",
+      "reason": "Overlapping clinical symptoms but reduced environmental persistence."
+    },
+    {
+      "species": "Leptospira kirschneri",
+      "reason": "Similar pathogenic potential with differing host associations."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of environmental exposure suggests alternative species.",
+    "Mild disease presentation may favor another pathogenic Leptospira.",
+    "Negative PCR for pathogenic markers argues against L. interrogans."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "PCR (lipL32)",
+      "reason": "Rapid detection of pathogenic Leptospira.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MAT serology",
+      "reason": "Serovar-level identification and epidemiological tracking.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

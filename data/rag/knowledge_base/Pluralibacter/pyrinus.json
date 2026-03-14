@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Pluralibacter",
+  "species": "pyrinus",
+
+  "overview": {
+    "short": "Pluralibacter pyrinus is a Gram-negative, facultatively anaerobic rod primarily associated with plant material and environmental sources.",
+    "clinical_context": "Rarely isolated from human infections; more commonly associated with environmental or agricultural samples."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Citrate",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Citrate positivity distinguishes P. pyrinus from P. gergoviae."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Often delayed or weak lactose fermentation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Pluralibacter gergoviae",
+      "reason": "Shared genus-level biochemical traits with subtle citrate differences."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Overlapping sugar fermentation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Citrate negativity suggests P. gergoviae.",
+    "Strong lactose fermentation suggests Klebsiella.",
+    "Non-motility argues against Pluralibacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Citrate utilization",
+      "reason": "Primary discriminator between Pluralibacter species."
+    },
+    {
+      "test": "Lactose fermentation assessment",
+      "reason": "Supports differentiation at species level."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification due to rarity."
+    }
+  ]
+}

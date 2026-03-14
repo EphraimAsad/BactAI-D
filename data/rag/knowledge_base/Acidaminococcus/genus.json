@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Acidaminococcus",
+
+  "overview": {
+    "short": "Acidaminococcus species are Gram-negative, anaerobic cocci belonging to the class Negativicutes, characterized by amino acid fermentation rather than carbohydrate metabolism.",
+    "clinical_context": "Part of the normal gastrointestinal flora and occasionally isolated from polymicrobial anaerobic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Gram Stain": "Despite being Gram-negative, Acidaminococcus belongs to a lineage phylogenetically related to Gram-positive bacteria.",
+    "Glucose Fermentation": "Species do not ferment carbohydrates and instead utilize amino acids for energy.",
+    "Oxygen Requirement": "Strict anaerobiosis is a defining characteristic."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Obligate Anaerobe",
+      "distinguishes_from": ["Neisseria", "Veillonella"],
+      "notes": "Strict anaerobic growth separates Acidaminococcus from aerobic Gram-negative cocci."
+    },
+    {
+      "field": "Shape",
+      "expected": "Cocci",
+      "distinguishes_from": ["Bacteroides", "Fusobacterium"],
+      "notes": "Coccoid morphology helps differentiate from anaerobic Gram-negative rods."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Veillonella"],
+      "notes": "Lack of carbohydrate fermentation supports Acidaminococcus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Veillonella",
+      "reason": "Both are anaerobic Gram-negative cocci isolated from similar clinical contexts."
+    },
+    {
+      "genus": "Megasphaera",
+      "reason": "Phylogenetic relatedness within Negativicutes."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Aerobic or facultative growth argues against Acidaminococcus.",
+    "Carbohydrate fermentation suggests Veillonella.",
+    "Rod-shaped morphology excludes this genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic growth confirmation",
+      "reason": "Essential for correct genus assignment."
+    },
+    {
+      "test": "Amino acid fermentation profiling",
+      "reason": "Characteristic metabolic feature of Acidaminococcus."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended due to biochemical inertness and rarity."
+    }
+  ],
+
+  "supported_species": [
+    "fermentans",
+    "intestini"
+  ]
+}

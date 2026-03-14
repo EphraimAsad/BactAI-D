@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Sphingomonas",
+  "species": "koreensis",
+
+  "overview": {
+    "short": "Sphingomonas koreensis is an environmental, aerobic, Gram-negative rod originally isolated from soil and water sources.",
+    "clinical_context": "Rarely associated with human infection; most isolations are environmental or incidental."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Yellow",
+      "Circular"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Motility helps distinguish from less motile Sphingomonas species."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Supports differentiation from nitrate-reducing environmental non-fermenters."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Sphingomonas paucimobilis",
+      "reason": "Shared yellow pigmentation and oxidase positivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Clinical infection without environmental exposure is unusual.",
+    "Strong biochemical activity suggests another non-fermenter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API 20 NE",
+      "reason": "Supports identification of non-fermenting Gram-negative rods.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable method for species-level confirmation."
+    }
+  ]
+}

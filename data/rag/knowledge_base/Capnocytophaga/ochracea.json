@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Capnocytophaga",
+  "species": "ochracea",
+
+  "overview": {
+    "short": "Capnocytophaga ochracea is a Gram-negative, capnophilic rod that is part of the normal human oral flora.",
+    "clinical_context": "Associated with periodontal disease, oral infections, and occasional bacteremia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Spreading",
+      "Thin",
+      "Yellow-grey"
+    ],
+    "Oxygen Requirement": "Capnophilic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Spreading",
+    "Pigment": "None",
+    "Motility Type": "Gliding"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps distinguish from C. canimorsus."
+    },
+    {
+      "field": "Catalase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Typical for human oral Capnocytophaga species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Capnocytophaga sputigena",
+      "reason": "Both are human oral flora with similar growth characteristics."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase positivity.",
+    "Animal bite exposure.",
+    "Indole positivity."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Catalase test",
+      "reason": "Helps differentiate from C. canimorsus.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species identification."
+    }
+  ]
+}

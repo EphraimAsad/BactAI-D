@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Escherichia",
+
+  "overview": {
+    "short": "Escherichia species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, commonly found as normal intestinal flora but capable of causing a wide range of infections.",
+    "clinical_context": "Frequently implicated in urinary tract infections, gastroenteritis, neonatal meningitis, and bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Lactose Fermentation": "Typically positive on MacConkey Agar, but delayed or negative strains exist.",
+    "Indole": "Indole positivity varies by species and pathotype.",
+    "Motility": "Most strains are motile; non-motile variants occur."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Indole",
+      "expected": "Positive",
+      "distinguishes_from": ["Shigella"],
+      "notes": "Most E. coli strains are indole positive, unlike Shigella."
+    },
+    {
+      "field": "Methyl Red",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Klebsiella"],
+      "notes": "MR positivity helps separate Escherichia from VP-positive Enterobacterales."
+    },
+    {
+      "field": "Citrate",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Citrobacter"],
+      "notes": "Citrate negativity is a classic Escherichia trait."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Shigella",
+      "reason": "Genetically close to E. coli; biochemical separation may be minimal."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Overlapping lactose fermentation and ONPG positivity in some strains."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Citrate positivity suggests Enterobacter or Citrobacter.",
+    "VP positivity argues against Escherichia.",
+    "Strong non-lactose fermentation requires confirmation."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Key discriminator within Enterobacterales.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "TSI Agar",
+      "reason": "Supports sugar fermentation profile and gas production.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus and species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "coli",
+    "albertii",
+    "fergusonii"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cutibacterium",
+  "species": "acnes",
+
+  "overview": {
+    "short": "Cutibacterium acnes is a Gram-positive, anaerobic short rod that is a major component of normal human skin flora.",
+    "clinical_context": "Most commonly associated with acne vulgaris, but also implicated in prosthetic joint, cardiac device, and neurosurgical implant infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "White",
+      "Cream",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Anaerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key discriminator separating C. acnes from other Cutibacterium species."
+    },
+    {
+      "field": "Lipase Test",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Correlates with skin lipid metabolism and pathogenicity in acne."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cutibacterium avidum",
+      "reason": "Shared anaerobic growth and Gram-positive short rod morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests another Cutibacterium species.",
+    "Strong aerobic growth argues against C. acnes."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary biochemical discriminator.",
+      "api_kit": "API Rapid ID 32A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for species confirmation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

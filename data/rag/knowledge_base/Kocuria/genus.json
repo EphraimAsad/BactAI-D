@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Kocuria",
+
+  "overview": {
+    "short": "Kocuria species are Gram-positive cocci (often in tetrads, pairs, or clusters), aerobic to facultatively anaerobic, catalase-positive, and typically part of skin and oral flora.",
+    "clinical_context": "Usually opportunistic; may be recovered from blood cultures, catheter-associated infections, skin/soft tissue sites, and immunocompromised patients. Can be mistaken for coagulase-negative staphylococci or Micrococcus."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Round",
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Unknown",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Unknown",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Pigment": "Many Kocuria produce cream to pink/orange colonies; intensity varies by species and conditions.",
+    "Oxidase": "May be variable depending on method and strain.",
+    "NaCl Tolerant (>=6%)": "Some strains tolerate higher salt; not consistently genus-defining."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Coagulase",
+      "expected": "Negative",
+      "distinguishes_from": ["Staphylococcus"],
+      "notes": "Helps exclude S. aureus when Gram-positive cocci in clusters are seen."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Variable",
+      "distinguishes_from": ["Staphylococcus"],
+      "notes": "Pigmented colonies (pink/orange) can point toward Micrococcaceae (Kocuria/Micrococcus)."
+    },
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Planococcus"],
+      "notes": "Non-motility supports Kocuria vs certain motile Gram-positive cocci."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Staphylococcus",
+      "reason": "Similar Gram-positive cocci and catalase positivity; coagulase-negative staphylococci can look very similar."
+    },
+    {
+      "genus": "Micrococcus",
+      "reason": "Same family-level phenotype; both can be pigmented and form tetrads."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Coagulase positivity strongly suggests Staphylococcus aureus rather than Kocuria.",
+    "Marked beta haemolysis argues against typical Kocuria.",
+    "Repeated isolation from sterile site with consistent phenotype should prompt definitive ID (MALDI-TOF/16S)."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Coagulase test",
+      "reason": "Rules out S. aureus when clusters are observed.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Oxidase / Micrococcaceae screening",
+      "reason": "Supports Micrococcaceae vs staphylococci depending on lab workflow.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable separation of Kocuria vs Micrococcus and species-level calls.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Useful confirmatory method if MALDI is ambiguous or clinically significant isolate.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "kristinae",
+    "rosea",
+    "varians"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Vibrio",
+
+  "overview": {
+    "short": "Vibrio species are Gram-negative, curved or straight rods commonly found in marine and estuarine environments.",
+    "clinical_context": "Associated with gastrointestinal disease, wound infections, and septicemia, often linked to seafood consumption or seawater exposure."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "TCBS Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Oxidase": "Strong oxidase positivity is a key genus-level trait.",
+    "TCBS Agar": "Selective and differential medium commonly used for Vibrio isolation.",
+    "NaCl Requirement": "Many species require or prefer sodium chloride for growth."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacteriaceae"],
+      "notes": "Separates Vibrio from most other Gram-negative rods."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Aeromonas"],
+      "notes": "Typically rapid darting motility with polar flagella."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "expected": "Variable",
+      "distinguishes_from": ["Aeromonas"],
+      "notes": "Salt tolerance helps differentiate marine Vibrios."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Aeromonas",
+      "reason": "Both are oxidase-positive aquatic Gram-negative rods."
+    },
+    {
+      "genus": "Plesiomonas",
+      "reason": "Overlapping biochemical and environmental characteristics."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative isolate is inconsistent with Vibrio.",
+    "Lack of motility suggests alternative genera.",
+    "Failure to grow on TCBS Agar should prompt reassessment."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "TCBS Agar growth",
+      "reason": "Primary selective medium for Vibrio isolation."
+    },
+    {
+      "test": "Salt tolerance testing",
+      "reason": "Helps distinguish halophilic Vibrio species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate genus and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "alginolyticus",
+    "cholerae",
+    "parahaemolyticus",
+    "vulnificus"
+  ]
+}

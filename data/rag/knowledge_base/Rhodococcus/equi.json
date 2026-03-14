@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Rhodococcus",
+  "species": "equi",
+
+  "overview": {
+    "short": "Rhodococcus equi is an aerobic, Gram-positive actinomycete best known for causing pulmonary infections.",
+    "clinical_context": "Important opportunistic pathogen in immunocompromised patients, particularly associated with cavitary pneumonia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Mucoid",
+      "Salmon-Pink",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Salmon-Pink",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Capsule contributes to virulence and intracellular survival."
+    },
+    {
+      "field": "Urease",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification when combined with colony morphology."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Rhodococcus erythropolis",
+      "reason": "Shared pigmentation and actinomycete morphology."
+    },
+    {
+      "genus": "Nocardia",
+      "reason": "Overlapping acid-fast and aerobic actinomycete features."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong acid-fast staining suggests Mycobacterium or Nocardia.",
+    "Anaerobic growth is inconsistent with R. equi.",
+    "Rapid sugar fermentation argues against Rhodococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid confirmation of Rhodococcus equi.",
+      "api_kit": "Bruker MALDI Biotyper (Actinomycetes library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Definitive species confirmation, especially in clinical cases."
+    }
+  ]
+}

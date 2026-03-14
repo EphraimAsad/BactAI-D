@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Thermoactinomyces",
+  "species": "sacchari",
+
+  "overview": {
+    "short": "Thermoactinomyces sacchari is a thermophilic, Gram-positive, spore-forming aerobic bacterium commonly isolated from compost, hay, and agricultural environments.",
+    "clinical_context": "Most often associated with hypersensitivity pneumonitis rather than invasive infection; true clinical isolates are rare."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Powdery",
+      "Chalky White"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "45//60",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Sucrose Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Sucrose utilization is more consistent in T. sacchari than in T. vulgaris."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Proteolytic activity supports species-level differentiation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Thermoactinomyces vulgaris",
+      "reason": "Overlapping thermophilic growth and colony morphology."
+    },
+    {
+      "genus": "Saccharopolyspora",
+      "reason": "Environmental actinomycetes with similar exposure history."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of growth at ≥50 °C argues against T. sacchari.",
+    "Absence of spore formation suggests an alternative genus.",
+    "Strong oxidase positivity would be atypical."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth comparison at 50–55 °C",
+      "reason": "Confirms thermophilic growth profile."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Species-level confirmation.",
+      "api_kit": "Bruker MALDI Biotyper (Environmental/Actinomycete library)"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Definitive identification when biochemical overlap exists."
+    }
+  ]
+}

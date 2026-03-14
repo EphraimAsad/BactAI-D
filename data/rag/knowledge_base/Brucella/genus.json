@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Brucella",
+
+  "overview": {
+    "short": "Brucella species are small, Gram-negative, non-motile coccobacilli that are facultative intracellular pathogens.",
+    "clinical_context": "Causes brucellosis, a zoonotic infection transmitted via animals or unpasteurised dairy products, often presenting as a systemic febrile illness."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Convex",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Urease": "Rapid urease positivity is a key genus-defining feature.",
+    "Oxidase": "Oxidase positivity helps distinguish Brucella from many Enterobacterales.",
+    "Growth": "Growth is slow and colonies may take several days to appear."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Urease",
+      "expected": "Positive",
+      "distinguishes_from": ["Francisella", "Haemophilus"],
+      "notes": "Rapid urease activity is characteristic of Brucella."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Brucella species are non-fermenters."
+    },
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Ochrobactrum"],
+      "notes": "Non-motility helps differentiate from closely related genera."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Ochrobactrum",
+      "reason": "Phylogenetically related with overlapping oxidase and urease reactions."
+    },
+    {
+      "genus": "Haemophilus",
+      "reason": "Small Gram-negative coccobacilli with slow growth."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motility argues against Brucella.",
+    "Carbohydrate fermentation suggests an alternative genus.",
+    "Poor growth without CO₂ supplementation may require reassessment."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Urease (rapid)",
+      "reason": "Strong early indicator of Brucella.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "Oxidase and catalase",
+      "reason": "Supports genus-level identification.",
+      "api_kit": "API NH"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred for rapid identification with appropriate biosafety precautions."
+    },
+    {
+      "test": "PCR or reference laboratory confirmation",
+      "reason": "Required due to biosafety risk and clinical significance."
+    }
+  ],
+
+  "supported_species": [
+    "abortus",
+    "melitensis",
+    "suis"
+  ]
+}

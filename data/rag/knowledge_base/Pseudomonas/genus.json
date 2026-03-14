@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Pseudomonas",
+
+  "overview": {
+    "short": "Pseudomonas species are Gram-negative, aerobic rods widely distributed in the environment and notable for metabolic versatility and intrinsic antimicrobial resistance.",
+    "clinical_context": "Clinically important species cause opportunistic infections, particularly in immunocompromised patients, burns, respiratory infections, and healthcare-associated settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar",
+      "Cetrimide Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Flat",
+      "Spreading"
+    ],
+    "Oxygen Requirement": "Obligate Aerobe",
+    "Growth Temperature": "4//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Glucose Fermentation": "Pseudomonas species are non-fermenters; glucose may be oxidised but not fermented.",
+    "Oxidase": "Oxidase positivity is a key genus-level discriminator.",
+    "Pigment": "Pigment production is species-dependent and diagnostically important."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter", "Stenotrophomonas"],
+      "notes": "Oxidase positivity is critical for separating Pseudomonas from other non-fermenting Gram-negative rods."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacterales"],
+      "notes": "Non-fermentative metabolism distinguishes Pseudomonas from Enterobacterales."
+    },
+    {
+      "field": "Oxygen Requirement",
+      "expected": "Obligate Aerobe",
+      "distinguishes_from": ["Facultative anaerobes"],
+      "notes": "Strict aerobic growth supports identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Burkholderia",
+      "reason": "Shared oxidase positivity and non-fermentative metabolism."
+    },
+    {
+      "genus": "Acinetobacter",
+      "reason": "Non-fermenting Gram-negative rods, but Acinetobacter is oxidase-negative."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase negativity suggests Acinetobacter or Stenotrophomonas.",
+    "Strong glucose fermentation argues against Pseudomonas.",
+    "Anaerobic growth is inconsistent with the genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Primary screening test for non-fermenting Gram-negative rods."
+    },
+    {
+      "test": "Growth at 42°C",
+      "reason": "Useful for identifying P. aeruginosa."
+    },
+    {
+      "test": "API 20NE",
+      "reason": "Recommended biochemical panel for non-Enterobacterales identification."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid and accurate genus- and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "aeruginosa",
+    "fluorescens",
+    "putida"
+  ]
+}

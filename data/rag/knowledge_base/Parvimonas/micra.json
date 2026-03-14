@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Parvimonas",
+  "species": "micra",
+
+  "overview": {
+    "short": "Parvimonas micra is a Gram-positive, anaerobic coccus commonly isolated from the oral cavity and associated with deep-seated and polymicrobial infections.",
+    "clinical_context": "Frequently implicated in periodontal disease, abscesses, osteomyelitis, and bacteremia, often as part of mixed anaerobic flora."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Brucella Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Oxygen Requirement",
+      "value": "Obligate Anaerobe",
+      "importance": "high",
+      "notes": "Strict anaerobiosis is essential for growth."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Limited carbohydrate fermentation profile."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Finegoldia",
+      "reason": "Very similar anaerobic cocci with overlapping phenotypes."
+    },
+    {
+      "genus": "Peptostreptococcus",
+      "reason": "Historical misclassification and phenotypic similarity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Aerobic growth excludes Parvimonas micra.",
+    "Catalase positivity suggests alternative Gram-positive cocci.",
+    "Large colony morphology is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic biochemical panel",
+      "reason": "Differentiates among anaerobic cocci.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive identification when biochemical tests are inconclusive.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Streptococcus",
+  "species": "agalactiae",
+
+  "overview": {
+    "short": "Streptococcus agalactiae is a Gram-positive, beta-haemolytic coccus, also known as Group B Streptococcus (GBS).",
+    "clinical_context": "A major cause of neonatal sepsis, meningitis, and infections in pregnant women and immunocompromised adults."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Chains",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Haemolysis Type",
+      "value": "Beta",
+      "importance": "high",
+      "notes": "Characteristic beta-haemolysis on blood agar."
+    },
+    {
+      "field": "Arginine dihydrolase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Useful biochemical marker distinguishing S. agalactiae from S. pyogenes."
+    },
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Capsule is a major virulence factor and clinically relevant."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Streptococcus pyogenes",
+      "reason": "Both are beta-haemolytic streptococci but differ in Lancefield group and arginine reaction."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Negative CAMP test argues against S. agalactiae.",
+    "Lack of beta-haemolysis suggests a viridans streptococcus.",
+    "NaCl tolerance suggests Enterococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "CAMP test",
+      "reason": "Classic confirmatory test for Group B Streptococcus.",
+      "api_kit": "API 20 STREP"
+    },
+    {
+      "test": "Lancefield grouping",
+      "reason": "Definitive identification of Group B antigen."
+    }
+  ]
+}

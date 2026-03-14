@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Pluralibacter",
+
+  "overview": {
+    "short": "Pluralibacter species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, formerly classified within the Enterobacter genus.",
+    "clinical_context": "Occasionally associated with opportunistic infections, including wound, respiratory, and bloodstream infections, particularly in healthcare settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Taxonomy": "Pluralibacter was separated from Enterobacter based on genomic and phylogenetic analyses.",
+    "Lactose Fermentation": "Often delayed or variable on MacConkey Agar.",
+    "Motility": "Most isolates are motile, though expression may vary."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "VP",
+      "expected": "Positive",
+      "distinguishes_from": ["Escherichia", "Shigella"],
+      "notes": "VP positivity supports placement within Enterobacterales outside MR-positive genera."
+    },
+    {
+      "field": "ONPG",
+      "expected": "Positive",
+      "distinguishes_from": ["Shigella"],
+      "notes": "ONPG positivity reflects lactose-fermentation capability."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Klebsiella"],
+      "notes": "Motility helps separate Pluralibacter from non-motile Klebsiella species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Historical classification and overlapping biochemical profiles."
+    },
+    {
+      "genus": "Klebsiella",
+      "reason": "Shared lactose fermentation and colony morphology on MacConkey Agar."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Overlapping citrate and carbohydrate fermentation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong capsule with non-motility suggests Klebsiella.",
+    "MR-positive profile suggests Escherichia or Citrobacter.",
+    "H2S production argues against Pluralibacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Useful for species-level differentiation."
+    },
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Helps separate Pluralibacter species from closely related Enterobacterales."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for accurate genus and species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "gergoviae",
+    "pyrinus"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Finegoldia",
+  "species": "magna",
+
+  "overview": {
+    "short": "Finegoldia magna is a Gram-positive, obligately anaerobic coccus and one of the most clinically significant anaerobic cocci in human infection.",
+    "clinical_context": "Commonly isolated from skin and soft tissue infections, diabetic foot infections, abscesses, bone and joint infections, and bacteraemia."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey-White",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "One of the most useful biochemical markers for F. magna."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Helps differentiate F. magna from other anaerobic cocci."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification in combination with indole positivity."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Anaerococcus",
+      "reason": "Shared anaerobic cocci morphology and infection sites."
+    },
+    {
+      "genus": "Peptoniphilus",
+      "reason": "Biochemical overlap among anaerobic Gram-positive cocci."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests another anaerobic coccus.",
+    "Aerobic growth excludes Finegoldia magna.",
+    "Catalase positivity argues against anaerobic cocci."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Key discriminator for F. magna.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "DNase test",
+      "reason": "Supports species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification of anaerobic cocci.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

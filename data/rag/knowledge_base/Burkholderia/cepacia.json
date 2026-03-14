@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Burkholderia",
+  "species": "cepacia",
+
+  "overview": {
+    "short": "Burkholderia cepacia is a Gram-negative, motile, non-fermentative rod associated with opportunistic infections.",
+    "clinical_context": "Most significant in patients with cystic fibrosis or chronic granulomatous disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-lactose fermenting"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Esculin Hydrolysis",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports identification within the Burkholderia cepacia complex."
+    },
+    {
+      "field": "Citrate",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Common but not exclusive to B. cepacia."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Burkholderia multivorans",
+      "reason": "Part of the Burkholderia cepacia complex with overlapping profiles."
+    },
+    {
+      "species": "Burkholderia cenocepacia",
+      "reason": "Closely related genomically and biochemically."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motility argues against B. cepacia.",
+    "Strong oxidase positivity suggests Pseudomonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Esculin hydrolysis",
+      "reason": "Helpful discriminator within the cepacia complex.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for species-level resolution."
+    },
+    {
+      "test": "Genomic sequencing",
+      "reason": "Recommended for definitive cepacia complex identification."
+    }
+  ]
+}

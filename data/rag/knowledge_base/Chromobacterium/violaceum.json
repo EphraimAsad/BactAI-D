@@ -1,0 +1,47 @@
+{
+  "genus": "Chromobacterium",
+  "species": "violaceum",
+  "full_name": "Chromobacterium violaceum",
+  "clinical_significance": "The most clinically significant Chromobacterium species. Causes severe, often fatal infections including necrotizing skin infection, pneumonia, bacteremia, liver abscesses, and septic shock. Infection typically follows contamination of wounds with stagnant or tropical freshwater. Mortality is high without rapid intervention.",
+  "phenotype_profile": {
+    "morphology": "Gram-negative motile rods; occasional polar flagella.",
+    "culture": "Produces distinctive deep violet pigment (violacein). Non-hemolytic or weakly hemolytic. Grows on blood, MacConkey, and nutrient agar.",
+    "biochemical": [
+      "Oxidase positive",
+      "Catalase positive",
+      "Indole negative",
+      "ONPG negative",
+      "Nitrate reduction positive",
+      "Motile",
+      "No growth in 6.5% NaCl"
+    ]
+  },
+  "differentiation": {
+    "from close species": [
+      "Violacein pigment strongly identifies C. violaceum (absent in C. haemolyticum and most others).",
+      "Less hemolytic than C. haemolyticum.",
+      "More commonly associated with abscess formation."
+    ],
+    "from other genera": [
+      "Purple pigment distinguishes from nearly all other pathogens.",
+      "Aeromonas may appear similar biochemically but lacks violacein and grows differently on MacConkey."
+    ]
+  },
+  "virulence_factors": [
+    "Violacein (cytotoxic pigment)",
+    "Type III secretion system",
+    "Hemolysins and lipases",
+    "Ability to form abscesses in liver and lungs"
+  ],
+  "confirmation_methods": [
+    "MALDI-TOF MS",
+    "Distinct violet pigmentation",
+    "PCR or sequencing for definitive ID"
+  ],
+  "treatment_notes": "Often resistant to penicillins and many cephalosporins. Typically susceptible to fluoroquinolones, carbapenems, TMP-SMX, and aminoglycosides. Early aggressive therapy is essential.",
+  "notes": "Known for rapidly progressive infection with high mortality; liver abscesses are characteristic.",
+  "references": [
+    "Chromobacterium violaceum infection reviews",
+    "Environmental pathogen case studies"
+  ]
+}

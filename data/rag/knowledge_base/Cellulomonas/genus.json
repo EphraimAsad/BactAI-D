@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Cellulomonas",
+
+  "overview": {
+    "short": "Cellulomonas species are Gram-positive, aerobic to facultatively anaerobic rods known for cellulose degradation and environmental persistence.",
+    "clinical_context": "Primarily environmental organisms; rarely associated with opportunistic infections such as bacteremia in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Unknown",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Yellow",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Pigment": "Yellow pigmentation is common and supports differentiation from other Gram-positive rods.",
+    "Gelatin Hydrolysis": "Frequently positive and useful in environmental differentiation.",
+    "Motility": "Motility varies between species and strains."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Gram Stain",
+      "expected": "Positive",
+      "distinguishes_from": ["Cellulosimicrobium", "Microbacterium"],
+      "notes": "Helps separate Cellulomonas from Gram-negative cellulose-degrading bacteria."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Yellow",
+      "distinguishes_from": ["Corynebacterium"],
+      "notes": "Yellow colonies support Cellulomonas identification."
+    },
+    {
+      "field": "Gelatin Hydrolysis",
+      "expected": "Positive",
+      "distinguishes_from": ["Arthrobacter"],
+      "notes": "Gelatin positivity supports Cellulomonas over related genera."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Microbacterium",
+      "reason": "Shared Gram-positive rod morphology and yellow pigmentation."
+    },
+    {
+      "genus": "Corynebacterium",
+      "reason": "Overlapping colony appearance and Gram stain."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong oxidase positivity is present.",
+    "Spore formation observed.",
+    "Strict anaerobic growth noted."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Gelatin hydrolysis",
+      "reason": "Supports genus-level identification.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "Carbohydrate utilization panel",
+      "reason": "Useful for species-level differentiation.",
+      "api_kit": "API Coryne"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable confirmation for uncommon environmental Gram-positive rods."
+    }
+  ],
+
+  "supported_species": [
+    "fimi",
+    "flavigena"
+  ]
+}

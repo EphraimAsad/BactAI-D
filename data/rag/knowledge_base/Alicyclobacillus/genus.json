@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Alicyclobacillus",
+
+  "overview": {
+    "short": "Alicyclobacillus species are Gram-positive, aerobic, spore-forming rods that are acidophilic and often thermotolerant, best known for spoilage of acidic beverages.",
+    "clinical_context": "Primarily an environmental/spoilage genus rather than a common clinical pathogen, but may appear in contamination or industrial microbiology contexts."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Nutrient Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Cream"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//70",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Unknown"
+  },
+
+  "field_notes": {
+    "Spore Formation": "Spores are a key survival feature and strongly expected.",
+    "Growth Temperature": "Many isolates are thermotolerant; exact temperature range varies by species.",
+    "Oxygen Requirement": "Typically aerobic growth."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Spore Formation",
+      "expected": "Positive",
+      "distinguishes_from": ["Lactobacillus", "Leuconostoc"],
+      "notes": "Spore formation separates Alicyclobacillus from common non-spore-forming acid-tolerant bacteria."
+    },
+    {
+      "field": "Growth Temperature",
+      "expected": "25//70",
+      "distinguishes_from": ["Bacillus"],
+      "notes": "Thermotolerance and acidophily together support Alicyclobacillus vs many Bacillus spp."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Bacillus",
+      "reason": "Both are Gram-positive spore-forming rods with overlapping colony appearances."
+    },
+    {
+      "genus": "Geobacillus",
+      "reason": "Thermotolerant spore-forming rods can appear similar without full context."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Spore formation negativity argues against Alicyclobacillus.",
+    "Strict anaerobic growth argues against Alicyclobacillus.",
+    "Strong haemolysis is atypical and suggests another genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Spore stain / heat resistance screening",
+      "reason": "Confirms spore-forming phenotype."
+    },
+    {
+      "test": "Growth temperature profiling",
+      "reason": "Helps support thermotolerant species identification."
+    },
+    {
+      "test": "Molecular identification or MALDI-TOF",
+      "reason": "Useful due to overlap with Bacillus-like organisms."
+    }
+  ],
+
+  "supported_species": [
+    "acidocaldarius",
+    "acidoterrestris"
+  ]
+}

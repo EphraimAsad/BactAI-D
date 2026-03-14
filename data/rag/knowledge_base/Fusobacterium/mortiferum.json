@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Fusobacterium",
+  "species": "mortiferum",
+
+  "overview": {
+    "short": "Fusobacterium mortiferum is a Gram-negative, obligately anaerobic rod associated with gastrointestinal flora and opportunistic infections.",
+    "clinical_context": "Often linked to intra-abdominal infections, abscesses, and polymicrobial anaerobic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Anaerobic Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Grey",
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "35//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Indole negativity is a useful discriminator from F. nucleatum and F. necrophorum."
+    },
+    {
+      "field": "Colony Morphology",
+      "value": "Smooth; Convex",
+      "importance": "low",
+      "notes": "Colony morphology is supportive only; anaerobes vary by media and incubation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Fusobacterium nucleatum",
+      "reason": "Overlap in anaerobic growth and limited biochemical separation on basic panels; indole often distinguishes."
+    },
+    {
+      "genus": "Bacteroides",
+      "reason": "Similar anaerobic clinical settings and polymicrobial isolation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests nucleatum or necrophorum rather than mortiferum.",
+    "Aerobic growth is inconsistent with Fusobacterium mortiferum."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator against indole-positive Fusobacterium species.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "Anaerobic identification panel",
+      "reason": "Provides broader anaerobe biochemical coverage when MALDI is unavailable.",
+      "api_kit": "API 20A"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred confirmation for anaerobic species-level ID.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

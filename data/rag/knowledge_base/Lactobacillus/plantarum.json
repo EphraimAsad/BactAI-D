@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Lactobacillus",
+  "species": "plantarum",
+
+  "overview": {
+    "short": "Lactobacillus plantarum is a Gram-positive, non-spore-forming rod widely distributed in fermented foods, plants, and the human gastrointestinal tract.",
+    "clinical_context": "Primarily a commensal and probiotic organism; rarely associated with opportunistic infections such as bacteremia in immunocompromised individuals."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MRS Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "White",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Aerotolerant Anaerobe",
+    "Growth Temperature": "15//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Positive",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Positive",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Positive",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Helps distinguish L. plantarum from many other Lactobacillus species."
+    },
+    {
+      "field": "Sorbitol Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Differentiates L. plantarum from L. casei and L. acidophilus."
+    },
+    {
+      "field": "Broad carbohydrate fermentation",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Characteristic wide sugar utilization profile."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Lactobacillus casei",
+      "reason": "Overlap in sugar fermentation and arginine dihydrolase positivity."
+    },
+    {
+      "species": "Lactobacillus acidophilus",
+      "reason": "Shared lactose fermentation and morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "NaCl intolerance suggests L. casei or L. acidophilus.",
+    "Limited carbohydrate fermentation argues against L. plantarum.",
+    "Gas production suggests heterofermentative lactic acid bacteria."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Extended carbohydrate fermentation panel",
+      "reason": "Confirms the broad sugar utilization profile.",
+      "api_kit": "API 50 CHL"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate discrimination within Lactobacillus species.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

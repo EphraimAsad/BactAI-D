@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Aerococcus",
+
+  "overview": {
+    "short": "Aerococcus species are Gram-positive cocci that often appear in clusters or tetrads and resemble streptococci or staphylococci on initial examination.",
+    "clinical_context": "Associated with urinary tract infections, bacteremia, endocarditis, and invasive infections, particularly in elderly or immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Alpha-haemolytic or Non-haemolytic"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Catalase": "Typically catalase-negative, but weak or pseudo-positive reactions may occur.",
+    "Haemolysis": "Most species are alpha-haemolytic or non-haemolytic on blood agar.",
+    "Shape": "Often described as cocci in tetrads or clusters, which can mimic staphylococci."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Negative",
+      "distinguishes_from": ["Staphylococcus"],
+      "notes": "Catalase negativity helps separate Aerococcus from staphylococci."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterococcus"],
+      "notes": "Lack of growth in high salt differentiates Aerococcus from enterococci."
+    },
+    {
+      "field": "Haemolysis",
+      "expected": "Variable",
+      "distinguishes_from": ["Streptococcus"],
+      "notes": "Haemolysis pattern combined with colony morphology aids differentiation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Streptococcus",
+      "reason": "Similar Gram-positive cocci morphology and haemolysis patterns."
+    },
+    {
+      "genus": "Enterococcus",
+      "reason": "Overlapping biochemical reactions in urinary isolates."
+    },
+    {
+      "genus": "Staphylococcus",
+      "reason": "Clustered cocci appearance on Gram stain may be misleading."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase-positive reaction suggests Staphylococcus.",
+    "Growth in 6.5% NaCl suggests Enterococcus.",
+    "Beta-haemolysis with streptococcal morphology suggests Streptococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Catalase test (repeat)",
+      "reason": "Weak reactions may require confirmation."
+    },
+    {
+      "test": "NaCl tolerance (6.5%)",
+      "reason": "Useful for exclusion of Enterococcus."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for accurate genus and species identification."
+    }
+  ],
+
+  "supported_species": [
+    "urinae",
+    "viridans",
+    "sanguinicola",
+    "christensenii"
+  ]
+}

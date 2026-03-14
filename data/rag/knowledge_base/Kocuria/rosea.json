@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Kocuria",
+  "species": "rosea",
+
+  "overview": {
+    "short": "Kocuria rosea is a Gram-positive, catalase-positive, non-motile coccus within the Micrococcaceae, often producing pink to rose-colored colonies.",
+    "clinical_context": "Typically opportunistic; may be isolated from skin/soft tissue sites, blood cultures (often line-associated), and immunocompromised patients. Frequently confused with Micrococcus or coagulase-negative Staphylococcus."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Round",
+      "Smooth",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Unknown",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Unknown",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Unknown",
+    "Xylose Fermentation": "Unknown",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Unknown",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Positive",
+    "Motility Type": "Unknown"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Rose/pink pigmentation is a practical clue for K. rosea, but pigment intensity depends on incubation and medium."
+    },
+    {
+      "field": "Haemolysis",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Typical isolates are non-haemolytic; haemolysis suggests alternative taxa or unusual strains."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Micrococcus",
+      "reason": "Both may form tetrads and produce pigmented colonies; definitive ID often needed."
+    },
+    {
+      "genus": "Staphylococcus",
+      "reason": "Catalase-positive Gram-positive cocci can be mistaken for CoNS when pigmentation is faint."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Coagulase positivity suggests Staphylococcus aureus rather than Kocuria.",
+    "Marked beta haemolysis argues against K. rosea.",
+    "If repeatedly isolated from a sterile site, confirm by MALDI-TOF or sequencing due to frequent misidentification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Coagulase test",
+      "reason": "Rules out S. aureus when Gram-positive cocci in clusters are seen.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable routine method to identify Kocuria at species level.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Confirmatory option if clinically significant isolate or MALDI result is ambiguous.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Citrobacter",
+  "species": "koseri",
+
+  "overview": {
+    "short": "Citrobacter koseri is a Gram-negative, facultatively anaerobic rod notable for its association with neonatal infections.",
+    "clinical_context": "Strongly associated with neonatal meningitis and brain abscess formation."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key discriminator separating C. koseri from C. freundii and C. braakii."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports identification within Citrobacter species."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "H2S production suggests another Citrobacter species.",
+    "Indole negativity argues against C. koseri."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Critical for species confirmation."
+    },
+    {
+      "test": "API 20E",
+      "reason": "Biochemical differentiation of Enterobacterales."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable identification in neonatal cases."
+    }
+  ]
+}

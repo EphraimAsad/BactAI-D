@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Candida",
+  "species": "albicans",
+
+  "overview": {
+    "short": "Candida albicans is a dimorphic yeast and the most common cause of candidiasis in humans.",
+    "clinical_context": "Frequently causes oral thrush, vulvovaginal candidiasis, and invasive bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Sabouraud Dextrose Agar",
+      "Chromogenic Candida Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Cream",
+      "Smooth",
+      "Butyrous"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "25//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Germ Tube Test",
+      "value": "Positive",
+      "importance": "critical",
+      "notes": "Defining feature of Candida albicans."
+    },
+    {
+      "field": "Chromogenic Agar",
+      "value": "Green colonies",
+      "importance": "high",
+      "notes": "Characteristic colour on chromogenic media."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Candida tropicalis",
+      "reason": "Both form pseudohyphae but differ in germ tube reaction."
+    }
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Germ tube test",
+      "reason": "Rapid confirmation of C. albicans.",
+      "api_kit": "API Candida"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species identification."
+    }
+  ]
+}

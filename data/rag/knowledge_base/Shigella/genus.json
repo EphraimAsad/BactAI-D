@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Shigella",
+
+  "overview": {
+    "short": "Shigella species are Gram-negative, non-motile, facultatively anaerobic rods belonging to the Enterobacterales.",
+    "clinical_context": "Primarily associated with bacillary dysentery (shigellosis), causing severe diarrheal disease, often with blood and mucus."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Motility": "All Shigella species are non-motile.",
+    "Lactose Fermentation": "Typically negative; delayed fermentation may occur in S. sonnei.",
+    "H2S": "Absence helps distinguish from Salmonella."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Salmonella", "Escherichia"],
+      "notes": "Non-motility is a defining feature of Shigella."
+    },
+    {
+      "field": "Lysine Decarboxylase",
+      "expected": "Negative",
+      "distinguishes_from": ["Salmonella"],
+      "notes": "Helps exclude Salmonella species."
+    },
+    {
+      "field": "H2S",
+      "expected": "Negative",
+      "distinguishes_from": ["Salmonella"],
+      "notes": "Shigella does not produce H2S."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Escherichia",
+      "reason": "Close genetic relationship; Shigella is essentially a pathovar of E. coli."
+    },
+    {
+      "genus": "Salmonella",
+      "reason": "Shared Enterobacterales traits but differs by motility and H2S."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motility suggests Salmonella or E. coli.",
+    "H2S production argues against Shigella.",
+    "Citrate positivity suggests another Enterobacterales genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Serological typing",
+      "reason": "Required for species-level identification.",
+      "api_kit": "Shigella antisera (Denka Seiken or equivalent)"
+    },
+    {
+      "test": "Molecular detection (PCR)",
+      "reason": "Detects virulence genes such as ipaH."
+    }
+  ],
+
+  "supported_species": [
+    "dysenteriae",
+    "flexneri",
+    "boydii",
+    "sonnei"
+  ]
+}

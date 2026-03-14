@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Sphingomonas",
+
+  "overview": {
+    "short": "Sphingomonas species are Gram-negative, aerobic, non-spore-forming rods characterized by the presence of sphingolipids in their cell membrane.",
+    "clinical_context": "Primarily environmental organisms, occasionally implicated in opportunistic infections, particularly in immunocompromised patients."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Yellow",
+      "Non-pigmented to pale yellow"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Polar"
+  },
+
+  "field_notes": {
+    "Glucose Fermentation": "Sphingomonas species are non-fermenters despite occasional weak oxidative reactions.",
+    "Pigment": "Yellow pigmentation is common but may be faint.",
+    "Motility": "Motility is species-dependent and often weak."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Acinetobacter"],
+      "notes": "Oxidase positivity separates Sphingomonas from many non-fermenting Gram-negative rods."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Pseudomonas"],
+      "notes": "Non-fermentative metabolism helps narrow identification."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Yellow",
+      "distinguishes_from": ["Comamonas"],
+      "notes": "Yellow pigmentation is supportive but not exclusive."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Pseudomonas",
+      "reason": "Shared oxidase positivity and aerobic growth."
+    },
+    {
+      "genus": "Comamonas",
+      "reason": "Environmental origin and non-fermentative profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong glucose fermentation suggests Enterobacterales.",
+    "Oxidase negativity argues against Sphingomonas.",
+    "Anaerobic growth is inconsistent with this genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidative-fermentative (OF) glucose test",
+      "reason": "Confirms non-fermentative metabolism.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus and species-level identification."
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive identification for rare or atypical isolates."
+    }
+  ],
+
+  "supported_species": [
+    "koreensis",
+    "paucimobilis",
+    "wittichii"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Brevibacterium",
+  "species": "linens",
+
+  "overview": {
+    "short": "Brevibacterium linens is a Gram-positive, aerobic, coryneform bacterium notable for strong orange pigmentation.",
+    "clinical_context": "Commonly associated with cheese-rind microbiota and human skin; rarely implicated in opportunistic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Rough",
+      "Bright orange"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "15//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Orange",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Bright orange",
+      "importance": "high",
+      "notes": "Strong orange pigmentation is characteristic of B. linens."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "High salt tolerance supports environmental and cheese-associated origin."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "15//37",
+      "importance": "low",
+      "notes": "Ability to grow at lower temperatures supports differentiation from other skin flora."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Brevibacterium casei",
+      "reason": "Shared coryneform morphology with overlapping biochemical reactions."
+    },
+    {
+      "genus": "Dermabacter",
+      "reason": "Similar skin-associated Gram-positive rods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Absence of strong orange pigmentation suggests B. casei.",
+    "Poor salt tolerance argues against B. linens.",
+    "Anaerobic growth suggests alternative genera."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API Coryne",
+      "reason": "Useful for preliminary differentiation among coryneform bacteria."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Gold standard for accurate species-level identification."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Staphylococcus",
+  "species": "epidermidis",
+
+  "overview": {
+    "short": "Staphylococcus epidermidis is a Gram-positive, coagulase-negative coccus that forms clusters and is a common commensal of human skin.",
+    "clinical_context": "Frequently associated with device-related and nosocomial infections, particularly involving intravascular catheters and prosthetic materials."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Mannitol Salt Agar"
+    ],
+    "Colony Morphology": [
+      "Round",
+      "Smooth",
+      "Opaque",
+      "White"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "15//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Coagulase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Defining feature separating S. epidermidis from S. aureus."
+    },
+    {
+      "field": "Mannitol Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Lack of mannitol fermentation differentiates from S. aureus."
+    },
+    {
+      "field": "DNase",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Supports distinction from S. aureus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Staphylococcus aureus",
+      "reason": "Shared morphology and salt tolerance; requires coagulase and mannitol testing."
+    },
+    {
+      "species": "Staphylococcus lugdunensis",
+      "reason": "May show increased virulence compared to other coagulase-negative staphylococci."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Coagulase positivity suggests S. aureus.",
+    "Beta haemolysis is inconsistent with S. epidermidis.",
+    "Strong mannitol fermentation suggests alternative species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Coagulase test",
+      "reason": "Confirms coagulase-negative status.",
+      "api_kit": "API Staph"
+    },
+    {
+      "test": "Mannitol fermentation",
+      "reason": "Differentiates from S. aureus."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification."
+    }
+  ]
+}

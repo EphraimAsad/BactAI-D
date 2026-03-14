@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Vibrio",
+  "species": "alginolyticus",
+
+  "overview": {
+    "short": "Vibrio alginolyticus is a halophilic, Gram-negative marine bacterium commonly associated with wound and ear infections.",
+    "clinical_context": "Typically linked to seawater exposure and minor trauma; infections are usually localized."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Beta",
+    "Media Grown On": [
+      "Blood Agar",
+      "TCBS Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "15//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Strong halophilicity distinguishes V. alginolyticus from non-halophilic Vibrios."
+    },
+    {
+      "field": "Sucrose Fermentation",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Produces yellow colonies on TCBS Agar."
+    },
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Helps separate from some closely related Vibrio species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Vibrio parahaemolyticus",
+      "reason": "Shared halophilicity and marine association."
+    },
+    {
+      "species": "Vibrio vulnificus",
+      "reason": "Overlap in oxidase positivity and salt tolerance."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Failure to tolerate high NaCl concentrations argues against V. alginolyticus.",
+    "Non-sucrose fermenting isolate suggests another Vibrio species.",
+    "Absence of oxidase activity excludes Vibrio."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "TCBS Agar colony colour",
+      "reason": "Sucrose fermentation produces yellow colonies."
+    },
+    {
+      "test": "Salt tolerance testing",
+      "reason": "Confirms halophilic nature."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level differentiation."
+    }
+  ]
+}

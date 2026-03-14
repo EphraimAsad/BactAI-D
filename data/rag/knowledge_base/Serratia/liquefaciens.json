@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Serratia",
+  "species": "liquefaciens",
+
+  "overview": {
+    "short": "Serratia liquefaciens is a Gram-negative, motile, facultatively anaerobic rod within the Enterobacterales, often environmental but capable of opportunistic infection.",
+    "clinical_context": "Can be isolated from opportunistic infections (e.g., wounds, respiratory specimens, urinary tract), particularly in healthcare settings, though less common than S. marcescens."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Moist",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "5//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "None",
+      "importance": "high",
+      "notes": "Typically lacks strong red pigment production seen in S. marcescens."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports Serratia identification within Enterobacterales."
+    },
+    {
+      "field": "Lipase Test",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Lipase activity supports Serratia spp. and can aid differentiation from some lookalikes."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Serratia marcescens",
+      "reason": "Very similar biochemical profile; pigment expression (red) is a key discriminator for marcescens."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Overlap in citrate positivity, VP positivity, and sugar fermentation; DNase and lipase support Serratia."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Red pigment strongly suggests S. marcescens rather than S. liquefaciens.",
+    "DNase negativity argues against Serratia.",
+    "Strong lactose fermentation suggests another Enterobacterales genus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "DNase test",
+      "reason": "Confirms hallmark Serratia trait.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Pigment observation at 25–30°C",
+      "reason": "Helps separate S. marcescens (red) from non-pigmented Serratia species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species-level discrimination within Serratia."
+    }
+  ]
+}

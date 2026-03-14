@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Salmonella",
+
+  "overview": {
+    "short": "Salmonella are Gram-negative, facultatively anaerobic rods within Enterobacterales, classically non-lactose fermenting and often H2S-producing.",
+    "clinical_context": "Major causes of gastroenteritis and enteric fever; infections range from self-limited diarrhea to invasive systemic disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "XLD Agar",
+      "Hektoen Enteric Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist",
+      "Non-lactose fermenting colonies on MacConkey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "H2S": "Many Salmonella produce H2S (blackening on XLD/HE/TSI), but not all isolates do.",
+    "Citrate": "Citrate utilization varies by serovar/subspecies.",
+    "Capsule": "Vi capsule is associated with S. Typhi (and some Paratyphi C), not typical for non-typhoidal Salmonella."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Lactose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Escherichia", "Klebsiella", "Enterobacter"],
+      "notes": "Non-lactose fermentation supports Salmonella over common coliforms."
+    },
+    {
+      "field": "H2S",
+      "expected": "Variable",
+      "distinguishes_from": ["Shigella"],
+      "notes": "H2S positivity supports Salmonella over Shigella (typically H2S negative)."
+    },
+    {
+      "field": "Lysine Decarboxylase",
+      "expected": "Positive",
+      "distinguishes_from": ["Citrobacter"],
+      "notes": "LDC positivity helps separate Salmonella from some Citrobacter with overlapping colony appearance."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Citrobacter",
+      "reason": "Overlap in non-lactose fermentation and possible H2S production on selective media."
+    },
+    {
+      "genus": "Proteus",
+      "reason": "Some Proteus are non-lactose fermenters and H2S positive; swarming and urease positivity argue for Proteus."
+    },
+    {
+      "genus": "Shigella",
+      "reason": "Both can be non-lactose fermenters; Shigella is typically non-motile and H2S negative."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Urease positivity suggests Proteus or related genera.",
+    "Strong lactose fermentation argues against Salmonella.",
+    "Non-motile isolate makes Shigella more likely (though confirm with full profile).",
+    "Oxidase positivity argues against Enterobacterales (including Salmonella)."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API 20E (Enterobacteriaceae panel)",
+      "reason": "Useful biochemical confirmation within Enterobacterales.",
+      "api_kit": "bioMérieux API 20E"
+    },
+    {
+      "test": "Serotyping (O and H antigens)",
+      "reason": "Required to assign serovar (e.g., Enteritidis, Typhimurium, Typhi).",
+      "api_kit": "SSI Diagnostica Salmonella O and H antisera"
+    },
+    {
+      "test": "PCR for invA (Salmonella genus marker)",
+      "reason": "Common molecular confirmation for Salmonella genus."
+    }
+  ],
+
+  "supported_species": [
+    "enterica",
+    "enteritidis",
+    "typhi",
+    "paratyphi",
+    "typhimurium",
+    "bongori"
+  ]
+}

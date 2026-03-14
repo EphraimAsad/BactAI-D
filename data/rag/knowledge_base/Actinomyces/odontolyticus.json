@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Actinomyces",
+  "species": "odontolyticus",
+
+  "overview": {
+    "short": "Actinomyces odontolyticus is a Gram-positive, non-spore-forming rod commonly isolated from dental plaque and oral infections.",
+    "clinical_context": "Frequently associated with dental caries, periodontal disease, and occasional systemic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "White",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Unknown",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Unknown",
+    "Ornithine Decarboxylase": "Unknown",
+    "Ornitihine Decarboxylase": "Unknown",
+    "Arginine dihydrolase": "Unknown",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Unknown",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Unknown",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Unknown",
+    "Gas Production": "Variable",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key differentiator from other common Actinomyces species."
+    },
+    {
+      "field": "Esculin Hydrolysis",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from A. naeslundii."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Actinomyces naeslundii",
+      "reason": "Overlapping oral habitat and sugar fermentation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole negativity suggests other Actinomyces species.",
+    "Strong gelatin hydrolysis suggests A. israelii."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator for A. odontolyticus."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable species confirmation."
+    }
+  ]
+}

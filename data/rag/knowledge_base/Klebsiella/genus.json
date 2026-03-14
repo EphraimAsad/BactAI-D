@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Klebsiella",
+
+  "overview": {
+    "short": "Klebsiella species are Gram-negative, non-motile rods within the Enterobacterales, characterized by prominent capsules and lactose fermentation.",
+    "clinical_context": "Frequently associated with pneumonia, urinary tract infections, bloodstream infections, and healthcare-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Mucoid",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Positive",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Capsule": "Prominent polysaccharide capsule is a defining feature.",
+    "Motility": "Non-motility helps distinguish Klebsiella from Enterobacter.",
+    "Lactose Fermentation": "Strong lactose fermentation produces pink colonies on MacConkey Agar."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter"],
+      "notes": "Non-motility is a key distinction."
+    },
+    {
+      "field": "Capsule",
+      "expected": "Positive",
+      "distinguishes_from": ["Escherichia"],
+      "notes": "Heavy capsule results in mucoid colonies."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Shared lactose fermentation and VP positivity."
+    },
+    {
+      "genus": "Escherichia",
+      "reason": "Overlap in sugar fermentation patterns."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Motility positivity suggests Enterobacter.",
+    "Indole positivity narrows identification to specific species.",
+    "Weak capsule suggests alternative Enterobacterales."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator between Klebsiella species.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "String test",
+      "reason": "Supports identification of hypermucoviscous strains.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "pneumoniae",
+    "oxytoca",
+    "variicola"
+  ]
+}

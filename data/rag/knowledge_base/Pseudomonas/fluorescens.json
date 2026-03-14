@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Pseudomonas",
+  "species": "fluorescens",
+
+  "overview": {
+    "short": "Pseudomonas fluorescens is a Gram-negative, aerobic, non-fermenting rod best known for fluorescent pigment production and environmental prevalence.",
+    "clinical_context": "Usually an environmental contaminant but can cause opportunistic infections, particularly in immunocompromised patients or via contaminated fluids/devices."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Flat",
+      "Spreading"
+    ],
+    "Oxygen Requirement": "Obligate Aerobe",
+    "Growth Temperature": "4//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Positive",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Pyoverdine",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Pyoverdine",
+      "importance": "high",
+      "notes": "Fluorescent pigment (pyoverdine) is common in P. fluorescens group; pyocyanin is typically absent."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "No growth at 42°C",
+      "importance": "high",
+      "notes": "Failure to grow at 42°C helps distinguish it from P. aeruginosa."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Often weaker/variable compared to P. aeruginosa which is commonly nitrate positive."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Pseudomonas putida",
+      "reason": "Overlap in oxidase positivity and non-fermenter profile; differentiation often requires temperature/pigment and confirmatory ID."
+    },
+    {
+      "species": "Pseudomonas aeruginosa",
+      "reason": "Both may produce pigments, but P. fluorescens lacks pyocyanin and usually does not grow at 42°C."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth at 42°C suggests P. aeruginosa rather than P. fluorescens.",
+    "Blue-green pigment (pyocyanin) argues against P. fluorescens.",
+    "Oxidase negativity is inconsistent with Pseudomonas."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth at 42°C",
+      "reason": "Separates P. fluorescens from P. aeruginosa."
+    },
+    {
+      "test": "Pigment fluorescence under UV",
+      "reason": "Supports pyoverdine detection and helps classify within fluorescent pseudomonads."
+    },
+    {
+      "test": "API 20NE",
+      "reason": "Recommended biochemical panel for non-fermenting Gram-negative rods."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable confirmation at species level."
+    }
+  ]
+}

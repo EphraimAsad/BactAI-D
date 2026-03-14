@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Serratia",
+  "species": "rubidaea",
+
+  "overview": {
+    "short": "Serratia rubidaea is a Gram-negative, motile, facultatively anaerobic rod that may produce red to pink pigmentation and is less commonly encountered clinically.",
+    "clinical_context": "Occasionally isolated from opportunistic infections and environmental sources; clinical relevance is typically lower and context-dependent."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Moist",
+      "Pink to Red-pigmented"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "5//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Positive",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Positive",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Red",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Pigment",
+      "value": "Red",
+      "importance": "high",
+      "notes": "Often produces pink/red pigmentation; however, pigment intensity and conditions can vary."
+    },
+    {
+      "field": "DNase",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Supports Serratia genus placement when differentiating from other Enterobacterales."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps separate from lactose-fermenting Enterobacterales in routine screening."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Serratia marcescens",
+      "reason": "Both can appear red-pigmented; marcescens is more common clinically and often shows stronger characteristic prodigiosin expression."
+    },
+    {
+      "species": "Serratia liquefaciens",
+      "reason": "Overlapping biochemical reactions; pigment presence supports rubidaea over liquefaciens."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "No DNase activity argues against Serratia.",
+    "Strong lactose fermentation suggests another Enterobacterales genus.",
+    "Non-motile isolate is inconsistent with Serratia spp."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "DNase test",
+      "reason": "Supports Serratia identification.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Pigment observation at 25–30°C",
+      "reason": "Useful for characterising pigment expression and separating Serratia species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for accurate Serratia species-level discrimination."
+    }
+  ]
+}

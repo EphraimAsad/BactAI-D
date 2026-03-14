@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Citrobacter",
+
+  "overview": {
+    "short": "Citrobacter species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, commonly found in the intestinal tract and environment.",
+    "clinical_context": "Associated with opportunistic infections including urinary tract, bloodstream, neonatal meningitis, and intra-abdominal infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Variable",
+    "Citrate": "Positive",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Lactose Fermentation": "Often delayed or variable on MacConkey Agar.",
+    "H2S": "Some species produce H2S, which may cause confusion with Salmonella.",
+    "Indole": "Indole reactions vary by species and are useful at the species level."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Methyl Red",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Klebsiella"],
+      "notes": "MR positivity helps separate Citrobacter from VP-positive Enterobacterales."
+    },
+    {
+      "field": "H2S",
+      "expected": "Variable",
+      "distinguishes_from": ["Escherichia"],
+      "notes": "Possible H2S production differentiates Citrobacter from E. coli."
+    },
+    {
+      "field": "Lactose Fermentation",
+      "expected": "Variable",
+      "distinguishes_from": ["Escherichia"],
+      "notes": "Delayed or absent lactose fermentation helps exclude E. coli."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Salmonella",
+      "reason": "Shared H2S production and Enterobacterales profile."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Overlapping sugar fermentation and citrate positivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong VP positivity suggests Enterobacter or Klebsiella.",
+    "Consistent lactose fermentation suggests Escherichia.",
+    "Absence of nitrate reduction argues against Citrobacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Critical for species-level differentiation."
+    },
+    {
+      "test": "H2S production assessment",
+      "reason": "Helps separate Citrobacter from related genera."
+    },
+    {
+      "test": "API 20E",
+      "reason": "Standard biochemical panel for Enterobacterales identification."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Provides rapid and reliable species-level identification."
+    }
+  ],
+
+  "supported_species": [
+    "braakii",
+    "freundii",
+    "koseri"
+  ]
+}

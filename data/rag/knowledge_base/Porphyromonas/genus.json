@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Porphyromonas",
+
+  "overview": {
+    "short": "Porphyromonas species are Gram-negative, obligately anaerobic short rods commonly found in the oral cavity and associated with periodontal disease.",
+    "clinical_context": "Primarily linked to oral, dental, and head-and-neck infections, with occasional involvement in systemic anaerobic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Brucella Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Convex",
+      "Black Pigmented"
+    ],
+    "Oxygen Requirement": "Obligate Anaerobe",
+    "Growth Temperature": "30//37",
+    "Catalase": "Variable",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Black",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Pigment": "Many species produce black pigment on blood agar due to heme accumulation.",
+    "Sugar Fermentation": "Porphyromonas species are characteristically asaccharolytic.",
+    "Oxygen Requirement": "Strict anaerobiosis is a defining genus feature."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Glucose Fermentation",
+      "expected": "Negative",
+      "distinguishes_from": ["Prevotella"],
+      "notes": "Asaccharolytic metabolism separates Porphyromonas from saccharolytic anaerobes."
+    },
+    {
+      "field": "Pigment",
+      "expected": "Black",
+      "distinguishes_from": ["Fusobacterium"],
+      "notes": "Black pigmentation on blood agar is characteristic."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Prevotella",
+      "reason": "Shared anaerobic growth and oral habitat."
+    },
+    {
+      "genus": "Fusobacterium",
+      "reason": "Anaerobic Gram-negative rods in oral infections."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Sugar fermentation suggests Prevotella rather than Porphyromonas.",
+    "Aerobic or microaerophilic growth argues against Porphyromonas.",
+    "Absence of black pigmentation may indicate another anaerobe."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Anaerobic culture",
+      "reason": "Essential to confirm obligate anaerobic growth."
+    },
+    {
+      "test": "Indole test",
+      "reason": "Typically positive in Porphyromonas species."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for accurate genus and species identification."
+    }
+  ],
+
+  "supported_species": [
+    "asaccharolytica",
+    "endodontalis",
+    "gingivalis"
+  ]
+}

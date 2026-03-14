@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Sphingomonas",
+  "species": "paucimobilis",
+
+  "overview": {
+    "short": "Sphingomonas paucimobilis is a Gram-negative, aerobic, weakly motile rod commonly isolated from water and hospital environments.",
+    "clinical_context": "Occasionally implicated in opportunistic infections, particularly in immunocompromised patients or those with indwelling devices."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Yellow",
+      "Circular"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "10//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Variable",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Variable",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Variable",
+      "importance": "high",
+      "notes": "The species name reflects weak or inconsistent motility, distinguishing it from more consistently motile Sphingomonas species."
+    },
+    {
+      "field": "ONPG",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "ONPG variability may help separate S. paucimobilis from other non-fermenters."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Sphingomonas koreensis",
+      "reason": "Similar pigmentation and oxidase positivity; koreensis is typically more consistently motile."
+    },
+    {
+      "genus": "Comamonas",
+      "reason": "Environmental non-fermenters with overlapping biochemical profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong motility suggests another Sphingomonas species.",
+    "Clinical relevance without risk factors should be interpreted cautiously."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API 20 NE",
+      "reason": "Helps profile non-fermentative biochemical patterns.",
+      "api_kit": "API 20 NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Preferred method for definitive species identification."
+    }
+  ]
+}

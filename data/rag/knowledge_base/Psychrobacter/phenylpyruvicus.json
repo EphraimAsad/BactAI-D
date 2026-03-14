@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Psychrobacter",
+  "species": "phenylpyruvicus",
+
+  "overview": {
+    "short": "Psychrobacter phenylpyruvicus is a Gram-negative, oxidase-positive, psychrotolerant short rod capable of producing phenylpyruvic acid.",
+    "clinical_context": "Rarely associated with human infections; more commonly isolated from environmental or food-related sources."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Round",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Obligate Aerobe",
+    "Growth Temperature": "0//30",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Variable",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Phenylpyruvic Acid Production",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Eponymous biochemical trait distinguishing P. phenylpyruvicus."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "0//30",
+      "importance": "high",
+      "notes": "Consistent with psychrotolerant behavior."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Psychrobacter immobilis",
+      "reason": "Overlapping biochemical profiles; differentiation often requires MALDI-TOF or molecular methods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Phenylpyruvic acid production not demonstrated.",
+    "Growth only at mesophilic temperatures.",
+    "Evidence of carbohydrate fermentation."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Phenylalanine deamination",
+      "reason": "Supports phenylpyruvic acid production."
+    },
+    {
+      "test": "API 20NE",
+      "reason": "Biochemical profiling of non-fermenters."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate discrimination from closely related Psychrobacter species."
+    }
+  ]
+}

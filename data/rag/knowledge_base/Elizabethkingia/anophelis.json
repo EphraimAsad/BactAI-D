@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Elizabethkingia",
+  "species": "anophelis",
+
+  "overview": {
+    "short": "Elizabethkingia anophelis is a Gram-negative, aerobic, non-motile, non-fermenting rod increasingly recognised as a cause of healthcare-associated bloodstream and respiratory infections.",
+    "clinical_context": "Frequently linked to hospital outbreaks and infections in immunocompromised or critically ill patients; species-level identification often requires MALDI-TOF MS or molecular methods."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Non-mucoid"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "20//42",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Indole positivity is common and supports Elizabethkingia when paired with oxidase positivity and non-fermenter profile."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "A consistent negative nitrate pattern can support differentiation from some other non-fermenters."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Non-fermenter profile is central for correct placement."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Elizabethkingia meningoseptica",
+      "reason": "Historically overcalled due to database limitations; requires MALDI-TOF MS library quality or molecular methods for accurate separation."
+    },
+    {
+      "genus": "Chryseobacterium",
+      "reason": "Closely related environmental organisms with overlapping phenotypes; species separation often not reliable by biochem alone."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Oxidase-negative or indole-negative results reduce confidence and suggest alternative non-fermenters.",
+    "Multiple sugars reported Positive suggests a fermenter and argues strongly against Elizabethkingia.",
+    "Definitive species assignment without MALDI-TOF MS or molecular methods should be treated cautiously."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical route for reliable species-level identification within Elizabethkingia.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA gene sequencing",
+      "reason": "Useful when MALDI-TOF confidence is low or for outbreak confirmation.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Non-fermenter biochemical panel",
+      "reason": "Can support genus placement but is often insufficient for species resolution.",
+      "api_kit": "API 20 NE"
+    }
+  ]
+}

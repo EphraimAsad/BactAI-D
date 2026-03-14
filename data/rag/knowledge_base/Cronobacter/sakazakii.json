@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cronobacter",
+  "species": "sakazakii",
+
+  "overview": {
+    "short": "Cronobacter sakazakii is a Gram-negative, facultatively anaerobic rod and the most clinically significant Cronobacter species.",
+    "clinical_context": "Strongly associated with neonatal meningitis, sepsis, and necrotizing enterocolitis, particularly linked to powdered infant formula."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "6//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Positive",
+    "Methyl Red": "Variable",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Rhamnose Fermentation",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Key discriminator separating C. sakazakii from other Cronobacter species."
+    },
+    {
+      "field": "Sorbitol Fermentation",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Helps differentiate from C. malonaticus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cronobacter malonaticus",
+      "reason": "Overlapping biochemical reactions within the Cronobacter genus."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests a non-Cronobacter Enterobacterales.",
+    "H2S production is inconsistent with C. sakazakii.",
+    "Strong lactose fermentation suggests Klebsiella or Enterobacter."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "API 20E",
+      "reason": "Supports biochemical differentiation within Enterobacterales.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Highly reliable for Cronobacter species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

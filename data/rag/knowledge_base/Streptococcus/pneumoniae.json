@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Streptococcus",
+  "species": "pneumoniae",
+
+  "overview": {
+    "short": "Streptococcus pneumoniae is a Gram-positive, alpha-haemolytic, encapsulated coccus typically appearing as diplococci.",
+    "clinical_context": "A leading cause of pneumonia, meningitis, otitis media, and invasive bloodstream infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Positive",
+    "Haemolysis Type": "Alpha",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Mucoid",
+      "Draughtsman"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//45",
+    "Catalase": "Negative",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Diplococci",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Encapsulated nature is a defining virulence factor."
+    },
+    {
+      "field": "Haemolysis Type",
+      "value": "Alpha",
+      "importance": "high",
+      "notes": "Produces alpha-haemolysis on blood agar."
+    },
+    {
+      "field": "Optochin susceptibility",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Classic discriminator from viridans streptococci."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Streptococcus (viridans group)",
+      "reason": "Shared alpha-haemolysis but viridans streptococci are optochin resistant and non-encapsulated."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Optochin resistance suggests viridans streptococci.",
+    "Absence of capsule argues against S. pneumoniae.",
+    "Beta-haemolysis excludes S. pneumoniae."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Optochin susceptibility",
+      "reason": "Primary confirmatory test for S. pneumoniae."
+    },
+    {
+      "test": "Bile solubility",
+      "reason": "Confirms identification when optochin results are equivocal."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Rapid and accurate species-level identification."
+    }
+  ]
+}

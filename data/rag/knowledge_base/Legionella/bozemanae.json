@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Legionella",
+  "species": "bozemanae",
+
+  "overview": {
+    "short": "Legionella bozemanae is a Gram-negative aerobic rod that can cause Legionella pneumonia, especially in immunocompromised hosts.",
+    "clinical_context": "Associated with sporadic cases and outbreaks linked to water sources; less common than L. pneumophila."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "BCYE Agar"
+    ],
+    "Colony Morphology": [
+      "Grey-White",
+      "Ground-glass"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "25//45",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Variable",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Gelatin Hydrolysis",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "May be less consistently positive than L. pneumophila; interpret with other markers."
+    },
+    {
+      "field": "Urinary antigen positivity",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Urinary antigen tests primarily detect L. pneumophila serogroup 1 and are often negative for L. bozemanae."
+    },
+    {
+      "field": "Molecular identification",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Species-level confirmation is typically molecular due to biochemical overlap within Legionella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Legionella pneumophila",
+      "reason": "Shared BCYE requirement and morphology; many labs default to pneumophila without confirmatory methods."
+    },
+    {
+      "species": "Legionella miceadei",
+      "reason": "Overlapping biochemical profile and non-fermentative metabolism."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Positive urinary antigen strongly favors L. pneumophila serogroup 1 over L. bozemanae.",
+    "If gelatin and lipase are strongly positive, consider L. pneumophila more strongly.",
+    "Poor growth on BCYE suggests the isolate may not be Legionella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Legionella urinary antigen",
+      "reason": "Helps rapidly support L. pneumophila serogroup 1 when positive; negative does not exclude non-pneumophila species.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Legionella PCR (species-level)",
+      "reason": "Best confirmation approach for non-pneumophila Legionella.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Useful if the database contains strong Legionella coverage and the organism is grown appropriately on BCYE.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Klebsiella",
+  "species": "variicola",
+
+  "overview": {
+    "short": "Klebsiella variicola is a Gram-negative, encapsulated, non-motile rod closely related to K. pneumoniae and often misidentified without advanced methods.",
+    "clinical_context": "Recovered from urinary, respiratory, and bloodstream infections; clinically overlaps with K. pneumoniae."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Mucoid",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Positive",
+    "Citrate": "Positive",
+    "Methyl Red": "Negative",
+    "VP": "Positive",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Positive",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "May overlap with K. pneumoniae and K. oxytoca; not sufficient alone."
+    },
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Supports Klebsiella genus assignment (vs Enterobacter)."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Klebsiella pneumoniae",
+      "reason": "Very close biochemical overlap; often misidentified as K. pneumoniae by routine methods."
+    },
+    {
+      "species": "Klebsiella oxytoca",
+      "reason": "If indole is positive, may be confused without confirmatory identification."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole strong positivity with consistent results suggests K. oxytoca.",
+    "Indole consistently negative fits K. pneumoniae more strongly.",
+    "If identification is based only on basic biochemical patterns, species-level call is unreliable."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical approach for separating K. variicola from K. pneumoniae in routine labs.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Useful where accurate distinction is important (e.g., outbreaks, epidemiology).",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Indole test (repeat/confirm)",
+      "reason": "Helpful for ruling toward oxytoca if consistently positive, but not definitive for variicola.",
+      "api_kit": "API 20E"
+    }
+  ]
+}

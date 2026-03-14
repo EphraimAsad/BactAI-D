@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Proteus",
+  "species": "penneri",
+
+  "overview": {
+    "short": "Proteus penneri is a Gram-negative, facultatively anaerobic rod within the Proteus genus, typically swarming and strongly urease-positive.",
+    "clinical_context": "Associated with opportunistic infections including urinary tract and wound infections; less common than P. mirabilis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Swarming",
+      "Concentric Rings"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Variable",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "K/A",
+    "Colony Pattern": "Swarming",
+    "Pigment": "None",
+    "Motility Type": "Swarming"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Supports separation from indole-positive Proteus species such as P. vulgaris."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Key discriminator from P. mirabilis, which is typically ornithine-positive."
+    },
+    {
+      "field": "H2S",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "May be variable by strain and method; use alongside stronger markers."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Proteus mirabilis",
+      "reason": "Both indole-negative and swarming, but P. mirabilis is typically ornithine-positive."
+    },
+    {
+      "genus": "Morganella",
+      "reason": "Biochemical overlap, but Morganella does not swarm."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Ornithine positivity suggests P. mirabilis rather than P. penneri.",
+    "Indole positivity suggests P. vulgaris rather than P. penneri.",
+    "Absence of swarming suggests Morganella or Providencia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Best single discriminator vs P. mirabilis."
+    },
+    {
+      "test": "Indole test",
+      "reason": "Helps separate from P. vulgaris."
+    },
+    {
+      "test": "API 20E",
+      "reason": "Routine biochemical confirmation within Enterobacterales."
+    }
+  ]
+}

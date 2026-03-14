@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Bergeyella",
+
+  "overview": {
+    "short": "Bergeyella species are fastidious, Gram-negative, non-motile short rods within the Flavobacteriaceae, most commonly associated with animal bite wounds.",
+    "clinical_context": "Primarily isolated from dog and cat bite infections, with rare cases of bacteremia and endocarditis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Grey"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "30//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Indole": "Indole positivity is a key clue separating Bergeyella from many other bite-associated organisms.",
+    "Growth": "Slow-growing and often missed on routine culture without prolonged incubation."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Indole",
+      "expected": "Positive",
+      "distinguishes_from": ["Capnocytophaga", "Pasteurella"],
+      "notes": "Indole positivity is unusual among many bite-associated Gram-negative rods."
+    },
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Haemophilus"],
+      "notes": "Helps differentiate Bergeyella from oxidase-negative fastidious organisms."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Capnocytophaga",
+      "reason": "Shared association with animal bites and fastidious growth."
+    },
+    {
+      "genus": "Pasteurella",
+      "reason": "Similar clinical context and Gram-negative morphology."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Failure to recover organism after prolonged incubation.",
+    "Fermentative metabolism observed.",
+    "Motility detected."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Most reliable routine method for identifying Bergeyella.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "16S rRNA sequencing",
+      "reason": "Definitive identification for rare or atypical isolates."
+    }
+  ],
+
+  "supported_species": [
+    "zoohelcum"
+  ]
+}

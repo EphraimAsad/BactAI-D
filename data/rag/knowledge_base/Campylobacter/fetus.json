@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Campylobacter",
+  "species": "fetus",
+
+  "overview": {
+    "short": "Campylobacter fetus is a non-thermophilic Campylobacter species associated with invasive infections.",
+    "clinical_context": "Causes bacteremia, meningitis, and pregnancy-related infections rather than gastroenteritis."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Spiral",
+    "Motility": "Positive",
+    "Capsule": "Positive",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Grey",
+      "Smooth"
+    ],
+    "Oxygen Requirement": "Microaerophilic",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "K/K",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Polar"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "25//37",
+      "importance": "high",
+      "notes": "Lack of growth at 42 °C distinguishes C. fetus."
+    },
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Surface layer protein contributes to invasiveness."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Campylobacter jejuni",
+      "reason": "Similar morphology but different temperature tolerance."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Robust growth at 42 °C argues against C. fetus.",
+    "Absence of invasive disease context weakens identification."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth temperature testing",
+      "reason": "Separates thermophilic from non-thermophilic Campylobacter."
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate species identification."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Nocardia",
+  "species": "farcinica",
+
+  "overview": {
+    "short": "Nocardia farcinica is a Gram-positive, aerobic, branching filamentous bacterium associated with severe and disseminated infections.",
+    "clinical_context": "Notable for causing aggressive pulmonary, CNS, and disseminated disease, often with increased antimicrobial resistance."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Unknown",
+    "Media Grown On": [
+      "Blood Agar",
+      "Sabouraud Agar"
+    ],
+    "Colony Morphology": [
+      "Dry",
+      "Chalky",
+      "Irregular",
+      "White"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "25//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Antimicrobial Resistance",
+      "value": "Increased",
+      "importance": "high",
+      "notes": "N. farcinica is frequently more resistant than other Nocardia species."
+    },
+    {
+      "field": "Nitrate Reduction",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Shared with N. asteroides; requires additional markers for distinction."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Nocardia asteroides",
+      "reason": "Very similar biochemical profile; often indistinguishable without molecular methods."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Milder cutaneous disease suggests N. brasiliensis.",
+    "Antibiotic susceptibility inconsistent with known resistance patterns should prompt re-evaluation.",
+    "Strict anaerobic growth excludes Nocardia."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Antimicrobial susceptibility testing",
+      "reason": "Critical due to frequent multidrug resistance.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Useful for rapid species-level identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Gold standard for differentiating within the Nocardia asteroides complex.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

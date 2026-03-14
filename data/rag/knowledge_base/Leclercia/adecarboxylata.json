@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Leclercia",
+  "species": "adecarboxylata",
+
+  "overview": {
+    "short": "Leclercia adecarboxylata is a Gram-negative, facultatively anaerobic rod originally classified as Escherichia adecarboxylata.",
+    "clinical_context": "Typically isolated from environmental sources and opportunistic infections, often as part of polymicrobial flora."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "MacConkey Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//42",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Positive",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Positive",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Positive",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Positive",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Positive",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Positive",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "Key feature separating L. adecarboxylata from Enterobacter species."
+    },
+    {
+      "field": "Citrate",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Helps exclude Enterobacter and Citrobacter."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports species-level confirmation."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Escherichia",
+      "reason": "Shared indole positivity and lactose fermentation."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Overlapping sugar fermentation profiles."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Citrate positivity argues against L. adecarboxylata.",
+    "Indole negativity suggests alternative Enterobacterales.",
+    "Non-motile phenotype is inconsistent with species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Primary discriminator within Enterobacterales.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Citrate utilization",
+      "reason": "Confirms separation from Enterobacter.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

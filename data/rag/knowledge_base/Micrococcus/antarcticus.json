@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Micrococcus",
+  "species": "antarcticus",
+
+  "overview": {
+    "short": "Micrococcus antarcticus is a psychrotolerant, Gram-positive coccus isolated from cold environments.",
+    "clinical_context": "Primarily environmental; rarely associated with human disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Convex",
+      "Yellow"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "0//30",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "NC/NC",
+    "Colony Pattern": "Discrete",
+    "Pigment": "Yellow",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "0//30",
+      "importance": "high",
+      "notes": "Psychrotolerant growth distinguishes M. antarcticus from most other Micrococcus species."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Micrococcus luteus",
+      "reason": "Shared pigmentation and biochemical profile."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Optimal growth at 37 °C argues against M. antarcticus.",
+    "Clinical pathogenicity is unusual for this species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Growth at low temperature (4–10 °C)",
+      "reason": "Supports psychrotolerant identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

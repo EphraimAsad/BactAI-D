@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Staphylococcus",
+
+  "overview": {
+    "short": "Staphylococcus species are Gram-positive cocci arranged in clusters, facultative anaerobes, and common colonizers of human skin and mucosa.",
+    "clinical_context": "Includes major human pathogens causing skin and soft tissue infections, bloodstream infections, endocarditis, and device-associated infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Cocci",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Mannitol Salt Agar"
+    ],
+    "Colony Morphology": [
+      "Round",
+      "Smooth",
+      "Opaque"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "15//45",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Variable",
+    "Citrate": "Negative",
+    "Methyl Red": "Variable",
+    "VP": "Variable",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Variable",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Positive",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Variable",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Variable",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Catalase": "Key feature distinguishing Staphylococcus from Streptococcus and Enterococcus.",
+    "NaCl Tolerant (>=6%)": "Growth in high salt supports Staphylococcus identification.",
+    "Coagulase": "Major genus subdivision into coagulase-positive and coagulase-negative species."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Catalase",
+      "expected": "Positive",
+      "distinguishes_from": ["Streptococcus", "Enterococcus"],
+      "notes": "Catalase positivity is genus-defining."
+    },
+    {
+      "field": "NaCl Tolerant (>=6%)",
+      "expected": "Positive",
+      "distinguishes_from": ["Streptococcus"],
+      "notes": "Salt tolerance supports Staphylococcus."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Micrococcus",
+      "reason": "Shared Gram-positive cocci morphology and catalase positivity."
+    },
+    {
+      "genus": "Enterococcus",
+      "reason": "May appear similar on blood agar without catalase testing."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Catalase-negative cocci suggest Streptococcus or Enterococcus.",
+    "Lack of salt tolerance argues against Staphylococcus.",
+    "Strict anaerobic growth is inconsistent."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Catalase test",
+      "reason": "Primary genus-level discriminator."
+    },
+    {
+      "test": "Coagulase test",
+      "reason": "Separates S. aureus from coagulase-negative species.",
+      "api_kit": "API Staph"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Reliable genus and species identification."
+    }
+  ],
+
+  "supported_species": [
+    "aureus",
+    "epidermidis",
+    "lugdunensis",
+    "saprophyticus"
+  ]
+}

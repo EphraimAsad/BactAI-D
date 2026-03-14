@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Cryptococcus",
+  "species": "laurentii",
+
+  "overview": {
+    "short": "Cryptococcus laurentii is an environmental yeast occasionally implicated in opportunistic infection, typically less virulent than C. neoformans/gattii.",
+    "clinical_context": "Rarely isolated from clinical specimens; when involved, often in immunocompromised hosts or device-associated settings."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Yeast",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Sabouraud Dextrose Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Cream",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "20//35",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Variable",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Capsule",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Encapsulation may be weak/variable compared with C. neoformans/gattii."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "20//35",
+      "importance": "high",
+      "notes": "Weaker growth at 37°C vs pathogenic complexes can support non-neoformans species."
+    },
+    {
+      "field": "Inositol Fermentation",
+      "value": "Variable",
+      "importance": "medium",
+      "notes": "Inositol utilization may be less consistent than in neoformans/gattii."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Cryptococcus neoformans",
+      "reason": "Both can be urease-positive yeasts; capsule and growth at 37°C are often more robust in C. neoformans."
+    },
+    {
+      "genus": "Rhodotorula",
+      "reason": "Environmental yeasts can overlap; pigmentation differences may help but are not always reported."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Strong capsule plus consistent 37°C growth may indicate C. neoformans/gattii instead.",
+    "Urease negativity suggests other yeast genera.",
+    "A strong sugar fermentation profile is inconsistent with Cryptococcus."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Best practical discriminator for non-neoformans Cryptococcus species.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Growth at 37°C",
+      "reason": "Helps separate pathogenic complexes from more environmental species.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Molecular identification",
+      "reason": "Useful if MALDI is inconclusive or to confirm unusual isolates.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

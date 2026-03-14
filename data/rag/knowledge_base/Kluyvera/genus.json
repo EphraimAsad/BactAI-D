@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Kluyvera",
+
+  "overview": {
+    "short": "Kluyvera species are Gram-negative, facultatively anaerobic rods within the Enterobacterales, closely related to Enterobacter and Citrobacter.",
+    "clinical_context": "Typically considered opportunistic pathogens; isolated from urinary tract infections, bloodstream infections, and environmental sources."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "10//40",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "field_notes": {
+    "Motility": "Kluyvera species are typically motile, helping distinguish them from Klebsiella.",
+    "Indole": "Indole reaction varies by species and is useful for species-level differentiation.",
+    "Citrate": "Variable and not genus-defining."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "VP",
+      "expected": "Negative",
+      "distinguishes_from": ["Enterobacter", "Klebsiella"],
+      "notes": "VP negativity separates Kluyvera from many Enterobacter and Klebsiella species."
+    },
+    {
+      "field": "Ornithine Decarboxylase",
+      "expected": "Positive",
+      "distinguishes_from": ["Citrobacter"],
+      "notes": "Ornithine positivity supports Kluyvera identification."
+    },
+    {
+      "field": "Motility",
+      "expected": "Positive",
+      "distinguishes_from": ["Klebsiella"],
+      "notes": "Motility differentiates Kluyvera from non-motile Klebsiella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Enterobacter",
+      "reason": "Overlapping sugar fermentation and colony morphology."
+    },
+    {
+      "genus": "Citrobacter",
+      "reason": "Shared MR positivity and ONPG positivity."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Non-motile isolates suggest Klebsiella rather than Kluyvera.",
+    "Strong VP positivity argues against Kluyvera.",
+    "Consistent H2S production is not compatible with Kluyvera."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Useful for species-level differentiation.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Ornithine decarboxylase",
+      "reason": "Supports separation from Citrobacter and Enterobacter.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Recommended for definitive identification due to biochemical overlap.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "ascorbata",
+    "cryocrescens"
+  ]
+}

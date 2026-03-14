@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Bacillus",
+  "species": "anthracis",
+
+  "overview": {
+    "short": "Bacillus anthracis is a non-motile, encapsulated, Gram-positive spore-forming rod and the causative agent of anthrax.",
+    "clinical_context": "A high-consequence pathogen requiring immediate public health notification."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Positive",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Positive",
+    "Spore Formation": "Positive",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Large",
+      "Non-haemolytic",
+      "Ground-glass"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Variable",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Variable",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Variable",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Motility",
+      "value": "Negative",
+      "importance": "critical",
+      "notes": "Non-motility is a key discriminator from B. cereus group."
+    },
+    {
+      "field": "Haemolysis",
+      "value": "Negative",
+      "importance": "critical",
+      "notes": "Non-haemolytic colonies strongly suggest B. anthracis."
+    },
+    {
+      "field": "Capsule",
+      "value": "Positive",
+      "importance": "critical",
+      "notes": "Poly-D-glutamate capsule is a defining virulence factor."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Bacillus cereus",
+      "reason": "Close genetic relationship but differs in motility and haemolysis."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Any haemolysis excludes B. anthracis.",
+    "Motility excludes B. anthracis.",
+    "Pigment production argues against B. anthracis."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Gamma phage susceptibility",
+      "reason": "Highly specific for Bacillus anthracis.",
+      "api_kit": "Not applicable (reference laboratory assay)"
+    },
+    {
+      "test": "Capsule demonstration",
+      "reason": "Confirms virulence-associated capsule."
+    },
+    {
+      "test": "PCR for anthrax toxin genes",
+      "reason": "Definitive confirmation in reference laboratories."
+    }
+  ]
+}

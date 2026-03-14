@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Mycobacterium",
+  "species": "leprae",
+
+  "overview": {
+    "short": "Mycobacterium leprae is an obligate intracellular, acid-fast rod that causes leprosy (Hansen’s disease).",
+    "clinical_context": "Infects skin and peripheral nerves; cannot be cultured using standard laboratory media."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Variable",
+    "Shape": "Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [],
+    "Colony Morphology": [],
+    "Oxygen Requirement": "Aerobe",
+    "Growth Temperature": "30//33",
+    "Catalase": "Unknown",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Unknown",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Unknown",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Unknown",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Unknown",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth",
+      "value": "Not cultivable in vitro",
+      "importance": "critical",
+      "notes": "Absolute defining feature of M. leprae."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "30//33",
+      "importance": "high",
+      "notes": "Prefers cooler temperatures, consistent with peripheral nerve involvement."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Mycobacterium tuberculosis",
+      "reason": "Both are acid-fast rods but differ radically in growth and clinical presentation."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Any laboratory growth excludes M. leprae.",
+    "Pulmonary disease suggests M. tuberculosis or NTM.",
+    "Biochemical profiling is not applicable."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Acid-fast stain on tissue",
+      "reason": "Primary laboratory detection method.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "PCR from biopsy material",
+      "reason": "Definitive confirmation.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

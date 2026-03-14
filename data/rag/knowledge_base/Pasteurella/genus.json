@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "level": "genus",
+  "genus": "Pasteurella",
+
+  "overview": {
+    "short": "Pasteurella species are Gram-negative, non-motile short rods commonly found in the oral flora of animals.",
+    "clinical_context": "Frequently associated with animal bite and scratch wounds, causing soft tissue infections and occasionally invasive disease."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Convex"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "20//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Variable",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Variable",
+    "Ornithine Decarboxylase": "Variable",
+    "Ornitihine Decarboxylase": "Variable",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Variable",
+    "Maltose Fermentation": "Variable",
+    "Mannitol Fermentation": "Variable",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Variable",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Variable",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Variable",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "field_notes": {
+    "Shape": "Cells often appear as small pleomorphic rods or coccobacilli.",
+    "Oxidase": "Oxidase positivity helps differentiate Pasteurella from Enterobacterales.",
+    "Growth": "Typically grows well on blood and chocolate agar but poorly on MacConkey agar."
+  },
+
+  "key_differentiators": [
+    {
+      "field": "Oxidase",
+      "expected": "Positive",
+      "distinguishes_from": ["Enterobacter", "Escherichia"],
+      "notes": "Oxidase positivity excludes Enterobacterales."
+    },
+    {
+      "field": "Motility",
+      "expected": "Negative",
+      "distinguishes_from": ["Aeromonas"],
+      "notes": "Non-motility helps separate Pasteurella from motile Gram-negative rods."
+    },
+    {
+      "field": "Clinical Context",
+      "expected": "Animal bite association",
+      "distinguishes_from": ["Haemophilus"],
+      "notes": "Strong epidemiological clue for Pasteurella."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "genus": "Haemophilus",
+      "reason": "Similar small Gram-negative rod morphology and fastidious growth."
+    },
+    {
+      "genus": "Actinobacillus",
+      "reason": "Overlapping biochemical traits and animal association."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth on MacConkey agar argues against Pasteurella.",
+    "Oxidase negativity suggests Enterobacterales.",
+    "Motility suggests Aeromonas or Vibrio."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Oxidase test",
+      "reason": "Confirms non-Enterobacterales Gram-negative rod.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "Indole test",
+      "reason": "Useful for species-level differentiation.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Accurate genus and species-level identification.",
+      "api_kit": "Not applicable"
+    }
+  ],
+
+  "supported_species": [
+    "canis",
+    "dagmatis",
+    "multocida"
+  ]
+}

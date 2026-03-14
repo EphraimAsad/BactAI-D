@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Flavobacterium",
+  "species": "psychrophilum",
+
+  "overview": {
+    "short": "Flavobacterium psychrophilum is a Gram-negative, aerobic, yellow-pigmented rod and an important cold-water fish pathogen.",
+    "clinical_context": "Associated with bacterial cold-water disease and rainbow trout fry syndrome; infections are most significant in aquaculture and freshwater fish populations."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Variable",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Variable",
+    "Haemolysis Type": "Variable",
+    "Media Grown On": [
+      "Blood Agar",
+      "Low-Nutrient Agar"
+    ],
+    "Colony Morphology": [
+      "Yellow-Pigmented",
+      "Smooth",
+      "Spreading"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "4//20",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Negative",
+    "Methyl Red": "Unknown",
+    "VP": "Unknown",
+    "H2S": "Negative",
+    "DNase": "Variable",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Positive",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Negative",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Variable",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Negative",
+    "Ornitihine Decarboxylase": "Negative",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Lactose Fermentation": "Negative",
+    "Sucrose Fermentation": "Negative",
+    "Maltose Fermentation": "Negative",
+    "Mannitol Fermentation": "Negative",
+    "Sorbitol Fermentation": "Negative",
+    "Xylose Fermentation": "Negative",
+    "Rhamnose Fermentation": "Negative",
+    "Arabinose Fermentation": "Negative",
+    "Raffinose Fermentation": "Negative",
+    "Trehalose Fermentation": "Negative",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "TSI Pattern": "Unknown",
+    "Colony Pattern": "Unknown",
+    "Pigment": "Yellow",
+    "Motility Type": "Gliding"
+  },
+
+  "species_markers": [
+    {
+      "field": "Growth Temperature",
+      "value": "4//20",
+      "importance": "high",
+      "notes": "Cold-adapted growth range strongly supports F. psychrophilum over other Flavobacterium species."
+    },
+    {
+      "field": "Oxidase",
+      "value": "Positive",
+      "importance": "medium",
+      "notes": "Supports Flavobacterium spp. and helps exclude oxidase-negative non-fermenters."
+    },
+    {
+      "field": "Glucose Fermentation",
+      "value": "Negative",
+      "importance": "medium",
+      "notes": "Non-fermentative metabolism is expected and helps exclude Enterobacterales."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Flavobacterium columnare",
+      "reason": "Both are yellow-pigmented aquatic pathogens; temperature preference helps separate them."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Growth well above 25–30°C argues against F. psychrophilum.",
+    "Strong beta haemolysis is not typical and suggests alternative species.",
+    "Clear carbohydrate fermentation excludes this species."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Temperature growth profiling",
+      "reason": "Key discriminator for cold-water adapted species.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "Oxidase test",
+      "reason": "Supports oxidase-positive non-fermenter profile.",
+      "api_kit": "API 20NE"
+    },
+    {
+      "test": "MALDI-TOF MS or PCR",
+      "reason": "Best confirmation for aquaculture-associated isolates with overlapping phenotypes.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

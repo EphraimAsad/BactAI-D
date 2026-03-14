@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Brucella",
+  "species": "abortus",
+
+  "overview": {
+    "short": "Brucella abortus is a small, Gram-negative, non-motile coccobacillus primarily associated with cattle and capable of causing zoonotic brucellosis in humans.",
+    "clinical_context": "Human infections typically occur via contact with infected livestock or consumption of unpasteurised dairy products."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Short Rods",
+    "Motility": "Negative",
+    "Capsule": "Negative",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "Blood Agar",
+      "Chocolate Agar"
+    ],
+    "Colony Morphology": [
+      "Small",
+      "Smooth",
+      "Translucent"
+    ],
+    "Oxygen Requirement": "Aerobic",
+    "Growth Temperature": "35//37",
+    "Catalase": "Positive",
+    "Oxidase": "Positive",
+    "Indole": "Negative",
+    "Urease": "Positive",
+    "Citrate": "Negative",
+    "Methyl Red": "Negative",
+    "VP": "Negative",
+    "H2S": "Positive",
+    "DNase": "Negative",
+    "ONPG": "Negative",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Negative",
+    "Esculin Hydrolysis": "Negative",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Glucose Fermentation": "Negative",
+    "Gas Production": "Negative",
+    "Pigment": "None",
+    "Motility Type": "None"
+  },
+
+  "species_markers": [
+    {
+      "field": "H2S",
+      "value": "Positive",
+      "importance": "high",
+      "notes": "H₂S production distinguishes B. abortus from B. melitensis and B. suis."
+    },
+    {
+      "field": "CO₂ Requirement",
+      "value": "Present",
+      "importance": "medium",
+      "notes": "Some strains require added CO₂ for growth, unlike other Brucella species."
+    },
+    {
+      "field": "Host Association",
+      "value": "Cattle",
+      "importance": "medium",
+      "notes": "Primary animal reservoir; useful epidemiological clue."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Brucella suis",
+      "reason": "Overlapping morphology and biochemical reactions."
+    },
+    {
+      "genus": "Ochrobactrum",
+      "reason": "Close genetic relationship may cause misidentification in automated systems."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Lack of H₂S production may indicate B. melitensis.",
+    "Rapid growth without CO₂ may suggest B. suis or misidentification.",
+    "Motility or fermentation reactions are inconsistent with Brucella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "H₂S production",
+      "reason": "Differentiates B. abortus from other Brucella species."
+    },
+    {
+      "test": "CO₂ dependency",
+      "reason": "Some strains require CO₂ supplementation for growth."
+    },
+    {
+      "test": "MALDI-TOF or PCR",
+      "reason": "Confirmatory and safe for high-risk pathogens."
+    }
+  ]
+}

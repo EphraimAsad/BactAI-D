@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "level": "species",
+  "genus": "Kluyvera",
+  "species": "cryocrescens",
+
+  "overview": {
+    "short": "Kluyvera cryocrescens is a Gram-negative, facultatively anaerobic, motile rod distinguished by indole negativity and psychrotolerant growth.",
+    "clinical_context": "Less frequently isolated than K. ascorbata; associated with environmental sources and occasional opportunistic infections."
+  },
+
+  "expected_fields": {
+    "Gram Stain": "Negative",
+    "Shape": "Rods",
+    "Motility": "Positive",
+    "Capsule": "Variable",
+    "Spore Formation": "Negative",
+    "Haemolysis": "Negative",
+    "Haemolysis Type": "None",
+    "Media Grown On": [
+      "MacConkey Agar",
+      "Blood Agar"
+    ],
+    "Colony Morphology": [
+      "Smooth",
+      "Grey",
+      "Moist"
+    ],
+    "Oxygen Requirement": "Facultative Anaerobe",
+    "Growth Temperature": "4//37",
+    "Catalase": "Positive",
+    "Oxidase": "Negative",
+    "Indole": "Negative",
+    "Urease": "Negative",
+    "Citrate": "Variable",
+    "Methyl Red": "Positive",
+    "VP": "Negative",
+    "H2S": "Negative",
+    "DNase": "Negative",
+    "ONPG": "Positive",
+    "Coagulase": "Negative",
+    "Gelatin Hydrolysis": "Variable",
+    "Esculin Hydrolysis": "Variable",
+    "Nitrate Reduction": "Positive",
+    "NaCl Tolerant (>=6%)": "Negative",
+    "Lipase Test": "Negative",
+    "Lysine Decarboxylase": "Negative",
+    "Ornithine Decarboxylase": "Positive",
+    "Ornitihine Decarboxylase": "Positive",
+    "Arginine dihydrolase": "Negative",
+    "Glucose Fermentation": "Positive",
+    "Lactose Fermentation": "Variable",
+    "Sucrose Fermentation": "Positive",
+    "Maltose Fermentation": "Positive",
+    "Mannitol Fermentation": "Positive",
+    "Sorbitol Fermentation": "Variable",
+    "Xylose Fermentation": "Positive",
+    "Rhamnose Fermentation": "Variable",
+    "Arabinose Fermentation": "Positive",
+    "Raffinose Fermentation": "Variable",
+    "Trehalose Fermentation": "Positive",
+    "Inositol Fermentation": "Negative",
+    "Gas Production": "Variable",
+    "TSI Pattern": "A/A",
+    "Colony Pattern": "Unknown",
+    "Pigment": "None",
+    "Motility Type": "Peritrichous"
+  },
+
+  "species_markers": [
+    {
+      "field": "Indole",
+      "value": "Negative",
+      "importance": "high",
+      "notes": "Primary discriminator from K. ascorbata."
+    },
+    {
+      "field": "Growth Temperature",
+      "value": "4//37",
+      "importance": "medium",
+      "notes": "Psychrotolerant growth supports identification."
+    }
+  ],
+
+  "common_confusions": [
+    {
+      "species": "Kluyvera ascorbata",
+      "reason": "Closely related species with overlapping sugar fermentation profiles."
+    },
+    {
+      "genus": "Enterobacter",
+      "reason": "Shared biochemical reactions within Enterobacterales."
+    }
+  ],
+
+  "when_to_question_identification": [
+    "Indole positivity suggests K. ascorbata.",
+    "Strong citrate positivity suggests Enterobacter.",
+    "Lack of motility suggests Klebsiella."
+  ],
+
+  "recommended_next_tests": [
+    {
+      "test": "Indole test",
+      "reason": "Key species-level discriminator.",
+      "api_kit": "API 20E"
+    },
+    {
+      "test": "Growth at low temperature (4°C)",
+      "reason": "Supports psychrotolerant species identification.",
+      "api_kit": "Not applicable"
+    },
+    {
+      "test": "MALDI-TOF MS",
+      "reason": "Definitive identification.",
+      "api_kit": "Not applicable"
+    }
+  ]
+}

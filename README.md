@@ -248,6 +248,8 @@ Content-Type: application/json
 
 ### Environment Variables
 
+Sensitive values must be provided through environment variables and must not be committed. Public-data handling and secret hygiene are documented in [SECURITY.md](SECURITY.md).
+
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `BACTAI_OLLAMA_MODEL` | `llama3.2:3b` | Ollama model for RAG |

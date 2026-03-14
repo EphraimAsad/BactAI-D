@@ -1,4 +1,4 @@
 {
-  "sdk": "streamlit",
+  "sdk": "React",
   "python": "3.10"
 }
